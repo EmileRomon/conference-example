@@ -1,0 +1,9 @@
+*.obj
+*.tlog
+.thumbnails
+bin
+obj
+junk
+launch_debug.bat
+launch_editor.bat
+launch_release.bat
