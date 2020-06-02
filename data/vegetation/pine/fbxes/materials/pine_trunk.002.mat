@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="pine_trunk.002" guid="6de7214f9cb68d58a28ae6ec119e2ebc534ef518" base_material="mesh_base">
+	<parameter name="albedo_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
+</material>

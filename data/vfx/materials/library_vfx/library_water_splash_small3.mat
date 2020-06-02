@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_water_splash_small3" guid="792cb0144aecd97b9e5bc233c298cbd724e4348e" parent="cb3efb53459273a5337bfc1eaff041a5fd342807" base_material="particles_base">
+	<blend src="src_alpha" dest="one_minus_src_alpha"/>
+	<texture name="diffuse">guid://acb469e5db5689ee971ac42bfdccfb6177599738</texture>
+	<texture name="attenuation">guid://f7be97a70f5267d0566ae02084b71cab021d3578</texture>
+	<parameter name="diffuse_color" expression="0">0.913299024 0.970079005 1 0.741981983</parameter>
+	<parameter name="diffuse_scale" expression="0">1.69000006</parameter>
+</material>

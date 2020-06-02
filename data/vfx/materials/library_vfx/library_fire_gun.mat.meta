@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>60d5660d516cabf26e8e2051b1d5de48d7424613</guid>
+	<type>material</type>
+	<hash>07ad14a4</hash>
+	<runtimes>
+		<runtime id="60d5660d516cabf26e8e2051b1d5de48d7424613" name="library_fire_gun" link="0"/>
+	</runtimes>
+</asset>

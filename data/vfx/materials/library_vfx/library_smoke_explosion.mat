@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_smoke_explosion" guid="3e74e643a854e1ead7bf6ea0afe70beff37ef248" parent="9b2045c9a50c80962f5e0d794eac15deb396260e" base_material="particles_base">
+	<blend src="one_minus_dest_color" dest="one_minus_src_alpha"/>
+	<state name="soft_interaction">0</state>
+	<parameter name="diffuse_color" expression="0">0.722500026 0.850850999 1 0.813534021</parameter>
+	<parameter name="soft_interaction_scale" expression="0">1.5</parameter>
+	<parameter name="diffuse_scale" expression="0">1.96000004</parameter>
+</material>

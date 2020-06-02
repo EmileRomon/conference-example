@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>a7f5f40ef5cd94e948656b4c7e854ed6b9e36dc4</guid>
+	<type>texture</type>
+	<hash>614dbf3</hash>
+	<runtimes>
+		<runtime id="a7f5f40ef5cd94e948656b4c7e854ed6b9e36dc4" name="tree_bigleafmaple_trunk_n.tga" link="0"/>
+		<runtime id="6b0e673c504889a0a18d262866ccf046b8a9b15d" name="tree_bigleafmaple_trunk_n.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">64</parameter>
+		<parameter type="string" name="height">512</parameter>
+	</parameters>
+</asset>

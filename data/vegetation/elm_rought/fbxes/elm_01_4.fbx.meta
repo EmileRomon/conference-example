@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>f6ff1480e72fa06c6c331873d308ae54cdaf9007</guid>
+	<type>fbx</type>
+	<hash>d9ea729b</hash>
+	<runtimes>
+		<runtime id="f6ff1480e72fa06c6c331873d308ae54cdaf9007" name="elm_01_4.fbx" link="0"/>
+		<runtime id="0d4d03cdbcebb50ae98e9560bc128cf0f4bebdec" name="elm_01_4.node" link="1" type="3">
+			<parameters>
+				<parameter type="string" name="id">c28ce1b4</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="aaacf955c2056db1a35f7b64a8322410af36db8f" name="elm_01_4.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">014bb8a7</parameter>
+			</parameters>
+		</runtime>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="merge_static_meshes">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="bool" name="import_meshes">1</parameter>
+		<parameter type="bool" name="import_materials">1</parameter>
+		<parameter type="bool" name="import_materials_mode">0</parameter>
+		<parameter type="bool" name="import_textures">0</parameter>
+		<parameter type="bool" name="import_animations">1</parameter>
+		<parameter type="bool" name="import_joints">0</parameter>
+		<parameter type="bool" name="import_lights">1</parameter>
+		<parameter type="bool" name="import_cameras">1</parameter>
+		<parameter type="bool" name="import_tangent_space">0</parameter>
+		<parameter type="bool" name="import_morph_targets">0</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="float" name="fps">60</parameter>
+		<parameter type="int" name="workflow">0</parameter>
+		<parameter type="bool" name="combine_by_lods">0</parameter>
+		<parameter type="int" name="index_max_count_lods">1</parameter>
+		<parameter type="string" name="lods">_lod_0,-1e+09,_lod_1,3,_lod_2,9</parameter>
+		<parameter type="string" name="materials_imported">elm_rought_leaves_sum_mat,elm_rought_trunk_mat</parameter>
+		<parameter type="string" name="material_guids">elm_rought_leaves_sum_mat,bb87a0cdf6c15b12e4967a1fe5d9ed606b93bf17,elm_rought_trunk_mat,d9075b6d115a2df832c68afdac9328d846a74a9c</parameter>
+		<parameter type="bool" name="joints_reorientation">0</parameter>
+		<parameter type="int" name="front_axis">0</parameter>
+		<parameter type="bool" name="merge_surfaces_by_materials">0</parameter>
+		<parameter type="bool" name="use_instances">1</parameter>
+		<parameter type="bool" name="merge_similar_materials">0</parameter>
+		<parameter type="bool" name="import_bones_without_skin">0</parameter>
+		<parameter type="bool" name="create_transform_bones_for_joints">0</parameter>
+		<parameter type="string" name="prefix_materials"/>
+		<parameter type="int" name="up_axis">0</parameter>
+		<parameter type="bool" name="need_split">0</parameter>
+		<parameter type="bool" name="need_repivot">0</parameter>
+		<parameter type="bool" name="need_triagulate">1</parameter>
+		<parameter type="bool" name="skip_empty_nodes">0</parameter>
+		<parameter type="float" name="bound_size">10000</parameter>
+		<parameter type="float" name="linear_deflection">0.200000003</parameter>
+		<parameter type="float" name="angular_deflection">0.699999988</parameter>
+		<parameter type="string" name="animations"/>
+	</parameters>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>eee3f3fab151037fed64cebf9bd6b2b5e9ed733e</guid>
+	<type>node</type>
+	<hash>2c3f55db</hash>
+	<runtimes>
+		<runtime id="eee3f3fab151037fed64cebf9bd6b2b5e9ed733e" name="vfx_explosions_6.node" link="0"/>
+	</runtimes>
+</asset>

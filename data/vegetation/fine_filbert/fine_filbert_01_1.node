@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="1525409165" name="fine_filbert_01_1_lod_1">
+		<mesh_name>guid://6c2c97b8630018b7c645c7594e9c4b9d39e32b67</mesh_name>
+		<surface name="fine_filbert_green_mat" physics_friction="1" physics_restitution="1" material="91270ac920e7a4a7ad39a3913f12023f8a7a6ed2"/>
+		<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

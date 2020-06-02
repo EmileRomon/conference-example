@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>d42892ce06ea137aac5079b4f823de8ec7fc055e</guid>
+	<type>mesh</type>
+	<hash>14bee888</hash>
+	<runtimes>
+		<runtime id="d42892ce06ea137aac5079b4f823de8ec7fc055e" name="vfx_tank.mesh" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+	</parameters>
+</asset>

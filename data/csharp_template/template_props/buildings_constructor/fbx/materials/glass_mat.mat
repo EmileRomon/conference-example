@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="glass_mat" guid="95d5a1fcc86e952b0aaea88ed4541695ba4076f0" base_material="mesh_base">
+	<blend src="src_alpha" dest="one_minus_src_alpha"/>
+	<options transparent="2" two_sided="0" cast_shadow="0" cast_world_shadow="0"/>
+	<state name="deferred">0</state>
+	<parameter name="albedo_color" expression="0">1 1 1 0.156862751</parameter>
+	<parameter name="metalness" expression="0">1</parameter>
+	<parameter name="roughness" expression="0">0</parameter>
+	<parameter name="opacity_fresnel" expression="0">1</parameter>
+</material>

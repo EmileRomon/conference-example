@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>f0c9b3fa04c8f17e73399e4d86e299063ef44a78</guid>
+	<type>texture</type>
+	<hash>5931adb9</hash>
+	<runtimes>
+		<runtime id="f0c9b3fa04c8f17e73399e4d86e299063ef44a78" name="elm_rought_n.tga" link="0"/>
+		<runtime id="cbe665de919ce3e3501d29652bac7adf9b82ac84" name="elm_rought_n.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">0</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">normal map (rg)</parameter>
+	</parameters>
+</asset>

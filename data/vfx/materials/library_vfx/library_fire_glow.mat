@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_fire_glow" guid="e268f3cbeccfcf2113183367f3650a1e6847cbc9" parent="cb3efb53459273a5337bfc1eaff041a5fd342807" base_material="particles_base">
+	<blend src="one" dest="one"/>
+	<state name="ambient">0</state>
+	<state name="light_world">0</state>
+	<texture name="diffuse">guid://812b1b0d5387ebaff77bd0781a930a9106bd686f</texture>
+	<texture name="attenuation">guid://4c0292bc9744d3ca27464bc6e1a5da987185b06a</texture>
+	<parameter name="diffuse_color" expression="0">1 0.870588005 0.737254977 1</parameter>
+	<parameter name="emission_scale" expression="0">0.108000003</parameter>
+</material>

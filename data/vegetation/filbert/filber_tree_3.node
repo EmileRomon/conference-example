@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="498515162" name="filber_tree_3">
+		<mesh_name>guid://491812f1e33afd13c908dd2296949bc1a6b7a22f</mesh_name>
+		<surface name="filbert_twigs_filbert_trunk" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="ff976a5e925e66b76db2b593cec77a317b11914f"/>
+		<surface name="filbert_leaves_lod_2_filbert_leaves" cast_shadow="0" cast_world_shadow="0" min_visible_distance="60" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="e612a83b26518cc91e2d9813cfa2144910674640"/>
+		<surface name="filbert_leaves_lod_1_filbert_leaves" cast_shadow="0" cast_world_shadow="0" min_visible_distance="15" max_visible_distance="60" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="e612a83b26518cc91e2d9813cfa2144910674640"/>
+		<surface name="filbert_leaves_lod_0_filbert_leaves" cast_shadow="0" cast_world_shadow="0" max_visible_distance="15" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="e612a83b26518cc91e2d9813cfa2144910674640"/>
+		<surface name="filbert_trunk_filbert_trunk" max_visible_distance="60" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="ff976a5e925e66b76db2b593cec77a317b11914f"/>
+		<surface name="filbert_leaves_shadow_filbert_leaves" viewport_mask="0x0" physics_friction="1" physics_restitution="1" material="e612a83b26518cc91e2d9813cfa2144910674640"/>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 7.6293945e-005 0 5.8207661e-010 1.0</transform>
+	</node>
+</nodes>

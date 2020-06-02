@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="sorrel_mat" guid="258ba583fd15be161f33dda909a4ce2211bb3fbe" base_material="mesh_base">
+	<options transparent="1" two_sided="1"/>
+	<state name="vegetation">1</state>
+	<state name="calculate_tangent_space">1</state>
+	<state name="animation">1</state>
+	<state name="leafs">3</state>
+	<state name="vegetation_velocity">0</state>
+	<texture name="albedo">guid://90abbe5dd831d93f975c10c9df1f0a743ab4ab93</texture>
+	<texture name="shading">guid://ebe82828a907aab7c1853426c2a2be64c6939f28</texture>
+	<texture name="normal">guid://4b03f812cbf91948a67dd1526b4f1ab3224ea666</texture>
+	<parameter name="roughness" expression="0">0.699999988</parameter>
+	<parameter name="translucent" expression="0">0.75</parameter>
+	<parameter name="animation_stem_offset" expression="0">0.100000001</parameter>
+	<parameter name="animation_stem_radius" expression="0">0.100000001</parameter>
+	<parameter name="animation_stem_scale" expression="0">2</parameter>
+	<parameter name="animation_branch_offset" expression="0">0.0199999996</parameter>
+	<parameter name="animation_leaf_noise" expression="0">0.300000012</parameter>
+	<parameter name="animation_leaf_offset" expression="0">0.0399999991</parameter>
+	<parameter name="animation_leaf_scale" expression="0">0.5</parameter>
+</material>

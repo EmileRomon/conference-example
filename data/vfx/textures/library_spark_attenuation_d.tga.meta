@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>2860f03a28d3f8455b2f33f322b7430bec834ea4</guid>
+	<type>texture</type>
+	<hash>daeb52e8</hash>
+	<runtimes>
+		<runtime id="2860f03a28d3f8455b2f33f322b7430bec834ea4" name="library_spark_attenuation_d.tga" link="0"/>
+		<runtime id="ab0583dc2fdb26e89769deb6cd75cc796547ee28" name="library_spark_attenuation_d.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="image_format">Auto (DXT1 or DXT5)</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">diffuse (rgba)</parameter>
+	</parameters>
+</asset>

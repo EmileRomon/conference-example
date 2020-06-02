@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>10ae0b37dd0ec39ba2754cc8eaa7dc81bb991302</guid>
+	<type>texture</type>
+	<hash>f5aa4d9c</hash>
+	<runtimes>
+		<runtime id="10ae0b37dd0ec39ba2754cc8eaa7dc81bb991302" name="library_smoke_light_d.tga" link="0"/>
+		<runtime id="1d603875928b760c02f46e334711590093220f98" name="library_smoke_light_d.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="image_format">Auto (DXT1 or DXT5)</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">diffuse (rgba)</parameter>
+	</parameters>
+</asset>

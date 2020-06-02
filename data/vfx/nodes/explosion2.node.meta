@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>9743717602b14623b37e83956635e9dbc45c5a72</guid>
+	<type>node</type>
+	<hash>f2c4e5db</hash>
+	<runtimes>
+		<runtime id="9743717602b14623b37e83956635e9dbc45c5a72" name="explosion2.node" link="0"/>
+	</runtimes>
+</asset>

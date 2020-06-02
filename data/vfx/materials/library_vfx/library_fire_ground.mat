@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_fire_ground" guid="6aae25b3e20729216311c1e0e720323c13be5baa" parent="cb3efb53459273a5337bfc1eaff041a5fd342807" base_material="particles_base">
+	<blend src="one" dest="one"/>
+	<state name="animation">1</state>
+	<state name="ambient">0</state>
+	<state name="light_world">0</state>
+	<texture name="diffuse">guid://dfeec723b9b6100373a0d3cdc18a8acfcb796853</texture>
+	<texture name="attenuation">guid://d247dbef7776cdae178e72d2e59bb521e4748ef4</texture>
+	<parameter name="animation_transform" expression="0">1 16 1 0.5</parameter>
+	<parameter name="diffuse_color" expression="0">1 1 1 0.313726008</parameter>
+	<parameter name="soft_interaction_scale" expression="0">1.09900999</parameter>
+	<parameter name="emission_scale" expression="0">2.17199993</parameter>
+</material>

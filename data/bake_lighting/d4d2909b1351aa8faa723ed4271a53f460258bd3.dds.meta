@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>d4d2909b1351aa8faa723ed4271a53f460258bd3</guid>
+	<type>texture</type>
+	<hash>5bce8c9</hash>
+	<runtimes>
+		<runtime id="d4d2909b1351aa8faa723ed4271a53f460258bd3" name="d4d2909b1351aa8faa723ed4271a53f460258bd3.dds" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">RGBA16F</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">3d</parameter>
+		<parameter type="string" name="width">Original</parameter>
+		<parameter type="string" name="height">Original</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>c35fe3cf0a8708929a8d8d16c4de75ffd47930a7</guid>
+	<type>node</type>
+	<hash>5dc87ec1</hash>
+	<runtimes>
+		<runtime id="c35fe3cf0a8708929a8d8d16c4de75ffd47930a7" name="elm_02_1.node" link="0"/>
+	</runtimes>
+</asset>

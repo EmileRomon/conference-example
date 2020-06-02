@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>3995bed0756083ef893de082c8b925f9e8481704</guid>
+	<type>material</type>
+	<hash>d67eeb64</hash>
+	<runtimes>
+		<runtime id="3995bed0756083ef893de082c8b925f9e8481704" name="brush_erase" link="0"/>
+	</runtimes>
+</asset>

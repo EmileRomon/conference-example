@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="896439827" name="linden_tree_6">
+		<mesh_name>guid://d3286a0df3fb2e2bcb8f14f143812e552b023ecf</mesh_name>
+		<surface name="linden_leaves_lod_2_linden_leaves" material="3a1dc21df92abecdfd383c310fdda515b1acebd3"/>
+		<surface name="linden_leaves_lod_1_linden_leaves" material="3a1dc21df92abecdfd383c310fdda515b1acebd3"/>
+		<surface name="linden_leaves_lod_0_linden_leaves" material="3a1dc21df92abecdfd383c310fdda515b1acebd3"/>
+		<surface name="linden_twigs_linden_trunk" material="e05e4a8f6f93fbebe1d9c0e21ecffb5e738b164e"/>
+		<surface name="linden_trunk_lod_2_linden_trunk" material="e05e4a8f6f93fbebe1d9c0e21ecffb5e738b164e"/>
+		<surface name="linden_trunk_lod_1_linden_trunk" material="e05e4a8f6f93fbebe1d9c0e21ecffb5e738b164e"/>
+		<surface name="linden_trunk_lod_0_linden_trunk" material="e05e4a8f6f93fbebe1d9c0e21ecffb5e738b164e"/>
+		<surface name="linden_leaves_shadow_linden_leaves" material="3a1dc21df92abecdfd383c310fdda515b1acebd3"/>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

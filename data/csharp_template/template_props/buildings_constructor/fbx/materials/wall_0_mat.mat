@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="wall_0_mat" guid="b50d447466b5a543f70c09c68846566d9f15c4e8" base_material="mesh_base">
+	<options two_sided="0"/>
+	<state name="base_mapping">3</state>
+	<texture name="albedo">guid://68ec9d54345668a38a6e35a66a9dd0cdeba93bc8</texture>
+	<parameter name="material_mask" expression="0">16777215</parameter>
+	<parameter name="roughness" expression="0">0.600000024</parameter>
+	<parameter name="bevel_scale" expression="0">0.5</parameter>
+</material>

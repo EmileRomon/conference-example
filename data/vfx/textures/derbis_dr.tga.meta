@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>6322ce2e4ba93c6b0ca38ffa68dda9ec8a02f32b</guid>
+	<type>texture</type>
+	<hash>44daaff2</hash>
+	<runtimes>
+		<runtime id="6322ce2e4ba93c6b0ca38ffa68dda9ec8a02f32b" name="derbis_dr.tga" link="0"/>
+		<runtime id="b3987c90f0a8a7760c6681797522e26526b3f965" name="derbis_dr.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="image_type">2D</parameter>
+		<parameter type="string" name="image_format">RGBA8</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="width">Original</parameter>
+		<parameter type="string" name="height">Original</parameter>
+	</parameters>
+</asset>

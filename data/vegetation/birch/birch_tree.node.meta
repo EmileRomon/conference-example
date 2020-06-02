@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>bfb85108a5f3a89bf750bb20eec5f6002e767ef0</guid>
+	<type>node</type>
+	<hash>45217e2</hash>
+	<runtimes>
+		<runtime id="bfb85108a5f3a89bf750bb20eec5f6002e767ef0" name="birch_tree.node" link="0"/>
+	</runtimes>
+</asset>

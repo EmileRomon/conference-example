@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>24b0a6962039c422ca55bf62581cc75bf15d400f</guid>
+	<type>material</type>
+	<hash>b7f06b5b</hash>
+	<runtimes>
+		<runtime id="24b0a6962039c422ca55bf62581cc75bf15d400f" name="library_welding_glow" link="0"/>
+	</runtimes>
+</asset>

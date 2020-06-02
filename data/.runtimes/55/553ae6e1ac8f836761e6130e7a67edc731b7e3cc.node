@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="1823347731" name="birch_tree_3">
+		<mesh_name>guid://553b9b946c8f28ebe424b837befb7b310070af6b</mesh_name>
+		<surface name="birch_leaves_lod_2_birch_leaves" material="d75373b59f10568fc084e9895709d8590aaecf9f"/>
+		<surface name="birch_leaves_lod_1_birch_leaves" material="d75373b59f10568fc084e9895709d8590aaecf9f"/>
+		<surface name="birch_leaves_lod_0_birch_leaves" material="d75373b59f10568fc084e9895709d8590aaecf9f"/>
+		<surface name="birch_twigs_birch_trunk" material="72fefa1de11c94a87722172c0d08f31f14de164d"/>
+		<surface name="birch_trunk_lod_2_birch_trunk" material="72fefa1de11c94a87722172c0d08f31f14de164d"/>
+		<surface name="birch_trunk_lod_1_birch_trunk" material="72fefa1de11c94a87722172c0d08f31f14de164d"/>
+		<surface name="birch_trunk_lod_0_birch_trunk" material="72fefa1de11c94a87722172c0d08f31f14de164d"/>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

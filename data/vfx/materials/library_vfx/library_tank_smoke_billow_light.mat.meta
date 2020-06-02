@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>39051fce3dfd7b7df9d802e9c45d599b206398b9</guid>
+	<type>material</type>
+	<hash>508390ee</hash>
+	<runtimes>
+		<runtime id="39051fce3dfd7b7df9d802e9c45d599b206398b9" name="library_tank_smoke_billow_light" link="0"/>
+	</runtimes>
+</asset>

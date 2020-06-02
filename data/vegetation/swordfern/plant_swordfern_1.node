@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="2116184432" name="fern">
+		<mesh_name>guid://da6b4decb44c75cf71aa81bb31297f374d949e0d</mesh_name>
+		<surface name="swordfern_lod_0" max_visible_distance="15" physics_friction="1" physics_restitution="1" material="d7a7d6f865a9e4c8a3aced572f29e2c0a77f49e5"/>
+		<surface name="swordfern_lod_1" min_visible_distance="15" physics_friction="1" physics_restitution="1" material="d7a7d6f865a9e4c8a3aced572f29e2c0a77f49e5"/>
+		<transform>0.60899997 0 0 0.0 0 0.60899997 0 0.0 0 0 0.60900003 0.0 1.9073486e-006 0 0 1.0</transform>
+	</node>
+</nodes>

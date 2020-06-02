@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>68a3f6e3f7ff77ee9982d01fb60b328bf6e15114</guid>
+	<type>fbx</type>
+	<hash>1496d02e</hash>
+	<runtimes>
+		<runtime id="68a3f6e3f7ff77ee9982d01fb60b328bf6e15114" name="fine_filbert_01_3.fbx" link="0"/>
+		<runtime id="b0a09239acb0a8be4f651abd03645fc48a121b34" name="fine_filbert_01_3.node" link="1" type="3">
+			<parameters>
+				<parameter type="string" name="id">4d1d55cd</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="cbfead0b205665e84074a412a511d12557b47a12" name="fine_filbert_01_3.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">55d9c6c5</parameter>
+			</parameters>
+		</runtime>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="merge_static_meshes">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="bool" name="import_meshes">1</parameter>
+		<parameter type="bool" name="import_materials">1</parameter>
+		<parameter type="bool" name="import_materials_mode">0</parameter>
+		<parameter type="bool" name="import_textures">0</parameter>
+		<parameter type="bool" name="import_animations">1</parameter>
+		<parameter type="bool" name="import_joints">0</parameter>
+		<parameter type="bool" name="import_lights">1</parameter>
+		<parameter type="bool" name="import_cameras">1</parameter>
+		<parameter type="bool" name="import_tangent_space">0</parameter>
+		<parameter type="bool" name="import_morph_targets">0</parameter>
+		<parameter type="float" name="scale">100</parameter>
+		<parameter type="float" name="fps">60</parameter>
+		<parameter type="int" name="workflow">0</parameter>
+		<parameter type="bool" name="combine_by_lods">1</parameter>
+		<parameter type="int" name="index_max_count_lods">0</parameter>
+		<parameter type="string" name="lods">_lod_0,-1e+9,_lod_1,15</parameter>
+		<parameter type="string" name="materials_imported">fine_filbert_green_mat</parameter>
+		<parameter type="string" name="material_guids">fine_filbert_green_mat,91270ac920e7a4a7ad39a3913f12023f8a7a6ed2</parameter>
+		<parameter type="bool" name="merge_surfaces_by_materials">0</parameter>
+		<parameter type="bool" name="use_instances">1</parameter>
+		<parameter type="bool" name="merge_similar_materials">0</parameter>
+		<parameter type="bool" name="import_bones_without_skin">0</parameter>
+		<parameter type="bool" name="create_transform_bones_for_joints">0</parameter>
+		<parameter type="int" name="up_axis">0</parameter>
+		<parameter type="int" name="front_axis">0</parameter>
+		<parameter type="bool" name="need_split">0</parameter>
+		<parameter type="bool" name="need_repivot">0</parameter>
+		<parameter type="bool" name="need_triagulate">1</parameter>
+		<parameter type="bool" name="skip_empty_nodes">0</parameter>
+		<parameter type="float" name="bound_size">10000</parameter>
+		<parameter type="float" name="linear_deflection">0.200000003</parameter>
+		<parameter type="float" name="angular_deflection">0.699999988</parameter>
+		<parameter type="string" name="animations"/>
+		<parameter type="bool" name="joints_reorientation">0</parameter>
+		<parameter type="string" name="prefix_materials"/>
+	</parameters>
+</asset>

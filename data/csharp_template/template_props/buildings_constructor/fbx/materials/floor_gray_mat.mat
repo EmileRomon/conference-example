@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="floor_gray_mat" guid="9ce875824cc0b6f9c970740499c26f93691e2fd6" parent="c599018361993906cf853cadc944f628f8eb6367" base_material="mesh_base">
+	<options two_sided="0"/>
+</material>

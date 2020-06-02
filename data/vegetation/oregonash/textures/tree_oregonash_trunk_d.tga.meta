@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>9bc433a354972cfbeb08c436e6c177bb6a3618b1</guid>
+	<type>texture</type>
+	<hash>9e666597</hash>
+	<runtimes>
+		<runtime id="9bc433a354972cfbeb08c436e6c177bb6a3618b1" name="tree_oregonash_trunk_d.tga" link="0"/>
+		<runtime id="bda0e2c313dee4ed6730f3419088b9103ce81bfb" name="tree_oregonash_trunk_d.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">128</parameter>
+		<parameter type="string" name="height">512</parameter>
+	</parameters>
+</asset>

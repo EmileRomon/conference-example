@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>3ffe38475b053dc694e2323c3f6c3d676622ffe4</guid>
+	<type>node</type>
+	<hash>68837685</hash>
+	<runtimes>
+		<runtime id="3ffe38475b053dc694e2323c3f6c3d676622ffe4" name="pine_03_4.node" link="0"/>
+	</runtimes>
+</asset>

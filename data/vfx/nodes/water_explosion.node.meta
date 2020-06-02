@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>2b371adcf04efd31e6c4bbf8ef2ff6853dbe4f9d</guid>
+	<type>node</type>
+	<hash>bbef8595</hash>
+	<runtimes>
+		<runtime id="2b371adcf04efd31e6c4bbf8ef2ff6853dbe4f9d" name="water_explosion.node" link="0"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>dbe82b0da9964484c3ad459c445c287004814c20</guid>
+	<type>texture</type>
+	<hash>601bdd9</hash>
+	<runtimes>
+		<runtime id="dbe82b0da9964484c3ad459c445c287004814c20" name="rowan_leaves_autm_alb.tga" link="0"/>
+		<runtime id="298535d5417ebe1373293e036b4ca3375e940da0" name="rowan_leaves_autm_alb.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">Point</parameter>
+		<parameter type="string" name="image_format">DXT5</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="int" name="width">0</parameter>
+		<parameter type="int" name="height">0</parameter>
+	</parameters>
+</asset>

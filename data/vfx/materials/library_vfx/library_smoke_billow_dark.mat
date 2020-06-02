@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_smoke_billow_dark" guid="17c9e8b35f68748ef7e29b97e5ad24845cbde40a" parent="4abefb138719cc83b946a1a0484fe441c471fd38" base_material="particles_base">
+	<blend src="src_alpha" dest="one_minus_src_alpha"/>
+	<state name="deferred_buffers">1</state>
+	<texture name="diffuse">guid://c0f7750cd1fb99dd339f4aa3b69509bf3980fd41</texture>
+	<parameter name="animation_transform" expression="0">8 8 1 0.5</parameter>
+	<parameter name="diffuse_color" expression="0">1 1 1 1</parameter>
+	<parameter name="environment_scale" expression="0">10</parameter>
+	<parameter name="diffuse_scale" expression="0">2</parameter>
+</material>

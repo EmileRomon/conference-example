@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="1620720428" name="aspen_03_04">
+		<mesh_name>guid://93075e957c3d65b37a3a7e18e3b582c2cec97a7f</mesh_name>
+		<surface name="aspen_03_04_leaf_lod_0_leaves_mat" material="3ad9a7d35f3087fb70621c64b30285f3ebd99be7"/>
+		<surface name="aspen_03_04_leaf_lod_1_leaves_mat" material="3ad9a7d35f3087fb70621c64b30285f3ebd99be7"/>
+		<surface name="aspen_03_04_leaf_lod_2_leaves_mat" material="3ad9a7d35f3087fb70621c64b30285f3ebd99be7"/>
+		<surface name="aspen_03_04_trunk_lod_1_trunk_mat" material="85f9fd5c5c805f9e846915a55b9ffe906053ecdd"/>
+		<surface name="aspen_03_04_twigs_lod_0_trunk_mat" material="85f9fd5c5c805f9e846915a55b9ffe906053ecdd"/>
+		<surface name="aspen_03_04_trunk_lod_0_trunk_mat" material="85f9fd5c5c805f9e846915a55b9ffe906053ecdd"/>
+		<surface name="aspen_03_04_trunk_lod_2_trunk_mat" material="85f9fd5c5c805f9e846915a55b9ffe906053ecdd"/>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

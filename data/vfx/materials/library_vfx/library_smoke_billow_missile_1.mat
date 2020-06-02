@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_smoke_billow_missile_1" guid="275ba9a067bf85946dbb1ea0abab1db8a6b607a9" parent="4abefb138719cc83b946a1a0484fe441c471fd38" base_material="particles_base">
+	<blend src="src_alpha" dest="one_minus_src_alpha"/>
+	<texture name="diffuse">guid://b42b56a65b80f5872a12c10954af39493d22b96f</texture>
+	<parameter name="animation_transform" expression="0">8 8 1 0.125</parameter>
+	<parameter name="diffuse_color" expression="0">0.866666973 0.866666973 0.866666973 0.00784313958</parameter>
+	<parameter name="environment_scale" expression="0">9.2842083</parameter>
+	<parameter name="diffuse_scale" expression="0">3.04699993</parameter>
+</material>

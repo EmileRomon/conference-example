@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>e612a83b26518cc91e2d9813cfa2144910674640</guid>
+	<type>material</type>
+	<hash>28dcdd8e</hash>
+	<runtimes>
+		<runtime id="e612a83b26518cc91e2d9813cfa2144910674640" name="filbert_leaves" link="0"/>
+	</runtimes>
+</asset>

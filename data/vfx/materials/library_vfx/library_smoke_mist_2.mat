@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_smoke_mist_2" guid="0a634487f26b28fac9ad3b3e46dcd832b92a69b6" parent="912af80f474679e4b9c149c9c1196081544cd1ac" base_material="particles_base">
+	<blend src="src_color" dest="one_minus_src_alpha"/>
+	<texture name="diffuse">guid://f4bd1902e2520eeca2c1d07a89a0c0d17e948965</texture>
+	<parameter name="diffuse_color" expression="0">0.0862744972 0.082352899 0.0745097995 0.803921998</parameter>
+	<parameter name="environment_scale" expression="0">53.3337784</parameter>
+	<parameter name="diffuse_scale" expression="0">1.63300002</parameter>
+</material>

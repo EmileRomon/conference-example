@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="NodeDummy" id="1360322580" name="welding_dummy">
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectParticles" id="645053349" name="welding_smoke">
+			<warming>0</warming>
+			<variation_x>1</variation_x>
+			<variation_y>1</variation_y>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>1</number_per_spawn>
+			<spawn_rate>60</spawn_rate>
+			<physical_mask>0xffffffff</physical_mask>
+			<linear_damping>0.699999988</linear_damping>
+			<growth_damping>0.699999988</growth_damping>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sync>0</emitter_sync>
+			<emitter_direction>0 0 3</emitter_direction>
+			<life_mean>0.899999976</life_mean>
+			<life_spread>0.600000024</life_spread>
+			<velocity_mean>6</velocity_mean>
+			<velocity_spread>4</velocity_spread>
+			<radius_mean>0.699999988</radius_mean>
+			<radius_spread>0.5</radius_spread>
+			<growth_mean>1.5</growth_mean>
+			<growth_spread>0.5</growth_spread>
+			<surface name="particles" max_visible_distance="200" max_fade_distance="100" material="b6e5351587c0625c6c5503dab247c94de0c4e6ac"/>
+			<transform>0.99999809 0 0 0.0 0 0.99999809 0 0.0 0 0 0.99999809 0.0 0.00083538931 1.2487209e-005 0.000151694 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="1530757423" name="glow_sparks_dummy">
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+			<node type="ObjectParticles" id="710930391" name="welding_spark_flash">
+				<warming>0</warming>
+				<variation_x>1</variation_x>
+				<variation_y>1</variation_y>
+				<clear_on_enable>1</clear_on_enable>
+				<number_per_spawn>1</number_per_spawn>
+				<spawn_rate>15</spawn_rate>
+				<physical_mask>0xffffffff</physical_mask>
+				<emitter_enabled>1</emitter_enabled>
+				<emitter_sync>0</emitter_sync>
+				<life_mean>0.150000006</life_mean>
+				<life_spread>0.0700000003</life_spread>
+				<velocity_mean>0</velocity_mean>
+				<velocity_spread>0</velocity_spread>
+				<radius_mean>0.400000006</radius_mean>
+				<radius_spread>0.300000012</radius_spread>
+				<growth_mean>1.5</growth_mean>
+				<growth_spread>1.5</growth_spread>
+				<surface name="particles" max_visible_distance="100" max_fade_distance="100" material="2d1cea89af41f1d5b219d082042a4cd48a016263"/>
+				<transform>0.99999815 0 0 0.0 0 0.99999815 0 0.0 0 0 0.99999815 0.0 0.00083497213 1.2397802e-005 0.00015121716 1.0</transform>
+			</node>
+			<node type="ObjectParticles" id="1861411679" name="welding_spark1">
+				<particles_type>3</particles_type>
+				<warming>0</warming>
+				<clear_on_enable>1</clear_on_enable>
+				<number_per_spawn>1</number_per_spawn>
+				<spawn_rate>350</spawn_rate>
+				<physical_mask>0xffffffff</physical_mask>
+				<length_stretch>0.0399999991</length_stretch>
+				<linear_damping>0.899999976</linear_damping>
+				<emitter_enabled>1</emitter_enabled>
+				<emitter_sync>0</emitter_sync>
+				<period_mean>0.100000001</period_mean>
+				<period_spread>0.0700000003</period_spread>
+				<duration_mean>0.0700000003</duration_mean>
+				<duration_spread>0.0500000007</duration_spread>
+				<life_mean>0.400000006</life_mean>
+				<life_spread>0.300000012</life_spread>
+				<velocity_mean>4</velocity_mean>
+				<velocity_spread>3</velocity_spread>
+				<radius_mean>0.0799999982</radius_mean>
+				<radius_spread>0.0399999991</radius_spread>
+				<gravity>0 0 -25</gravity>
+				<surface name="particles" viewport_mask="0x3" max_visible_distance="150" max_fade_distance="200" material="64b8fddbd3597a2d3e1f8aff3bed83f3c3f8e8b9"/>
+				<transform>0.99999815 0 0 0.0 0 0.99999815 0 0.0 0 0 0.99999815 0.0 0.00083354162 1.2636221e-005 0.00015121716 1.0</transform>
+			</node>
+			<node type="ObjectParticles" id="1895980893" name="welding_spark2">
+				<particles_type>3</particles_type>
+				<warming>0</warming>
+				<clear_on_enable>1</clear_on_enable>
+				<number_per_spawn>1</number_per_spawn>
+				<spawn_rate>200</spawn_rate>
+				<physical_mask>0xffffffff</physical_mask>
+				<length_stretch>0.0700000003</length_stretch>
+				<linear_damping>0.899999976</linear_damping>
+				<emitter_enabled>1</emitter_enabled>
+				<emitter_sync>0</emitter_sync>
+				<period_mean>0.100000001</period_mean>
+				<period_spread>0.0700000003</period_spread>
+				<duration_mean>0.0500000007</duration_mean>
+				<duration_spread>0.0500000007</duration_spread>
+				<life_mean>0.400000006</life_mean>
+				<life_spread>0.300000012</life_spread>
+				<velocity_mean>15</velocity_mean>
+				<velocity_spread>10</velocity_spread>
+				<radius_mean>0.25</radius_mean>
+				<radius_spread>0.119999997</radius_spread>
+				<gravity>0 0 -25</gravity>
+				<surface name="particles" viewport_mask="0x3" max_visible_distance="200" max_fade_distance="200" material="4251f9623ab1f80323e61ff80155ddd019187112"/>
+				<transform>0.99999815 0 0 0.0 0 0.99999815 0 0.0 0 0 0.99999815 0.0 0.00083354162 1.2636221e-005 0.00015121716 1.0</transform>
+			</node>
+			<node type="ObjectParticles" id="1179667813" name="welding_glow">
+				<warming>0</warming>
+				<variation_x>1</variation_x>
+				<variation_y>1</variation_y>
+				<clear_on_enable>1</clear_on_enable>
+				<number_per_spawn>1</number_per_spawn>
+				<spawn_rate>15</spawn_rate>
+				<physical_mask>0xffffffff</physical_mask>
+				<emitter_enabled>1</emitter_enabled>
+				<emitter_sync>0</emitter_sync>
+				<period_mean>0</period_mean>
+				<period_spread>0.300000012</period_spread>
+				<duration_mean>0.400000006</duration_mean>
+				<duration_spread>0.300000012</duration_spread>
+				<life_mean>0.600000024</life_mean>
+				<life_spread>0.5</life_spread>
+				<velocity_mean>0</velocity_mean>
+				<velocity_spread>0</velocity_spread>
+				<radius_mean>2</radius_mean>
+				<radius_spread>1.70000005</radius_spread>
+				<growth_mean>2</growth_mean>
+				<growth_spread>2</growth_spread>
+				<surface name="particles" viewport_mask="0x3" max_visible_distance="250" max_fade_distance="150" material="24b0a6962039c422ca55bf62581cc75bf15d400f"/>
+				<transform>0.99999815 0 0 0.0 0 0.99999815 0 0.0 0 0 0.99999815 0.0 0.00083541917 1.2397802e-005 0.000151694 1.0</transform>
+			</node>
+		</node>
+	</node>
+</nodes>

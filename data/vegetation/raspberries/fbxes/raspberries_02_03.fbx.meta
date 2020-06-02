@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>29d1b4989821fcf8ca33e1d8c3c4f09d5575fd52</guid>
+	<type>fbx</type>
+	<hash>69db1346</hash>
+	<runtimes>
+		<runtime id="29d1b4989821fcf8ca33e1d8c3c4f09d5575fd52" name="raspberries_02_03.fbx" link="0"/>
+		<runtime id="9347014b0b48f712dcfe97dc14ad7d6829b96053" name="raspberries_02_03.node" link="1" type="3">
+			<parameters>
+				<parameter type="string" name="id">b2ac8edd</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="2b66bfa99a6b8c25e3d97cb87174a16e7f61ad13" name="raspberries_02_03.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">66e8f82a</parameter>
+			</parameters>
+		</runtime>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="merge_static_meshes">0</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="bool" name="import_meshes">1</parameter>
+		<parameter type="bool" name="import_materials">1</parameter>
+		<parameter type="bool" name="import_materials_mode">0</parameter>
+		<parameter type="bool" name="import_textures">0</parameter>
+		<parameter type="bool" name="import_animations">1</parameter>
+		<parameter type="bool" name="import_joints">0</parameter>
+		<parameter type="bool" name="import_lights">1</parameter>
+		<parameter type="bool" name="import_cameras">1</parameter>
+		<parameter type="bool" name="import_tangent_space">0</parameter>
+		<parameter type="bool" name="import_morph_targets">0</parameter>
+		<parameter type="float" name="scale">100</parameter>
+		<parameter type="float" name="fps">60</parameter>
+		<parameter type="int" name="workflow">0</parameter>
+		<parameter type="bool" name="combine_by_lods">1</parameter>
+		<parameter type="int" name="index_max_count_lods">1</parameter>
+		<parameter type="string" name="lods">_lod_0,-1e+09,_lod_1,15,_lod_2,60</parameter>
+		<parameter type="string" name="materials_imported">raspberries_mat</parameter>
+		<parameter type="string" name="material_guids">raspberries_mat,821a7d4fc17cbffc9889edd89b20fcac6cc6a691</parameter>
+		<parameter type="bool" name="merge_surfaces_by_materials">0</parameter>
+		<parameter type="bool" name="use_instances">1</parameter>
+		<parameter type="bool" name="merge_similar_materials">0</parameter>
+		<parameter type="bool" name="import_bones_without_skin">0</parameter>
+		<parameter type="bool" name="create_transform_bones_for_joints">0</parameter>
+		<parameter type="int" name="up_axis">0</parameter>
+		<parameter type="int" name="front_axis">0</parameter>
+		<parameter type="bool" name="need_split">0</parameter>
+		<parameter type="bool" name="need_repivot">0</parameter>
+		<parameter type="bool" name="need_triagulate">1</parameter>
+		<parameter type="bool" name="skip_empty_nodes">0</parameter>
+		<parameter type="float" name="bound_size">10000</parameter>
+		<parameter type="float" name="linear_deflection">0.200000003</parameter>
+		<parameter type="float" name="angular_deflection">0.699999988</parameter>
+		<parameter type="string" name="animations"/>
+		<parameter type="bool" name="joints_reorientation">0</parameter>
+		<parameter type="string" name="prefix_materials"/>
+	</parameters>
+</asset>

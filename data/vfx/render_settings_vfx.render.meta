@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>bd9f0837415e80abd060a6db74c712734aa72220</guid>
+	<type>render_settings</type>
+	<hash>8f74fdf8</hash>
+	<runtimes>
+		<runtime id="bd9f0837415e80abd060a6db74c712734aa72220" name="render_settings_vfx.render" link="0"/>
+	</runtimes>
+</asset>

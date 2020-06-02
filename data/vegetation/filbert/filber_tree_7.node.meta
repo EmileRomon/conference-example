@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>296b158363a5ccc42d9cd4cc47aee2f1b1620d60</guid>
+	<type>node</type>
+	<hash>2704cced</hash>
+	<runtimes>
+		<runtime id="296b158363a5ccc42d9cd4cc47aee2f1b1620d60" name="filber_tree_7.node" link="0"/>
+	</runtimes>
+</asset>

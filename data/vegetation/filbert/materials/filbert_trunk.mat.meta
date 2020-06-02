@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>ff976a5e925e66b76db2b593cec77a317b11914f</guid>
+	<type>material</type>
+	<hash>7647672</hash>
+	<runtimes>
+		<runtime id="ff976a5e925e66b76db2b593cec77a317b11914f" name="filbert_trunk" link="0"/>
+	</runtimes>
+</asset>

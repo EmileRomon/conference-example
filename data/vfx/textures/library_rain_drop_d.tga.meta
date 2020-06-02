@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>d2d086aed342ac4e8ce8af37cd1f5b4510d107c0</guid>
+	<type>texture</type>
+	<hash>d83a40e4</hash>
+	<runtimes>
+		<runtime id="d2d086aed342ac4e8ce8af37cd1f5b4510d107c0" name="library_rain_drop_d.tga" link="0"/>
+		<runtime id="71a152bc84b555ecb9e42453e9f8854e08338a70" name="library_rain_drop_d.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="image_format">Auto (DXT1 or DXT5)</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">diffuse (rgba)</parameter>
+	</parameters>
+</asset>

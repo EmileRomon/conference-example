@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>4c1d9c1b24c5a2bebdddeb053fd4e0a03b5e1b7f</guid>
+	<type>texture</type>
+	<hash>6c0ffe19</hash>
+	<runtimes>
+		<runtime id="4c1d9c1b24c5a2bebdddeb053fd4e0a03b5e1b7f" name="metal_texture_sh.png" link="0"/>
+		<runtime id="6e91f2d2b719f409b4dcedd4ac1d7f2325015a26" name="metal_texture_sh.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">shading (rgb)</parameter>
+	</parameters>
+</asset>

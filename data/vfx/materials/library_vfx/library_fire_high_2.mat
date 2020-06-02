@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_fire_high_2" guid="d8f7822817ef018f252bf1a272e3b32311a38a9e" parent="e84bb1fdf29b47e43dbe83cff8ad65f2a75c303f" base_material="particles_base">
+	<blend src="one" dest="one"/>
+	<options depth_mask="0" overlap="0"/>
+	<state name="ambient">0</state>
+	<state name="light_world">0</state>
+	<texture name="diffuse">guid://0c5eb6407235de984e3d82ae745b56d0fa2b9cd7</texture>
+	<parameter name="animation_transform" expression="0">8 4 1 0.625</parameter>
+	<parameter name="diffuse_color" expression="0">1 1 1 0.588235319</parameter>
+	<parameter name="diffuse_scale" expression="0">0.663999975</parameter>
+	<parameter name="emission_scale" expression="0">1.58800006</parameter>
+</material>

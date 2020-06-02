@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>10a9db34a86e393150851c610d2154728cc6e8e7</guid>
+	<type>texture</type>
+	<hash>fa220d57</hash>
+	<runtimes>
+		<runtime id="10a9db34a86e393150851c610d2154728cc6e8e7" name="fire_explosion_front_d.png" link="0"/>
+		<runtime id="3b1d67ca324ea193a3ea7c74f07aac5c99426088" name="fire_explosion_front_d.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="image_format">Auto (DXT1 or DXT5)</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">diffuse (rgba)</parameter>
+	</parameters>
+</asset>

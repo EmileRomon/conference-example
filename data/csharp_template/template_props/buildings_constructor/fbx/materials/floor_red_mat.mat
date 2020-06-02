@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="floor_red_mat" guid="03975a558b6967b07049574fafa8dc62f5633059" parent="c599018361993906cf853cadc944f628f8eb6367" base_material="mesh_base">
+	<state name="base_mapping">3</state>
+	<state name="reflection_show_pivot">1</state>
+	<texture name="albedo">guid://e538f959ed5e12e49e00c0f3671491b6e54edd9d</texture>
+	<texture name="shading">guid://fdbbaa2c83101f9b66fb503e6f38ba85b39e6a20</texture>
+</material>

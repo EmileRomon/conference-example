@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="NodeDummy" id="1864492078" name="ramp_1">
+		<transform>1 2.646978e-22 -3.8213714e-15 0.0 9.2644229e-23 1 8.7422777e-08 0.0 3.8213714e-15 -8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="713907618" name="ramp_1">
+			<mesh_name>guid://17fbfb8c6b20817b45af889e0e35d76571da2180</mesh_name>
+			<surface name="floor_0_mat" material="c599018361993906cf853cadc944f628f8eb6367"/>
+			<surface name="wall_0_mat" material="b50d447466b5a543f70c09c68846566d9f15c4e8"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

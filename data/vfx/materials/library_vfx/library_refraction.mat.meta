@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>6103e2d2a0f16de20466571033b427b1d3bb04f7</guid>
+	<type>material</type>
+	<hash>8bf10767</hash>
+	<runtimes>
+		<runtime id="6103e2d2a0f16de20466571033b427b1d3bb04f7" name="library_refraction" link="0"/>
+	</runtimes>
+</asset>

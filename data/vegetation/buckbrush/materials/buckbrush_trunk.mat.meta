@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>93aeb61047d1b7d0cca079ad164b895656c488c8</guid>
+	<type>material</type>
+	<hash>c8d8cbeb</hash>
+	<runtimes>
+		<runtime id="93aeb61047d1b7d0cca079ad164b895656c488c8" name="buckbrush_trunk" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

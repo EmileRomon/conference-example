@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>aed85ddaff514494578c2ef0b0dfc74b5d6c0d78</guid>
+	<type>world</type>
+	<hash>799a6c09</hash>
+	<runtimes>
+		<runtime id="aed85ddaff514494578c2ef0b0dfc74b5d6c0d78" name="vfx_artillery_shot.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="script_name">guid://ace0ba34d407f94815c4b4e76207ea90ac8de3a0</parameter>
+	</parameters>
+</asset>

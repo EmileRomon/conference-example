@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_shockwave" guid="39783a5ad725966528a5bedfdf7c8d4aeb89fb9b" parent="cb3efb53459273a5337bfc1eaff041a5fd342807" base_material="particles_base">
+	<blend src="one" dest="one"/>
+	<state name="animation">1</state>
+	<state name="refraction">1</state>
+	<state name="ambient">0</state>
+	<state name="light_world">0</state>
+	<texture name="attenuation">guid://f3e0a32ba5152c6da9f20e5ffb0549ecc041ff03</texture>
+	<texture name="normal">guid://184675b82f11b78a2a53fe2994cdbb10ecedf8ff</texture>
+	<parameter name="diffuse_color" expression="0">0.51019299 0.72627902 1 1</parameter>
+	<parameter name="refraction_scale" expression="0">1.24399996</parameter>
+</material>

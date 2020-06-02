@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>74b03ff98a01879d5a4ecc3765e1e3459d24801d</guid>
+	<type>texture</type>
+	<hash>5c06ce2b</hash>
+	<runtimes>
+		<runtime id="74b03ff98a01879d5a4ecc3765e1e3459d24801d" name="filbert_n.tga" link="0"/>
+		<runtime id="0eb652b422c84761bc39f316af5cff1e38f011e2" name="filbert_n.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">Point</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="int" name="width">0</parameter>
+		<parameter type="int" name="height">0</parameter>
+	</parameters>
+</asset>

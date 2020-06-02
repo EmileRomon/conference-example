@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="NodeDummy" id="1349543705" name="blue_oak">
+		<transform>1 1.7484555e-07 0 0.0 -1.7484555e-07 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="746302722" name="blue_oak1_0">
+			<mesh_name>guid://626fc8dca6530ce46d1fb9fe0c19c8afa6ca2800</mesh_name>
+			<surface name="tree__leaves_lod0_blue_oak_leaves" material="dd138523e32e0c8a4d002364beac567c5048c7e1"/>
+			<surface name="tree__leaves_lod1_blue_oak_leaves" material="dd138523e32e0c8a4d002364beac567c5048c7e1"/>
+			<surface name="tree__leaves_lod2_blue_oak_leaves" material="dd138523e32e0c8a4d002364beac567c5048c7e1"/>
+			<surface name="tree__leaves_lod_shadow_blue_oak_leaves_shadow" material="07ccbc2a1c9cae863f6ccec28bf53b42e5b45b63"/>
+			<surface name="tree__trunk_lod0_blue_oak_trunk" material="73343fde84c06f6c69c3787a214d8d430e2cfb99"/>
+			<surface name="tree__trunk_lod1_blue_oak_trunk" material="73343fde84c06f6c69c3787a214d8d430e2cfb99"/>
+			<surface name="tree__trunk_lod2_blue_oak_trunk" material="73343fde84c06f6c69c3787a214d8d430e2cfb99"/>
+			<surface name="tree__twigs_blue_oak_trunk" material="73343fde84c06f6c69c3787a214d8d430e2cfb99"/>
+			<transform>1 -1.7484555e-07 0 0.0 1.7484555e-07 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

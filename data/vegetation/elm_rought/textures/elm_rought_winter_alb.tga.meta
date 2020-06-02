@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>0e494ac30df669aeb01b17c06feb1f89bcc26383</guid>
+	<type>texture</type>
+	<hash>12474134</hash>
+	<runtimes>
+		<runtime id="0e494ac30df669aeb01b17c06feb1f89bcc26383" name="elm_rought_winter_alb.tga" link="0"/>
+		<runtime id="6c818b44de22e99e254158dc2acb42d632c2775c" name="elm_rought_winter_alb.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT5</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="int" name="width">0</parameter>
+		<parameter type="int" name="height">0</parameter>
+	</parameters>
+</asset>

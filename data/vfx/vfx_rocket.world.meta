@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>346d6ad623ac6c12dfa5800ab870251c41c2805f</guid>
+	<type>world</type>
+	<hash>b67257a8</hash>
+	<runtimes>
+		<runtime id="346d6ad623ac6c12dfa5800ab870251c41c2805f" name="vfx_rocket.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="script_name">guid://10cd98ece672d000b0b07ea0f10173a72815dd38</parameter>
+	</parameters>
+</asset>

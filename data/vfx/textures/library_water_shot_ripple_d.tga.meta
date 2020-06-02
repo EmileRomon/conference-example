@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>708809b1884126ba6eff8b772974c4f95ea6d473</guid>
+	<type>texture</type>
+	<hash>2b037698</hash>
+	<runtimes>
+		<runtime id="708809b1884126ba6eff8b772974c4f95ea6d473" name="library_water_shot_ripple_d.tga" link="0"/>
+		<runtime id="22a79fb871a6a116d8ea07fae8b602e321541761" name="library_water_shot_ripple_d.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="image_format">Auto (DXT1 or DXT5)</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">diffuse (rgba)</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<track version="2.11.0.0" min_time="0" max_time="4" unit_time="1">
+	<parameter type="node.positionLinear" id="839017275" name="vfx_tank">
+		<keys_x>
+			<key time="0" type="1">86.2125</key>
+			<key time="2.10189" type="1">75</key>
+			<key time="4" type="1">86.213</key>
+		</keys_x>
+		<keys_y>
+			<key time="0" type="1">-161.534</key>
+		</keys_y>
+		<keys_z>
+			<key time="0" type="1">0.00502324</key>
+		</keys_z>
+	</parameter>
+</track>

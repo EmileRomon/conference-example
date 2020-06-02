@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>db842015c0ee659e748016e01e4f511239eb8644</guid>
+	<type>mesh</type>
+	<hash>693c2a7d</hash>
+	<runtimes>
+		<runtime id="db842015c0ee659e748016e01e4f511239eb8644" name="vfx_jet_missile_2.mesh" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+	</parameters>
+</asset>

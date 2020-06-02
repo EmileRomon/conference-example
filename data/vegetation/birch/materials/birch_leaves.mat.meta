@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>d75373b59f10568fc084e9895709d8590aaecf9f</guid>
+	<type>material</type>
+	<hash>7eed5661</hash>
+	<runtimes>
+		<runtime id="d75373b59f10568fc084e9895709d8590aaecf9f" name="birch_leaves" link="0"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_fire_missile_1" guid="6fee82d57f0d6dc76324cf4870dd5faf156bfcb8" parent="cb3efb53459273a5337bfc1eaff041a5fd342807" base_material="particles_base">
+	<blend src="src_alpha" dest="one_minus_src_alpha"/>
+	<state name="animation">1</state>
+	<state name="ambient">0</state>
+	<state name="light_world">0</state>
+	<texture name="diffuse">guid://8ce5d995e7460ad827979ac5530d47ddc197e6e6</texture>
+	<texture name="attenuation">guid://fd7d5240bb7f39761224b490327bd975c45289ce</texture>
+	<parameter name="animation_transform" expression="0">1 16 1 0.5</parameter>
+	<parameter name="diffuse_color" expression="0">1 0.709803939 0.529411793 0.247058839</parameter>
+	<parameter name="diffuse_scale" expression="0">1</parameter>
+	<parameter name="emission_scale" expression="0">10</parameter>
+</material>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>d579c093384f4bed42fef0d8b6f89f8d01da351d</guid>
+	<type>texture</type>
+	<hash>eb36b518</hash>
+	<runtimes>
+		<runtime id="d579c093384f4bed42fef0d8b6f89f8d01da351d" name="raspberries_01_sh.tga" link="0"/>
+		<runtime id="9254a6d555d86ba9fffe6a768e2998db80475868" name="raspberries_01_sh.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="int" name="width">0</parameter>
+		<parameter type="int" name="height">0</parameter>
+	</parameters>
+</asset>

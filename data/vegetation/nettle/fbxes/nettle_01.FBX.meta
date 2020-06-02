@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>0fbea4ce240f4cf0c63c01734dcc29cbd521b99d</guid>
+	<type>fbx</type>
+	<hash>76e172f9</hash>
+	<runtimes>
+		<runtime id="0fbea4ce240f4cf0c63c01734dcc29cbd521b99d" name="nettle_01.FBX" link="0"/>
+		<runtime id="0907cedcd4f98e32fb3ebc4bb12e05ae0431c1a7" name="nettle_01.node" link="1" type="3">
+			<parameters>
+				<parameter type="string" name="id">a5ee2be3</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="7d1c2844951bdb4ffe3f73876ca8e00f56bffb70" name="nettle_01.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">5639ca7d</parameter>
+			</parameters>
+		</runtime>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="merge_static_meshes">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="bool" name="import_meshes">1</parameter>
+		<parameter type="bool" name="import_materials">1</parameter>
+		<parameter type="bool" name="import_materials_mode">0</parameter>
+		<parameter type="bool" name="import_textures">0</parameter>
+		<parameter type="bool" name="import_animations">1</parameter>
+		<parameter type="bool" name="import_joints">0</parameter>
+		<parameter type="bool" name="import_lights">1</parameter>
+		<parameter type="bool" name="import_cameras">1</parameter>
+		<parameter type="bool" name="import_tangent_space">0</parameter>
+		<parameter type="bool" name="import_morph_targets">0</parameter>
+		<parameter type="float" name="scale">100</parameter>
+		<parameter type="float" name="fps">60</parameter>
+		<parameter type="int" name="workflow">0</parameter>
+		<parameter type="bool" name="combine_by_lods">1</parameter>
+		<parameter type="int" name="index_max_count_lods">0</parameter>
+		<parameter type="string" name="lods">_lod_0,-1e+9,_lod_1,15</parameter>
+		<parameter type="string" name="materials_imported">nattle_mat</parameter>
+		<parameter type="string" name="material_guids">nattle_mat,9ad867f6f659a033998e937917b8e2321a97f274</parameter>
+		<parameter type="bool" name="merge_surfaces_by_materials">0</parameter>
+		<parameter type="bool" name="use_instances">1</parameter>
+		<parameter type="bool" name="merge_similar_materials">0</parameter>
+		<parameter type="bool" name="import_bones_without_skin">0</parameter>
+		<parameter type="bool" name="create_transform_bones_for_joints">0</parameter>
+		<parameter type="int" name="up_axis">0</parameter>
+		<parameter type="int" name="front_axis">0</parameter>
+		<parameter type="bool" name="need_split">0</parameter>
+		<parameter type="bool" name="need_repivot">0</parameter>
+		<parameter type="bool" name="need_triagulate">1</parameter>
+		<parameter type="bool" name="skip_empty_nodes">0</parameter>
+		<parameter type="float" name="bound_size">10000</parameter>
+		<parameter type="float" name="linear_deflection">0.200000003</parameter>
+		<parameter type="float" name="angular_deflection">0.699999988</parameter>
+		<parameter type="string" name="animations"/>
+		<parameter type="bool" name="joints_reorientation">0</parameter>
+		<parameter type="string" name="prefix_materials"/>
+	</parameters>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>918868f0feed31c0fc15c3060d54f62bfc59053c</guid>
+	<type>material</type>
+	<hash>a8f04508</hash>
+	<runtimes>
+		<runtime id="918868f0feed31c0fc15c3060d54f62bfc59053c" name="library_smoke_explosion_splinters_small" link="0"/>
+	</runtimes>
+</asset>

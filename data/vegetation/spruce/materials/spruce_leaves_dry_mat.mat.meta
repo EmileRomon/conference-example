@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>26882bd4f973ef015c794774ef0ab94d5766c930</guid>
+	<type>material</type>
+	<hash>e4db79b3</hash>
+	<runtimes>
+		<runtime id="26882bd4f973ef015c794774ef0ab94d5766c930" name="spruce_leaves_dry_mat" link="0"/>
+	</runtimes>
+</asset>

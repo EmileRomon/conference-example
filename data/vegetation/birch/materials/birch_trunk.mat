@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="birch_trunk" guid="72fefa1de11c94a87722172c0d08f31f14de164d" base_material="mesh_base">
+	<state name="vegetation">1</state>
+	<state name="animation">1</state>
+	<state name="vegetation_velocity">0</state>
+	<texture name="albedo">guid://c9ed8d8d29db7d955a4866b1b66df8dc7dab592b</texture>
+	<texture name="normal">guid://5f58ba793977777d0b537a5c018c3d3739ecb7bb</texture>
+	<parameter name="albedo_color" expression="0">0.792156935 0.792156935 0.792156935 1</parameter>
+	<parameter name="roughness" expression="0">0.899999976</parameter>
+	<parameter name="animation_stem_offset" expression="0">0.0199999996</parameter>
+	<parameter name="animation_stem_radius" expression="0">0.0199999996</parameter>
+	<parameter name="animation_leaf_noise" expression="0">1</parameter>
+	<parameter name="animation_leaf_offset" expression="0">0.5</parameter>
+	<parameter name="animation_leaf_scale" expression="0">1.25</parameter>
+</material>

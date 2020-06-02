@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property name="refresh_time" manual="1" parent_name="node_base" version="2.11.0.0">
+	<parameter name="time" type="float" min="0.0" max="100000.0">0.0</parameter>
+</property>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>e307f0b1a2d609eb286be3413ba72431607d01eb</guid>
+	<type>texture</type>
+	<hash>fe32034c</hash>
+	<runtimes>
+		<runtime id="e307f0b1a2d609eb286be3413ba72431607d01eb" name="blue_oak_impostor_t.tga" link="0"/>
+		<runtime id="e732ad15313a2c7cf41339cd85045d8690d5debc" name="blue_oak_impostor_t.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">point</parameter>
+		<parameter type="string" name="image_format">ATI1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">Original</parameter>
+		<parameter type="string" name="height">Original</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>2c5e4d77e17fb91fc0833426f0113c53d37a45d2</guid>
+	<type>texture</type>
+	<hash>150e72e4</hash>
+	<runtimes>
+		<runtime id="2c5e4d77e17fb91fc0833426f0113c53d37a45d2" name="smoke_wispy_d.tga" link="0"/>
+		<runtime id="665ebdb61e244806c2e9db4f3ba857f730280c63" name="smoke_wispy_d.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="image_format">Auto (DXT1 or DXT5)</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">diffuse (rgba)</parameter>
+	</parameters>
+</asset>

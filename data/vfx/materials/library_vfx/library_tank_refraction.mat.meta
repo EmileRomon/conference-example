@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>1733cc5b1937fb048a96929e36b5462662e15df1</guid>
+	<type>material</type>
+	<hash>e2aded96</hash>
+	<runtimes>
+		<runtime id="1733cc5b1937fb048a96929e36b5462662e15df1" name="library_tank_refraction" link="0"/>
+	</runtimes>
+</asset>

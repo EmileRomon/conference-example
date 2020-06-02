@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>c599018361993906cf853cadc944f628f8eb6367</guid>
+	<type>material</type>
+	<hash>19a78072</hash>
+	<runtimes>
+		<runtime id="c599018361993906cf853cadc944f628f8eb6367" name="floor_base_mat" link="0"/>
+	</runtimes>
+</asset>

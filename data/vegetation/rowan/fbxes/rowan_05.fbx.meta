@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>2a154dadb9d73378d08353be8213defadc776f37</guid>
+	<type>fbx</type>
+	<hash>4d72c62c</hash>
+	<runtimes>
+		<runtime id="2a154dadb9d73378d08353be8213defadc776f37" name="rowan_05.fbx" link="0"/>
+		<runtime id="928984ab7797f97dcbfc719100e5448b37cf7a05" name="rowan_05.node" link="1" type="3">
+			<parameters>
+				<parameter type="string" name="id">cb6e0f67</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="56873d5a128083e9be17d123e348f258ecf0ebcd" name="rowan_leaves_05_lod0.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">4f45f88a</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="8bf55fcaa4c306cdb2e5e2b3fcb3d981a4079a90" name="rowan_leaves_05_lod1.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">72b9433</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="4b35fa492ea3cc88589cb12aa2c82c7fd9172c5c" name="rowan_leaves_05_lod2.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">0614777f</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="8719cc4afe254edc9449e8e9339155a520d0f2c9" name="rowan_tree_05_lod2.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">ce6d178e</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="3ffaeba609535cbfd1ad640f3ea0c7d586866661" name="rowan_tree_05_lod1.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">12638a35</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="209cdb6344968db03c7f2aa11d59c30dfca23da1" name="rowan_tree_05_lod0.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">11bff8e9</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="4b80ef74d86531f8f55e014fad9ec03d56632ba0" name="rowan_leaves_05_shadow.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">0614777f</parameter>
+			</parameters>
+		</runtime>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="merge_static_meshes">0</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="bool" name="import_meshes">1</parameter>
+		<parameter type="bool" name="import_materials">1</parameter>
+		<parameter type="bool" name="import_materials_mode">0</parameter>
+		<parameter type="bool" name="import_textures">0</parameter>
+		<parameter type="bool" name="import_animations">1</parameter>
+		<parameter type="bool" name="import_joints">0</parameter>
+		<parameter type="bool" name="import_lights">1</parameter>
+		<parameter type="bool" name="import_cameras">1</parameter>
+		<parameter type="bool" name="import_tangent_space">0</parameter>
+		<parameter type="bool" name="import_morph_targets">0</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="float" name="fps">30</parameter>
+		<parameter type="int" name="workflow">0</parameter>
+		<parameter type="bool" name="combine_by_lods">0</parameter>
+		<parameter type="int" name="index_max_count_lods">1</parameter>
+		<parameter type="string" name="lods">_lod_0,-1e+9,_lod_1,3,_lod_2,9</parameter>
+		<parameter type="string" name="material_guids">rowan_leaves_autm_mat,d08965ea13c92ed6883d879a82703570ceadfc25,rowan_trunk_mat,1033d1fea76f864acdfb21043b9fc244206affdf</parameter>
+		<parameter type="bool" name="joints_reorientation">0</parameter>
+		<parameter type="int" name="front_axis">0</parameter>
+		<parameter type="bool" name="merge_surfaces_by_materials">0</parameter>
+		<parameter type="bool" name="use_instances">1</parameter>
+		<parameter type="bool" name="merge_similar_materials">0</parameter>
+		<parameter type="bool" name="import_bones_without_skin">0</parameter>
+		<parameter type="bool" name="create_transform_bones_for_joints">0</parameter>
+		<parameter type="string" name="prefix_materials"/>
+		<parameter type="int" name="up_axis">0</parameter>
+		<parameter type="bool" name="need_split">0</parameter>
+		<parameter type="bool" name="need_repivot">0</parameter>
+		<parameter type="bool" name="need_triagulate">1</parameter>
+		<parameter type="bool" name="skip_empty_nodes">0</parameter>
+		<parameter type="float" name="bound_size">10000</parameter>
+		<parameter type="float" name="linear_deflection">0.200000003</parameter>
+		<parameter type="float" name="angular_deflection">0.699999988</parameter>
+		<parameter type="string" name="animations"/>
+	</parameters>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>86a3922d23b29f5ef8420c87700a0646beba3445</guid>
+	<type>material</type>
+	<hash>49551e01</hash>
+	<runtimes>
+		<runtime id="86a3922d23b29f5ef8420c87700a0646beba3445" name="library_jet_fire_turbine" link="0"/>
+	</runtimes>
+</asset>

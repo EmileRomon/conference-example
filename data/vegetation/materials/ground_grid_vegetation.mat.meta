@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>8eecbf3cf9ddfddba1ca2f642ef15dfba964468a</guid>
+	<type>material</type>
+	<hash>625ce0d2</hash>
+	<runtimes>
+		<runtime id="8eecbf3cf9ddfddba1ca2f642ef15dfba964468a" name="ground_grid_vegetation_0" link="0"/>
+	</runtimes>
+</asset>

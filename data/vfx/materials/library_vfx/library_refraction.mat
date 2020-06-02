@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_refraction" guid="6103e2d2a0f16de20466571033b427b1d3bb04f7" parent="cb3efb53459273a5337bfc1eaff041a5fd342807" base_material="particles_base">
+	<blend src="one" dest="one"/>
+	<state name="refraction">1</state>
+	<state name="ambient">0</state>
+	<texture name="attenuation">guid://f3e0a32ba5152c6da9f20e5ffb0549ecc041ff03</texture>
+	<texture name="normal">guid://9bc3423430dfebba0ebbf5846473ce5732f19cdf</texture>
+	<parameter name="diffuse_color" expression="0">0.51019299 0.72627902 1 1</parameter>
+	<parameter name="refraction_scale" expression="0">0.600000024</parameter>
+	<parameter name="soft_interaction_scale" expression="0">1.10000002</parameter>
+	<parameter name="diffuse_scale" expression="0">0</parameter>
+</material>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_fire_glow_turbine" guid="53e8a0d227671cbe87c43635f6a78baec47e9661" parent="5c6a953e991c10cc92db10b3287b27a7a1a0939e" base_material="particles_base">
+	<blend src="one" dest="one"/>
+	<parameter name="diffuse_color" expression="0">0.94901967 0.886274576 0.392156899 1</parameter>
+	<parameter name="environment_scale" expression="0">82.9192352</parameter>
+	<parameter name="diffuse_scale" expression="0">4.55299997</parameter>
+	<parameter name="emission_scale" expression="0">10</parameter>
+</material>

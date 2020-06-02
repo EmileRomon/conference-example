@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>d7bc04cb6419a3ba3be0b5f7d76b5c187e19da52</guid>
+	<type>texture</type>
+	<hash>e1e9fd62</hash>
+	<runtimes>
+		<runtime id="d7bc04cb6419a3ba3be0b5f7d76b5c187e19da52" name="spruce_moss_m.jpg" link="0"/>
+		<runtime id="0d633f67aa8ff610ed34d7721d1b70f332260d12" name="spruce_moss_m.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">R8</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="int" name="width">0</parameter>
+		<parameter type="int" name="height">0</parameter>
+	</parameters>
+</asset>

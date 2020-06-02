@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>57db76d28689eea0d4ff8056ea026528d4b62dc8</guid>
+	<type>script</type>
+	<hash>70318b14</hash>
+	<runtimes>
+		<runtime id="57db76d28689eea0d4ff8056ea026528d4b62dc8" name="vfx_fire_5.cpp" link="0"/>
+	</runtimes>
+</asset>

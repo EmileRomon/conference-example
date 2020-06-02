@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>90e0ee30aec678cf7f66d3dd4702c43a22d8e3f2</guid>
+	<type>node</type>
+	<hash>613b5cba</hash>
+	<runtimes>
+		<runtime id="90e0ee30aec678cf7f66d3dd4702c43a22d8e3f2" name="rain_drops.node" link="0"/>
+	</runtimes>
+</asset>

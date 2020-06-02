@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>0dc9e5d05abbc274fbcdcf2dd67f7b607929672b</guid>
+	<type>texture</type>
+	<hash>dc3e3d1e</hash>
+	<runtimes>
+		<runtime id="0dc9e5d05abbc274fbcdcf2dd67f7b607929672b" name="library_water_splashes_attenuation_d.tga" link="0"/>
+		<runtime id="f7be97a70f5267d0566ae02084b71cab021d3578" name="library_water_splashes_attenuation_d.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="image_format">Auto (DXT1 or DXT5)</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">diffuse (rgba)</parameter>
+	</parameters>
+</asset>

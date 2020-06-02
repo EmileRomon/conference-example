@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>a31fc01a0e4b59deffbdd6a0023066df69e09269</guid>
+	<type>mesh</type>
+	<hash>ae602deb</hash>
+	<runtimes>
+		<runtime id="a31fc01a0e4b59deffbdd6a0023066df69e09269" name="vfx_rocket_particles_emitter.mesh" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+	</parameters>
+</asset>

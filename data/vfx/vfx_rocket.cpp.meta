@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>10cd98ece672d000b0b07ea0f10173a72815dd38</guid>
+	<type>script</type>
+	<hash>125059fc</hash>
+	<runtimes>
+		<runtime id="10cd98ece672d000b0b07ea0f10173a72815dd38" name="vfx_rocket.cpp" link="0"/>
+	</runtimes>
+</asset>

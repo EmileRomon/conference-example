@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>210883390f8cd9bf6e4f8d7cd314706abe1e6470</guid>
+	<type>material</type>
+	<hash>56d4d05d</hash>
+	<runtimes>
+		<runtime id="210883390f8cd9bf6e4f8d7cd314706abe1e6470" name="library_rain_drops" link="0"/>
+	</runtimes>
+</asset>

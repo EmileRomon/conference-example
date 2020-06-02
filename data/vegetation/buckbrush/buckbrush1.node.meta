@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>eb90fb26e8f3b5e342003e72b4138e208d84861a</guid>
+	<type>node</type>
+	<hash>7a8016d4</hash>
+	<runtimes>
+		<runtime id="eb90fb26e8f3b5e342003e72b4138e208d84861a" name="buckbrush1.node" link="0"/>
+	</runtimes>
+</asset>

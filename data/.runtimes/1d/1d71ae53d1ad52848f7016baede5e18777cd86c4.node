@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="1765105890" name="pine_02_2">
+		<mesh_name>guid://c55f849d2e4e889bbf8e1899e1f1fa38af8f33e9</mesh_name>
+		<surface name="pine_leaves_02_2_lod_0_pine_leaves_mat" material="578520a520b91a77f225165c2065aadcf3ac3460"/>
+		<surface name="pine_leaves_02_2_lod_1_pine_leaves_mat" material="578520a520b91a77f225165c2065aadcf3ac3460"/>
+		<surface name="pine_leaves_02_2_lod_2_pine_leaves_mat" material="578520a520b91a77f225165c2065aadcf3ac3460"/>
+		<surface name="pine_tree_02_2_lod_2_pine_trunk" material="e0d5efd1c2d44f10293d20c41da932bda7caab9a"/>
+		<surface name="pine_tree_02_2_lod_0_pine_trunk" material="e0d5efd1c2d44f10293d20c41da932bda7caab9a"/>
+		<surface name="pine_tree_02_2_lod_1_pine_trunk" material="e0d5efd1c2d44f10293d20c41da932bda7caab9a"/>
+		<surface name="pine_leaves_02_2_shadow_pine_leaves_mat" material="578520a520b91a77f225165c2065aadcf3ac3460"/>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

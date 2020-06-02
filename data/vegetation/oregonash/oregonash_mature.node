@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="1347858153" name="oregonash_mature">
+		<mesh_name>guid://521613f208ecff12ee56f35c86a5b80f1d39ce83</mesh_name>
+		<surface name="tree_branches_lod0_mesh_base" cast_shadow="0" cast_world_shadow="0" max_visible_distance="20" max_fade_distance="20" physics_friction="1" physics_restitution="1" material="32fb57545a9778c824089439591190855b22ee0e"/>
+		<surface name="tree_branches_lod1_mesh_base" cast_shadow="0" cast_world_shadow="0" min_visible_distance="20" max_visible_distance="50" min_fade_distance="20" max_fade_distance="20" physics_friction="1" physics_restitution="1" material="32fb57545a9778c824089439591190855b22ee0e"/>
+		<surface name="tree_branches_lod2_mesh_base" cast_shadow="0" cast_world_shadow="0" min_visible_distance="50" min_fade_distance="20" physics_friction="1" physics_restitution="1" material="32fb57545a9778c824089439591190855b22ee0e"/>
+		<surface name="tree_trunk_lod0_mesh_base" max_visible_distance="20" max_fade_distance="20" physics_friction="1" physics_restitution="1" material="03a13ba9735adaa2518f71074278d282a7b100c3"/>
+		<surface name="tree_trunk_lod1_mesh_base" min_visible_distance="20" max_visible_distance="50" min_fade_distance="20" max_fade_distance="20" physics_friction="1" physics_restitution="1" material="03a13ba9735adaa2518f71074278d282a7b100c3"/>
+		<surface name="tree_trunk_lod2_mesh_base" min_visible_distance="50" min_fade_distance="20" physics_friction="1" physics_restitution="1" material="03a13ba9735adaa2518f71074278d282a7b100c3"/>
+		<surface name="tree_twigs_mesh_base" physics_friction="1" physics_restitution="1" material="03a13ba9735adaa2518f71074278d282a7b100c3"/>
+		<surface name="tree_shadow_mesh_base" viewport_mask="0x0" physics_friction="1" physics_restitution="1" material="32fb57545a9778c824089439591190855b22ee0e"/>
+		<transform>0.13115066 -0.99136108 0 0.0 0.99136108 0.13115066 0 0.0 0 0 0.99999994 0.0 -0.00057983398 -1.8119812e-005 0 1.0</transform>
+	</node>
+</nodes>

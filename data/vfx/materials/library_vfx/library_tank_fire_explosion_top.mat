@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_tank_fire_explosion_top" guid="5c8d74ec07c352cd585c37553b1ab7df761faa46" parent="e84bb1fdf29b47e43dbe83cff8ad65f2a75c303f" base_material="particles_base">
+	<blend src="src_alpha" dest="one_minus_src_alpha"/>
+	<state name="soft_interaction">0</state>
+	<texture name="diffuse">guid://6ffb165d09923cb6ba2aa78187e5c1c10e42373d</texture>
+	<parameter name="animation_transform" expression="0">8 4 1 0.625</parameter>
+	<parameter name="diffuse_color" expression="0">1 1 1 0.384314001</parameter>
+	<parameter name="diffuse_scale" expression="0">3</parameter>
+</material>

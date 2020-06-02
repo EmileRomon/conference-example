@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_smoke_explosion_splinters_small" guid="918868f0feed31c0fc15c3060d54f62bfc59053c" parent="6cad3b01867f9f78deb35e0bc27e7210f19f7dc1" base_material="particles_base">
+	<blend src="one" dest="one_minus_src_alpha"/>
+	<state name="soft_interaction">0</state>
+	<texture name="attenuation">guid://14de2dd50334e43096c301ecad7e83aee000117e</texture>
+	<parameter name="diffuse_color" expression="0">1 0.984140992 0.922752023 0.678195</parameter>
+</material>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_smoke_wispy" guid="912af80f474679e4b9c149c9c1196081544cd1ac" parent="cb3efb53459273a5337bfc1eaff041a5fd342807" base_material="particles_base">
+	<blend src="one" dest="one_minus_src_alpha"/>
+	<state name="animation">1</state>
+	<state name="ambient">0</state>
+	<texture name="diffuse">guid://665ebdb61e244806c2e9db4f3ba857f730280c63</texture>
+	<texture name="attenuation">guid://68217548afafe53d4b09ff25c080798914d19f75</texture>
+	<parameter name="animation_transform" expression="0">8 8 1 0.625</parameter>
+	<parameter name="diffuse_color" expression="0">0.93240869 0.93240869 0.93240869 0.212077275</parameter>
+	<parameter name="soft_interaction_scale" expression="0">0.0130000003</parameter>
+	<parameter name="environment_scale" expression="0">63.5040016</parameter>
+	<parameter name="diffuse_scale" expression="0">1.25999999</parameter>
+</material>

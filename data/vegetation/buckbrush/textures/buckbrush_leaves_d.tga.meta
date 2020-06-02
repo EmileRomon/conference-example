@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>848f4bbc5d7e270293e011ae5fbf64e9b01320ba</guid>
+	<type>texture</type>
+	<hash>4ed62a11</hash>
+	<runtimes>
+		<runtime id="848f4bbc5d7e270293e011ae5fbf64e9b01320ba" name="buckbrush_leaves_d.tga" link="0"/>
+		<runtime id="dd91a40046a083a0bac8cbeb38375a7112819ccf" name="buckbrush_leaves_d.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT5</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">Original</parameter>
+		<parameter type="string" name="height">Original</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_tank_wispy_white_dust" guid="fd3c0fc1e245845be806ce4ece6100eee97c19c6" parent="912af80f474679e4b9c149c9c1196081544cd1ac" base_material="particles_base">
+	<blend src="src_alpha" dest="one_minus_src_alpha"/>
+	<state name="ambient">1</state>
+	<parameter name="diffuse_color" expression="0">0.623529434 0.596078455 0.564705908 0.0980392247</parameter>
+	<parameter name="soft_interaction_scale" expression="0">0.296000004</parameter>
+	<parameter name="environment_scale" expression="0">2.95600009</parameter>
+	<parameter name="diffuse_scale" expression="0">2.29999995</parameter>
+</material>

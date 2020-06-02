@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>b50d447466b5a543f70c09c68846566d9f15c4e8</guid>
+	<type>material</type>
+	<hash>4f1f961b</hash>
+	<runtimes>
+		<runtime id="b50d447466b5a543f70c09c68846566d9f15c4e8" name="wall_0_mat" link="0"/>
+	</runtimes>
+</asset>

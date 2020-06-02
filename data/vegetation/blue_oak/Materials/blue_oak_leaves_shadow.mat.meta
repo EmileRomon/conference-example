@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>07ccbc2a1c9cae863f6ccec28bf53b42e5b45b63</guid>
+	<type>material</type>
+	<hash>438ec2de</hash>
+	<runtimes>
+		<runtime id="07ccbc2a1c9cae863f6ccec28bf53b42e5b45b63" name="blue_oak_leaves_shadow" link="0"/>
+	</runtimes>
+</asset>

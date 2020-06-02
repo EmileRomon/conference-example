@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>2105856b65f975345e8423232fc7b3f35b8b76f1</guid>
+	<type>texture</type>
+	<hash>2a6a7146</hash>
+	<runtimes>
+		<runtime id="2105856b65f975345e8423232fc7b3f35b8b76f1" name="plant_swordfern_n.tga" link="0"/>
+		<runtime id="83bdcbccb9a146121b588184401c03986013ec01" name="plant_swordfern_n.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">Original</parameter>
+		<parameter type="string" name="height">Original</parameter>
+		<parameter type="bool" name="srgb_correction">0</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+	</parameters>
+</asset>

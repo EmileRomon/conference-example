@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>cd519ba869a7b3b572ba46a6d02388fced3021c3</guid>
+	<type>material</type>
+	<hash>991fa246</hash>
+	<runtimes>
+		<runtime id="cd519ba869a7b3b572ba46a6d02388fced3021c3" name="nattle_mat" link="0"/>
+	</runtimes>
+</asset>

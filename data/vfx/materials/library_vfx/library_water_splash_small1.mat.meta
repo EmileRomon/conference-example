@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>8b58e4e028a1daef2de3c672d6578d7fcf604d9e</guid>
+	<type>material</type>
+	<hash>4bc9a65d</hash>
+	<runtimes>
+		<runtime id="8b58e4e028a1daef2de3c672d6578d7fcf604d9e" name="library_water_splash_small1" link="0"/>
+	</runtimes>
+</asset>

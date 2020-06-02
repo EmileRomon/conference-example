@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_water_shot_ripple" guid="187fcae6010ffab42fe753140d87c491b66f8dcd" parent="cb3efb53459273a5337bfc1eaff041a5fd342807" base_material="particles_base">
+	<blend src="one_minus_dest_color" dest="one"/>
+	<options order="2" depth_mask="0"/>
+	<texture name="diffuse">guid://22a79fb871a6a116d8ea07fae8b602e321541761</texture>
+	<parameter name="soft_interaction_scale" expression="0">2.99916005</parameter>
+	<parameter name="diffuse_scale" expression="0">1.21000004</parameter>
+</material>

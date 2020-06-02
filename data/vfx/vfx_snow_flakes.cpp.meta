@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>6234b435e5168bdcc87a8ac52e1c40092adb6be3</guid>
+	<type>script</type>
+	<hash>73b69fd8</hash>
+	<runtimes>
+		<runtime id="6234b435e5168bdcc87a8ac52e1c40092adb6be3" name="vfx_snow_flakes.cpp" link="0"/>
+	</runtimes>
+</asset>

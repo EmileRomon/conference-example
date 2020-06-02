@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>f3c95742a5bcb99bc44812b14a8bdc6f390685ba</guid>
+	<type>texture</type>
+	<hash>1345ed28</hash>
+	<runtimes>
+		<runtime id="f3c95742a5bcb99bc44812b14a8bdc6f390685ba" name="tree_oregonash_branches_t.tga" link="0"/>
+		<runtime id="92079ed329ade38be97cfd2e3cc5a290696691f3" name="tree_oregonash_branches_t.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">1024</parameter>
+		<parameter type="string" name="height">1024</parameter>
+	</parameters>
+</asset>

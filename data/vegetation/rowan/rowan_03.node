@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="1209953218" name="rowan_03">
+		<mesh_name>guid://7ecb31451083663602418a68e16156215322352c</mesh_name>
+		<surface name="rowan_leaves_03_lod0_rowan_leaves_autm_mat" cast_shadow="0" cast_world_shadow="0" max_visible_distance="15" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="d08965ea13c92ed6883d879a82703570ceadfc25"/>
+		<surface name="rowan_leaves_03_lod1_rowan_leaves_autm_mat" cast_shadow="0" cast_world_shadow="0" min_visible_distance="15" max_visible_distance="60" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="d08965ea13c92ed6883d879a82703570ceadfc25"/>
+		<surface name="rowan_leaves_03_lod2_rowan_leaves_autm_mat" cast_shadow="0" cast_world_shadow="0" min_visible_distance="60" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="d08965ea13c92ed6883d879a82703570ceadfc25"/>
+		<surface name="rowan_tree_03_lod2_rowan_trunk_mat" min_visible_distance="60" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="1033d1fea76f864acdfb21043b9fc244206affdf"/>
+		<surface name="rowan_tree_03_lod1_rowan_trunk_mat" min_visible_distance="15" max_visible_distance="60" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="1033d1fea76f864acdfb21043b9fc244206affdf"/>
+		<surface name="rowan_tree_03_lod0_rowan_trunk_mat" max_visible_distance="15" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="1033d1fea76f864acdfb21043b9fc244206affdf"/>
+		<surface name="rowan_leaves_03_shadow_rowan_leaves_autm_mat" viewport_mask="0x0" material="d08965ea13c92ed6883d879a82703570ceadfc25"/>
+		<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

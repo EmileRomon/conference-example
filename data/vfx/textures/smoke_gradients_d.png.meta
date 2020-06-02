@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>6244701d765067add299c090e5ea0ef321780d25</guid>
+	<type>texture</type>
+	<hash>a8e6e28e</hash>
+	<runtimes>
+		<runtime id="6244701d765067add299c090e5ea0ef321780d25" name="smoke_gradients_d.png" link="0"/>
+		<runtime id="68217548afafe53d4b09ff25c080798914d19f75" name="smoke_gradients_d.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="image_format">Auto (DXT1 or DXT5)</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">diffuse (rgba)</parameter>
+	</parameters>
+</asset>

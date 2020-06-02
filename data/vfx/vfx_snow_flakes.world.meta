@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>6fd627e23f6f4c0ce9d72d744b877b7da5e9239d</guid>
+	<type>world</type>
+	<hash>a3e1fa72</hash>
+	<runtimes>
+		<runtime id="6fd627e23f6f4c0ce9d72d744b877b7da5e9239d" name="vfx_snow_flakes.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="script_name">guid://6234b435e5168bdcc87a8ac52e1c40092adb6be3</parameter>
+	</parameters>
+</asset>

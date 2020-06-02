@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>ab404e08489be7f53c2289651e22e139ba480044</guid>
+	<type>node</type>
+	<hash>9bb14f55</hash>
+	<runtimes>
+		<runtime id="ab404e08489be7f53c2289651e22e139ba480044" name="artillery_shot.node" link="0"/>
+	</runtimes>
+</asset>

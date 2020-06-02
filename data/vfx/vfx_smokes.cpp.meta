@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>a3e2b5d51abb7feb2bf860b9aa3cde1555ba5f95</guid>
+	<type>script</type>
+	<hash>f1a06024</hash>
+	<runtimes>
+		<runtime id="a3e2b5d51abb7feb2bf860b9aa3cde1555ba5f95" name="vfx_smokes.cpp" link="0"/>
+	</runtimes>
+</asset>

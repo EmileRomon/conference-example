@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="tree_pacificsilverfir_branches" guid="0371a6eaa075f829f2d1eef626b3b577415e4ed3" base_material="mesh_base">
+	<options transparent="1" two_sided="1"/>
+	<state name="ao_map">1</state>
+	<state name="vegetation">1</state>
+	<state name="normals_rotated_to_camera">1</state>
+	<state name="backside_normal">1</state>
+	<state name="animation">1</state>
+	<state name="leafs">3</state>
+	<state name="vegetation_velocity">0</state>
+	<texture name="albedo">guid://4e4343f1ab780778a05156af7f43a94adaf13745</texture>
+	<texture name="normal">guid://e287d3f7f55fcb7d92f9d58448a5cff206163934</texture>
+	<texture name="ambient_occlusion">guid://f3cf0edf4889cd098269122e074eccf826e6d960</texture>
+	<texture name="translucent">guid://f3cf0edf4889cd098269122e074eccf826e6d960</texture>
+	<parameter name="material_mask" expression="0">0</parameter>
+	<parameter name="albedo_color" expression="0">0.945098102 1 0.521568656 1</parameter>
+	<parameter name="specular" expression="0">0</parameter>
+	<parameter name="normal_scale" expression="0">2</parameter>
+	<parameter name="translucent" expression="0">0.800000012</parameter>
+	<parameter name="transparent" expression="0">1.20000005</parameter>
+	<parameter name="transparent_pow" expression="0">2</parameter>
+	<parameter name="vertex_balloon" expression="0">0</parameter>
+	<parameter name="animation_stem_offset" expression="0">0.00999999978</parameter>
+	<parameter name="animation_stem_radius" expression="0">0.00999999978</parameter>
+	<parameter name="animation_branch_offset" expression="0">0.100000001</parameter>
+	<parameter name="animation_leaf_offset" expression="0">0.100000001</parameter>
+	<parameter name="animation_leaf_scale" expression="0">0.5</parameter>
+</material>

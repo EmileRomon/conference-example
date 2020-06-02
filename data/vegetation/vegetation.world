@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world version="2.11.0.0">
+	<script_name>guid://15c14f97bfdfd4597c73aee690880205a21ed3e5</script_name>
+	<sound>
+		<enabled>1</enabled>
+		<attenuation>3</attenuation>
+	</sound>
+	<render>
+		<data/>
+		<shader_defines/>
+		<stereo_distance>4</stereo_distance>
+		<stereo_radius>0.0320000015</stereo_radius>
+		<stereo_offset>0</stereo_offset>
+		<dirt_texture_name/>
+		<exposure_min_luminance>0.600000024</exposure_min_luminance>
+		<exposure_max_luminance>10</exposure_max_luminance>
+		<color_brightness>0</color_brightness>
+		<color_contrast>0</color_contrast>
+		<color_saturation>1</color_saturation>
+		<color_gamma>1</color_gamma>
+		<color_white>1 1 1 1</color_white>
+		<color_texture/>
+		<pre_post_materials/>
+		<composite_material/>
+		<post_materials/>
+		<render_debug_materials/>
+		<render_composite_deferred_material/>
+		<sky_rotation>0 0 0 1</sky_rotation>
+		<albedo_cavity_texture_name>core/textures/common/white.dds</albedo_cavity_texture_name>
+		<shading_cavity_texture_name>core/textures/common/white.dds</shading_cavity_texture_name>
+		<albedo_convexity_texture_name>core/textures/common/white.dds</albedo_convexity_texture_name>
+		<shading_convexity_texture_name>core/textures/common/white.dds</shading_convexity_texture_name>
+		<environment_preset_0_intensity>1</environment_preset_0_intensity>
+		<environment_preset_0_scattering_base_lut_texture_name>guid://cd518d3796c6bd6e996a25f695bace323b8f2b69</environment_preset_0_scattering_base_lut_texture_name>
+		<environment_preset_0_scattering_mie_lut_texture_name>guid://e3120f350170783531c278607a4b366265cfbfc9</environment_preset_0_scattering_mie_lut_texture_name>
+		<environment_preset_0_scattering_light_color_lut_texture_name>guid://a543adc9eb319e3f88d3ef80a6cdfa10390cd26b</environment_preset_0_scattering_light_color_lut_texture_name>
+		<environment_preset_0_sun_texture_name>core/textures/world_light/celestial_body_sun.png</environment_preset_0_sun_texture_name>
+		<environment_preset_0_sun_angular_size>0.5</environment_preset_0_sun_angular_size>
+		<environment_preset_0_sun_texture_color>1 1 1 1</environment_preset_0_sun_texture_color>
+		<environment_preset_0_sun_texture_intensity>1</environment_preset_0_sun_texture_intensity>
+		<environment_preset_0_moon_texture_name>guid://32e9a2dce08f292cedf2dc9d208b019f27a586a0</environment_preset_0_moon_texture_name>
+		<environment_preset_0_moon_angular_size>0.5</environment_preset_0_moon_angular_size>
+		<environment_preset_0_moon_texture_color>1 1 1 1</environment_preset_0_moon_texture_color>
+		<environment_preset_0_moon_texture_intensity>1</environment_preset_0_moon_texture_intensity>
+		<environment_preset_0_texture_name>guid://fdce52252458c90169b884999ed107ed4f612ffe</environment_preset_0_texture_name>
+		<environment_preset_0_texture_color>1 1 1 0</environment_preset_0_texture_color>
+		<environment_preset_0_texture_rotation>0 0 0</environment_preset_0_texture_rotation>
+		<environment_preset_0_texture_blur>0</environment_preset_0_texture_blur>
+		<environment_preset_0_haze_color>1 1 1 1</environment_preset_0_haze_color>
+		<environment_preset_0_haze_max_distance>10000</environment_preset_0_haze_max_distance>
+		<environment_preset_0_haze_density>1</environment_preset_0_haze_density>
+		<environment_preset_0_ambient_intensity>1</environment_preset_0_ambient_intensity>
+		<environment_preset_0_reflection_intensity>1</environment_preset_0_reflection_intensity>
+		<environment_preset_0_sky_intensity>1</environment_preset_0_sky_intensity>
+		<environment_preset_1_intensity>0</environment_preset_1_intensity>
+		<environment_preset_1_scattering_base_lut_texture_name>guid://273a674fad0cb1658ca1d293b73e48e3f6e629bd</environment_preset_1_scattering_base_lut_texture_name>
+		<environment_preset_1_scattering_mie_lut_texture_name>guid://9f2f4594005da4e941a5d275268a8ebdea663b79</environment_preset_1_scattering_mie_lut_texture_name>
+		<environment_preset_1_scattering_light_color_lut_texture_name>guid://d798cb1e62ee2d61a673b602b3fd94acc56b564b</environment_preset_1_scattering_light_color_lut_texture_name>
+		<environment_preset_1_sun_texture_name>core/textures/world_light/celestial_body_sun.png</environment_preset_1_sun_texture_name>
+		<environment_preset_1_sun_angular_size>0.5</environment_preset_1_sun_angular_size>
+		<environment_preset_1_sun_texture_color>1 1 1 1</environment_preset_1_sun_texture_color>
+		<environment_preset_1_sun_texture_intensity>1</environment_preset_1_sun_texture_intensity>
+		<environment_preset_1_moon_texture_name>guid://32e9a2dce08f292cedf2dc9d208b019f27a586a0</environment_preset_1_moon_texture_name>
+		<environment_preset_1_moon_angular_size>0.5</environment_preset_1_moon_angular_size>
+		<environment_preset_1_moon_texture_color>1 1 1 1</environment_preset_1_moon_texture_color>
+		<environment_preset_1_moon_texture_intensity>1</environment_preset_1_moon_texture_intensity>
+		<environment_preset_1_texture_name>guid://fdce52252458c90169b884999ed107ed4f612ffe</environment_preset_1_texture_name>
+		<environment_preset_1_texture_color>1 1 1 0</environment_preset_1_texture_color>
+		<environment_preset_1_texture_rotation>0 0 0</environment_preset_1_texture_rotation>
+		<environment_preset_1_texture_blur>0</environment_preset_1_texture_blur>
+		<environment_preset_1_haze_color>1 1 1 1</environment_preset_1_haze_color>
+		<environment_preset_1_haze_max_distance>10000</environment_preset_1_haze_max_distance>
+		<environment_preset_1_haze_density>5</environment_preset_1_haze_density>
+		<environment_preset_1_ambient_intensity>1</environment_preset_1_ambient_intensity>
+		<environment_preset_1_reflection_intensity>1</environment_preset_1_reflection_intensity>
+		<environment_preset_1_sky_intensity>1</environment_preset_1_sky_intensity>
+		<environment_preset_2_intensity>0</environment_preset_2_intensity>
+		<environment_preset_2_scattering_base_lut_texture_name>guid://cb3dbb4e699ac80e4405d1d1cfe838e8a6819c5e</environment_preset_2_scattering_base_lut_texture_name>
+		<environment_preset_2_scattering_mie_lut_texture_name>guid://b1114d0c046f1d7c4df1a44ae88c8ae95e69e3e0</environment_preset_2_scattering_mie_lut_texture_name>
+		<environment_preset_2_scattering_light_color_lut_texture_name>guid://05462bf386517bdde2ee432e50c888cd653f1f42</environment_preset_2_scattering_light_color_lut_texture_name>
+		<environment_preset_2_sun_texture_name>core/textures/world_light/celestial_body_sun.png</environment_preset_2_sun_texture_name>
+		<environment_preset_2_sun_angular_size>0.5</environment_preset_2_sun_angular_size>
+		<environment_preset_2_sun_texture_color>1 1 1 1</environment_preset_2_sun_texture_color>
+		<environment_preset_2_sun_texture_intensity>1</environment_preset_2_sun_texture_intensity>
+		<environment_preset_2_moon_texture_name>guid://32e9a2dce08f292cedf2dc9d208b019f27a586a0</environment_preset_2_moon_texture_name>
+		<environment_preset_2_moon_angular_size>0.5</environment_preset_2_moon_angular_size>
+		<environment_preset_2_moon_texture_color>1 1 1 1</environment_preset_2_moon_texture_color>
+		<environment_preset_2_moon_texture_intensity>1</environment_preset_2_moon_texture_intensity>
+		<environment_preset_2_texture_name>guid://fdce52252458c90169b884999ed107ed4f612ffe</environment_preset_2_texture_name>
+		<environment_preset_2_texture_color>1 1 1 0</environment_preset_2_texture_color>
+		<environment_preset_2_texture_rotation>0 0 0</environment_preset_2_texture_rotation>
+		<environment_preset_2_texture_blur>0</environment_preset_2_texture_blur>
+		<environment_preset_2_haze_color>1 1 1 1</environment_preset_2_haze_color>
+		<environment_preset_2_haze_max_distance>10000</environment_preset_2_haze_max_distance>
+		<environment_preset_2_haze_density>5</environment_preset_2_haze_density>
+		<environment_preset_2_ambient_intensity>1</environment_preset_2_ambient_intensity>
+		<environment_preset_2_reflection_intensity>1</environment_preset_2_reflection_intensity>
+		<environment_preset_2_sky_intensity>1</environment_preset_2_sky_intensity>
+		<bake_lighting_bounces>4</bake_lighting_bounces>
+		<bake_lighting_per_frame>40</bake_lighting_per_frame>
+		<bake_lighting_voxel_size_multiplier>1</bake_lighting_voxel_size_multiplier>
+		<gl_async_buffer_synchronization>1</gl_async_buffer_synchronization>
+		<render_alpha_fade>1</render_alpha_fade>
+		<render_animation_leaf>1</render_animation_leaf>
+		<render_animation_scale>1</render_animation_scale>
+		<render_animation_stem>1</render_animation_stem>
+		<render_animation_wind>0 0 0</render_animation_wind>
+		<render_auxiliary>1</render_auxiliary>
+		<render_background_color>0 0 0 0</render_background_color>
+		<render_bent_normal_ray_tracing>1</render_bent_normal_ray_tracing>
+		<render_bent_normal_ray_tracing_denoise>0</render_bent_normal_ray_tracing_denoise>
+		<render_bent_normal_ray_tracing_threshold>1</render_bent_normal_ray_tracing_threshold>
+		<render_bloom>1</render_bloom>
+		<render_bloom_passes>8</render_bloom_passes>
+		<render_bloom_power>0.5</render_bloom_power>
+		<render_bloom_resolution>1</render_bloom_resolution>
+		<render_bloom_scale>0.349999994</render_bloom_scale>
+		<render_border>0 0</render_border>
+		<render_budget>0.0166666992</render_budget>
+		<render_camera_effects_temporal_filtering>0</render_camera_effects_temporal_filtering>
+		<render_camera_effects_threshold>1.20000005</render_camera_effects_threshold>
+		<render_camera_mode>0</render_camera_mode>
+		<render_clouds_downsampling_rendering>1</render_clouds_downsampling_rendering>
+		<render_clouds_dynamic_coverage_area>10000</render_clouds_dynamic_coverage_area>
+		<render_clouds_dynamic_coverage_resolution>256</render_clouds_dynamic_coverage_resolution>
+		<render_clouds_ground_shadows>1</render_clouds_ground_shadows>
+		<render_clouds_interleaved_rendering>0</render_clouds_interleaved_rendering>
+		<render_clouds_lighting_cone_radius>0.300000012</render_clouds_lighting_cone_radius>
+		<render_clouds_lighting_quality>1</render_clouds_lighting_quality>
+		<render_clouds_lighting_tracelength>100</render_clouds_lighting_tracelength>
+		<render_clouds_noise_iterations>0.100000001</render_clouds_noise_iterations>
+		<render_clouds_noise_lighting>0.300000012</render_clouds_noise_lighting>
+		<render_clouds_noise_step>0.300000012</render_clouds_noise_step>
+		<render_clouds_noise_step_skip>0.300000012</render_clouds_noise_step_skip>
+		<render_clouds_samples_count>2</render_clouds_samples_count>
+		<render_clouds_sampling_quality>1</render_clouds_sampling_quality>
+		<render_clouds_shadow_shafts>1</render_clouds_shadow_shafts>
+		<render_clouds_simplified_depth_test>1</render_clouds_simplified_depth_test>
+		<render_clouds_soft_intersection>100</render_clouds_soft_intersection>
+		<render_clouds_transparent_order>0</render_clouds_transparent_order>
+		<render_cross>0</render_cross>
+		<render_cross_angle>45</render_cross_angle>
+		<render_cross_color>1 1 1 1</render_cross_color>
+		<render_cross_length>0.200000003</render_cross_length>
+		<render_cross_scale>0.400000006</render_cross_scale>
+		<render_cross_shafts>6</render_cross_shafts>
+		<render_cross_threshold>0</render_cross_threshold>
+		<render_debug>1</render_debug>
+		<render_decal_distance>1e+009</render_decal_distance>
+		<render_decals>1</render_decals>
+		<render_depth_pre_pass>0</render_depth_pre_pass>
+		<render_dirt_scale>0.5</render_dirt_scale>
+		<render_distance_scale>1</render_distance_scale>
+		<render_dof>0</render_dof>
+		<render_dof_blur>1</render_dof_blur>
+		<render_dof_bokeh_mode>0</render_dof_bokeh_mode>
+		<render_dof_chromatic_aberration>0</render_dof_chromatic_aberration>
+		<render_dof_far_distance>10</render_dof_far_distance>
+		<render_dof_far_focal_offset>9.99999997e-007</render_dof_far_focal_offset>
+		<render_dof_focal_distance>1</render_dof_focal_distance>
+		<render_dof_focus_improvement>0</render_dof_focus_improvement>
+		<render_dof_increased_accuracy>0</render_dof_increased_accuracy>
+		<render_dof_near_distance>10</render_dof_near_distance>
+		<render_dof_near_focal_offset>9.99999997e-007</render_dof_near_focal_offset>
+		<render_dof_quality>1</render_dof_quality>
+		<render_dof_resolution>2</render_dof_resolution>
+		<render_environment>1</render_environment>
+		<render_environment_cubemap_blend>0</render_environment_cubemap_blend>
+		<render_environment_haze>2</render_environment_haze>
+		<render_environment_haze_gradient>0</render_environment_haze_gradient>
+		<render_exposure>0.600000024</render_exposure>
+		<render_exposure_adaptation>1</render_exposure_adaptation>
+		<render_exposure_mode>2</render_exposure_mode>
+		<render_f_stop>11</render_f_stop>
+		<render_fade_color>0 0 0 0</render_fade_color>
+		<render_field_distance>1e+009</render_field_distance>
+		<render_field_height_resolution>2</render_field_height_resolution>
+		<render_field_precision>0</render_field_precision>
+		<render_field_shoreline_resolution>0</render_field_shoreline_resolution>
+		<render_filmic>1</render_filmic>
+		<render_fps_stabilization>0</render_fps_stabilization>
+		<render_fps_stabilization_min>30</render_fps_stabilization_min>
+		<render_fps_stabilization_offset>4</render_fps_stabilization_offset>
+		<render_fps_stabilization_rounding>10</render_fps_stabilization_rounding>
+		<render_fps_stabilization_speed_down>16</render_fps_stabilization_speed_down>
+		<render_fps_stabilization_speed_up>16</render_fps_stabilization_speed_up>
+		<render_fxaa>1</render_fxaa>
+		<render_fxaa_intensity>1</render_fxaa_intensity>
+		<render_gbuffer_lightmap>1</render_gbuffer_lightmap>
+		<render_iso>100</render_iso>
+		<render_latency>1</render_latency>
+		<render_lens>0</render_lens>
+		<render_lens_color>1 1 1 1</render_lens_color>
+		<render_lens_dispersion>1 1 1</render_lens_dispersion>
+		<render_lens_length>0.153999999</render_lens_length>
+		<render_lens_radius>0.270999998</render_lens_radius>
+		<render_lens_scale>0.0350000001</render_lens_scale>
+		<render_lens_threshold>1</render_lens_threshold>
+		<render_light_distance>1e+009</render_light_distance>
+		<render_lights_forward_per_object_env>4</render_lights_forward_per_object_env>
+		<render_lights_forward_per_object_omni>4</render_lights_forward_per_object_omni>
+		<render_lights_forward_per_object_proj>4</render_lights_forward_per_object_proj>
+		<render_lights_forward_per_object_voxel>4</render_lights_forward_per_object_voxel>
+		<render_lights_forward_per_object_world>4</render_lights_forward_per_object_world>
+		<render_lights_interleaved>0</render_lights_interleaved>
+		<render_lights_interleaved_catmull_resampling>0</render_lights_interleaved_catmull_resampling>
+		<render_lights_interleaved_color_clamping>1</render_lights_interleaved_color_clamping>
+		<render_lights_lens_flares>1</render_lights_lens_flares>
+		<render_lights_max_per_batch>1024</render_lights_max_per_batch>
+		<render_lights_tile_grid_size>8</render_lights_tile_grid_size>
+		<render_max_fps>0</render_max_fps>
+		<render_motion_blur>1</render_motion_blur>
+		<render_motion_blur_camera_velocity>1</render_motion_blur_camera_velocity>
+		<render_motion_blur_max_velocity>1</render_motion_blur_max_velocity>
+		<render_motion_blur_neat_silhouettes>1</render_motion_blur_neat_silhouettes>
+		<render_motion_blur_noise_intensity>0.25</render_motion_blur_noise_intensity>
+		<render_motion_blur_num_steps>4</render_motion_blur_num_steps>
+		<render_motion_blur_velocity_scale>1</render_motion_blur_velocity_scale>
+		<render_object_distance>1e+009</render_object_distance>
+		<render_occluders>1</render_occluders>
+		<render_occluders_resolution>128 64</render_occluders_resolution>
+		<render_occluders_shadows>0</render_occluders_shadows>
+		<render_occluders_shadows_resolution>512 512</render_occluders_shadows_resolution>
+		<render_occlusion_queries>1</render_occlusion_queries>
+		<render_occlusion_queries_num_frames>5</render_occlusion_queries_num_frames>
+		<render_panorama>0</render_panorama>
+		<render_reflection_distance>1e+009</render_reflection_distance>
+		<render_reflection_dynamic>0</render_reflection_dynamic>
+		<render_reflection_lods>1</render_reflection_lods>
+		<render_refraction>1</render_refraction>
+		<render_refraction_dispersion>1 1 1</render_refraction_dispersion>
+		<render_screen_precision>1</render_screen_precision>
+		<render_shaders_preload>0</render_shaders_preload>
+		<render_shadow_distance>500</render_shadow_distance>
+		<render_shadow_distance_scale>1</render_shadow_distance_scale>
+		<render_shadow_shafts>0</render_shadow_shafts>
+		<render_shadow_shafts_exposure>0.5</render_shadow_shafts_exposure>
+		<render_shadow_shafts_length>0.5</render_shadow_shafts_length>
+		<render_shadows>1</render_shadows>
+		<render_shadows_alpha_test>1</render_shadows_alpha_test>
+		<render_shadows_screen_space>0</render_shadows_screen_space>
+		<render_shadows_filter_mode>3</render_shadows_filter_mode>
+		<render_shadows_translucent_depth>0.100000001</render_shadows_translucent_depth>
+		<render_shadows_world_lerp_cascades>1</render_shadows_world_lerp_cascades>
+		<render_sharpen>1</render_sharpen>
+		<render_sharpen_intensity>0.5</render_sharpen_intensity>
+		<render_show_alpha_test>0</render_show_alpha_test>
+		<render_show_ambient>0</render_show_ambient>
+		<render_show_cascades>0</render_show_cascades>
+		<render_show_decals>0</render_show_decals>
+		<render_show_dynamic>0</render_show_dynamic>
+		<render_show_geodetic_pivot>0</render_show_geodetic_pivot>
+		<render_show_mipmaps>0</render_show_mipmaps>
+		<render_show_occluder>0</render_show_occluder>
+		<render_show_queries>0</render_show_queries>
+		<render_show_scissors>0</render_show_scissors>
+		<render_show_textures>0</render_show_textures>
+		<render_show_textures_number>7</render_show_textures_number>
+		<render_show_textures_offset>0</render_show_textures_offset>
+		<render_show_transparent>0</render_show_transparent>
+		<render_show_triangles>0</render_show_triangles>
+		<render_shutter_speed>250</render_shutter_speed>
+		<render_clouds_enabled>1</render_clouds_enabled>
+		<render_lights_enabled>1</render_lights_enabled>
+		<render_screen_space_effects>1</render_screen_space_effects>
+		<render_pre_post_materials_enabled>1</render_pre_post_materials_enabled>
+		<render_transparent_enabled>1</render_transparent_enabled>
+		<render_transparent_ambient>1</render_transparent_ambient>
+		<render_transparent_deferred>1</render_transparent_deferred>
+		<render_transparent_light>1</render_transparent_light>
+		<render_transparent_multiple_env_probes>1</render_transparent_multiple_env_probes>
+		<render_water_enabled>1</render_water_enabled>
+		<render_ssao>1</render_ssao>
+		<render_ssao_cavity>1</render_ssao_cavity>
+		<render_ssao_cavity_intensity>0.300000012</render_ssao_cavity_intensity>
+		<render_ssao_cavity_radius>2</render_ssao_cavity_radius>
+		<render_ssao_intensity>1</render_ssao_intensity>
+		<render_ssao_intensity_lighted_side>0</render_ssao_intensity_lighted_side>
+		<render_ssao_intensity_reflection>1</render_ssao_intensity_reflection>
+		<render_ssao_noise>1</render_ssao_noise>
+		<render_ssao_quality>1</render_ssao_quality>
+		<render_ssao_radius>1</render_ssao_radius>
+		<render_ssao_ray_tracing>1</render_ssao_ray_tracing>
+		<render_ssao_ray_tracing_denoise>0</render_ssao_ray_tracing_denoise>
+		<render_ssao_ray_tracing_threshold>1</render_ssao_ray_tracing_threshold>
+		<render_ssao_resolution>1</render_ssao_resolution>
+		<render_ssao_threshold>0.5</render_ssao_threshold>
+		<render_ssbevel>1</render_ssbevel>
+		<render_ssbevel_noise>1</render_ssbevel_noise>
+		<render_ssbevel_quality>1</render_ssbevel_quality>
+		<render_ssbevel_radius>0.00999999978</render_ssbevel_radius>
+		<render_ssbevel_vertex_normal>0</render_ssbevel_vertex_normal>
+		<render_ssdirt>0</render_ssdirt>
+		<render_ssdirt_angle_bias>0.349999994</render_ssdirt_angle_bias>
+		<render_ssdirt_cavity_color>0.25999999 0.239999995 0.209999993 1</render_ssdirt_cavity_color>
+		<render_ssdirt_cavity_exponent>1</render_ssdirt_cavity_exponent>
+		<render_ssdirt_cavity_metalness>0</render_ssdirt_cavity_metalness>
+		<render_ssdirt_cavity_metalness_visibility>0</render_ssdirt_cavity_metalness_visibility>
+		<render_ssdirt_cavity_texture_size>1</render_ssdirt_cavity_texture_size>
+		<render_ssdirt_convexity_color>0.479999989 0.439999998 0.389999986 1</render_ssdirt_convexity_color>
+		<render_ssdirt_convexity_exponent>1</render_ssdirt_convexity_exponent>
+		<render_ssdirt_convexity_metalness>0</render_ssdirt_convexity_metalness>
+		<render_ssdirt_convexity_metalness_visibility>0</render_ssdirt_convexity_metalness_visibility>
+		<render_ssdirt_convexity_texture_size>1</render_ssdirt_convexity_texture_size>
+		<render_ssdirt_increase_accuracy>0</render_ssdirt_increase_accuracy>
+		<render_ssdirt_intensity>1</render_ssdirt_intensity>
+		<render_ssdirt_perspective>0.0199999996</render_ssdirt_perspective>
+		<render_ssdirt_quality>2</render_ssdirt_quality>
+		<render_ssdirt_radius>1</render_ssdirt_radius>
+		<render_ssdirt_resolution>1</render_ssdirt_resolution>
+		<render_ssdirt_threshold>1</render_ssdirt_threshold>
+		<render_ssgi>0</render_ssgi>
+		<render_ssgi_intensity>1</render_ssgi_intensity>
+		<render_ssgi_normal_threshold>1</render_ssgi_normal_threshold>
+		<render_ssgi_quality>2</render_ssgi_quality>
+		<render_ssgi_radius>1</render_ssgi_radius>
+		<render_ssgi_ray_tracing>1</render_ssgi_ray_tracing>
+		<render_ssgi_ray_tracing_denoise>1</render_ssgi_ray_tracing_denoise>
+		<render_ssgi_ray_tracing_threshold>1</render_ssgi_ray_tracing_threshold>
+		<render_ssgi_resolution>1</render_ssgi_resolution>
+		<render_ssgi_resolution_color>1</render_ssgi_resolution_color>
+		<render_ssr>0</render_ssr>
+		<render_ssr_denoise>1</render_ssr_denoise>
+		<render_ssr_fast_tracing>1</render_ssr_fast_tracing>
+		<render_ssr_importance_sampling>1</render_ssr_importance_sampling>
+		<render_ssr_increased_accuracy>0</render_ssr_increased_accuracy>
+		<render_ssr_noise_ray>0.5</render_ssr_noise_ray>
+		<render_ssr_noise_step>0.300000012</render_ssr_noise_step>
+		<render_ssr_num_rays>8</render_ssr_num_rays>
+		<render_ssr_num_steps>6</render_ssr_num_steps>
+		<render_ssr_resolution>1</render_ssr_resolution>
+		<render_ssr_resolution_color>0</render_ssr_resolution_color>
+		<render_ssr_resolution_depth>0</render_ssr_resolution_depth>
+		<render_ssr_roughness_quality>1</render_ssr_roughness_quality>
+		<render_ssr_step_size>0.5</render_ssr_step_size>
+		<render_ssr_threshold>1</render_ssr_threshold>
+		<render_ssr_threshold_occlusion>0.25</render_ssr_threshold_occlusion>
+		<render_ssr_visibility_roughness_max>0.899999976</render_ssr_visibility_roughness_max>
+		<render_ssr_visibility_roughness_min>0.699999988</render_ssr_visibility_roughness_min>
+		<render_ssrtgi>1</render_ssrtgi>
+		<render_ssrtgi_fast_tracing>1</render_ssrtgi_fast_tracing>
+		<render_ssrtgi_increased_accuracy>1</render_ssrtgi_increased_accuracy>
+		<render_ssrtgi_noise_ray>0.300000012</render_ssrtgi_noise_ray>
+		<render_ssrtgi_noise_step>0.300000012</render_ssrtgi_noise_step>
+		<render_ssrtgi_num_rays>6</render_ssrtgi_num_rays>
+		<render_ssrtgi_num_steps>4</render_ssrtgi_num_steps>
+		<render_ssrtgi_resolution>1</render_ssrtgi_resolution>
+		<render_ssrtgi_resolution_depth>0</render_ssrtgi_resolution_depth>
+		<render_ssrtgi_step_size>2</render_ssrtgi_step_size>
+		<render_ssrtgi_upscaling>1</render_ssrtgi_upscaling>
+		<render_sssss>0</render_sssss>
+		<render_sssss_color>1 0 0 1</render_sssss_color>
+		<render_sssss_quality>2</render_sssss_quality>
+		<render_sssss_radius>1</render_sssss_radius>
+		<render_sssss_resolution>0</render_sssss_resolution>
+		<render_stereo>0</render_stereo>
+		<render_stereo_hidden_area>0</render_stereo_hidden_area>
+		<render_stereo_hidden_area_exposure_transform>0.600000024 0.600000024 0 0</render_stereo_hidden_area_exposure_transform>
+		<render_stereo_hidden_area_transform>1 1 0 0</render_stereo_hidden_area_transform>
+		<render_stereo_reprojection>0</render_stereo_reprojection>
+		<render_stereo_reprojection_buffers_fix_blur>1</render_stereo_reprojection_buffers_fix_blur>
+		<render_stereo_reprojection_fix_blur>1</render_stereo_reprojection_fix_blur>
+		<render_stereo_reprojection_threshold>1</render_stereo_reprojection_threshold>
+		<render_streaming_destroy_duration>30</render_streaming_destroy_duration>
+		<render_streaming_max_threads>1</render_streaming_max_threads>
+		<render_streaming_meshes_memory_limit>15</render_streaming_meshes_memory_limit>
+		<render_streaming_mode>0</render_streaming_mode>
+		<render_streaming_textures_cache_preload>1</render_streaming_textures_cache_preload>
+		<render_streaming_textures_cache_resolution>1</render_streaming_textures_cache_resolution>
+		<render_streaming_textures_memory_limit>65</render_streaming_textures_memory_limit>
+		<render_streaming_use_memory_limit>1</render_streaming_use_memory_limit>
+		<render_sun_shafts>0</render_sun_shafts>
+		<render_sun_shafts_attenuation>0.949999988</render_sun_shafts_attenuation>
+		<render_sun_shafts_color>1 1 1 1</render_sun_shafts_color>
+		<render_sun_shafts_length>1</render_sun_shafts_length>
+		<render_sun_shafts_scale>1.5</render_sun_shafts_scale>
+		<render_sun_shafts_threshold>0</render_sun_shafts_threshold>
+		<render_supersampling>1</render_supersampling>
+		<render_taa>1</render_taa>
+		<render_taa_antialiasing_in_motion>0</render_taa_antialiasing_in_motion>
+		<render_taa_catmull_resampling>1</render_taa_catmull_resampling>
+		<render_taa_frames_by_color>1</render_taa_frames_by_color>
+		<render_taa_diagonal_neighbors>0</render_taa_diagonal_neighbors>
+		<render_taa_fix_flicker>1</render_taa_fix_flicker>
+		<render_taa_frame_count>30</render_taa_frame_count>
+		<render_taa_max_frames_by_velocity>128</render_taa_max_frames_by_velocity>
+		<render_taa_min_frames_by_velocity>4</render_taa_min_frames_by_velocity>
+		<render_taa_pixel_offset>1</render_taa_pixel_offset>
+		<render_taa_preserve_details>1.5</render_taa_preserve_details>
+		<render_taa_samples>1</render_taa_samples>
+		<render_taa_frames_by_velocity>1</render_taa_frames_by_velocity>
+		<render_taa_frames_velocity_threshold>1</render_taa_frames_velocity_threshold>
+		<render_terrain_global_anisotropy>2</render_terrain_global_anisotropy>
+		<render_terrain_global_displacement>1</render_terrain_global_displacement>
+		<render_terrain_global_displacement_normal>1</render_terrain_global_displacement_normal>
+		<render_terrain_global_holes>1</render_terrain_global_holes>
+		<render_terrain_global_triplanar>1</render_terrain_global_triplanar>
+		<render_textures_anisotropy>4</render_textures_anisotropy>
+		<render_textures_filter>1</render_textures_filter>
+		<render_textures_max_resolution>6</render_textures_max_resolution>
+		<render_textures_min_resolution>0</render_textures_min_resolution>
+		<render_textures_quality>2</render_textures_quality>
+		<render_translucent_color>1 1 0 1</render_translucent_color>
+		<render_transparent_blur>1</render_transparent_blur>
+		<render_virtual_resolution>-1 -1</render_virtual_resolution>
+		<render_vr_emulation>0</render_vr_emulation>
+		<render_water_anisotropy>1</render_water_anisotropy>
+		<render_water_environment_probes>1</render_water_environment_probes>
+		<render_water_lights>1</render_water_lights>
+		<render_water_opacity_depth>1</render_water_opacity_depth>
+		<render_water_refraction_quality>2</render_water_refraction_quality>
+		<render_water_shafts>1</render_water_shafts>
+		<render_water_shoreline_wetness>1</render_water_shoreline_wetness>
+		<render_water_ssr>1</render_water_ssr>
+		<render_water_ssr_increased_accuracy>0</render_water_ssr_increased_accuracy>
+		<render_water_ssr_quality>1</render_water_ssr_quality>
+		<render_water_voxel_probes>1</render_water_voxel_probes>
+		<render_white_balance>1</render_white_balance>
+		<render_white_balance_adaptation_time>1</render_white_balance_adaptation_time>
+		<render_white_balance_intensity>0.300000012</render_white_balance_intensity>
+		<render_wireframe_color>1 1 1 1</render_wireframe_color>
+		<render_bent_normal_denoise_quality>1</render_bent_normal_denoise_quality>
+		<render_bent_normal_fix_overlit_areas>0</render_bent_normal_fix_overlit_areas>
+		<render_environment_correct_roughness>1</render_environment_correct_roughness>
+		<render_lights_interleaved_samples>0</render_lights_interleaved_samples>
+		<render_shadows_filter_noise>0</render_shadows_filter_noise>
+		<render_shadows_penumbra_mode>0</render_shadows_penumbra_mode>
+		<render_shadows_penumbra_noise>1</render_shadows_penumbra_noise>
+		<render_ssao_denoise_quality>1</render_ssao_denoise_quality>
+		<render_ssgi_color_clamping_intensity>0.2</render_ssgi_color_clamping_intensity>
+		<render_ssgi_color_clamping_velocity_threshold>100</render_ssgi_color_clamping_velocity_threshold>
+		<render_ssgi_denoise_gaussian_sigma>10</render_ssgi_denoise_gaussian_sigma>
+		<render_ssgi_denoise_intensity>0.2</render_ssgi_denoise_intensity>
+		<render_ssgi_denoise_quality>1</render_ssgi_denoise_quality>
+		<render_ssgi_denoise_radius>1</render_ssgi_denoise_radius>
+		<render_ssgi_denoise_threshold>0.1</render_ssgi_denoise_threshold>
+		<render_ssr_color_clamping_intensity>1</render_ssr_color_clamping_intensity>
+		<render_ssr_color_clamping_velocity_threshold>0</render_ssr_color_clamping_velocity_threshold>
+		<render_ssr_denoise_gussian_sigma>10</render_ssr_denoise_gussian_sigma>
+		<render_ssr_denoise_intensity>0.2</render_ssr_denoise_intensity>
+		<render_ssr_denoise_quality>1</render_ssr_denoise_quality>
+		<render_ssr_denoise_radius>1</render_ssr_denoise_radius>
+		<render_ssr_denoise_threshold>0.1</render_ssr_denoise_threshold>
+		<render_sssss_ambient>0</render_sssss_ambient>
+		<render_sssss_diffuse>1</render_sssss_diffuse>
+		<render_sssss_interleaved>0</render_sssss_interleaved>
+		<render_sssss_interleaved_color_clamping>1</render_sssss_interleaved_color_clamping>
+		<render_sssss_interleaved_samples>0</render_sssss_interleaved_samples>
+		<render_sssss_max_threshold>10</render_sssss_max_threshold>
+		<render_sssss_min_threshold>4</render_sssss_min_threshold>
+		<render_sssss_noise_ray>0.5</render_sssss_noise_ray>
+		<render_sssss_noise_step>0.5</render_sssss_noise_step>
+		<render_sssss_taa_antialiasing_in_motion>0</render_sssss_taa_antialiasing_in_motion>
+		<render_sssss_taa_catmull_resampling>1</render_sssss_taa_catmull_resampling>
+		<render_sssss_taa_fix_flicker>1</render_sssss_taa_fix_flicker>
+		<render_sssss_taa_frame_count>30</render_sssss_taa_frame_count>
+		<render_sssss_taa_frames_by_color>0</render_sssss_taa_frames_by_color>
+		<render_sssss_taa_frames_by_velocity>1</render_sssss_taa_frames_by_velocity>
+		<render_sssss_taa_frames_velocity_threshold>1</render_sssss_taa_frames_velocity_threshold>
+		<render_sssss_taa_max_frames_by_velocity>60</render_sssss_taa_max_frames_by_velocity>
+		<render_sssss_taa_min_frames_by_velocity>4</render_sssss_taa_min_frames_by_velocity>
+		<render_sssss_taa_pixel_offset>1</render_sssss_taa_pixel_offset>
+		<render_sssss_taa_preserve_details>0.5</render_sssss_taa_preserve_details>
+		<render_sssss_taa_samples>1</render_sssss_taa_samples>
+		<gl_terrain_use_async>1</gl_terrain_use_async>
+		<gl_terrain_waiting_frames>4</gl_terrain_waiting_frames>
+		<gl_use_debug_info>0</gl_use_debug_info>
+		<render_clouds_distortion_texture>0</render_clouds_distortion_texture>
+		<render_landscape_cache_cpu_size>10</render_landscape_cache_cpu_size>
+		<render_landscape_cache_gpu_life_time>4</render_landscape_cache_gpu_life_time>
+		<render_landscape_cache_gpu_size>4</render_landscape_cache_gpu_size>
+		<render_landscape_terrain_culling_back_face>0.5</render_landscape_terrain_culling_back_face>
+		<render_landscape_terrain_culling_frustum_padding>0.1</render_landscape_terrain_culling_frustum_padding>
+		<render_landscape_terrain_culling_oblique_frustum>0.9</render_landscape_terrain_culling_oblique_frustum>
+		<render_landscape_terrain_detail_resolution_additional_mask>4</render_landscape_terrain_detail_resolution_additional_mask>
+		<render_landscape_terrain_detail_resolution_albedo>4</render_landscape_terrain_detail_resolution_albedo>
+		<render_landscape_terrain_detail_resolution_height>4</render_landscape_terrain_detail_resolution_height>
+		<render_landscape_terrain_geometry_fade_lods>0.5</render_landscape_terrain_geometry_fade_lods>
+		<render_landscape_terrain_geometry_holes>1</render_landscape_terrain_geometry_holes>
+		<render_landscape_terrain_geometry_polygon_size>0.01</render_landscape_terrain_geometry_polygon_size>
+		<render_landscape_terrain_geometry_progression>1.5</render_landscape_terrain_geometry_progression>
+		<render_landscape_terrain_geometry_subpixel_reduction>6</render_landscape_terrain_geometry_subpixel_reduction>
+		<render_landscape_terrain_texel_size>0.001</render_landscape_terrain_texel_size>
+		<render_landscape_terrain_visible_distance>30000</render_landscape_terrain_visible_distance>
+		<render_landscape_terrain_vt_detail_level_by_angle>0.95</render_landscape_terrain_vt_detail_level_by_angle>
+		<render_landscape_terrain_vt_filtering>1</render_landscape_terrain_vt_filtering>
+		<render_landscape_terrain_vt_memory_size>0.4</render_landscape_terrain_vt_memory_size>
+		<render_landscape_terrain_vt_target_resolution>1344 756</render_landscape_terrain_vt_target_resolution>
+		<render_landscape_terrain_vt_tiles_load_per_frame>4</render_landscape_terrain_vt_tiles_load_per_frame>
+		<render_landscape_terrain_vt_tiles_reload_per_frame>4</render_landscape_terrain_vt_tiles_reload_per_frame>
+		<render_landscape_terrain_vt_tiles_update_per_frame>60</render_landscape_terrain_vt_tiles_update_per_frame>
+		<render_show_landscape_mask>0</render_show_landscape_mask>
+		<render_show_landscape_terrain_vt_streaming>0</render_show_landscape_terrain_vt_streaming>
+		<render_streaming_upadte_limit>1.5</render_streaming_upadte_limit>
+		<render_ffp_antialiasing_lines>1</render_ffp_antialiasing_lines>
+		<render_filmic_shoulder_scale>1.0</render_filmic_shoulder_scale>
+		<render_filmic_linear_scale>0.3</render_filmic_linear_scale>
+		<render_filmic_linear_angle>0.1</render_filmic_linear_angle>
+		<render_filmic_toe_scale>0.2</render_filmic_toe_scale>
+		<render_filmic_toe_numerator>0.01</render_filmic_toe_numerator>
+		<render_filmic_toe_denominator>0.3</render_filmic_toe_denominator>
+		<render_filmic_white_level>10.0</render_filmic_white_level>
+		<render_filmic_saturation_recovery>0.5</render_filmic_saturation_recovery>
+		<render_landscape_terrain_culling_aggressive>1</render_landscape_terrain_culling_aggressive>
+		<render_streaming_particles_memory_limit>3</render_streaming_particles_memory_limit>
+		<render_wireframe_antialiasing>1</render_wireframe_antialiasing>
+	</render>
+	<game>
+		<enabled>1</enabled>
+	</game>
+	<editor>
+		<data>
+			<settings>
+				<item name="save_camera">1</item>
+			</settings>
+		</data>
+		<node type="LightWorld" id="824505625" name="sun">
+			<scattering>1</scattering>
+			<disable_angle>90</disable_angle>
+			<shadow_height>10</shadow_height>
+			<shadow_width>10</shadow_width>
+			<shadow_zfar>100</shadow_zfar>
+			<shadow_cascade_mode>0</shadow_cascade_mode>
+			<num_shadow_cascades>4</num_shadow_cascades>
+			<shadow_cascade_borders>0.0299999993 0.0900000036 0.270000011</shadow_cascade_borders>
+			<shadow_resolution>5</shadow_resolution>
+			<shadow_bias>1</shadow_bias>
+			<mode>1</mode>
+			<shadow_screen_space>0</shadow_screen_space>
+			<shadow_screen_space_num_rays>2</shadow_screen_space_num_rays>
+			<shadow_screen_space_num_steps>4</shadow_screen_space_num_steps>
+			<shadow_screen_space_noise_ray>0.349999994</shadow_screen_space_noise_ray>
+			<shadow_screen_space_noise_step>0.349999994</shadow_screen_space_noise_step>
+			<shadow_screen_space_step_size>2</shadow_screen_space_step_size>
+			<shadow_screen_space_threshold>3</shadow_screen_space_threshold>
+			<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
+			<lens_flare_enabled>0</lens_flare_enabled>
+			<lens_flare_texture>core/textures/lens_flares_default.dds</lens_flare_texture>
+			<lens_flare_intensity>1</lens_flare_intensity>
+			<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+			<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+			<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+			<lens_flare_use_light_color>0</lens_flare_use_light_color>
+			<lens_flare_billboards num="31">
+				<billboard name="billboard_0" offset="0" size="10" rotate="0" uv_lower_left="0 0" uv_upper_right="0.5 0.5" color="1 1 1 1" offset_scale="1" intensity="0.800000012"/>
+				<billboard name="billboard_1" offset="0" size="0.289999992" rotate="0" uv_lower_left="0.5 0.75" uv_upper_right="0.75 1" color="1 1 1 1" offset_scale="1" intensity="0.0299999993"/>
+				<billboard name="billboard_2" offset="0.0529999994" size="0.860000014" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.941176534 0.788235366 1 1" offset_scale="1" intensity="0.5"/>
+				<billboard name="billboard_3" offset="0.0900000036" size="0.49000001" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.772549093 0.796078503 1 1" offset_scale="1" intensity="0.75999999"/>
+				<billboard name="billboard_4" offset="0.122000001" size="0.409999996" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.792156935 1 0.82745105 1" offset_scale="1" intensity="0.200000003"/>
+				<billboard name="billboard_5" offset="0.203999996" size="0.330000013" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.80392164 0.894117713 1 1" offset_scale="1" intensity="0.300000012"/>
+				<billboard name="billboard_6" offset="0.432999998" size="0.649999976" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.929411829 1 0.768627524 1" offset_scale="1" intensity="0.200000003"/>
+				<billboard name="billboard_7" offset="0.477999985" size="1.5" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.807843208 1 0.886274576 1" offset_scale="1" intensity="0.349999994"/>
+				<billboard name="billboard_8" offset="0.52700001" size="0.810000002" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.90196085 0.788235366 1" offset_scale="1" intensity="0.200000003"/>
+				<billboard name="billboard_9" offset="0.600000024" size="0.409999996" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.768627524 1 0.894117713 1" offset_scale="1" intensity="0.200000003"/>
+				<billboard name="billboard_10" offset="0.615999997" size="0.569999993" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.796078503 1 0.921568692 1" offset_scale="1" intensity="0.400000006"/>
+				<billboard name="billboard_11" offset="0.652999997" size="0.779999971" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.831372619 0.933333397 1 1" offset_scale="1" intensity="0.349999994"/>
+				<billboard name="billboard_12" offset="0.717999995" size="1.71000004" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.878431439 1 0.796078503 1" offset_scale="1" intensity="0.150000006"/>
+				<billboard name="billboard_13" offset="0.754999995" size="1.13999999" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.760784388 1 0.843137324 1" offset_scale="1" intensity="0.0500000007"/>
+				<billboard name="billboard_14" offset="0.967000008" size="0.540000021" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.878431439 0.772549093 1" offset_scale="1" intensity="0.100000001"/>
+				<billboard name="billboard_15" offset="0.338999987" size="0.289999992" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.674509823 1 0.698039234 1" offset_scale="1" intensity="0.300000012"/>
+				<billboard name="billboard_16" offset="0.00499999989" size="2" rotate="1" uv_lower_left="0 0.75" uv_upper_right="0.25 1" color="1 1 1 1" offset_scale="0" intensity="0.0799999982"/>
+				<billboard name="billboard_17" offset="-0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+				<billboard name="billboard_18" offset="0.75" size="1" rotate="1" uv_lower_left="0.5 0.5" uv_upper_right="0.75 0.75" color="1 1 1 1" offset_scale="12.2399998" intensity="0.289999992"/>
+				<billboard name="billboard_19" offset="0" size="10" rotate="0" uv_lower_left="0.5 0" uv_upper_right="1 0.5" color="1 1 1 1" offset_scale="1" intensity="0.140000001"/>
+				<billboard name="billboard_20" offset="0.245199993" size="0.610000014" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.289999992"/>
+				<billboard name="billboard_21" offset="-0.1184" size="0.800000012" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.270000011"/>
+				<billboard name="billboard_22" offset="-0.170000002" size="0.435000002" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.239999995"/>
+				<billboard name="billboard_23" offset="-0.223599985" size="0.660000026" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+				<billboard name="billboard_24" offset="-0.340499997" size="1.39499998" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.654901981 1 0.847058892 1" offset_scale="1" intensity="0.209999993"/>
+				<billboard name="billboard_25" offset="-0.474399984" size="0.944999993" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="1 0.917647123 0.811764777 1" offset_scale="1" intensity="0.349999994"/>
+				<billboard name="billboard_26" offset="-0.899999976" size="2.2650001" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.94901967 1 0.80392164 1" offset_scale="1" intensity="0.300000012"/>
+				<billboard name="billboard_20" offset="0.845000029" size="3.19000006" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+				<billboard name="billboard_20" offset="1" size="7.78999996" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.200000003"/>
+				<billboard name="billboard_20" offset="0.936999977" size="0.449999988" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
+				<billboard name="billboard_20" offset="1" size="1.03999996" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
+			</lens_flare_billboards>
+			<transform>0.43301255 -0.43559584 -0.78914905 0.0 0.75000012 0.65973938 0.047367208 0.0 0.4999997 -0.61237234 0.61237228 0.0 0 0 0 1.0</transform>
+		</node>
+		<node id="784603924" type="ObjectMeshDynamic" name="ground">
+			<object_surface name="plane" begin="0" end="54"/>
+			<vertex type="float" num_vertex="16" offset="0" size="3">-500 -500 0 -166.667007 -500 0 166.667007 -500 0 500 -500 0 -500 -166.667007 0 -166.667007 -166.667007 0 166.667007 -166.667007 0 500 -166.667007 0 -500 166.667007 0 -166.667007 166.667007 0 166.667007 166.667007 0 500 166.667007 0 -500 500 0 -166.667007 500 0 166.667007 500 0 500 500 0</vertex>
+			<vertex type="float" num_vertex="16" offset="16" size="4">0 0 0 0 0.333332986 0 0 0 0.666666985 0 0 0 1 0 0 0 0 0.333332986 0 0 0.333332986 0.333332986 0 0 0.666666985 0.333332986 0 0 1 0.333332986 0 0 0 0.666666985 0 0 0.333332986 0.666666985 0 0 0.666666985 0.666666985 0 0 1 0.666666985 0 0 0 1 0 0 0.333332986 1 0 0 0.666666985 1 0 0 1 1 0 0</vertex>
+			<vertex type="float" num_vertex="16" offset="32" size="4">0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1</vertex>
+			<vertex type="float" num_vertex="16" offset="48" size="4">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</vertex>
+			<indices num_indices="54">0 1 5 5 4 0 1 2 5 6 5 2 2 3 7 7 6 2 4 5 8 9 8 5 5 6 10 10 9 5 6 7 10 11 10 7 8 9 13 13 12 8 9 10 13 14 13 10 10 11 15 15 14 10</indices>
+			<surface name="plane" physics_friction="1" physics_restitution="1" material="8eecbf3cf9ddfddba1ca2f642ef15dfba964468a"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="856937806" name="aspen_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 -349.62878 0.84648931 3.1013769e-010 1.0</transform>
+			<node type="NodeReference" id="319210419" name="aspen_02_01">
+				<reference>guid://9345d9dc1c62aefb5c2ff63e35cb0844168f03d9</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 9.9999313 14.999996 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1701267589" name="aspen_01_04">
+				<reference>guid://acc3399972c79eaceffd3ece288fffa222344003</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.5039978 44.999996 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="41647984" name="aspen_02_04">
+				<reference>guid://11d95143dc2037d8f547bf38e4d96695ea5e0c33</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 9.9998016 44.999992 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="653047548" name="aspen_01_03">
+				<reference>guid://ca901194f5edb8e3d29c960572794baac53d95ec</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.5039978 35 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1166179306" name="aspen_01">
+				<reference>guid://961879bcff9a40526f1475d397e3604fb060daf4</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.5039978 0.84648931 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1005678228" name="aspen_02">
+				<reference>guid://29e4ee80a4c8ad80f2e5a7fab8e4c337a015a272</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 9.9999847 0.84648931 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1238415839" name="aspen_01_02">
+				<reference>guid://2764d534068783eacced35e109f2aece7f42d9b8</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.5039978 24.999998 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="787843560" name="aspen_04_02">
+				<reference>guid://bd9d31d48b392488211c649bf8e1b343d6c39517</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 29.999977 24.999996 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="259240635" name="aspen_03_04">
+				<reference>guid://7505a6e0f7962b1b9ee5cfe6b21c45a0b47cec9d</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 20.00008 44.999996 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1954072905" name="aspen_01_01">
+				<reference>guid://84cd987fca539b03d903f2390f731a1a61d60f7c</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.5039978 14.999998 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="408615141" name="aspen_02_02">
+				<reference>guid://0f48511862456f79829211d4102a07446fd3a101</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 9.9999237 24.999996 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1358806147" name="aspen_03">
+				<reference>guid://99944f19dc22b762503940d6efacf1dc748655de</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 19.999973 0.84648931 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1189208321" name="aspen_04_03">
+				<reference>guid://abf523489dbb0950a52fcfacd78e8a803e833bdc</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 29.999977 34.999992 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1108863400" name="aspen_04_01">
+				<reference>guid://dd3f380276b8466121b2e912097d4c96b6250b18</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 29.999977 14.999998 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1297362750" name="aspen_03_03">
+				<reference>guid://69f466da8aef89fcbcbbbb1b963404c037008197</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 20.000065 35 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1768879827" name="aspen_02_03">
+				<reference>guid://5e0b0af1b69c51072f45d16931857cf06b993122</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 9.9998932 34.999996 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="343586457" name="aspen_03_01">
+				<reference>guid://3177dad7cbb7921ac70945e0274c865afed0756b</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 20.000004 14.999998 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1842008311" name="aspen_03_02">
+				<reference>guid://489cd4e2b710586bd25a5bcbaad9ddd43ba817c8</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 20.00005 24.999994 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="505153066" name="aspen_04_04">
+				<reference>guid://c81d518e22237fa402631d6bc3e5c5d6cc29b792</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 29.999977 44.999996 -4.5474741e-013 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1746523298" name="aspen_04">
+				<reference>guid://f397d6fbcf4d88a0320d325ae474e66235498970</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 29.999977 0.84648931 -4.5474741e-013 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="104740909" name="birch_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 -294.62891 0 2.3844934e-006 1.0</transform>
+			<node type="NodeReference" id="772492704" name="birch_tree">
+				<reference>guid://bfb85108a5f3a89bf750bb20eec5f6002e767ef0</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="650034373" name="birch_tree_0">
+				<reference>guid://4bb266792f7fc3848518d852d7ce0dcac46e526b</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 4.0054321e-005 9.9999943 -4.7748472e-012 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1903943463" name="birch_tree_8">
+				<reference>guid://89b652ad7c8a5e4bb4a63796aed770f3d9158e8b</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 10.00011 9.9999952 -2.4556357e-011 1.0</transform>
+			</node>
+			<node type="NodeReference" id="324551808" name="birch_tree_2">
+				<reference>guid://dc98d10be6ceb247a569ce356850024cfa4c5287</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.00017166138 35.000004 -2.0463631e-011 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1738027883" name="birch_tree_11">
+				<reference>guid://afda4c4643c1a57ee430d81822ee73f7eeda2366</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 5.531311e-005 45.999977 -1.4779289e-011 1.0</transform>
+			</node>
+			<node type="NodeReference" id="322455855" name="birch_tree_6">
+				<reference>guid://dbbf94f5b703a08513f28512a166e9c03e1214b8</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 10.000093 27.000006 -1.7735147e-011 1.0</transform>
+			</node>
+			<node type="NodeReference" id="168361463" name="birch_tree_3">
+				<reference>guid://e9df2c404037d0ec7fc7689e113006cddef82095</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 9.0000124 41 -2.5011104e-011 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1184842176" name="birch_tree_9">
+				<reference>guid://09c4ccf1cbf4dfc065da5ded6e667ed0d16fecb3</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.00012969971 28 -1.546141e-011 1.0</transform>
+			</node>
+			<node type="NodeReference" id="325096770" name="birch_tree_1">
+				<reference>guid://279a0a3b4e8cbddabd5cccee3e975b4c2e479bd5</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.00014686584 20 -1.7507773e-011 1.0</transform>
+			</node>
+			<node type="NodeReference" id="299019009" name="birch_tree_7">
+				<reference>guid://3753d8109a6993830c9e9babca2a0e8ec8b9cdda</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 10.00009 33.999989 -1.7053026e-011 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1167000540" name="birch_tree_4">
+				<reference>guid://694b7fcb1e707bef23d2af56372f92ce14064a51</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 10.000015 0 -2.5011104e-012 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1694800459" name="birch_tree_10">
+				<reference>guid://79c352ea8bd3f4c0ea6f8ee27c0056ec532b2134</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 6.8664551e-005 40.999992 -1.1596057e-011 1.0</transform>
+			</node>
+			<node type="NodeReference" id="809961108" name="birch_tree_5">
+				<reference>guid://381f529e8859dfabdd0e277af17867257b3d6eff</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 10.000035 18.999996 -7.0485839e-012 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="1863132940" name="nettle_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 -27.634323 0 0 1.0</transform>
+			<node type="NodeReference" id="238891642" name="nettle_01_4">
+				<reference>guid://a5d6619572af5514abfec0039dcdcad7df82cd3f</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -4.0000005 2.3841861e-007 2.0000032e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="29440014" name="nettle_02_3">
+				<reference>guid://39f449bc1e33a1af569fe7dbbd1a2963fca4d365</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -3.0000043 2.0000005 2.0000032e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1434330072" name="nettle_01">
+				<reference>guid://a993544b17f369065bfff1a097f546d4afdbe34d</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 2.1457674e-006 0 2.0000032e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="372967596" name="nettle_03_2">
+				<reference>guid://71219f059d446be3b8e3875890ceb5605191b3d2</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -2.0000336 4.0000176 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1974806224" name="nettle_03_4">
+				<reference>guid://4c242d96bfe203af4f95dfbf5e842a2cf87a82c5</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -3.9999995 4.000011 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1540584351" name="nettle_03_1">
+				<reference>guid://c196a6e2703abb6c53eb4a73db8e6d40f666f48a</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -0.99992931 4.0000358 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1580858553" name="nettle_01_2">
+				<reference>guid://abceb4fdf62fdb5d1374f776e90c26bc8bd748a8</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -2.0000002 2.3841861e-007 2.0000032e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1809786823" name="nettle_02_1">
+				<reference>guid://229a418d446c2170adbd47fd29e92d1d4629d669</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -0.99993885 1.9999709 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1913980243" name="nettle_01_3">
+				<reference>guid://b092cb20f2d7da4baac1f59d34c88af57c349bdc</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -3.0000014 0 2.0000032e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1969767939" name="nettle_02_2">
+				<reference>guid://c4706d5f74e1a1707d62fc995bf64e40af972950</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -1.9999981 2.000001 2.0000032e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="647079279" name="nettle_03_3">
+				<reference>guid://4c4a22be42dfbac6e520da84b82e8e0cc1023994</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -3.0000596 4.0000215 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1591182720" name="nettle_01_1">
+				<reference>guid://6c6b3c72aed68fb5037c30145efc14c3c9341312</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -0.99999607 2.3841861e-007 2.0000032e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="200712845" name="nettle_02">
+				<reference>guid://aa949d8e449a2b5981b5e89200d37286ace88b8d</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 4.0292744e-005 1.9999809 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="499940223" name="nettle_03">
+				<reference>guid://253f692e259251b9751fb7f195cd6e43f8c1c27a</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 5.5551536e-005 4.0000262 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="728848125" name="nettle_02_4">
+				<reference>guid://d19f1728949bbbca04baf465aa0d6458846e8512</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -3.9999995 2.0000005 2.0000032e-006 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="1310888936" name="oak">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 0.36497116 0 0 1.0</transform>
+			<node type="NodeReference" id="503248737" name="oak_03_2">
+				<reference>guid://02138260fd0e41996d121095dcdae21984c53dc7</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 28.999908 52.999989 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1502942209" name="oak_02_1">
+				<reference>guid://db314fd876bc8524107551e87537a09d1d6f4dd1</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 43.999756 23.999937 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1921274782" name="oak_01_2">
+				<reference>guid://276ff405035d503b5dfff27870d862b03b3d382d</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 20.999786 -1.000065 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="788541687" name="oak_02_2">
+				<reference>guid://5aad31f2a16aca126af628b3a9422b0aa920ce00</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 23.999847 23.999937 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1488292427" name="oak_01_3">
+				<reference>guid://5764831693bbff5819190cabaf95ea6bc82e5ab7</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 8.0005112 -1.000065 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="108380727" name="oak_02_3">
+				<reference>guid://b022f80b10f1c83023ab8862b4540e89e3101a01</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 8.0001068 23.999937 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="382681824" name="oak_01_1">
+				<reference>guid://2e404c12bad1e771dd65045fd9df1a4efdc0c8e8</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 35.999817 -1.000065 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1774108066" name="oak_03_3">
+				<reference>guid://fe53cb57e3148f6d88919e84232e08268f979693</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 8.9999313 52.999989 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="919167869" name="oak_03_4">
+				<reference>guid://7135c2b2c5476b160a8199c6d979e618a4631d72</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -5.9998016 52.999989 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="952059532" name="oak_01_4">
+				<reference>guid://6468a46238d4daa539ee0453cf76156735b6b580</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -0.0001373291 -1.000065 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1750612667" name="oak_03_1">
+				<reference>guid://8a4c0be43ee3ed8232b918457dec2f15fecf62ac</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 56.000061 52.999989 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="285105922" name="oak_02_4">
+				<reference>guid://6748979d6f70e02453d00d9c945f4bbc03d1dd32</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -3.9998474 23.999937 0 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="1822921374" name="pine_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 124.64731 1.1332918 -3.4305185e-006 1.0</transform>
+			<node type="NodeReference" id="1165176523" name="pine_03_2">
+				<reference>guid://dab6e46cd7e8bbc3a3ec72b96b4367064ba58436</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 23.3508 31.469656 3.4305215e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1061191016" name="pine_01_1">
+				<reference>guid://a32ffc92ac9aca71f1beeab99d887bb8826ae715</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -23.047325 42.42276 3.4305215e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="602198982" name="pine_03_3">
+				<reference>guid://b45f6801cb12c2eb033b5c8e26abc8afe0eb3f8e</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 23.350784 20.849438 3.4305215e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1275791698" name="pine_01_2">
+				<reference>guid://4959a9b122c6e1d199f75aef81033c142f2dd6d0</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -23.047325 31.845118 3.4305215e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="974012237" name="pine_03_4">
+				<reference>guid://3ffe38475b053dc694e2323c3f6c3d676622ffe4</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 23.350998 10.776621 3.4305215e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="798452157" name="pine_03_1">
+				<reference>guid://6197d11e2b6b6f900a3e855849d11ed3b10acd40</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 23.350555 41.279659 3.4305215e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="540187689" name="pine_01_3">
+				<reference>guid://284e0230da4aaf4081bbc3e8e600a489ae18b301</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -23.047325 20.89831 3.4305215e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1528063859" name="pine_02_4">
+				<reference>guid://31a1b2437af96dc618408749ea32e1f0c923aff3</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -0.044235229 10.472836 3.4305215e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="123234300" name="pine_01_4">
+				<reference>guid://92ac968b514302469e14ee74c300b3c66f676ed2</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -23.047325 10.793797 3.4305215e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1206740582" name="pine_02_3">
+				<reference>guid://da77939a650a59b59707febaf485adb85932b67f</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -0.044235229 20.800642 3.4305215e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1215969826" name="pine_02_1">
+				<reference>guid://2ede48a66f69c30a3028ab04934c159d626c30bf</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -0.044235229 41.092896 3.4305215e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1886628120" name="pine_02_2">
+				<reference>guid://74618beffd62544fcb72830bba4f8610fc2b4b54</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -0.044235229 30.978415 3.4305215e-006 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="1265125557" name="raspberries_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 161.36487 6 -4.7683716e-007 1.0</transform>
+			<node type="NodeReference" id="879577828" name="raspberries_01_01">
+				<reference>guid://fbfbdf20b5ade1050049eff7ab6d57e6ec90fde3</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -3.0007782 5.0000176 -1.5231694e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="759097986" name="raspberries_02_02">
+				<reference>guid://c61b7284bf6a24f66f74fbd85c41f70493876fe0</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -0.00068664551 5.0000176 -1.5231694e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="805666467" name="raspberries_01_02">
+				<reference>guid://c02952fe0bbd7c948f2580430f1b416033d32062</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -1.0007629 5.0000176 -1.5231694e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="2143493581" name="raspberries_01_03">
+				<reference>guid://508563f42f8f74ba6a23aecb21f9db26c98b6f62</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -2.000946 5.0000176 -1.5231694e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1127359019" name="raspberries_02_01">
+				<reference>guid://a6ae6f7dd4a7a8e4f4f0258227c3ff01bb86e56e</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 1.9993286 5.0000176 -1.5231694e-006 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1241791631" name="raspberries_02_03">
+				<reference>guid://f06c64007195e1901c447ec12c95396b028d5c77</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 0.99981689 5.0000024 -1.5231694e-006 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="307940211" name="rowan_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 189.36511 6.0000029 0 1.0</transform>
+			<node type="NodeReference" id="466549437" name="rowan_02">
+				<reference>guid://b96281ba2987201e25acc2e33dbde84af32bdbb0</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 4.0003052 12.999996 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="855497313" name="rowan_04">
+				<reference>guid://b63ed6a84f615dfda42b593338201e58b2e5ea84</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 13.000305 5.0000029 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="866995161" name="rowan_07">
+				<reference>guid://a68c4223d85a0557e10c832c4a9484b2f2559438</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -13.999557 12 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1637822345" name="rowan_11">
+				<reference>guid://541c0261e3461224c7c8f7a8aeab55f5d8c40fdd</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 4.0005493 5.000001 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="720503214" name="rowan_08">
+				<reference>guid://f2d0b2533d5583998abb137cbeed16b2b31d8495</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -3.9994659 5.0000048 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="456514054" name="rowan_03">
+				<reference>guid://db73a63acb2893477694e0e282eae070bc064503</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -3.9992676 12.999996 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="396442107" name="rowan_01">
+				<reference>guid://5af44e64e53c3cfe2338bee64c25f365427f9a7a</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -0.00015258789 21.000004 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="900771733" name="rowan_09">
+				<reference>guid://6674ed7d1410ab7be7585a0662ea29c20cc1fbb5</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 8.999649 21 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1683736431" name="rowan_10">
+				<reference>guid://f7da056416a36f52cd67bdd1959cabf3d80404a9</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 12.000305 11.999996 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="759129834" name="rowan_06">
+				<reference>guid://43f753cfbdbfd623ffd304a61941777e5b3784b5</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -9.0008545 21 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1038210801" name="rowan_12">
+				<reference>guid://a8d9a283c9aa9f0fa09a1840689d758730d25d92</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -13.999664 4.999999 0 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="1727126538" name="sorrel_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 215.36568 8.9999952 2.3841858e-007 1.0</transform>
+			<node type="NodeReference" id="2113516785" name="sorrel_02_01">
+				<reference>guid://22fe7921ed7d08ac58dc4b0221bd73801f5407bb</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 2.0006714 2.0000038 -2.3841861e-007 1.0</transform>
+			</node>
+			<node type="NodeReference" id="2040016839" name="sorrel_01_03">
+				<reference>guid://d318101c961f7d0e151ace329ba5e800d8be68f1</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -2.9993286 2.0000038 -2.3841861e-007 1.0</transform>
+			</node>
+			<node type="NodeReference" id="671348029" name="sorrel_01_02">
+				<reference>guid://1ac005b2e355ebfbd4000665cdb843a881c043fc</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -1.9993286 2.0000038 -2.3841861e-007 1.0</transform>
+			</node>
+			<node type="NodeReference" id="369527125" name="sorrel_01_01">
+				<reference>guid://46cedd3653647e74dc5548d8fd3c3363496cf6ba</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -0.99932861 2.0000038 -2.3841861e-007 1.0</transform>
+			</node>
+			<node type="NodeReference" id="348340205" name="sorrel_02_02">
+				<reference>guid://6a1a8bbcc5325517117c7cae11a6414403f4bdfc</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 0.00067138672 2.0000038 -2.3841861e-007 1.0</transform>
+			</node>
+			<node type="NodeReference" id="441511856" name="sorrel_02_03">
+				<reference>guid://8547066224665d8c0bd20501d647e8d41e218e72</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 1.0006714 2.0000038 -2.3841861e-007 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="412384244" name="elm_rought_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 -267.63422 -2.9999733 -8.2015657e-005 1.0</transform>
+			<node type="NodeReference" id="1374416178" name="elm_01_1">
+				<reference>guid://5fa69acae78c50db3a117b67ae8c64d7c827c769</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 3.9988098 0 6.9121597e-010 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1129915289" name="elm_01_2">
+				<reference>guid://e83615e4aad22363feab15b2c783c4f95bc2c519</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 3.999176 13.000001 6.9121597e-010 1.0</transform>
+			</node>
+			<node type="NodeReference" id="526203204" name="elm_01_3">
+				<reference>guid://f017f66f9ff9a76394d2f624f5059745bb7e77c9</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 3.9993896 23.999998 6.9121597e-010 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1717743244" name="elm_01_4">
+				<reference>guid://5ef9091811409cbee697d6cd1dfe8a4f7d919b04</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 3.9996033 36.000008 6.9121597e-010 1.0</transform>
+			</node>
+			<node type="NodeReference" id="2146663849" name="elm_02_1">
+				<reference>guid://c35fe3cf0a8708929a8d8d16c4de75ffd47930a7</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 22.004929 2.9999735 8.2016013e-005 1.0</transform>
+			</node>
+			<node type="NodeReference" id="84228557" name="elm_02_2">
+				<reference>guid://9e031afbc60aa7dbdcffb1f598de2e0117fc61a9</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 22.004929 16.999977 8.2016013e-005 1.0</transform>
+			</node>
+			<node type="NodeReference" id="955461241" name="elm_02_3">
+				<reference>guid://d9b0867f28ef09b82dd9aaef146802599018c10e</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 22.004929 27.999977 8.2016013e-005 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1918386564" name="elm_02_4">
+				<reference>guid://941d0cbe410f2630909cda877b8c9522ca06e2dc</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 22.004929 38.999977 8.2016013e-005 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1242469892" name="elm_03_1">
+				<reference>guid://cc19a66ab85259a07f6b2bfa4c118dd0a55586bc</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 40.004837 2.9999735 8.2016013e-005 1.0</transform>
+			</node>
+			<node type="NodeReference" id="422613584" name="elm_03_2">
+				<reference>guid://25596a62d50fc89ba801ab5258de0b13d8a9a785</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 40.00473 16.999977 8.2016013e-005 1.0</transform>
+			</node>
+			<node type="NodeReference" id="2014894590" name="elm_03_3">
+				<reference>guid://687063aa98996a6efd34d32a43df30c2e03e04b2</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 40.004639 27.999975 8.2016013e-005 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1063342053" name="elm_03_4">
+				<reference>guid://c1fe11b3fd1792e7d7fd397d9a25e5c7adaaae02</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 40.004471 38.999962 8.2016013e-005 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="1291995823" name="filber_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 -200.62921 -2.000001 -0.0011434497 1.0</transform>
+			<node type="NodeReference" id="427205517" name="filber_tree_0">
+				<reference>guid://45124754af0a5559bccf75b663f439d188337903</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 16.995239 35 1.4086254e-008 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1117898158" name="filber_tree_1">
+				<reference>guid://eae2d6e4ff09bd5a8c38d26823a2330643e7710e</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 16.995117 25.000027 1.4202669e-008 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1134225010" name="filber_tree_2">
+				<reference>guid://522b7e0aad8d58a4b4e59c14c30ff17c0664c843</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 16.995026 12.999999 1.4202669e-008 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1552192504" name="filber_tree_3">
+				<reference>guid://48d65075417de0399762010ef50d4ba82caea0fe</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 16.994904 0.99999261 1.4202669e-008 1.0</transform>
+			</node>
+			<node type="NodeReference" id="264345760" name="filber_tree_4">
+				<reference>guid://1ab6d3facad23db311a378d520b114bf3a82f55d</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 32.994995 33.999985 0.0011432115 1.0</transform>
+			</node>
+			<node type="NodeReference" id="485753606" name="filber_tree_5">
+				<reference>guid://1acdce2ba62a9b66c3af2fb88d3c2bf47d57eb44</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 32.994904 27.00001 1.4319085e-008 1.0</transform>
+			</node>
+			<node type="NodeReference" id="67051019" name="filber_tree_6">
+				<reference>guid://60aed301c3e747b6ec9d210bd4a15bfe91b850ad</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 32.994827 16.000004 1.4202669e-008 1.0</transform>
+			</node>
+			<node type="NodeReference" id="84244683" name="filber_tree_7">
+				<reference>guid://296b158363a5ccc42d9cd4cc47aee2f1b1620d60</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 32.994629 1.9999847 1.4202669e-008 1.0</transform>
+			</node>
+			<node type="NodeReference" id="577363111" name="filber_tree_9">
+				<reference>guid://484582126040e835f4562bd9f93bb4d3173ad7d4</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -1.0046387 26.00001 1.4202669e-008 1.0</transform>
+			</node>
+			<node type="NodeReference" id="483153724" name="filber_tree_8">
+				<reference>guid://5451462e1242fc2e5de867139e4f7c2d6f856ce3</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -1.0045776 35.999992 1.4202669e-008 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1897018728" name="filber_tree_10">
+				<reference>guid://7bdb35ce55df5dafb767ba4d93abb7d6ffbd107b</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -1.0049744 10.999999 1.4202669e-008 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1666974539" name="filber_tree_11">
+				<reference>guid://a36e3fef0c79305be7431152b97741f959e69001</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -1.0050659 0 1.4319085e-008 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="917266917" name="fine_filbert_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 -152.63431 -2.0000305 0.00028991507 1.0</transform>
+			<node type="NodeReference" id="1233753054" name="fine_filbert_01_1">
+				<reference>guid://a6454b76e406fd6023e681d3651f8a48a29927c9</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -1.0000687 3.0517578e-005 -0.00028991571 1.0</transform>
+			</node>
+			<node type="NodeReference" id="304653010" name="fine_filbert_01_2">
+				<reference>guid://724dc174cc2c12c5ae63d70ea2e5fc59f8068acf</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -0.99993134 1.0000175 -0.00028991571 1.0</transform>
+			</node>
+			<node type="NodeReference" id="526710073" name="fine_filbert_01_3">
+				<reference>guid://e1eec0e9781ef94172e4ae42955cf492733fa925</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -0.99985504 2.0000176 -0.00028991571 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1915259628" name="fine_filbert_01_4">
+				<reference>guid://45b812e73efb9fce1eb057cc2a00c56aff5697ec</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -0.99983978 3.0000176 -0.00028991571 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1336057603" name="fine_filbert_02_1">
+				<reference>guid://bdd8d34cd14e5cb8e5abde1bcf63b8155cd96760</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -2.2888184e-005 3.0517578e-005 -0.00028991571 1.0</transform>
+			</node>
+			<node type="NodeReference" id="926790871" name="fine_filbert_02_2">
+				<reference>guid://b2bc21f233db2046b8b3143b1d7ea97057cecbc6</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 7.6293945e-006 1.0000173 -0.00028991571 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1839695361" name="fine_filbert_02_3">
+				<reference>guid://03b669ff42f6a19e9e7922bf66c60b4321f8d6f3</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 2.2888184e-005 2.0000174 -0.00028991571 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1959466073" name="fine_filbert_02_4">
+				<reference>guid://0b95ffd3fe25f714d184842f8cedf5a3fc3403e1</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 3.8146973e-005 3.0000176 -0.00028991571 1.0</transform>
+			</node>
+			<node type="NodeReference" id="248945912" name="fine_filbert_03_1">
+				<reference>guid://8e265d9cd129fddb671e628f46dc9e6d3db29adb</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 0.99996185 3.0517578e-005 -0.00028991571 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1043701301" name="fine_filbert_03_2">
+				<reference>guid://f7fa20c200e9c9f13369e9da5a6e34fd71f3ccb3</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 0.99998474 1.0000173 -0.00028991571 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1167382442" name="fine_filbert_03_3">
+				<reference>guid://45f91e89b6af464c5edb46126e49dcb175492b3a</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 1 2.0000174 -0.00028991571 1.0</transform>
+			</node>
+			<node type="NodeReference" id="685721391" name="fine_filbert_03_4">
+				<reference>guid://24f7c26056d75328e38b8ea2c81a1bab4d06cac0</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 1.0000153 3.0000176 -0.00028991571 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="1467171906" name="linden_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 -121.63432 1.9999924 -0.00047683716 1.0</transform>
+			<node type="NodeReference" id="149017776" name="linden_small_tree">
+				<reference>guid://d9bf62ac13464e816463851ec773d8b5b92a7f86</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -1.9999771 27.000011 0.00047683722 1.0</transform>
+			</node>
+			<node type="NodeReference" id="18697095" name="linden_middle_tree">
+				<reference>guid://a7cc37fbb21d918bcfaa4c548dfb53413d9d295b</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -1.9999771 10.00001 0.00047683722 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1963162059" name="linden_seedling_tree">
+				<reference>guid://cb40830e2cfd2344858ba27ead37bab62d31cb5b</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -1.9999771 42.000027 0.00047683722 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1146489658" name="linden_tree">
+				<reference>guid://541b03a796fcac26f4a034a7ac08468ef84273ad</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 21.999989 9.9999952 0.00047683722 1.0</transform>
+			</node>
+			<node type="NodeReference" id="253226708" name="linden_tree_0">
+				<reference>guid://4b886423f28b03226730c7840d5bcc2bf9c2a7c9</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 22.000088 34.000015 0.00047683722 1.0</transform>
+			</node>
+			<node type="NodeReference" id="914902742" name="linden_tree_1">
+				<reference>guid://1add02111eb31688e0df6291ffff43ced51e15f3</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 22.000164 52.000008 0.00047683722 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1496225984" name="linden_tree_2">
+				<reference>guid://528ec68d888a5969cfb0a03d0ce57c10ed0c75d1</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 22.00024 69.000031 0.00047683722 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1523218510" name="linden_tree_3">
+				<reference>guid://a1f2652ba45ebb439d225f41a9ddf8a42989cf4d</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 46.000175 66 0.00047683722 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1482611585" name="linden_tree_4">
+				<reference>guid://0a463856b200d76e526fe94270a282b329da75f5</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 46.000008 9.9999952 0.00047683722 1.0</transform>
+			</node>
+			<node type="NodeReference" id="875425175" name="linden_tree_5">
+				<reference>guid://87f07a8fb8459257ce53070769effec8b8214527</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 46.000137 34.000011 0.00047683722 1.0</transform>
+			</node>
+			<node type="NodeReference" id="247077389" name="linden_tree_6">
+				<reference>guid://5c1139c686216cada0fe37e8ddf28f8beabbe5db</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 46.00016 50.000019 0.00047683722 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1221005475" name="linden_tree_7">
+				<reference>guid://a5c4d3391e7a4445afde3f8d8de4e3596e20847a</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 74 58.000019 0.00047683722 1.0</transform>
+			</node>
+			<node type="NodeReference" id="22461015" name="linden_tree_8">
+				<reference>guid://e33d8bed8d1097fed2950963f37fb9fcf88ea771</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 74 9.9999952 0.00047683722 1.0</transform>
+			</node>
+			<node type="NodeReference" id="447432040" name="linden_tree_9">
+				<reference>guid://56391ca1741a40387f044cd25479f66ebb152b90</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 74 28.000015 0.00047683722 1.0</transform>
+			</node>
+			<node type="NodeReference" id="877076052" name="linden_tree_10">
+				<reference>guid://7797f0f64c57f4c186c1cbd1484d7180061c4394</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 74 43.000004 0.00047683722 1.0</transform>
+			</node>
+			<node type="NodeReference" id="804123097" name="linden_tree_11">
+				<reference>guid://0e9739719a47db6d3fa0e845d6b1e202aa5e3f5e</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 74 70.000015 0.00047683722 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="1285532415" name="spruce_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 232.36433 8.0006275 0.000623703 1.0</transform>
+			<node type="NodeReference" id="2137880928" name="spruce_01_1">
+				<reference>guid://36a3d347df7d369559ba1c73ed5b15704c56abf3</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -0.99606323 2.9993353 -0.00062370312 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1334424800" name="spruce_01_2">
+				<reference>guid://dc2d2a512d1fb28c97ebff5e4aa1b15c29bd152d</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -0.99606323 13.999381 -0.00062370312 1.0</transform>
+			</node>
+			<node type="NodeReference" id="2037433075" name="spruce_01_3">
+				<reference>guid://a98c07b8a9c783c48ff0dcad1e834b1df7916a96</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -0.99606323 24.999382 -0.00062370312 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1848671066" name="spruce_01_4">
+				<reference>guid://423cb580f2c9890c6f7afcbe5557af4ed3fbca53</reference>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 -0.99606323 32.999363 -0.00062370312 1.0</transform>
+			</node>
+			<node type="NodeReference" id="388696748" name="spruce_03_1">
+				<reference>guid://2010419de99b941015d731e1d9d7915aa2205146</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 10.711578 2.9993353 -0.00062370318 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1059849635" name="spruce_03_2">
+				<reference>guid://2d533c47d1435c327543d2cab35fa10f87d71db9</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 10.71106 13.999373 -0.00062370318 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1907888508" name="spruce_03_3">
+				<reference>guid://2df42b2135a2eb2601719e3627eacc19d4f254c1</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 10.710663 23.999382 -0.00062370318 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1079947628" name="spruce_03_4">
+				<reference>guid://49b584e40a764aae7aa11bf40e1b2cb6d1815d26</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 10.710175 31.999344 -0.00062370318 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="1519756054" name="pacificsilverfir_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 360.56558 27.808342 13.141325 1.0</transform>
+			<node type="NodeReference" id="1724975305" name="pacificsilverfir_mature">
+				<reference>guid://09704e4c725467ff66e514fa5dd9d155d12f23da</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -2.3233032 -16.51989 -13.141326 1.0</transform>
+			</node>
+			<node type="NodeReference" id="483362495" name="pacificsilverfir_middle">
+				<reference>guid://930d42b9cf71abbcec18890e60a1194caaba173b</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -2.8242798 -2.0771408 -13.141326 1.0</transform>
+			</node>
+			<node type="NodeReference" id="862253483" name="pacificsilverfir_young">
+				<reference>guid://640e0faea8ca0adb6e6a03a03d764228afdfbb5d</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -2.4147339 11.04702 -13.141326 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="137632544" name="bigleafmaple_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 328.19327 25.397255 8.5603542 1.0</transform>
+			<node type="NodeReference" id="2112573248" name="bigleafmaple_mature">
+				<reference>guid://6bdfdd86e19dc3e2ddbf4140b2748e468e9a02df</reference>
+				<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0.6199646 -14.541489 -8.5603542 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1349454641" name="bigleafmaple_middle">
+				<reference>guid://7c1394d28ae7cf7d19ea8322094d32488056584b</reference>
+				<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0.1312561 2.0757446 -8.5603542 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1410666172" name="bigleafmaple_young">
+				<reference>guid://b07beab01493547ed80dcac76c7a5a9153b88c5d</reference>
+				<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0.30407715 15.083298 -8.5603542 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="346680395" name="oregonash_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 298.55627 26.50502 10.531032 1.0</transform>
+			<node type="NodeReference" id="1636566436" name="oregonash_mature">
+				<reference>guid://c06098ac0b068350a0b38816ce200fd8639c9ed3</reference>
+				<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 -0.024810791 -16.185936 -10.531032 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1559520468" name="oregonash_middle">
+				<reference>guid://b9322ad78a55c7c4d7aefa70a3cd7cf344ca7ec6</reference>
+				<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 -0.73912048 1.0182495 -10.531032 1.0</transform>
+			</node>
+			<node type="NodeReference" id="2025173936" name="oregonash_young">
+				<reference>guid://8588cdf314025f69fac19c73a4ef59ed013de6f7</reference>
+				<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 -0.75502014 15.730392 -10.531032 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="185571536" name="buckbrush_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 270.12393 18.661957 1.9383802 1.0</transform>
+			<node type="NodeReference" id="2141489379" name="buckbrush1">
+				<reference>guid://eb90fb26e8f3b5e342003e72b4138e208d84861a</reference>
+				<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 -0.066802979 -7.9496155 -1.9383802 1.0</transform>
+			</node>
+			<node type="NodeReference" id="589843084" name="buckbrush2">
+				<reference>guid://0915339ae06e95848cb54dd12709fe75ec59500d</reference>
+				<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0.67230225 8.3086624 -1.9383812 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="780119137" name="swordfern_dummy">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 -20.377823 0.85956192 0.56559271 1.0</transform>
+			<node type="NodeReference" id="1549190721" name="plant_swordfern">
+				<reference>guid://20b02e2f0f34749d1d4078b50f569eba1b39885d</reference>
+				<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0.082046509 0.16532898 -0.56559271 1.0</transform>
+			</node>
+			<node type="NodeReference" id="458905553" name="plant_swordfern_1">
+				<reference>guid://98182e2a4a3d0d7751af54006fa9ffbed5976686</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.08203125 3.3144183 -0.56559271 1.0</transform>
+			</node>
+		</node>
+		<node type="LightVoxelProbe" id="658255381" name="LightVoxelProbe">
+			<box_size>737.778748 91.2610626 28.7485733</box_size>
+			<attenuation_distance>200 200 200</attenuation_distance>
+			<voxel_size>2</voxel_size>
+			<use_sun_color>0</use_sun_color>
+			<additive_blending>0</additive_blending>
+			<ambient_color>1 1 1 1</ambient_color>
+			<ambient_intensity>1</ambient_intensity>
+			<ambient_bias>0.5</ambient_bias>
+			<ambient_cubic_filtering>1</ambient_cubic_filtering>
+			<reflection_enabled>1</reflection_enabled>
+			<reflection_color>1 1 1 1</reflection_color>
+			<reflection_intensity>1</reflection_intensity>
+			<reflection_visibility_roughness_min>0</reflection_visibility_roughness_min>
+			<reflection_visibility_roughness_max>0.800000012</reflection_visibility_roughness_max>
+			<reflection_bias>2</reflection_bias>
+			<reflection_cubic_filtering>0</reflection_cubic_filtering>
+			<bake_viewport_mask>-1</bake_viewport_mask>
+			<bake_sampling_resolution>-1</bake_sampling_resolution>
+			<bake_sampling_mip_ofsset>6</bake_sampling_mip_ofsset>
+			<bake_num_rays>1024</bake_num_rays>
+			<bake_znear>0.00100000005</bake_znear>
+			<bake_zfar>1000</bake_zfar>
+			<bake_fix_light_bleeding_bounce>1</bake_fix_light_bleeding_bounce>
+			<bake_fix_light_bleeding_intensity>1</bake_fix_light_bleeding_intensity>
+			<bake_fix_light_bleeding_radius>0</bake_fix_light_bleeding_radius>
+			<bake_internal_volume>0</bake_internal_volume>
+			<bake_full_resolution_bounces>0</bake_full_resolution_bounces>
+			<bake_caustic>0</bake_caustic>
+			<bake_visibility_emission>1</bake_visibility_emission>
+			<bake_visibility_sky>1</bake_visibility_sky>
+			<bake_visibility_light_world>1</bake_visibility_light_world>
+			<bake_visibility_light_omni>1</bake_visibility_light_omni>
+			<bake_visibility_light_proj>1</bake_visibility_light_proj>
+			<bake_visibility_voxel_probe>1</bake_visibility_voxel_probe>
+			<bake_visibility_environment_probe>1</bake_visibility_environment_probe>
+			<texture>guid://d4d2909b1351aa8faa723ed4271a53f460258bd3</texture>
+			<shadow_bias>1</shadow_bias>
+			<fade_distance>4</fade_distance>
+			<mode>1</mode>
+			<shadow_screen_space>0</shadow_screen_space>
+			<shadow_screen_space_num_rays>8</shadow_screen_space_num_rays>
+			<shadow_screen_space_num_steps>8</shadow_screen_space_num_steps>
+			<shadow_screen_space_noise_ray>1</shadow_screen_space_noise_ray>
+			<shadow_screen_space_noise_step>0.5</shadow_screen_space_noise_step>
+			<shadow_screen_space_step_size>0.5</shadow_screen_space_step_size>
+			<shadow_screen_space_threshold>1</shadow_screen_space_threshold>
+			<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 1.4624481 32.459881 14.240767 1.0</transform>
+		</node>
+	</editor>
+</world>

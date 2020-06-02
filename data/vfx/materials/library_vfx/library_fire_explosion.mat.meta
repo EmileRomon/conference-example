@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>53f1587b3de7f2a798084cc7568ac082e5a16703</guid>
+	<type>material</type>
+	<hash>c46a5e</hash>
+	<runtimes>
+		<runtime id="53f1587b3de7f2a798084cc7568ac082e5a16703" name="library_fire_explosion" link="0"/>
+	</runtimes>
+</asset>

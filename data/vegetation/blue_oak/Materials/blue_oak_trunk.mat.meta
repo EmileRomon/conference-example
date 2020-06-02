@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>73343fde84c06f6c69c3787a214d8d430e2cfb99</guid>
+	<type>material</type>
+	<hash>89a88e7e</hash>
+	<runtimes>
+		<runtime id="73343fde84c06f6c69c3787a214d8d430e2cfb99" name="blue_oak_trunk" link="0"/>
+	</runtimes>
+</asset>

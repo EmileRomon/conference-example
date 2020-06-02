@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="NodeDummy" id="337272385" name="cone">
+		<transform>1 2.646978e-22 -3.8213714e-15 0.0 9.2644229e-23 1 8.7422777e-08 0.0 3.8213714e-15 -8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="2004557005" name="cone_mesh">
+			<mesh_name>guid://adac1bcf5877d6e27634e8d90f163c64c263dc73</mesh_name>
+			<surface name="mesh_base" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

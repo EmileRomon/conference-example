@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="1275612131" name="spruce_03_1">
+		<mesh_name>guid://927eb3bef663d0a49f1a7b50b76553806fff0dda</mesh_name>
+		<surface name="spruce_03_1_leaves_lod_1_spruce_leaves_mat" cast_shadow="0" cast_world_shadow="0" min_visible_distance="15" max_visible_distance="60" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="a89f90bfe5b47ae17128b4ff3eb39188bb1e409b"/>
+		<surface name="spruce_03_1_tree_lod_2_spruce_trunk_mat" min_visible_distance="60" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="9b8dfb23787fa1bd3d0f147885edc2a060f09898"/>
+		<surface name="spruce_03_1_leaves_lod_2_spruce_leaves_mat" cast_shadow="0" cast_world_shadow="0" min_visible_distance="60" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="a89f90bfe5b47ae17128b4ff3eb39188bb1e409b"/>
+		<surface name="spruce_03_1_tree_lod_1_spruce_trunk_mat" min_visible_distance="15" max_visible_distance="60" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="9b8dfb23787fa1bd3d0f147885edc2a060f09898"/>
+		<surface name="spruce_03_1_leaves_lod_0_spruce_leaves_mat" cast_shadow="0" cast_world_shadow="0" max_visible_distance="15" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="a89f90bfe5b47ae17128b4ff3eb39188bb1e409b"/>
+		<surface name="spruce_03_1_tree_lod_0_spruce_trunk_mat" max_visible_distance="15" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="9b8dfb23787fa1bd3d0f147885edc2a060f09898"/>
+		<surface name="spruce_03_1_leaves_shadow_spruce_leaves_mat" viewport_mask="0x0" physics_friction="1" physics_restitution="1" material="a89f90bfe5b47ae17128b4ff3eb39188bb1e409b"/>
+		<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 -3.0517578e-005 0 0 1.0</transform>
+	</node>
+</nodes>

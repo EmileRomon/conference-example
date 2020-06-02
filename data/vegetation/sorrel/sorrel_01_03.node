@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="1758093154" name="sorrel_01_03">
+		<mesh_name>guid://dde1ff6a945a28178a97f38f1acd282815582a1d</mesh_name>
+		<surface name="sorrel_mat_lod_0" max_visible_distance="15" min_fade_distance="5" max_fade_distance="5" material="258ba583fd15be161f33dda909a4ce2211bb3fbe"/>
+		<surface name="sorrel_mat_lod_1" min_visible_distance="15" max_visible_distance="60" min_fade_distance="5" max_fade_distance="5" material="258ba583fd15be161f33dda909a4ce2211bb3fbe"/>
+		<surface name="sorrel_mat_lod_2" min_visible_distance="60" min_fade_distance="5" max_fade_distance="5" material="258ba583fd15be161f33dda909a4ce2211bb3fbe"/>
+		<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

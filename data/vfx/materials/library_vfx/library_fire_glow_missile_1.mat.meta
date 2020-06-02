@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>200868d29ee82804a10d0844f90b4b27ed206aa7</guid>
+	<type>material</type>
+	<hash>630335cb</hash>
+	<runtimes>
+		<runtime id="200868d29ee82804a10d0844f90b4b27ed206aa7" name="library_fire_glow_missile_1" link="0"/>
+	</runtimes>
+</asset>

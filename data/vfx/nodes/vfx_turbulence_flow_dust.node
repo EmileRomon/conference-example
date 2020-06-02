@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="NodeDummy" id="1812890322" name="dust">
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 183.78448 187.05595 0 1.0</transform>
+		<node id="325225863" type="ObjectMeshDynamic" name="helicopter">
+			<object_surface name="box" begin="0" end="36"/>
+			<vertex type="float" num_vertex="24" offset="0" size="3">0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 -0.5 0.5 0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 0.5 0.5 -0.5 0.5 0.5 -0.5 0.5 0.5 -0.5 -0.5 0.5 -0.5 -0.5 0.5 -0.5 -0.5 -0.5 0.5 0.5 -0.5 0.5 0.5 -0.5 0.5 0.5 -0.5 0.5 -0.5 -0.5 0.5 -0.5 -0.5 0.5 -0.5 -0.5 -0.5 0.5 -0.5 -0.5 0.5 -0.5 -0.5 0.5 -0.5 -0.5 -0.5 -0.5 -0.5 -0.5 -0.5 -0.5 -0.5</vertex>
+			<vertex type="float" num_vertex="24" offset="16" size="4">1 0 1 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 0 1 1 0 1 0 0 0 0 0 1 0 1 0 1 0 1 0 0 1 0 1 0 0 0 0 1 1 1 1 1 0 1 0 0 1 0 1 0 0 0 0 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 0 0 0 0 1 0 1 0 0 1 0 1 0 1 0 1 1 1 1 1</vertex>
+			<vertex type="float" num_vertex="24" offset="32" size="4">-0.5 -0.5 -0.5 -0.5 -0 -0.707107008 -0.707107008 -0.00100000005 0 -0 0.707107008 -0.707107008 -0.5 -0.5 -0.5 -0.5 -0 -0.707107008 -0.707107008 -0.00100000005 -0.707107008 -0.707107008 -0 -0.00100000005 -0.5 -0.5 -0.5 -0.5 0 -0 0.707107008 -0.707107008 -0.707107008 -0 -0 -0.707107008 -0.5 -0.5 -0.5 -0.5 -0.707107008 -0.707107008 -0 -0.00100000005 -0.707107008 -0 -0 -0.707107008 -0 -0.707107008 -0.707107008 -0.00100000005 0 -0 0.707107008 -0.707107008 -0.5 0.5 0.5 -0.5 -0 -0.707107008 -0.707107008 -0.00100000005 -0.707107008 -0.707107008 -0 -0.00100000005 -0.5 0.5 0.5 -0.5 0 -0 0.707107008 -0.707107008 -0.707107008 -0 -0 -0.707107008 -0.5 0.5 0.5 -0.5 -0.707107008 -0.707107008 -0 -0.00100000005 -0.707107008 -0 -0 -0.707107008 -0.5 0.5 0.5 -0.5</vertex>
+			<vertex type="float" num_vertex="24" offset="48" size="4">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</vertex>
+			<indices num_indices="36">3 0 6 6 9 3 23 20 14 14 17 23 15 12 1 1 4 15 11 8 19 19 22 11 18 7 2 2 13 18 16 5 10 10 21 16</indices>
+			<surface name="box" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 1 0.0 -185.80266 -191.3685 0 1.0</transform>
+			<node type="ObjectParticles" id="501519572" name="dust_turb_flow">
+				<particles_type>3</particles_type>
+				<warming>0</warming>
+				<depth_sort>1</depth_sort>
+				<variation_x>1</variation_x>
+				<clear_on_enable>1</clear_on_enable>
+				<number_per_spawn>1</number_per_spawn>
+				<spawn_rate>200</spawn_rate>
+				<length_stretch>0.400000006</length_stretch>
+				<linear_damping>1.55900002</linear_damping>
+				<growth_damping>1</growth_damping>
+				<emitter_enabled>1</emitter_enabled>
+				<emitter_sequence>15</emitter_sequence>
+				<emitter_sync>0</emitter_sync>
+				<emitter_spread>1 1 0</emitter_spread>
+				<life_mean>3</life_mean>
+				<life_spread>1</life_spread>
+				<velocity_mean>17</velocity_mean>
+				<velocity_spread>6</velocity_spread>
+				<angle_mean>0</angle_mean>
+				<angle_spread>0</angle_spread>
+				<radius_mean>0.5</radius_mean>
+				<radius_spread>0.100000001</radius_spread>
+				<growth_mean>3</growth_mean>
+				<growth_spread>1</growth_spread>
+				<force>
+					<enabled>1</enabled>
+					<attached>1</attached>
+					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+					<radius>6</radius>
+					<attenuation>1</attenuation>
+					<attractor>7.5999999</attractor>
+					<rotator>0</rotator>
+				</force>
+				<surface name="particles" material="fd3c0fc1e245845be806ce4ece6100eee97c19c6"/>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 0.99999923 0.0 -2.2888184e-005 1.5258789e-005 -4.0699854 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="271272925" name="dust_wind_area_0">
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -219.02036 -166.55371 -5.4935312 1.0</transform>
+			<node type="ObjectParticles" id="2104867207" name="dust_wind">
+				<warming>0</warming>
+				<clear_on_enable>1</clear_on_enable>
+				<number_per_spawn>1</number_per_spawn>
+				<spawn_rate>100</spawn_rate>
+				<growth_damping>0.699999988</growth_damping>
+				<emitter_type>1</emitter_type>
+				<emitter_enabled>1</emitter_enabled>
+				<emitter_sync>0</emitter_sync>
+				<emitter_size>5 0 0</emitter_size>
+				<emitter_direction>1 0 0</emitter_direction>
+				<emitter_spread>0 0.100000001 0.100000001</emitter_spread>
+				<period_mean>0</period_mean>
+				<period_spread>3</period_spread>
+				<duration_mean>1</duration_mean>
+				<duration_spread>2</duration_spread>
+				<life_mean>5</life_mean>
+				<life_spread>3</life_spread>
+				<velocity_mean>2</velocity_mean>
+				<velocity_spread>3</velocity_spread>
+				<rotation_mean>0</rotation_mean>
+				<rotation_spread>10</rotation_spread>
+				<radius_mean>5</radius_mean>
+				<radius_spread>0</radius_spread>
+				<surface name="particles" material="fd3c0fc1e245845be806ce4ece6100eee97c19c6"/>
+				<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 1 0.0 21.681213 43.879982 4.7683716e-007 1.0</transform>
+			</node>
+			<node type="ObjectParticles" id="924511474" name="dust_cloud">
+				<warming>0</warming>
+				<clear_on_enable>1</clear_on_enable>
+				<number_per_spawn>1</number_per_spawn>
+				<spawn_rate>30</spawn_rate>
+				<emitter_type>1</emitter_type>
+				<emitter_enabled>1</emitter_enabled>
+				<emitter_sync>0</emitter_sync>
+				<emitter_size>8 0 0</emitter_size>
+				<period_mean>3</period_mean>
+				<period_spread>3</period_spread>
+				<duration_mean>5</duration_mean>
+				<duration_spread>2</duration_spread>
+				<life_mean>7</life_mean>
+				<life_spread>3</life_spread>
+				<velocity_mean>0</velocity_mean>
+				<velocity_spread>0.200000003</velocity_spread>
+				<rotation_mean>0</rotation_mean>
+				<rotation_spread>10</rotation_spread>
+				<radius_mean>4</radius_mean>
+				<radius_spread>1</radius_spread>
+				<growth_mean>0.5</growth_mean>
+				<growth_spread>0</growth_spread>
+				<surface name="particles" material="fd3c0fc1e245845be806ce4ece6100eee97c19c6"/>
+				<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 1 0.0 31.837193 10.606659 4.7683716e-007 1.0</transform>
+			</node>
+		</node>
+	</node>
+</nodes>

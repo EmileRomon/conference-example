@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="PlayerDummy" id="644538347" name="first_person_controller">
+		<znear>0.00999999978</znear>
+		<zfar>20000</zfar>
+		<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
+		<is_oblique_frustum>0</is_oblique_frustum>
+		<is_main>1</is_main>
+		<controlled>1</controlled>
+		<properties>
+			<property parent="df4f4519e86e6ba48bf1c2b3aec42876380a055d" guid="9a9711c203202639efdc9a4460bde0d3c2427016">
+				<parameter name="forwardKey">122</parameter>
+				<parameter name="leftKey">113</parameter>
+				<parameter name="useExternalBody">0</parameter>
+				<parameter name="mass">40</parameter>
+				<parameter name="walkSpeed">5</parameter>
+				<parameter name="runSpeed">10</parameter>
+				<parameter name="gravityMultiplier">1</parameter>
+				<parameter name="showAdvancedSettings">1</parameter>
+			</property>
+		</properties>
+		<transform>0.99999851 1.4901161e-08 -3.8742959e-07 0.0 4.2146752e-07 -8.4293454e-08 0.99999732 0.0 1.0430813e-07 -0.99999803 5.960451e-08 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

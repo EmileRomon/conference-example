@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>03a13ba9735adaa2518f71074278d282a7b100c3</guid>
+	<type>material</type>
+	<hash>31421439</hash>
+	<runtimes>
+		<runtime id="03a13ba9735adaa2518f71074278d282a7b100c3" name="oregonash_trunk" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

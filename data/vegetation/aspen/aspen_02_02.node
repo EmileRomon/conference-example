@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="25792491" name="aspen_02_02">
+		<mesh_name>guid://0b11ec03622fa8a653764a148931e00c53d90e3d</mesh_name>
+		<surface name="aspen_02_02_leaf_lod_1_leaves_mat" cast_shadow="0" cast_world_shadow="0" min_visible_distance="15" max_visible_distance="60" min_fade_distance="15" max_fade_distance="15" physics_friction="1" physics_restitution="1" material="3ad9a7d35f3087fb70621c64b30285f3ebd99be7"/>
+		<surface name="aspen_02_02_leaf_lod_0_leaves_mat" max_visible_distance="15" min_fade_distance="15" max_fade_distance="15" physics_friction="1" physics_restitution="1" material="3ad9a7d35f3087fb70621c64b30285f3ebd99be7"/>
+		<surface name="aspen_02_02_twigs_lod_0_trunk_mat" min_fade_distance="15" max_fade_distance="15" physics_friction="1" physics_restitution="1" material="85f9fd5c5c805f9e846915a55b9ffe906053ecdd"/>
+		<surface name="aspen_02_02_leaf_lod_2_leaves_mat" cast_shadow="0" cast_world_shadow="0" min_visible_distance="60" min_fade_distance="15" max_fade_distance="15" physics_friction="1" physics_restitution="1" material="3ad9a7d35f3087fb70621c64b30285f3ebd99be7"/>
+		<surface name="aspen_02_02_trunk_lod_2_trunk_mat" min_visible_distance="60" min_fade_distance="15" max_fade_distance="15" physics_friction="1" physics_restitution="1" material="85f9fd5c5c805f9e846915a55b9ffe906053ecdd"/>
+		<surface name="aspen_02_02_trunk_lod_1_trunk_mat" min_visible_distance="15" max_visible_distance="60" min_fade_distance="15" max_fade_distance="15" physics_friction="1" physics_restitution="1" material="85f9fd5c5c805f9e846915a55b9ffe906053ecdd"/>
+		<surface name="aspen_02_02_trunk_lod_0_trunk_mat" max_visible_distance="15" min_fade_distance="15" max_fade_distance="15" physics_friction="1" physics_restitution="1" material="85f9fd5c5c805f9e846915a55b9ffe906053ecdd"/>
+		<surface name="aspen_02_02_leaf_shadow_leaves_mat" viewport_mask="0x0" min_visible_distance="15" min_fade_distance="15" physics_friction="1" physics_restitution="1" material="3ad9a7d35f3087fb70621c64b30285f3ebd99be7"/>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.00012207031 0 -1.110223e-016 1.0</transform>
+	</node>
+</nodes>

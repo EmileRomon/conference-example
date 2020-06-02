@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_tank_smoke_wispy_white" guid="fa893e943c1b5c910a874092ef4efdfd26961b26" parent="912af80f474679e4b9c149c9c1196081544cd1ac" base_material="particles_base">
+	<blend src="one" dest="one_minus_src_alpha"/>
+	<parameter name="animation_transform" expression="0">8 8 1 0.550000012</parameter>
+	<parameter name="diffuse_color" expression="0">0.290196091 0.290196091 0.290196091 1</parameter>
+	<parameter name="environment_scale" expression="0">4</parameter>
+	<parameter name="diffuse_scale" expression="0">2.97199988</parameter>
+</material>

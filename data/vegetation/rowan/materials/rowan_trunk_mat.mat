@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="rowan_trunk_mat" guid="1033d1fea76f864acdfb21043b9fc244206affdf" base_material="mesh_base">
+	<state name="vegetation">1</state>
+	<state name="animation">1</state>
+	<state name="vegetation_velocity">0</state>
+	<texture name="albedo">guid://b0c7a9edcaeaf74ae29b8f2c26062d2129238769</texture>
+	<texture name="shading" wrap="repeat" anisotropy="0">guid://5219d6ddb5dbd1520e843a369ad2b64326bb24e2</texture>
+	<texture name="normal">guid://8ffd41d0583a820d816c6e7c278b24d301c285fa</texture>
+	<parameter name="albedo_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
+	<parameter name="animation_stem_offset" expression="0">0.0299999993</parameter>
+	<parameter name="animation_stem_radius" expression="0">0.0299999993</parameter>
+</material>

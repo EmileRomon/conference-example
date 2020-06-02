@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>d9075b6d115a2df832c68afdac9328d846a74a9c</guid>
+	<type>material</type>
+	<hash>e5f3c1ee</hash>
+	<runtimes>
+		<runtime id="d9075b6d115a2df832c68afdac9328d846a74a9c" name="elm_rought_trunk_mat" link="0"/>
+	</runtimes>
+</asset>

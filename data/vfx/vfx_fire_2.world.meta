@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>05d4e13d6f3361eb69884b55573d9e830ce4ffe7</guid>
+	<type>world</type>
+	<hash>33075934</hash>
+	<runtimes>
+		<runtime id="05d4e13d6f3361eb69884b55573d9e830ce4ffe7" name="vfx_fire_2.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="script_name">guid://635edf113eb87d30229b84e0036014277a269756</parameter>
+	</parameters>
+</asset>

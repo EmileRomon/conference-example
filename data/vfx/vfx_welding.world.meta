@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>09cb663c8ac7380798ac87c8d6185c1714ed9bef</guid>
+	<type>world</type>
+	<hash>15602d99</hash>
+	<runtimes>
+		<runtime id="09cb663c8ac7380798ac87c8d6185c1714ed9bef" name="vfx_welding.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="script_name">guid://a6fb40d707a68653f71d2077d8b235c9b26cbc41</parameter>
+	</parameters>
+</asset>

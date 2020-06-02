@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>8f0d05a3bc2336d1c789bb5218ad84c985da78f1</guid>
+	<type>script</type>
+	<hash>b71e5a5e</hash>
+	<runtimes>
+		<runtime id="8f0d05a3bc2336d1c789bb5218ad84c985da78f1" name="vfx_rain_drops.cpp" link="0"/>
+	</runtimes>
+</asset>

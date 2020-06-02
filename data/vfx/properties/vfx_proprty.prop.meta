@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>ead007599b034356bf410dcb1c1ae11e1fbb6df0</guid>
+	<type>property</type>
+	<hash>89476b0f</hash>
+	<runtimes>
+		<runtime id="f5c9ecb20de05ec0b4e7f781d54f16a51d043950" name="refresh_time" link="0"/>
+	</runtimes>
+</asset>

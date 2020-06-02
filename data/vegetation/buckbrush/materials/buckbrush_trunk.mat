@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="buckbrush_trunk" guid="93aeb61047d1b7d0cca079ad164b895656c488c8" base_material="mesh_base">
+	<state name="vegetation">1</state>
+	<state name="animation">1</state>
+	<state name="vegetation_velocity">0</state>
+	<texture name="albedo">guid://69b5b5d97357f397e1816d7203bb55227375eae4</texture>
+	<parameter name="animation_stem_offset" expression="0">0.100000001</parameter>
+	<parameter name="animation_stem_radius" expression="0">0.100000001</parameter>
+	<parameter name="animation_stem_scale" expression="0">2</parameter>
+</material>

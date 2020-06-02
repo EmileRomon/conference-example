@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>debf546d197a2b5c711fa84dee57b364f1ed604a</guid>
+	<type>texture</type>
+	<hash>9c135ebe</hash>
+	<runtimes>
+		<runtime id="debf546d197a2b5c711fa84dee57b364f1ed604a" name="birch_leaves_summer_alb2.tga" link="0"/>
+		<runtime id="8c3a7f2a821b7428d4a05ace8f889be75c94c21e" name="birch_leaves_summer_alb2.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">Point</parameter>
+		<parameter type="string" name="image_format">RGBA8</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">Original</parameter>
+		<parameter type="string" name="height">Original</parameter>
+	</parameters>
+</asset>

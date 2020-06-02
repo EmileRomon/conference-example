@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_spark2" guid="4251f9623ab1f80323e61ff80155ddd019187112" parent="cb3efb53459273a5337bfc1eaff041a5fd342807" base_material="particles_base">
+	<blend src="one" dest="one"/>
+	<texture name="diffuse">guid://f468af265a40d87f40d09178260f004ad551cf91</texture>
+	<texture name="attenuation">guid://ab0583dc2fdb26e89769deb6cd75cc796547ee28</texture>
+	<parameter name="soft_interaction_scale" expression="0">1.09900999</parameter>
+	<parameter name="diffuse_scale" expression="0">1.21000004</parameter>
+	<parameter name="emission_scale" expression="0">10</parameter>
+</material>

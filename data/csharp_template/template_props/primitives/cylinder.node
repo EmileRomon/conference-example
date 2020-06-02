@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="1964218338" name="cylinder">
+		<mesh_name>guid://96b89b5d9dcae518765c2597a1d6060a51af3de1</mesh_name>
+		<surface name="mesh_base" bake_to_env_probe="0" bake_to_voxel_probe="0" cast_env_probe_shadow="0" shadow_mode="1" physics_friction="1" physics_restitution="1" material="7028881e5062b70f344d72d5bb1636962184330e"/>
+		<body type="BodyRigid" id="2015972960" frozen="0">
+			<shape type="ShapeCylinder" id="2146663345">
+				<radius>0.394205153</radius>
+				<height>0.800000072</height>
+			</shape>
+			<shape type="ShapeSphere" id="1774052470" transform="1 0 0 0 0 1 0 0 0 0 1 0 1.90734863e-06 0 0 1">
+				<radius>0.383751899</radius>
+			</shape>
+		</body>
+		<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

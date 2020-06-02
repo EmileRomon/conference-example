@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_smoke_wispy_dark_exhaust" guid="b8bbb1b9bca5a5a4e30bc27c965e7628dc403f54" parent="912af80f474679e4b9c149c9c1196081544cd1ac" base_material="particles_base">
+	<blend src="src_alpha" dest="one_minus_src_alpha"/>
+	<state name="ambient">1</state>
+	<parameter name="animation_transform" expression="0">8 8 0.5 0.375</parameter>
+	<parameter name="diffuse_color" expression="0">0.274509817 0.274509817 0.274509817 1</parameter>
+	<parameter name="environment_scale" expression="0">4</parameter>
+	<parameter name="diffuse_scale" expression="0">4</parameter>
+</material>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_smoke_wispy_light" guid="98ae09e0ac377229b30a47e7f687e109f5a9ce6b" parent="912af80f474679e4b9c149c9c1196081544cd1ac" base_material="particles_base">
+	<blend src="src_alpha" dest="one_minus_src_alpha"/>
+	<state name="ambient">1</state>
+	<parameter name="diffuse_color" expression="0">0.39124614 0.39124614 0.39124614 0.04387803</parameter>
+	<parameter name="soft_interaction_scale" expression="0">1</parameter>
+	<parameter name="environment_scale" expression="0">4</parameter>
+	<parameter name="diffuse_scale" expression="0">1</parameter>
+</material>

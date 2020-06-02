@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="leaves_shadow_mat" guid="8e0e3c61f72bf480b1b946b9c3e76cf5edd0af42" base_material="mesh_base">
+	<parameter name="albedo_color" expression="0">0.588 0.588 0.588 1</parameter>
+</material>

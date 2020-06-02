@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_spark_flash" guid="2d1cea89af41f1d5b219d082042a4cd48a016263" parent="cb3efb53459273a5337bfc1eaff041a5fd342807" base_material="particles_base">
+	<blend src="one" dest="one"/>
+	<texture name="diffuse">guid://ca3b5e567b71f25e30b306a6d34896ca100253ea</texture>
+	<parameter name="diffuse_color" expression="0">1 1 1 0.141176</parameter>
+	<parameter name="emission_scale" expression="0">500</parameter>
+</material>

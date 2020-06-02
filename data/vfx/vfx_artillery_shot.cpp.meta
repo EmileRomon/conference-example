@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>ace0ba34d407f94815c4b4e76207ea90ac8de3a0</guid>
+	<type>script</type>
+	<hash>e9f0b1cc</hash>
+	<runtimes>
+		<runtime id="ace0ba34d407f94815c4b4e76207ea90ac8de3a0" name="vfx_artillery_shot.cpp" link="0"/>
+	</runtimes>
+</asset>

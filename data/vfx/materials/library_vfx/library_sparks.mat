@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_sparks" guid="a50074db7de2c74cc55ca91dff36659f76762413" parent="cb3efb53459273a5337bfc1eaff041a5fd342807" base_material="particles_base">
+	<blend src="one" dest="one"/>
+	<state name="ambient">0</state>
+	<state name="light_world">0</state>
+	<texture name="diffuse">guid://e9214fab7ee12ab66b9a0072ef5b95c2de3e25a0</texture>
+	<texture name="attenuation">guid://f3bd0f59cacf463ed548b2031a462d894b090abb</texture>
+	<parameter name="animation_transform" expression="0">1 1 1 0.125</parameter>
+	<parameter name="emission_scale" expression="0">4</parameter>
+</material>

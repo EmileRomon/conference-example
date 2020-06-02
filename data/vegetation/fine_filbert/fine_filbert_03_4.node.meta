@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>24f7c26056d75328e38b8ea2c81a1bab4d06cac0</guid>
+	<type>node</type>
+	<hash>a8ddb0e8</hash>
+	<runtimes>
+		<runtime id="24f7c26056d75328e38b8ea2c81a1bab4d06cac0" name="fine_filbert_03_4.node" link="0"/>
+	</runtimes>
+</asset>

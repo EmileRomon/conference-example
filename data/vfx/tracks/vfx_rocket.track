@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<track version="2.11.0.0" min_time="0" max_time="40" unit_time="1">
+	<parameter type="node.position" id="1211247969" name="vfx_rocket">
+		<keys_x>
+			<key time="0" type="1">0</key>
+		</keys_x>
+		<keys_y>
+			<key time="0" type="1">0</key>
+		</keys_y>
+		<keys_z>
+			<key time="0" type="1">0</key>
+			<key time="4" type="2" handles="-3.19385 0.833155 3.19385 -0.833155">0</key>
+			<key time="15" type="2" handles="-4.68536 -82.7267 4.68536 82.7267">90</key>
+			<key time="40" type="2" handles="-6.31757 -596.126 6.31757 596.126">1300</key>
+		</keys_z>
+	</parameter>
+	<parameter type="node.object.particles.lifeMean" id="217291095" name="white_smoke_1">
+		<key time="4" type="2" handles="-4.78577 0.89742 4.78577 -0.89742">3</key>
+		<key time="40" type="2" handles="-14.3955 0.156929 14.3955 -0.156929">0</key>
+	</parameter>
+	<parameter type="node.object.particles.lifeSpread" id="217291095" name="white_smoke_1">
+		<key time="4" type="2" handles="-5.27147 0.966713 5.27147 -0.966713">1.5</key>
+		<key time="40" type="2" handles="-14.2914 0.0224182 14.2914 -0.0224182">0</key>
+	</parameter>
+	<parameter type="material.parameterColor" name="library_smoke_wispy" string="diffuse_color">
+		<key time="10.5568">1 1 1 0.227451</key>
+		<key time="40">0 0 0 0</key>
+	</parameter>
+	<parameter type="node.object.particles.lifeMean" id="2078786256" name="white_smoke_2">
+		<key time="4" type="2" handles="-4.78577 0.89742 4.78577 -0.89742">3</key>
+		<key time="40" type="2" handles="-14.3955 0.156929 14.3955 -0.156929">0</key>
+	</parameter>
+	<parameter type="node.object.particles.lifeSpread" id="2078786256" name="white_smoke_2">
+		<key time="4" type="2" handles="-5.27147 0.966713 5.27147 -0.966713">1.5</key>
+		<key time="40" type="2" handles="-14.2914 0.0224182 14.2914 -0.0224182">0</key>
+	</parameter>
+	<parameter type="material.parameterColor" name="library_smoke_wispy_light" string="diffuse_color">
+		<key time="10.5568">0.419608 0.419608 0.419608 0.0470588</key>
+		<key time="40">0 0 0 0</key>
+	</parameter>
+	<parameter type="node.object.particles.lifeMean" id="348563008" name="white_smoke3">
+		<key time="4" type="2" handles="-4.78577 0.89742 4.78577 -0.89742">3</key>
+		<key time="40" type="2" handles="-14.3955 0.156929 14.3955 -0.156929">0</key>
+	</parameter>
+	<parameter type="node.object.particles.emitterEnabled" id="345092062" name="starting_smoke flows">
+		<key time="0">0</key>
+		<key time="2.56722">1</key>
+		<key time="10.5568">0</key>
+	</parameter>
+	<parameter type="node.position" id="1433077637" name="smoke_light">
+		<keys_x>
+			<key time="0" type="1">0</key>
+		</keys_x>
+		<keys_y>
+			<key time="0" type="1">0</key>
+		</keys_y>
+		<keys_z>
+			<key time="6.52212" type="1">0</key>
+			<key time="12.489" type="1">25</key>
+		</keys_z>
+	</parameter>
+	<parameter type="material.parameterColor" name="library_smoke_glow" string="diffuse_color">
+		<key time="5.18723">0 0 0 1</key>
+		<key time="7.42411">1 0.815686 0 1</key>
+		<key time="12.489">1 0.815686 0 1</key>
+		<key time="18.058">0 0 0 1</key>
+	</parameter>
+	<parameter type="node.object.particles.emitterEnabled" id="125061854" name="starting_smoke flows2">
+		<key time="0">0</key>
+		<key time="8.84649">1</key>
+		<key time="15.83">0</key>
+	</parameter>
+	<parameter type="material.parameterColor" name="library_fire_glow" string="diffuse_color">
+		<key time="2.10468">0 0 0 1</key>
+		<key time="2.17142">0.407843 0.356863 0.305882 1</key>
+		<key time="2.25602">0 0 0 1</key>
+		<key time="2.34946">0 0 0 1</key>
+		<key time="2.46508">0.498039 0.431373 0.368627 1</key>
+		<key time="2.59203">0 0 0 1</key>
+		<key time="2.67852">0.427451 0.372549 0.317647 1</key>
+		<key time="2.88313">0 0 0 1</key>
+		<key time="3.13674">1 0.870588 0.737255 1</key>
+	</parameter>
+</track>

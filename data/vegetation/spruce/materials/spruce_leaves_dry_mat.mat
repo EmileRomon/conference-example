@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="spruce_leaves_dry_mat" guid="26882bd4f973ef015c794774ef0ab94d5766c930" base_material="mesh_base">
+	<options transparent="1" two_sided="1"/>
+	<state name="vegetation">1</state>
+	<state name="animation">1</state>
+	<state name="vegetation_velocity">0</state>
+	<texture name="albedo">guid://c77346091ce14de5432253d0d8e36d4adb023a53</texture>
+	<texture name="normal">guid://d892e4a22cac2934866af3349a00f42c57303384</texture>
+	<parameter name="albedo_color" expression="0">0.588235319 0.588235319 0.588235319 1</parameter>
+	<parameter name="specular" expression="0">0</parameter>
+	<parameter name="animation_stem_noise" expression="0">0.621999979</parameter>
+	<parameter name="animation_stem_offset" expression="0">0.0250000004</parameter>
+	<parameter name="animation_stem_radius" expression="0">0.300000012</parameter>
+</material>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_fire_middle" guid="179ec4a3028fae5b1915c739846aee3f6ca7272e" parent="e84bb1fdf29b47e43dbe83cff8ad65f2a75c303f" base_material="particles_base">
+	<blend src="one" dest="one"/>
+	<state name="soft_interaction">0</state>
+	<state name="ambient">0</state>
+	<state name="light_world">0</state>
+	<texture name="diffuse">guid://e6604f2c9ec3fc033def64f12489f889f4e5dcfe</texture>
+	<parameter name="animation_transform" expression="0">8 8 1 0.625</parameter>
+	<parameter name="diffuse_color" expression="0">1 1 1 1</parameter>
+	<parameter name="emission_scale" expression="0">4</parameter>
+</material>

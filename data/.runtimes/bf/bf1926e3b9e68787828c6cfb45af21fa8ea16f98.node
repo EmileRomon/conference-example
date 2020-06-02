@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="353418554" name="elm_01_2">
+		<mesh_name>guid://e1b9c3c884e54b20ab7a1d0395902a5db87e52cf</mesh_name>
+		<surface name="elm_rought_tree_01_2_lod_2_elm_rought_trunk_mat" material="d9075b6d115a2df832c68afdac9328d846a74a9c"/>
+		<surface name="elm_rought_leaves_01_2_lod_2_elm_rought_leaves_sum_mat" material="bb87a0cdf6c15b12e4967a1fe5d9ed606b93bf17"/>
+		<surface name="elm_rought_leaves_01_2_lod_1_elm_rought_leaves_sum_mat" material="bb87a0cdf6c15b12e4967a1fe5d9ed606b93bf17"/>
+		<surface name="elm_rought_tree_01_2_lod_1_elm_rought_trunk_mat" material="d9075b6d115a2df832c68afdac9328d846a74a9c"/>
+		<surface name="elm_rought_leaves_01_2_lod_0_elm_rought_leaves_sum_mat" material="bb87a0cdf6c15b12e4967a1fe5d9ed606b93bf17"/>
+		<surface name="elm_rought_tree_01_2_lod_0_elm_rought_trunk_mat" material="d9075b6d115a2df832c68afdac9328d846a74a9c"/>
+		<surface name="elm_rought_leaves_01_2_shadow_elm_rought_leaves_sum_mat" material="bb87a0cdf6c15b12e4967a1fe5d9ed606b93bf17"/>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

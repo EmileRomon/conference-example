@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>208960ab109ffe0e23266e15154be87042d6610f</guid>
+	<type>file</type>
+	<hash>bd7844c2</hash>
+	<runtimes>
+		<runtime id="208960ab109ffe0e23266e15154be87042d6610f" name="unigine.cfg" link="0"/>
+	</runtimes>
+</asset>

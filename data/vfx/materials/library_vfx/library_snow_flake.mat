@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_snow_flake" guid="d008d79727af52f7b5f5f88a49ee4e94a96fe32d" parent="cb3efb53459273a5337bfc1eaff041a5fd342807" base_material="particles_base">
+	<blend src="one" dest="one"/>
+	<options order="8"/>
+	<texture name="diffuse">guid://1f6fd6a82b29d68414cfdef2cf493b7886a013eb</texture>
+	<texture name="attenuation">guid://f3e0a32ba5152c6da9f20e5ffb0549ecc041ff03</texture>
+	<parameter name="refraction_scale" expression="0">0.300000012</parameter>
+</material>

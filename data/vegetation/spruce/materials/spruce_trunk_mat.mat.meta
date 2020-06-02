@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>9b8dfb23787fa1bd3d0f147885edc2a060f09898</guid>
+	<type>material</type>
+	<hash>831d0cf3</hash>
+	<runtimes>
+		<runtime id="9b8dfb23787fa1bd3d0f147885edc2a060f09898" name="spruce_trunk_mat" link="0"/>
+	</runtimes>
+</asset>

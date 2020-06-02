@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="975656456" name="cube">
+		<mesh_name>guid://e0a18b04956a9a9364ca5ed63f65083d83cdac78</mesh_name>
+		<surface name="mesh_base" bake_to_env_probe="0" bake_to_voxel_probe="0" cast_env_probe_shadow="0" shadow_mode="1" physics_friction="1" physics_restitution="1" material="856a527c0a972ae0b1a7012ba883608a786bfe78"/>
+		<body type="BodyRigid" id="1644232549" frozen="0">
+			<shape type="ShapeBox" id="541016037">
+				<size>0.799999952 0.800000191 0.800000072</size>
+			</shape>
+			<shape type="ShapeSphere" id="525111606" transform="1 0 0 0 0 1 0 0 0 0 1 0 -0.299999982 -0.300000101 -0.300000042 1">
+				<radius>0.099999994</radius>
+			</shape>
+			<shape type="ShapeSphere" id="304036367" transform="1 0 0 0 0 1 0 0 0 0 1 0 0.299999982 -0.300000101 -0.300000042 1">
+				<radius>0.099999994</radius>
+			</shape>
+			<shape type="ShapeSphere" id="1671728608" transform="1 0 0 0 0 1 0 0 0 0 1 0 -0.299999982 0.300000101 -0.300000042 1">
+				<radius>0.099999994</radius>
+			</shape>
+			<shape type="ShapeSphere" id="1318164664" transform="1 0 0 0 0 1 0 0 0 0 1 0 0.299999982 0.300000101 -0.300000042 1">
+				<radius>0.099999994</radius>
+			</shape>
+			<shape type="ShapeSphere" id="979128676" transform="1 0 0 0 0 1 0 0 0 0 1 0 -0.299999982 -0.300000101 0.300000042 1">
+				<radius>0.099999994</radius>
+			</shape>
+			<shape type="ShapeSphere" id="431992839" transform="1 0 0 0 0 1 0 0 0 0 1 0 0.299999982 -0.300000101 0.300000042 1">
+				<radius>0.099999994</radius>
+			</shape>
+			<shape type="ShapeSphere" id="186179934" transform="1 0 0 0 0 1 0 0 0 0 1 0 -0.299999982 0.300000101 0.300000042 1">
+				<radius>0.099999994</radius>
+			</shape>
+			<shape type="ShapeSphere" id="2144658693" transform="1 0 0 0 0 1 0 0 0 0 1 0 0.299999982 0.300000101 0.300000042 1">
+				<radius>0.099999994</radius>
+			</shape>
+		</body>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

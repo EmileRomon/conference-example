@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>e9ff7343bcc955344d65060fd6339d4daafeae64</guid>
+	<type>texture</type>
+	<hash>0bcf8c63</hash>
+	<runtimes>
+		<runtime id="e9ff7343bcc955344d65060fd6339d4daafeae64" name="spruce_winter_n.tga" link="0"/>
+		<runtime id="d820e97abdb9c9f1279310e23fb3c73fd8a146c4" name="spruce_winter_n.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">Point</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="int" name="width">0</parameter>
+		<parameter type="int" name="height">0</parameter>
+	</parameters>
+</asset>

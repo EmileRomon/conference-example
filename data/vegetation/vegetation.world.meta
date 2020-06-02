@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>be1b9ff8f7674f377b6f7f0a6da951844cc79798</guid>
+	<type>world</type>
+	<hash>4c6a10bc</hash>
+	<runtimes>
+		<runtime id="be1b9ff8f7674f377b6f7f0a6da951844cc79798" name="vegetation.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="script_name">guid://15c14f97bfdfd4597c73aee690880205a21ed3e5</parameter>
+	</parameters>
+</asset>

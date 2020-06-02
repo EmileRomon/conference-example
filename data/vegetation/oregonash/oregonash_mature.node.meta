@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>c06098ac0b068350a0b38816ce200fd8639c9ed3</guid>
+	<type>node</type>
+	<hash>fd121bd4</hash>
+	<runtimes>
+		<runtime id="c06098ac0b068350a0b38816ce200fd8639c9ed3" name="oregonash_mature.node" link="0"/>
+	</runtimes>
+</asset>

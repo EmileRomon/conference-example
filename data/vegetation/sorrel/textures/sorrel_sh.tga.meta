@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>81609181b1b4a9e18502bdf6d4718d0b589051dc</guid>
+	<type>texture</type>
+	<hash>6ad9b56</hash>
+	<runtimes>
+		<runtime id="81609181b1b4a9e18502bdf6d4718d0b589051dc" name="sorrel_sh.tga" link="0"/>
+		<runtime id="ebe82828a907aab7c1853426c2a2be64c6939f28" name="sorrel_sh.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="int" name="width">0</parameter>
+		<parameter type="int" name="height">0</parameter>
+	</parameters>
+</asset>

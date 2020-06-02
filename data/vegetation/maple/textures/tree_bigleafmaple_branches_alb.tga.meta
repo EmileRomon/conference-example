@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>97ddf0dee6e8741c2a673aeb9cdbe97fd0f0bee0</guid>
+	<type>texture</type>
+	<hash>5e548182</hash>
+	<runtimes>
+		<runtime id="97ddf0dee6e8741c2a673aeb9cdbe97fd0f0bee0" name="tree_bigleafmaple_branches_alb.tga" link="0"/>
+		<runtime id="6ad10709b313d2451d2f632645c6d552ce8ee4d5" name="tree_bigleafmaple_branches_alb.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT5</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">1024</parameter>
+		<parameter type="string" name="height">1024</parameter>
+	</parameters>
+</asset>

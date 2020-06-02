@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>bb87a0cdf6c15b12e4967a1fe5d9ed606b93bf17</guid>
+	<type>material</type>
+	<hash>fb9ae648</hash>
+	<runtimes>
+		<runtime id="bb87a0cdf6c15b12e4967a1fe5d9ed606b93bf17" name="elm_rought_leaves_sum_mat" link="0"/>
+	</runtimes>
+</asset>

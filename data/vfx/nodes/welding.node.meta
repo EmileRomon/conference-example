@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>d957b4adf15514d51f36250cd092a65e9e9cbdb5</guid>
+	<type>node</type>
+	<hash>8065f1f3</hash>
+	<runtimes>
+		<runtime id="d957b4adf15514d51f36250cd092a65e9e9cbdb5" name="welding.node" link="0"/>
+	</runtimes>
+</asset>

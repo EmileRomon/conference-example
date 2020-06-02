@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>47b7723f109e20ab75af7bd46fdf119a017a0168</guid>
+	<type>texture</type>
+	<hash>46a2d81f</hash>
+	<runtimes>
+		<runtime id="47b7723f109e20ab75af7bd46fdf119a017a0168" name="library_shockwave_n.psd" link="0"/>
+		<runtime id="184675b82f11b78a2a53fe2994cdbb10ecedf8ff" name="library_shockwave_n.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="image_type">2D</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="width">Original</parameter>
+		<parameter type="string" name="height">Original</parameter>
+	</parameters>
+</asset>

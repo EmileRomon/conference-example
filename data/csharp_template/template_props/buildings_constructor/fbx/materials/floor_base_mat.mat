@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="floor_base_mat" guid="c599018361993906cf853cadc944f628f8eb6367" base_material="mesh_base">
+	<options two_sided="0"/>
+	<state name="detail">1</state>
+	<state name="detail_blend">1</state>
+	<state name="base_mapping">3</state>
+	<state name="detail_mapping">4</state>
+	<state name="reflection_show_pivot">1</state>
+	<texture name="albedo">guid://ac61500693d867ad17a02528df46c6672623109a</texture>
+	<texture name="shading">guid://fdbbaa2c83101f9b66fb503e6f38ba85b39e6a20</texture>
+	<texture name="normal">guid://2997e40822c8b7c7ec48927a7464ff91588cb3bc</texture>
+	<texture name="detail_shading">guid://6e91f2d2b719f409b4dcedd4ac1d7f2325015a26</texture>
+	<parameter name="roughness" expression="0">0.5</parameter>
+	<parameter name="detail_uv_transform" expression="0">0.300000012 0.300000012 0 0</parameter>
+	<parameter name="detail_albedo_color_visible" expression="0">0</parameter>
+	<parameter name="detail_metalness_visible" expression="0">0</parameter>
+	<parameter name="detail_specular_visible" expression="0">0</parameter>
+	<parameter name="detail_normal_visible" expression="0">0</parameter>
+</material>

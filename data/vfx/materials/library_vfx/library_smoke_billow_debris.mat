@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_smoke_billow_debris" guid="ec9f9d2013028c84574810ced3c83b89166b098d" parent="4abefb138719cc83b946a1a0484fe441c471fd38" base_material="particles_base">
+	<blend src="src_alpha" dest="one_minus_src_alpha"/>
+	<state name="ambient">0</state>
+	<state name="light_world">0</state>
+	<texture name="diffuse">guid://b3987c90f0a8a7760c6681797522e26526b3f965</texture>
+	<parameter name="animation_transform" expression="0">1 1 1 0</parameter>
+	<parameter name="diffuse_color" expression="0">0.619607985 0.619607985 0.619607985 1</parameter>
+	<parameter name="environment_scale" expression="0">9.38449955</parameter>
+</material>

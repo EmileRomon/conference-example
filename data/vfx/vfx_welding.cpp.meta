@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>a6fb40d707a68653f71d2077d8b235c9b26cbc41</guid>
+	<type>script</type>
+	<hash>9aaaa334</hash>
+	<runtimes>
+		<runtime id="a6fb40d707a68653f71d2077d8b235c9b26cbc41" name="vfx_welding.cpp" link="0"/>
+	</runtimes>
+</asset>

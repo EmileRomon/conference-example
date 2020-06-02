@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>fc000e5866e3afc93120c66362327bafb753dfe1</guid>
+	<type>script</type>
+	<hash>c7e55ecd</hash>
+	<runtimes>
+		<runtime id="fc000e5866e3afc93120c66362327bafb753dfe1" name="vfx_tank.cpp" link="0"/>
+	</runtimes>
+</asset>

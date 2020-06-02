@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="896778081" name="raspberries_02_03">
+		<mesh_name>guid://2b66bfa99a6b8c25e3d97cb87174a16e7f61ad13</mesh_name>
+		<surface name="raspberries_mat_lod_0" max_visible_distance="15" min_fade_distance="5" max_fade_distance="5" physics_friction="1" physics_restitution="1" material="821a7d4fc17cbffc9889edd89b20fcac6cc6a691"/>
+		<surface name="raspberries_mat_lod_1" min_visible_distance="15" max_visible_distance="60" min_fade_distance="5" max_fade_distance="5" physics_friction="1" physics_restitution="1" material="821a7d4fc17cbffc9889edd89b20fcac6cc6a691"/>
+		<surface name="raspberries_mat_lod_2" min_visible_distance="60" min_fade_distance="5" max_fade_distance="5" physics_friction="1" physics_restitution="1" material="821a7d4fc17cbffc9889edd89b20fcac6cc6a691"/>
+		<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

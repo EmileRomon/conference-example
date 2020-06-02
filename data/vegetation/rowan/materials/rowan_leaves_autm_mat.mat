@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="rowan_leaves_autm_mat" guid="d08965ea13c92ed6883d879a82703570ceadfc25" base_material="mesh_base">
+	<options transparent="1" two_sided="1"/>
+	<state name="vegetation">1</state>
+	<state name="jitter_transparency">1</state>
+	<state name="normals_rotated_to_camera">1</state>
+	<state name="backside_normal">1</state>
+	<state name="animation">1</state>
+	<state name="leafs">3</state>
+	<state name="vegetation_velocity">0</state>
+	<texture name="albedo">guid://03511706e4b1a320e616d395e45a38520a130e21</texture>
+	<texture name="normal">guid://3f20f53f56bff9bac088fe9da324a879e0e3e8a5</texture>
+	<parameter name="roughness" expression="0">0.25</parameter>
+	<parameter name="specular" expression="0">0.25</parameter>
+	<parameter name="translucent" expression="0">1</parameter>
+	<parameter name="transparent" expression="0">1.20000005</parameter>
+	<parameter name="animation_stem_offset" expression="0">0.0299999993</parameter>
+	<parameter name="animation_stem_radius" expression="0">0.0299999993</parameter>
+	<parameter name="animation_branch_offset" expression="0">0.0500000007</parameter>
+	<parameter name="animation_branch_scale" expression="0">2</parameter>
+	<parameter name="animation_leaf_noise" expression="0">10</parameter>
+	<parameter name="animation_leaf_offset" expression="0">0.0500000007</parameter>
+	<parameter name="animation_leaf_scale" expression="0">0.5</parameter>
+</material>

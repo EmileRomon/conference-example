@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>7582fd9e8479eb7e66ced1d42552d16705ff7e84</guid>
+	<type>script</type>
+	<hash>80505f0e</hash>
+	<runtimes>
+		<runtime id="7582fd9e8479eb7e66ced1d42552d16705ff7e84" name="vfx_water_explosion.cpp" link="0"/>
+	</runtimes>
+</asset>

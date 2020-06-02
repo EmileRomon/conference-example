@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>275ba9a067bf85946dbb1ea0abab1db8a6b607a9</guid>
+	<type>material</type>
+	<hash>b4a1ce34</hash>
+	<runtimes>
+		<runtime id="275ba9a067bf85946dbb1ea0abab1db8a6b607a9" name="library_smoke_billow_missile_1" link="0"/>
+	</runtimes>
+</asset>

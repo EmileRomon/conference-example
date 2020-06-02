@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_welding_glow" guid="24b0a6962039c422ca55bf62581cc75bf15d400f" parent="e268f3cbeccfcf2113183367f3650a1e6847cbc9" base_material="particles_base">
+	<blend src="one" dest="one"/>
+	<texture name="attenuation">guid://f3e0a32ba5152c6da9f20e5ffb0549ecc041ff03</texture>
+	<parameter name="diffuse_color" expression="0">0.250980407 0.388235331 1 0.0392156877</parameter>
+	<parameter name="emission_scale" expression="0">3.33200002</parameter>
+</material>

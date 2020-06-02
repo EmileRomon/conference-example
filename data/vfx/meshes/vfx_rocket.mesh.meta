@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>21935647191617f870617bb7701a8d50061b5346</guid>
+	<type>mesh</type>
+	<hash>a053133</hash>
+	<runtimes>
+		<runtime id="21935647191617f870617bb7701a8d50061b5346" name="vfx_rocket.mesh" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="blue_oak_impostor" guid="cb43e76eb32e68bf8dc23ee17319e68d4fbd6d25" base_material="grass_impostor_base">
+	<state name="ao_map">0</state>
+	<state name="shading_map">0</state>
+	<state name="microfiber_map">0</state>
+	<state name="specular_map">0</state>
+	<state name="lerp">1</state>
+	<state name="up_direction">1</state>
+	<state name="jitter_transparency">1</state>
+	<state name="material_ssao">0</state>
+	<texture name="albedo">guid://955ec87f2d8c5b638edb6b5e69e14581f7c200cd</texture>
+	<texture name="normal">guid://fb0c21239073985d63dab8c4c0bd2e915247f880</texture>
+	<texture name="translucent">guid://e732ad15313a2c7cf41339cd85045d8690d5debc</texture>
+	<parameter name="material_mask" expression="0">0</parameter>
+	<parameter name="impostor_transform" expression="0"/>
+	<parameter name="metalness" expression="0">0</parameter>
+	<parameter name="roughness" expression="0">1</parameter>
+	<parameter name="specular" expression="0">0</parameter>
+	<parameter name="microfiber" expression="0">0.5</parameter>
+	<parameter name="shadow_offset" expression="0">-4</parameter>
+	<parameter name="animation_stem_noise" expression="0">0</parameter>
+	<parameter name="animation_stem_offset" expression="0">0</parameter>
+	<parameter name="animation_stem_radius" expression="0">0</parameter>
+	<parameter name="animation_stem_scale" expression="0">0</parameter>
+	<parameter name="noise_transform" expression="0">20 20 0 0</parameter>
+	<parameter name="noise_scale" expression="0">0.00700000022</parameter>
+	<parameter name="occlusion_multiplier" expression="0">1.29999995</parameter>
+	<parameter name="occlusion_pow" expression="0">0.25</parameter>
+	<parameter name="occlusion_on_diffuse" expression="0">1</parameter>
+</material>

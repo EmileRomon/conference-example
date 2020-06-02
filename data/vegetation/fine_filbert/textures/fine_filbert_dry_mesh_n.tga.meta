@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>1f7aa27b5ee710ec20d0c4f1074f9ede2ed666ea</guid>
+	<type>texture</type>
+	<hash>d7d93644</hash>
+	<runtimes>
+		<runtime id="1f7aa27b5ee710ec20d0c4f1074f9ede2ed666ea" name="fine_filbert_dry_mesh_n.tga" link="0"/>
+		<runtime id="4e718d94154deb9eca7557644f7ea532e6605d49" name="fine_filbert_dry_mesh_n.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="int" name="width">0</parameter>
+		<parameter type="int" name="height">0</parameter>
+	</parameters>
+</asset>

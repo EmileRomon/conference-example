@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_smoke_glow" guid="ce4564b0a97fe01aaf6639e8dab618ceb5193d9e" parent="cb3efb53459273a5337bfc1eaff041a5fd342807" base_material="particles_base">
+	<blend src="dest_color" dest="one"/>
+	<options order="8"/>
+	<texture name="diffuse">guid://245b9a17b8b8713aac56d65a89f6843ab6fc3a7a</texture>
+	<texture name="attenuation">guid://7c0e55fafca2396f0f8f188389f6dd5d256ed79c</texture>
+	<parameter name="animation_transform" expression="0">1 1 1 0.1875</parameter>
+	<parameter name="diffuse_color" expression="0">0.511588573 0.417295605 0 1</parameter>
+	<parameter name="soft_interaction_scale" expression="0">2</parameter>
+	<parameter name="diffuse_scale" expression="0">0.200000003</parameter>
+</material>

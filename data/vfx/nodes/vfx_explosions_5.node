@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="NodeDummy" id="725524923" name="explosion_5">
+		<transform>1 2.5243552e-029 0 0.0 -2.5243552e-029 1 0 0.0 0 0 0.99999994 0.0 -3.2424927e-005 0 0 1.0</transform>
+		<node type="ObjectParticles" id="62287375" name="explosion_fire_front">
+			<particles_type>3</particles_type>
+			<warming>0</warming>
+			<variation_x>1</variation_x>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>5</number_per_spawn>
+			<spawn_rate>0</spawn_rate>
+			<linear_damping>2</linear_damping>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sequence>5</emitter_sequence>
+			<emitter_sync>0</emitter_sync>
+			<emitter_direction>0 0 1</emitter_direction>
+			<period_mean>100</period_mean>
+			<period_spread>0</period_spread>
+			<duration_mean>0.100000001</duration_mean>
+			<duration_spread>0</duration_spread>
+			<life_mean>0.400000006</life_mean>
+			<life_spread>0.100000001</life_spread>
+			<velocity_mean>4</velocity_mean>
+			<velocity_spread>1</velocity_spread>
+			<angle_mean>0</angle_mean>
+			<angle_spread>0</angle_spread>
+			<radius_mean>0.300000012</radius_mean>
+			<radius_spread>0.100000001</radius_spread>
+			<growth_mean>0.5</growth_mean>
+			<growth_spread>0.200000003</growth_spread>
+			<surface name="particles" material="a20915b8414d8f8447938fae74e74fe551eae8ab"/>
+			<transform>0.99999988 -5.0487098e-029 0 0.0 5.0487098e-029 0.99999988 0 0.0 0 0 1.0000001 0.0 -1.5258789e-005 0 -1.192093e-007 1.0</transform>
+		</node>
+		<node type="ObjectParticles" id="457161179" name="explosion_fire_top">
+			<particles_type>3</particles_type>
+			<warming>0</warming>
+			<variation_x>1</variation_x>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>6</number_per_spawn>
+			<spawn_rate>0</spawn_rate>
+			<linear_damping>2</linear_damping>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sequence>10</emitter_sequence>
+			<emitter_sync>0</emitter_sync>
+			<emitter_direction>0 0 0.5</emitter_direction>
+			<emitter_spread>0.5 0.5 0.5</emitter_spread>
+			<period_mean>100</period_mean>
+			<period_spread>0</period_spread>
+			<duration_mean>0.100000001</duration_mean>
+			<duration_spread>0</duration_spread>
+			<life_mean>0.5</life_mean>
+			<life_spread>0.100000001</life_spread>
+			<angle_mean>0</angle_mean>
+			<angle_spread>0</angle_spread>
+			<radius_mean>0.300000012</radius_mean>
+			<radius_spread>0.100000001</radius_spread>
+			<growth_mean>0.5</growth_mean>
+			<growth_spread>0.200000003</growth_spread>
+			<surface name="particles" material="486db9307e036db63696e41b139950948f070065"/>
+			<transform>0.99999988 -5.0487098e-029 0 0.0 5.0487098e-029 0.99999988 0 0.0 0 0 1.0000001 0.0 -1.5258789e-005 0 -1.192093e-007 1.0</transform>
+		</node>
+		<node type="ObjectParticles" id="1976719003" name="explosion_sparks">
+			<particles_type>3</particles_type>
+			<warming>0</warming>
+			<texture_atlas>1</texture_atlas>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>200</number_per_spawn>
+			<spawn_rate>0</spawn_rate>
+			<length_stretch>0.0500000007</length_stretch>
+			<linear_damping>3</linear_damping>
+			<emitter_type>1</emitter_type>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sync>0</emitter_sync>
+			<emitter_size>0.25 0.200000003 0</emitter_size>
+			<period_mean>100</period_mean>
+			<period_spread>0</period_spread>
+			<duration_mean>0.100000001</duration_mean>
+			<duration_spread>0</duration_spread>
+			<life_mean>0.600000024</life_mean>
+			<life_spread>0.400000006</life_spread>
+			<velocity_mean>5</velocity_mean>
+			<velocity_spread>4</velocity_spread>
+			<radius_mean>0.0149999997</radius_mean>
+			<radius_spread>0.00999999978</radius_spread>
+			<surface name="particles" material="a50074db7de2c74cc55ca91dff36659f76762413"/>
+			<transform>0.99999988 -5.0487098e-029 0 0.0 5.0487098e-029 0.99999988 0 0.0 0 0 1.0000001 0.0 -1.5258789e-005 0 -1.192093e-007 1.0</transform>
+		</node>
+		<node type="ObjectParticles" id="1061724929" name="explosion_smoke">
+			<warming>0</warming>
+			<variation_x>1</variation_x>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>41</number_per_spawn>
+			<spawn_rate>0</spawn_rate>
+			<linear_damping>3</linear_damping>
+			<angular_damping>0.349999994</angular_damping>
+			<growth_damping>0.100000001</growth_damping>
+			<emitter_type>1</emitter_type>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sequence>1</emitter_sequence>
+			<emitter_sync>0</emitter_sync>
+			<emitter_size>0.100000001 0.5 0</emitter_size>
+			<emitter_direction>0 0 1</emitter_direction>
+			<period_mean>100</period_mean>
+			<period_spread>0</period_spread>
+			<duration_mean>0.100000001</duration_mean>
+			<duration_spread>0</duration_spread>
+			<life_mean>2.5</life_mean>
+			<life_spread>1.5</life_spread>
+			<velocity_mean>8</velocity_mean>
+			<velocity_spread>1</velocity_spread>
+			<rotation_mean>0</rotation_mean>
+			<rotation_spread>50</rotation_spread>
+			<radius_mean>1</radius_mean>
+			<radius_spread>0.0500000007</radius_spread>
+			<growth_mean>0.0500000007</growth_mean>
+			<growth_spread>0</growth_spread>
+			<gravity>0 0 -1</gravity>
+			<force>
+				<enabled>1</enabled>
+				<attached>1</attached>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+				<radius>2</radius>
+				<attenuation>1</attenuation>
+				<attractor>-2</attractor>
+				<rotator>0</rotator>
+			</force>
+			<surface name="particles" material="0a634487f26b28fac9ad3b3e46dcd832b92a69b6"/>
+			<transform>0.99999988 -5.0487098e-029 0 0.0 5.0487098e-029 0.99999988 0 0.0 0 0 1.0000001 0.0 -1.5258789e-005 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

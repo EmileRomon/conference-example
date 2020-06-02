@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>0e79b0b8aa51ff0afabc63a4ab34d4bcc44f1cee</guid>
+	<type>world</type>
+	<hash>7a968d8b</hash>
+	<runtimes>
+		<runtime id="0e79b0b8aa51ff0afabc63a4ab34d4bcc44f1cee" name="vfx_explosion_4.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="script_name">guid://3e914da9950cfd5cd4f469596acc1f0edf7f3eba</parameter>
+	</parameters>
+</asset>

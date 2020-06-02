@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>531e4ad45f1572f42431baee766974ff18a81920</guid>
+	<type>world</type>
+	<hash>f66abb1</hash>
+	<runtimes>
+		<runtime id="531e4ad45f1572f42431baee766974ff18a81920" name="vfx_turbulence_flow_dust.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="script_name">guid://01d544645a625273512ee52b91d9661d2a325736</parameter>
+	</parameters>
+</asset>

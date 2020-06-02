@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>87f07a8fb8459257ce53070769effec8b8214527</guid>
+	<type>node</type>
+	<hash>7e47f015</hash>
+	<runtimes>
+		<runtime id="87f07a8fb8459257ce53070769effec8b8214527" name="linden_tree_5.node" link="0"/>
+	</runtimes>
+</asset>

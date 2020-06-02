@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="rowan_leaves_winter_mat" guid="8da88cf9e1a78ddf5fd1f489d9c3e5c3111ce2f5" base_material="mesh_base">
+	<parameter name="albedo_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
+</material>

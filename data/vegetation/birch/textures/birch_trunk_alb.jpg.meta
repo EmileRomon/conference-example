@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>2ac14acad0fae6ed9fa5fe054356dcfcc11edc89</guid>
+	<type>texture</type>
+	<hash>72c15aba</hash>
+	<runtimes>
+		<runtime id="2ac14acad0fae6ed9fa5fe054356dcfcc11edc89" name="birch_trunk_alb.jpg" link="0"/>
+		<runtime id="c9ed8d8d29db7d955a4866b1b66df8dc7dab592b" name="birch_trunk_alb.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">Point</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="int" name="width">0</parameter>
+		<parameter type="int" name="height">0</parameter>
+	</parameters>
+</asset>

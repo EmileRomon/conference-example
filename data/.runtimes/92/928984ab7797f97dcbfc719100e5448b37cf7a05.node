@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="NodeDummy" id="1050324176" name="rowan_05">
+		<transform>1 2.646978e-22 -3.8213714e-15 0.0 9.2644229e-23 1 8.7422777e-08 0.0 3.8213714e-15 -8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="1798853450" name="rowan_leaves_05_lod0">
+			<mesh_name>guid://56873d5a128083e9be17d123e348f258ecf0ebcd</mesh_name>
+			<surface name="rowan_leaves_autm_mat" material="d08965ea13c92ed6883d879a82703570ceadfc25"/>
+			<transform>1 8.7422777e-08 -8.7422784e-08 0.0 8.7422777e-08 7.1054274e-15 1 0.0 8.7422777e-08 -1 0 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1101124385" name="rowan_leaves_05_lod1">
+			<mesh_name>guid://8bf55fcaa4c306cdb2e5e2b3fcb3d981a4079a90</mesh_name>
+			<surface name="rowan_leaves_autm_mat" material="d08965ea13c92ed6883d879a82703570ceadfc25"/>
+			<transform>1 8.7422777e-08 -8.7422784e-08 0.0 8.7422777e-08 7.1054274e-15 1 0.0 8.7422777e-08 -1 0 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="702252191" name="rowan_leaves_05_lod2">
+			<mesh_name>guid://4b35fa492ea3cc88589cb12aa2c82c7fd9172c5c</mesh_name>
+			<surface name="rowan_leaves_autm_mat" material="d08965ea13c92ed6883d879a82703570ceadfc25"/>
+			<transform>1 8.7422777e-08 -8.7422784e-08 0.0 8.7422777e-08 7.1054274e-15 1 0.0 8.7422777e-08 -1 0 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1186879293" name="rowan_tree_05_lod2">
+			<mesh_name>guid://8719cc4afe254edc9449e8e9339155a520d0f2c9</mesh_name>
+			<surface name="rowan_trunk_mat" material="1033d1fea76f864acdfb21043b9fc244206affdf"/>
+			<transform>1 8.7422777e-08 -8.7422784e-08 0.0 8.7422777e-08 7.1054274e-15 1 0.0 8.7422777e-08 -1 0 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="796634948" name="rowan_tree_05_lod1">
+			<mesh_name>guid://3ffaeba609535cbfd1ad640f3ea0c7d586866661</mesh_name>
+			<surface name="rowan_trunk_mat" material="1033d1fea76f864acdfb21043b9fc244206affdf"/>
+			<transform>1 8.7422777e-08 -8.7422784e-08 0.0 8.7422777e-08 7.1054274e-15 1 0.0 8.7422777e-08 -1 0 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="181935135" name="rowan_tree_05_lod0">
+			<mesh_name>guid://209cdb6344968db03c7f2aa11d59c30dfca23da1</mesh_name>
+			<surface name="rowan_trunk_mat" material="1033d1fea76f864acdfb21043b9fc244206affdf"/>
+			<transform>1 8.7422777e-08 -8.7422784e-08 0.0 8.7422777e-08 7.1054274e-15 1 0.0 8.7422777e-08 -1 0 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="592176617" name="rowan_leaves_05_shadow">
+			<mesh_name>guid://4b80ef74d86531f8f55e014fad9ec03d56632ba0</mesh_name>
+			<surface name="rowan_leaves_autm_mat" material="d08965ea13c92ed6883d879a82703570ceadfc25"/>
+			<transform>1 8.7422777e-08 -8.7422784e-08 0.0 8.7422777e-08 7.1054274e-15 1 0.0 8.7422777e-08 -1 0 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

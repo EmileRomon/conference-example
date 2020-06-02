@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="547029718" name="linden_tree_9">
+		<mesh_name>guid://649a79531215429c2e8121fdc84136f0d4481b5c</mesh_name>
+		<surface name="linden_leaves_lod_0_linden_leaves" max_visible_distance="20" max_fade_distance="20" physics_friction="1" physics_restitution="1" material="3a1dc21df92abecdfd383c310fdda515b1acebd3"/>
+		<surface name="linden_leaves_lod_1_linden_leaves" cast_shadow="0" cast_world_shadow="0" min_visible_distance="20" max_visible_distance="50" min_fade_distance="20" max_fade_distance="20" physics_friction="1" physics_restitution="1" material="3a1dc21df92abecdfd383c310fdda515b1acebd3"/>
+		<surface name="linden_leaves_lod_2_linden_leaves" cast_shadow="0" cast_world_shadow="0" min_visible_distance="50" min_fade_distance="20" physics_friction="1" physics_restitution="1" material="3a1dc21df92abecdfd383c310fdda515b1acebd3"/>
+		<surface name="linden_trunk_lod_0_linden_trunk" max_visible_distance="20" max_fade_distance="20" physics_friction="1" physics_restitution="1" material="e05e4a8f6f93fbebe1d9c0e21ecffb5e738b164e"/>
+		<surface name="linden_trunk_lod_1_linden_trunk" min_visible_distance="20" max_visible_distance="50" min_fade_distance="20" max_fade_distance="20" physics_friction="1" physics_restitution="1" material="e05e4a8f6f93fbebe1d9c0e21ecffb5e738b164e"/>
+		<surface name="linden_trunk_lod_2_linden_trunk" min_visible_distance="50" min_fade_distance="20" physics_friction="1" physics_restitution="1" material="e05e4a8f6f93fbebe1d9c0e21ecffb5e738b164e"/>
+		<surface name="linden_twigs_linden_trunk" physics_friction="1" physics_restitution="1" material="e05e4a8f6f93fbebe1d9c0e21ecffb5e738b164e"/>
+		<surface name="linden_leaves_shadow_linden_leaves" viewport_mask="0x0" min_visible_distance="20" min_fade_distance="20" physics_friction="1" physics_restitution="1" material="3a1dc21df92abecdfd383c310fdda515b1acebd3"/>
+		<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

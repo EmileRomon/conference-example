@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>f8d1b92326b02e25847eaa488a3589c737aba6b9</guid>
+	<type>material</type>
+	<hash>f89f224e</hash>
+	<runtimes>
+		<runtime id="f8d1b92326b02e25847eaa488a3589c737aba6b9" name="oak_trunk_mat" link="0"/>
+	</runtimes>
+</asset>

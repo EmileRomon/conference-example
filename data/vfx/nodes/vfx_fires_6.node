@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="NodeDummy" id="524660882" name="fire_6">
+		<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 1 0.0 -9.5367432e-006 0 0 1.0</transform>
+		<node type="ObjectParticles" id="533208584" name="fire_lower">
+			<particles_type>1</particles_type>
+			<depth_sort>1</depth_sort>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>1</number_per_spawn>
+			<spawn_rate>20</spawn_rate>
+			<emitter_type>2</emitter_type>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sequence>1</emitter_sequence>
+			<emitter_sync>0</emitter_sync>
+			<emitter_size>2.5 0 0</emitter_size>
+			<emitter_direction>0 1 0</emitter_direction>
+			<emitter_spread>0 0 0</emitter_spread>
+			<life_mean>1.5</life_mean>
+			<life_spread>0</life_spread>
+			<velocity_mean>0.100000001</velocity_mean>
+			<velocity_spread>0</velocity_spread>
+			<radius_mean>1</radius_mean>
+			<radius_spread>0</radius_spread>
+			<surface name="particles" physics_friction="1" physics_restitution="1" material="11a7eea9240681c1e3ae5fb42abe1f4865a4ad02"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -2.2888184e-005 0 0.043341998 1.0</transform>
+		</node>
+		<node type="ObjectParticles" id="852010740" name="fire_low">
+			<particles_type>3</particles_type>
+			<depth_sort>1</depth_sort>
+			<variation_x>1</variation_x>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>1</number_per_spawn>
+			<spawn_rate>90</spawn_rate>
+			<emitter_type>2</emitter_type>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sequence>10</emitter_sequence>
+			<emitter_sync>0</emitter_sync>
+			<emitter_size>2 0 0</emitter_size>
+			<emitter_direction>0 0 1</emitter_direction>
+			<emitter_spread>0.200000003 0.200000003 0</emitter_spread>
+			<life_mean>0.600000024</life_mean>
+			<life_spread>0</life_spread>
+			<velocity_mean>0.5</velocity_mean>
+			<velocity_spread>0.200000003</velocity_spread>
+			<angle_mean>0</angle_mean>
+			<angle_spread>15</angle_spread>
+			<radius_mean>0.5</radius_mean>
+			<radius_spread>0.100000001</radius_spread>
+			<growth_mean>1</growth_mean>
+			<growth_spread>0.100000001</growth_spread>
+			<force>
+				<enabled>1</enabled>
+				<attached>1</attached>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -0.00011444092 0.094673157 2.6351547 1.0</transform>
+				<radius>3.5</radius>
+				<attenuation>1</attenuation>
+				<attractor>-10</attractor>
+				<rotator>0</rotator>
+			</force>
+			<force>
+				<enabled>1</enabled>
+				<attached>1</attached>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -2.2888184e-005 0 2.0016224 1.0</transform>
+				<radius>2</radius>
+				<attenuation>1</attenuation>
+				<attractor>-40</attractor>
+				<rotator>0</rotator>
+			</force>
+			<surface name="particles" physics_friction="1" physics_restitution="1" material="f4be9593587aead39fd2ad1b64781fb1e65d3db4"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -8.392334e-005 1.5258789e-005 0.16138253 1.0</transform>
+		</node>
+		<node type="ObjectParticles" id="910071598" name="fire_middle">
+			<depth_sort>1</depth_sort>
+			<variation_x>1</variation_x>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>1</number_per_spawn>
+			<spawn_rate>10</spawn_rate>
+			<emitter_type>2</emitter_type>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sequence>20</emitter_sequence>
+			<emitter_sync>0</emitter_sync>
+			<emitter_size>1 0 0</emitter_size>
+			<emitter_direction>0 0 1</emitter_direction>
+			<emitter_spread>0 0 0</emitter_spread>
+			<life_mean>1.5</life_mean>
+			<life_spread>0</life_spread>
+			<velocity_mean>0.100000001</velocity_mean>
+			<velocity_spread>0.100000001</velocity_spread>
+			<angle_mean>0</angle_mean>
+			<angle_spread>10</angle_spread>
+			<radius_mean>1.20000005</radius_mean>
+			<radius_spread>0.200000003</radius_spread>
+			<growth_mean>0.200000003</growth_mean>
+			<growth_spread>0</growth_spread>
+			<gravity>0 0 1</gravity>
+			<force>
+				<enabled>1</enabled>
+				<attached>1</attached>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -1.5258789e-005 0 1.8442835 1.0</transform>
+				<radius>2</radius>
+				<attenuation>1</attenuation>
+				<attractor>-5</attractor>
+				<rotator>0</rotator>
+			</force>
+			<surface name="particles" physics_friction="1" physics_restitution="1" material="179ec4a3028fae5b1915c739846aee3f6ca7272e"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.093063354 0.47220612 1.327755 1.0</transform>
+		</node>
+		<node type="ObjectParticles" id="143399768" name="fire_high">
+			<particles_type>3</particles_type>
+			<depth_sort>1</depth_sort>
+			<variation_x>1</variation_x>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>1</number_per_spawn>
+			<spawn_rate>5</spawn_rate>
+			<linear_damping>3</linear_damping>
+			<angular_damping>0.5</angular_damping>
+			<growth_damping>0.100000001</growth_damping>
+			<emitter_type>2</emitter_type>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sequence>30</emitter_sequence>
+			<emitter_sync>0</emitter_sync>
+			<emitter_size>1 0 0</emitter_size>
+			<emitter_direction>0 0 1</emitter_direction>
+			<emitter_spread>0.150000006 0.150000006 0</emitter_spread>
+			<life_mean>1.20000005</life_mean>
+			<life_spread>0.200000003</life_spread>
+			<velocity_mean>5</velocity_mean>
+			<velocity_spread>0.5</velocity_spread>
+			<rotation_mean>0</rotation_mean>
+			<rotation_spread>50</rotation_spread>
+			<radius_mean>1.5</radius_mean>
+			<radius_spread>0.0500000007</radius_spread>
+			<growth_mean>0.200000003</growth_mean>
+			<growth_spread>0</growth_spread>
+			<gravity>0 0 2</gravity>
+			<surface name="particles" physics_friction="1" physics_restitution="1" material="d8f7822817ef018f252bf1a272e3b32311a38a9e"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.093009949 0.57897949 1.468935 1.0</transform>
+		</node>
+		<node type="ObjectParticles" id="1713400166" name="fire_smoke_wispy">
+			<variation_x>1</variation_x>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>1</number_per_spawn>
+			<spawn_rate>15</spawn_rate>
+			<linear_damping>1</linear_damping>
+			<angular_damping>0.5</angular_damping>
+			<growth_damping>0.100000001</growth_damping>
+			<emitter_type>2</emitter_type>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sequence>50</emitter_sequence>
+			<emitter_sync>0</emitter_sync>
+			<emitter_size>4 0 0</emitter_size>
+			<emitter_direction>0 0 1</emitter_direction>
+			<emitter_spread>0.5 0.5 0</emitter_spread>
+			<life_mean>3</life_mean>
+			<life_spread>1</life_spread>
+			<velocity_mean>0.5</velocity_mean>
+			<velocity_spread>0.200000003</velocity_spread>
+			<rotation_mean>0</rotation_mean>
+			<rotation_spread>50</rotation_spread>
+			<radius_mean>1</radius_mean>
+			<radius_spread>0.200000003</radius_spread>
+			<growth_mean>0.100000001</growth_mean>
+			<growth_spread>0</growth_spread>
+			<gravity>0.300000012 0.300000012 0.899999976</gravity>
+			<surface name="particles" physics_friction="1" physics_restitution="1" material="98ae09e0ac377229b30a47e7f687e109f5a9ce6b"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -2.2888184e-005 7.6293945e-006 0 1.0</transform>
+		</node>
+		<node type="ObjectParticles" id="2127522741" name="fire_smoke_billow">
+			<depth_sort>1</depth_sort>
+			<variation_x>1</variation_x>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>1</number_per_spawn>
+			<spawn_rate>5</spawn_rate>
+			<linear_damping>1</linear_damping>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sequence>60</emitter_sequence>
+			<emitter_sync>0</emitter_sync>
+			<emitter_direction>0 0 1</emitter_direction>
+			<emitter_spread>0.300000012 0.300000012 0</emitter_spread>
+			<life_mean>10</life_mean>
+			<life_spread>4</life_spread>
+			<velocity_mean>4</velocity_mean>
+			<velocity_spread>1</velocity_spread>
+			<angle_mean>0</angle_mean>
+			<angle_spread>10</angle_spread>
+			<radius_mean>2</radius_mean>
+			<radius_spread>0.5</radius_spread>
+			<gravity>0.400000006 0.400000006 1</gravity>
+			<surface name="particles" physics_friction="1" physics_restitution="1" material="17c9e8b35f68748ef7e29b97e5ad24845cbde40a"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.092905045 0.43716431 0.68201113 1.0</transform>
+		</node>
+	</node>
+</nodes>

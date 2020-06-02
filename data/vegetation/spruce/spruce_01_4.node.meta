@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>423cb580f2c9890c6f7afcbe5557af4ed3fbca53</guid>
+	<type>node</type>
+	<hash>58101a25</hash>
+	<runtimes>
+		<runtime id="423cb580f2c9890c6f7afcbe5557af4ed3fbca53" name="spruce_01_4.node" link="0"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="2044318067" name="oregonash_young">
+		<mesh_name>guid://90bd8e3c78ce10ada3b6a6f431dc22df8884f083</mesh_name>
+		<surface name="tree_branches_lod0_mesh_base" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="tree_branches_lod1_mesh_base" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="tree_trunk_lod0_mesh_base" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="tree_trunk_lod1_mesh_base" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="tree_twigs_mesh_base" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="tree_shadow_mesh_base" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

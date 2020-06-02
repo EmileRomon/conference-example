@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>99012fbc4291d3799b62c140a1deb41e7ffd7472</guid>
+	<type>script</type>
+	<hash>ec537c96</hash>
+	<runtimes>
+		<runtime id="99012fbc4291d3799b62c140a1deb41e7ffd7472" name="vfx_jet.cpp" link="0"/>
+	</runtimes>
+</asset>

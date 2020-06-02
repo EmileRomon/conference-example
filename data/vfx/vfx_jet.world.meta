@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>8b7bf37a5242c5bfae3a7c75af0e9eb8dee31701</guid>
+	<type>world</type>
+	<hash>8d7f4cd3</hash>
+	<runtimes>
+		<runtime id="8b7bf37a5242c5bfae3a7c75af0e9eb8dee31701" name="vfx_jet.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="script_name">guid://99012fbc4291d3799b62c140a1deb41e7ffd7472</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>136e84c625bba8854605b8b9f0b7e7adf723cef5</guid>
+	<type>texture</type>
+	<hash>593ad41b</hash>
+	<runtimes>
+		<runtime id="136e84c625bba8854605b8b9f0b7e7adf723cef5" name="fire_gun_d.tga" link="0"/>
+		<runtime id="fcdb62d280c70f03fa0bd3fbb553c4ee9bba98f7" name="fire_gun_d.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">Auto (DXT1 or DXT5)</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">diffuse (rgba)</parameter>
+	</parameters>
+</asset>

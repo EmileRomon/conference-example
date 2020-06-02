@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>a6ae6f7dd4a7a8e4f4f0258227c3ff01bb86e56e</guid>
+	<type>node</type>
+	<hash>4f97f08c</hash>
+	<runtimes>
+		<runtime id="a6ae6f7dd4a7a8e4f4f0258227c3ff01bb86e56e" name="raspberries_02_01.node" link="0"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>95d5a1fcc86e952b0aaea88ed4541695ba4076f0</guid>
+	<type>material</type>
+	<hash>4df76592</hash>
+	<runtimes>
+		<runtime id="95d5a1fcc86e952b0aaea88ed4541695ba4076f0" name="glass_mat" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

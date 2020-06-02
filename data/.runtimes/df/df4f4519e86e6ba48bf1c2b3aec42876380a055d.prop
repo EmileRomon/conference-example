@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property version="2.11.0.0" name="FirstPersonController" guid="df4f4519e86e6ba48bf1c2b3aec42876380a055d" parent="657ecdbbfc83135a26777f86012da3587b67be0c" editable="0">
+	<parameter name="forwardKey" type="switch" tooltip="Move forward key" group="Input" items="SPACE=32,EXCLAIM,DOUBLE_QUOTE,HASH,DOLLAR,PERCENT,AMPERSAND,QUOTE,APOSTROPHE=39,LEFT_PAREN,RIGHT_PAREN,ASTERISK,PLUS,COMMA,MINUS,DOT,SLASH,COLON=58,SEMICOLON,LESS,EQUALS,GREATER,QUESTION,AT,LEFT_BRACKET=91,BACK_SLASH,RIGHT_BRACKET,CARET,UNDERSCORE,BACK_QUOTE,DIGIT_0=48,DIGIT_1,DIGIT_2,DIGIT_3,DIGIT_4,DIGIT_5,DIGIT_6,DIGIT_7,DIGIT_8,DIGIT_9,A=97,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,ESC=256,TAB,BACKSPACE,RETURN,DELETE,INSERT,HOME,END,PGUP,PGDOWN,LEFT,RIGHT,UP,DOWN,SHIFT,CTRL,ALT,CMD,SCROLL,CAPS,NUM,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,NUM_KEYS">119</parameter>
+	<parameter name="backwardKey" type="switch" tooltip="Move backward key" group="Input" items="SPACE=32,EXCLAIM,DOUBLE_QUOTE,HASH,DOLLAR,PERCENT,AMPERSAND,QUOTE,APOSTROPHE=39,LEFT_PAREN,RIGHT_PAREN,ASTERISK,PLUS,COMMA,MINUS,DOT,SLASH,COLON=58,SEMICOLON,LESS,EQUALS,GREATER,QUESTION,AT,LEFT_BRACKET=91,BACK_SLASH,RIGHT_BRACKET,CARET,UNDERSCORE,BACK_QUOTE,DIGIT_0=48,DIGIT_1,DIGIT_2,DIGIT_3,DIGIT_4,DIGIT_5,DIGIT_6,DIGIT_7,DIGIT_8,DIGIT_9,A=97,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,ESC=256,TAB,BACKSPACE,RETURN,DELETE,INSERT,HOME,END,PGUP,PGDOWN,LEFT,RIGHT,UP,DOWN,SHIFT,CTRL,ALT,CMD,SCROLL,CAPS,NUM,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,NUM_KEYS">115</parameter>
+	<parameter name="rightKey" type="switch" tooltip="Move right key" group="Input" items="SPACE=32,EXCLAIM,DOUBLE_QUOTE,HASH,DOLLAR,PERCENT,AMPERSAND,QUOTE,APOSTROPHE=39,LEFT_PAREN,RIGHT_PAREN,ASTERISK,PLUS,COMMA,MINUS,DOT,SLASH,COLON=58,SEMICOLON,LESS,EQUALS,GREATER,QUESTION,AT,LEFT_BRACKET=91,BACK_SLASH,RIGHT_BRACKET,CARET,UNDERSCORE,BACK_QUOTE,DIGIT_0=48,DIGIT_1,DIGIT_2,DIGIT_3,DIGIT_4,DIGIT_5,DIGIT_6,DIGIT_7,DIGIT_8,DIGIT_9,A=97,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,ESC=256,TAB,BACKSPACE,RETURN,DELETE,INSERT,HOME,END,PGUP,PGDOWN,LEFT,RIGHT,UP,DOWN,SHIFT,CTRL,ALT,CMD,SCROLL,CAPS,NUM,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,NUM_KEYS">100</parameter>
+	<parameter name="leftKey" type="switch" tooltip="Move left key" group="Input" items="SPACE=32,EXCLAIM,DOUBLE_QUOTE,HASH,DOLLAR,PERCENT,AMPERSAND,QUOTE,APOSTROPHE=39,LEFT_PAREN,RIGHT_PAREN,ASTERISK,PLUS,COMMA,MINUS,DOT,SLASH,COLON=58,SEMICOLON,LESS,EQUALS,GREATER,QUESTION,AT,LEFT_BRACKET=91,BACK_SLASH,RIGHT_BRACKET,CARET,UNDERSCORE,BACK_QUOTE,DIGIT_0=48,DIGIT_1,DIGIT_2,DIGIT_3,DIGIT_4,DIGIT_5,DIGIT_6,DIGIT_7,DIGIT_8,DIGIT_9,A=97,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,ESC=256,TAB,BACKSPACE,RETURN,DELETE,INSERT,HOME,END,PGUP,PGDOWN,LEFT,RIGHT,UP,DOWN,SHIFT,CTRL,ALT,CMD,SCROLL,CAPS,NUM,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,NUM_KEYS">97</parameter>
+	<parameter name="runKey" type="switch" tooltip="Run mode activation key" group="Input" items="SPACE=32,EXCLAIM,DOUBLE_QUOTE,HASH,DOLLAR,PERCENT,AMPERSAND,QUOTE,APOSTROPHE=39,LEFT_PAREN,RIGHT_PAREN,ASTERISK,PLUS,COMMA,MINUS,DOT,SLASH,COLON=58,SEMICOLON,LESS,EQUALS,GREATER,QUESTION,AT,LEFT_BRACKET=91,BACK_SLASH,RIGHT_BRACKET,CARET,UNDERSCORE,BACK_QUOTE,DIGIT_0=48,DIGIT_1,DIGIT_2,DIGIT_3,DIGIT_4,DIGIT_5,DIGIT_6,DIGIT_7,DIGIT_8,DIGIT_9,A=97,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,ESC=256,TAB,BACKSPACE,RETURN,DELETE,INSERT,HOME,END,PGUP,PGDOWN,LEFT,RIGHT,UP,DOWN,SHIFT,CTRL,ALT,CMD,SCROLL,CAPS,NUM,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,NUM_KEYS">270</parameter>
+	<parameter name="jumpKey" type="switch" tooltip="Jump key" group="Input" items="SPACE=32,EXCLAIM,DOUBLE_QUOTE,HASH,DOLLAR,PERCENT,AMPERSAND,QUOTE,APOSTROPHE=39,LEFT_PAREN,RIGHT_PAREN,ASTERISK,PLUS,COMMA,MINUS,DOT,SLASH,COLON=58,SEMICOLON,LESS,EQUALS,GREATER,QUESTION,AT,LEFT_BRACKET=91,BACK_SLASH,RIGHT_BRACKET,CARET,UNDERSCORE,BACK_QUOTE,DIGIT_0=48,DIGIT_1,DIGIT_2,DIGIT_3,DIGIT_4,DIGIT_5,DIGIT_6,DIGIT_7,DIGIT_8,DIGIT_9,A=97,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,ESC=256,TAB,BACKSPACE,RETURN,DELETE,INSERT,HOME,END,PGUP,PGDOWN,LEFT,RIGHT,UP,DOWN,SHIFT,CTRL,ALT,CMD,SCROLL,CAPS,NUM,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,NUM_KEYS">32</parameter>
+	<parameter name="mouseSensitivity" type="float" tooltip="Mouse sensitivity multiplier" group="Input" min="0">1</parameter>
+	<parameter name="useExternalBody" type="toggle" tooltip="You can use an ObjectDummy to customize the body.
+It should have a dummy body and a capsule shape assigned.
+Mass, collision height, collision radius, physical intersection
+mask and collision mask will be set automatically according to shape parameters.
+In case of incorrect settings of the specified custom body, a default body shall be created instead." group="Common">0</parameter>
+	<parameter name="playerBody" type="node" filter="ObjectDummy" tooltip="ObjectDummy with a dummy body and a capsule shape" group="Common" useExternalBody="1"/>
+	<parameter name="physicalIntersectionMask" type="mask" tooltip="Mask used for selective detections of physics intersections (between physical objects with bodies and collider shapes, or ray intersections with collider geometry)" group="Common" useExternalBody="0">1</parameter>
+	<parameter name="collisionMask" type="mask" tooltip="Mask used for selective collision detection" group="Common" flags="collision" useExternalBody="0">1</parameter>
+	<parameter name="contactsIntersectionMask" type="mask" tooltip="Mask used for contacts correction" group="Common" flags="intersection">1</parameter>
+	<parameter name="mass" type="float" tooltip="Physical mass of the player" group="Common" min="0" useExternalBody="0">60</parameter>
+	<parameter name="isCollision" type="toggle" tooltip="Toggles collision detection for the player on and off" group="Common">1</parameter>
+	<parameter name="collisionRadius" type="float" tooltip="Radius of the capsule shape" group="Common" min="0" useExternalBody="0">0.300000012</parameter>
+	<parameter name="collisionHeight" type="float" tooltip="Height of the capsule shape (cylindrical part only)" group="Common" min="0" useExternalBody="0">1.14999998</parameter>
+	<parameter name="friction" type="float" tooltip="Static friction of the player" group="Common" min="0">2</parameter>
+	<parameter name="walkSpeed" type="float" tooltip="Walking speed of the player" group="Common" min="0">4</parameter>
+	<parameter name="runSpeed" type="float" tooltip="Running speed of the player" group="Common" min="0">8</parameter>
+	<parameter name="acceleration" type="float" tooltip="Horizontal acceleration of the player" group="Common" min="0">25</parameter>
+	<parameter name="damping" type="float" tooltip="Horizontal damping of the player&apos;s speed" group="Common" min="0">25</parameter>
+	<parameter name="jumpPower" type="float" tooltip="Jumping power of the player" group="Common" min="0">6</parameter>
+	<parameter name="gravityMultiplier" type="float" tooltip="Gravity multiplier for the player" group="Common" min="0">1.5</parameter>
+	<parameter name="cameraHeight" type="float" tooltip="Camera height above the player’s feet" group="Camera" min="0">1.64999998</parameter>
+	<parameter name="minThetaAngle" type="float" tooltip="The minimum vertical angle of the camera (look down)" group="Camera" min="-89.9" max="89.9">-89.9000015</parameter>
+	<parameter name="maxThetaAngle" type="float" tooltip="The maximum vertical angle of the camera (look up)" group="Camera" min="-89.9" max="89.9">89.9000015</parameter>
+	<parameter name="enableAutoStepping" type="toggle" tooltip="Toggles automatic walking up and down certain obstacles (stairs, for example)" group="Auto Stepping">1</parameter>
+	<parameter name="minStepHeight" type="float" tooltip="Minimum height for automatic walk up.
+Enables avoiding false positives on flat surfaces." group="Auto Stepping" min="0" enableAutoStepping="1">0.0500000007</parameter>
+	<parameter name="maxStepHeight" type="float" tooltip="Maximum height for automatic walk up" group="Auto Stepping" min="0" enableAutoStepping="1">0.300000012</parameter>
+	<parameter name="autoSteppingCancelAngle" type="float" tooltip="Maximum walkable slope angle.
+If the slope angle of the surface under the player after making a step is greater than this value, the last automatic step is canceled." group="Auto Stepping" min="0" enableAutoStepping="1">30</parameter>
+	<parameter name="enableSlopeSliding" type="toggle" tooltip="Toggles additional sliding velocity on slopes on and off" group="Slope Sliding">1</parameter>
+	<parameter name="maxStaticSlopeAngle" type="float" tooltip="Maximum slope angle up to which additional sliding velocity is not applied" group="Slope Sliding" min="0" max="90" enableSlopeSliding="1">50</parameter>
+	<parameter name="maxSlopeAngle" type="float" tooltip="Slope angle for which the maximum sliding velocity is applied" group="Slope Sliding" min="0" max="90" enableSlopeSliding="1">65</parameter>
+	<parameter name="minSlidingSpeed" type="float" tooltip="Minimum sliding velocity to be applied when maxStaticSlopeAngle limit is exceeded" group="Slope Sliding" min="0" enableSlopeSliding="1">1</parameter>
+	<parameter name="maxSlidingSpeed" type="float" tooltip="Maximum sliding velocity to be applied to be applied for the maxSlopeAngle" group="Slope Sliding" min="0" enableSlopeSliding="1">5</parameter>
+	<parameter name="enableObjectsInteraction" type="toggle" tooltip="Toggles physical interaction with rigid bodies on anf off" group="Objects Interaction">1</parameter>
+	<parameter name="forceMultiplier" type="float" tooltip="Force multiplier to be applied to a rigid body colliding with the player" group="Objects Interaction" min="0" enableObjectsInteraction="1">150</parameter>
+	<parameter name="showAdvancedSettings" type="toggle" tooltip="Toggles advanced player settings on and off" group="Advanced Settings">0</parameter>
+	<parameter name="contactsBufferSize" type="int" tooltip="Maximum number of contacts to be processed for collisions" group="Advanced Settings" min="4" max="1500" showAdvancedSettings="1">50</parameter>
+	<parameter name="playerActorFps" type="int" tooltip="Minimum update rate for the player (in number of frames per second).
+If this value exceeds the current framerate, the player will be updated several times per frame" group="Advanced Settings" min="15" max="240" showAdvancedSettings="1">60</parameter>
+	<parameter name="collisionIterations" type="int" tooltip="Number of iterations to resolve collisions" group="Advanced Settings" min="1" showAdvancedSettings="1">4</parameter>
+	<parameter name="heavyContactsCount" type="int" tooltip="Maximum number of contacts up to which the number of iterations specified above shall be used.
+After exceeding this value a single iteration shall be used to avoid performance degradation." group="Advanced Settings" min="10" max="1500" showAdvancedSettings="1">100</parameter>
+	<parameter name="showDebug" type="toggle" tooltip="Show debug information" group="Advanced Settings" showAdvancedSettings="1">0</parameter>
+	<parameter name="renderBasis" type="toggle" tooltip="Show current player&apos;s basis" group="Advanced Settings" showAdvancedSettings="1">0</parameter>
+	<parameter name="renderVelocity" type="toggle" tooltip="Show current velocity vector" group="Advanced Settings" showAdvancedSettings="1">0</parameter>
+	<parameter name="renderDirection" type="toggle" tooltip="Show current camera direction vector" group="Advanced Settings" showAdvancedSettings="1">0</parameter>
+	<parameter name="renderUpPassContacts" type="toggle" tooltip="Show contacts on collisions when walking upstairs" group="Advanced Settings" showAdvancedSettings="1">0</parameter>
+	<parameter name="renderSidePassContacts" type="toggle" tooltip="Show contacts on sidestepping collisions" group="Advanced Settings" showAdvancedSettings="1">0</parameter>
+	<parameter name="renderDownPassContacts" type="toggle" tooltip="Show contacts on collisions when walking downstairs" group="Advanced Settings" showAdvancedSettings="1">0</parameter>
+	<parameter name="renderSlopeBasis" type="toggle" tooltip="Show current slope basis" group="Advanced Settings" showAdvancedSettings="1">0</parameter>
+</property>

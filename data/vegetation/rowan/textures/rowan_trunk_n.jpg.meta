@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>848e0cc5bb7f085c4306ed223623519c7052acef</guid>
+	<type>texture</type>
+	<hash>cdb5912d</hash>
+	<runtimes>
+		<runtime id="848e0cc5bb7f085c4306ed223623519c7052acef" name="rowan_trunk_n.jpg" link="0"/>
+		<runtime id="8ffd41d0583a820d816c6e7c278b24d301c285fa" name="rowan_trunk_n.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">Point</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="int" name="width">0</parameter>
+		<parameter type="int" name="height">0</parameter>
+	</parameters>
+</asset>

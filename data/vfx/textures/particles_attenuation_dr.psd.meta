@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>5566f65012ca45787c7bfa0d4fc80093def4c155</guid>
+	<type>texture</type>
+	<hash>ca73ed2e</hash>
+	<runtimes>
+		<runtime id="5566f65012ca45787c7bfa0d4fc80093def4c155" name="particles_attenuation_dr.psd" link="0"/>
+		<runtime id="7c0e55fafca2396f0f8f188389f6dd5d256ed79c" name="particles_attenuation_dr.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="image_type">2D</parameter>
+		<parameter type="string" name="image_format">RGBA8</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="width">Original</parameter>
+		<parameter type="string" name="height">Original</parameter>
+	</parameters>
+</asset>

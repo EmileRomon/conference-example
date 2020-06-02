@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="NodeDummy" id="621213660" name="fine_filbert_01_4">
+		<transform>1 1.7484555e-07 0 0.0 -1.7484555e-07 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="413900105" name="fine_filbert_01_4">
+			<mesh_name>guid://dae379ade5b3628df635102f15754b3acfcfe8fd</mesh_name>
+			<surface name="fine_filbert_green_mat_lod_0" max_visible_distance="3" material="91270ac920e7a4a7ad39a3913f12023f8a7a6ed2"/>
+			<surface name="fine_filbert_green_mat_lod_1" min_visible_distance="3" max_visible_distance="9" material="91270ac920e7a4a7ad39a3913f12023f8a7a6ed2"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

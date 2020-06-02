@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>1185d89b222904eb67a2057895a2f4b635b89065</guid>
+	<type>texture</type>
+	<hash>40d19de2</hash>
+	<runtimes>
+		<runtime id="1185d89b222904eb67a2057895a2f4b635b89065" name="oak_leaves_autumn_alb.tga" link="0"/>
+		<runtime id="35d5b9141ee2386da6bf88f1f7c4af5a49f63aea" name="oak_leaves_autumn_alb.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">Point</parameter>
+		<parameter type="string" name="image_format">DXT5</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="int" name="width">0</parameter>
+		<parameter type="int" name="height">0</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_smoke_dense_black2" guid="9b2045c9a50c80962f5e0d794eac15deb396260e" parent="cb3efb53459273a5337bfc1eaff041a5fd342807" base_material="particles_base">
+	<blend src="one_minus_dest_color" dest="one_minus_src_alpha"/>
+	<state name="animation">1</state>
+	<texture name="diffuse">guid://1ad56949d3db285ae58eae6976c66693213a0d8c</texture>
+	<texture name="attenuation">guid://b96d3a8d608113fd8965052c18861854babd60be</texture>
+	<parameter name="animation_transform" expression="0">1 16 1 0.5</parameter>
+	<parameter name="diffuse_color" expression="0">0.810000002 0.899239004 1 0.885814011</parameter>
+	<parameter name="soft_interaction_scale" expression="0">1.10000002</parameter>
+	<parameter name="diffuse_scale" expression="0">2.8900001</parameter>
+</material>

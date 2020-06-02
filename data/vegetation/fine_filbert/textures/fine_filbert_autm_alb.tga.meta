@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>89f0ce976564bbf02d5505b73f901ef69a60b5fb</guid>
+	<type>texture</type>
+	<hash>bee64d3a</hash>
+	<runtimes>
+		<runtime id="89f0ce976564bbf02d5505b73f901ef69a60b5fb" name="fine_filbert_autm_alb.tga" link="0"/>
+		<runtime id="27c37fe307e0f0e6114f6210fd8f2724c7ecf68e" name="fine_filbert_autm_alb.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT5</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="int" name="width">0</parameter>
+		<parameter type="int" name="height">0</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>e05e4a8f6f93fbebe1d9c0e21ecffb5e738b164e</guid>
+	<type>material</type>
+	<hash>c2687dde</hash>
+	<runtimes>
+		<runtime id="e05e4a8f6f93fbebe1d9c0e21ecffb5e738b164e" name="linden_trunk" link="0"/>
+	</runtimes>
+</asset>

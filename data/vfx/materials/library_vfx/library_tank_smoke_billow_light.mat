@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_tank_smoke_billow_light" guid="39051fce3dfd7b7df9d802e9c45d599b206398b9" parent="4abefb138719cc83b946a1a0484fe441c471fd38" base_material="particles_base">
+	<blend src="src_alpha" dest="one_minus_src_alpha"/>
+	<texture name="diffuse">guid://b42b56a65b80f5872a12c10954af39493d22b96f</texture>
+	<parameter name="animation_transform" expression="0">8 8 1 0.125</parameter>
+	<parameter name="diffuse_color" expression="0">0.137254909 0.137254909 0.137254909 0.490196109</parameter>
+	<parameter name="soft_interaction_scale" expression="0">0.600000024</parameter>
+	<parameter name="environment_scale" expression="0">4</parameter>
+	<parameter name="diffuse_scale" expression="0">2.55599999</parameter>
+</material>

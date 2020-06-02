@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>821a7d4fc17cbffc9889edd89b20fcac6cc6a691</guid>
+	<type>material</type>
+	<hash>fd05c6de</hash>
+	<runtimes>
+		<runtime id="821a7d4fc17cbffc9889edd89b20fcac6cc6a691" name="raspberries_mat" link="0"/>
+	</runtimes>
+</asset>

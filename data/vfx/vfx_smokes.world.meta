@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>a5f26f3a780448db9a3d543fe10d27052ebf4cb8</guid>
+	<type>world</type>
+	<hash>e4f09051</hash>
+	<runtimes>
+		<runtime id="a5f26f3a780448db9a3d543fe10d27052ebf4cb8" name="vfx_smokes.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="script_name">guid://a3e2b5d51abb7feb2bf860b9aa3cde1555ba5f95</parameter>
+	</parameters>
+</asset>

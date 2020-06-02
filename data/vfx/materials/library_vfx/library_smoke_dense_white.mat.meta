@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>6cad3b01867f9f78deb35e0bc27e7210f19f7dc1</guid>
+	<type>material</type>
+	<hash>b3783e59</hash>
+	<runtimes>
+		<runtime id="6cad3b01867f9f78deb35e0bc27e7210f19f7dc1" name="library_smoke_dense_white" link="0"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="NodeDummy" id="1329137250" name="nettle_03_1">
+		<transform>1 1.7484555e-07 0 0.0 -1.7484555e-07 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="444511866" name="nettle_03_1">
+			<mesh_name>guid://2c64cc72b6a29b6e46aac3bd56efc1b873b0d333</mesh_name>
+			<surface name="nattle_mat_lod_0" max_visible_distance="3" material="9ad867f6f659a033998e937917b8e2321a97f274"/>
+			<surface name="nattle_mat_lod_1" min_visible_distance="3" max_visible_distance="9" material="9ad867f6f659a033998e937917b8e2321a97f274"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

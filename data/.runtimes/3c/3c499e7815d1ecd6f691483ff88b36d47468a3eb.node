@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="NodeDummy" id="1325803186" name="rasberries_bush">
+		<transform>1 1.7484555e-07 0 0.0 -1.7484555e-07 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="2050476845" name="raspberries_bush_lod_0">
+			<mesh_name>guid://29378ede015bb952ab656d9e9221ac329f79b62b</mesh_name>
+			<surface name="raspberries_mat" material="821a7d4fc17cbffc9889edd89b20fcac6cc6a691"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>bab1613b16214598ae119fa22815138fa8ab9124</guid>
+	<type>script</type>
+	<hash>0f9aafc4</hash>
+	<runtimes>
+		<runtime id="bab1613b16214598ae119fa22815138fa8ab9124" name="world_selector.h" link="0"/>
+	</runtimes>
+</asset>

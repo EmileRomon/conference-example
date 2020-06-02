@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_rocket_smoke_billow_light" guid="8cc107cadbecd67d5e0ea2bf16e1793578bf5ca6" parent="4abefb138719cc83b946a1a0484fe441c471fd38" base_material="particles_base">
+	<blend src="one" dest="one_minus_src_alpha"/>
+	<texture name="diffuse">guid://27dd675aa74f83922054f7bd6480f35d07090b2b</texture>
+	<parameter name="diffuse_color" expression="0">0.701960802 0.701960802 0.701960802 0.745098054</parameter>
+	<parameter name="soft_interaction_scale" expression="0">0.666999996</parameter>
+	<parameter name="environment_scale" expression="0">2.70799994</parameter>
+	<parameter name="diffuse_scale" expression="0">0.975000024</parameter>
+</material>

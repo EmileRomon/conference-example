@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>66ed68f8b59fb0f0f879b5d4c98329fdd1cef3e5</guid>
+	<type>script</type>
+	<hash>bd5b359c</hash>
+	<runtimes>
+		<runtime id="66ed68f8b59fb0f0f879b5d4c98329fdd1cef3e5" name="vfx_explosion_3.cpp" link="0"/>
+	</runtimes>
+</asset>

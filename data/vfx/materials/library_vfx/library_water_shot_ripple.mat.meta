@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>187fcae6010ffab42fe753140d87c491b66f8dcd</guid>
+	<type>material</type>
+	<hash>c720208c</hash>
+	<runtimes>
+		<runtime id="187fcae6010ffab42fe753140d87c491b66f8dcd" name="library_water_shot_ripple" link="0"/>
+	</runtimes>
+</asset>

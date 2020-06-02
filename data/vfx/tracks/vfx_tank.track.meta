@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>3dd9962fdda8afbb977828f474ccbe550a08ae53</guid>
+	<type>track</type>
+	<hash>a72d74d3</hash>
+	<runtimes>
+		<runtime id="3dd9962fdda8afbb977828f474ccbe550a08ae53" name="vfx_tank.track" link="0"/>
+	</runtimes>
+</asset>

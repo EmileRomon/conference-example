@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>e0d5efd1c2d44f10293d20c41da932bda7caab9a</guid>
+	<type>material</type>
+	<hash>058055c6</hash>
+	<runtimes>
+		<runtime id="e0d5efd1c2d44f10293d20c41da932bda7caab9a" name="pine_trunk" link="0"/>
+	</runtimes>
+</asset>

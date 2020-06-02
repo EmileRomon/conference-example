@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>e75ae7e167f7cfcb6c387b917b57af319eacf0ab</guid>
+	<type>world</type>
+	<hash>c3030ec9</hash>
+	<runtimes>
+		<runtime id="e75ae7e167f7cfcb6c387b917b57af319eacf0ab" name="vfx_rain_drops.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="script_name">guid://8f0d05a3bc2336d1c789bb5218ad84c985da78f1</parameter>
+	</parameters>
+</asset>

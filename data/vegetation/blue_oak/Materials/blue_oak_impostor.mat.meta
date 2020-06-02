@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>cb43e76eb32e68bf8dc23ee17319e68d4fbd6d25</guid>
+	<type>material</type>
+	<hash>527dfc98</hash>
+	<runtimes>
+		<runtime id="cb43e76eb32e68bf8dc23ee17319e68d4fbd6d25" name="blue_oak_impostor" link="0"/>
+	</runtimes>
+</asset>

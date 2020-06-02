@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="raspberries_mat" guid="821a7d4fc17cbffc9889edd89b20fcac6cc6a691" base_material="mesh_base">
+	<options transparent="1" two_sided="1"/>
+	<state name="vegetation">1</state>
+	<state name="animation">1</state>
+	<state name="leafs">3</state>
+	<state name="vegetation_velocity">0</state>
+	<texture name="albedo">guid://4de73cac2ae561b2ead729952af7b0c0c5363cce</texture>
+	<texture name="shading">guid://9254a6d555d86ba9fffe6a768e2998db80475868</texture>
+	<texture name="normal">guid://c9ec67983d2cad18703c9cc16f10af2da3d0c62f</texture>
+	<parameter name="translucent" expression="0">1</parameter>
+	<parameter name="animation_stem_offset" expression="0">0.100000001</parameter>
+	<parameter name="animation_stem_radius" expression="0">0.100000001</parameter>
+	<parameter name="animation_stem_scale" expression="0">2</parameter>
+	<parameter name="animation_branch_offset" expression="0">0.0199999996</parameter>
+	<parameter name="animation_branch_scale" expression="0">3</parameter>
+	<parameter name="animation_leaf_noise" expression="0">10</parameter>
+	<parameter name="animation_leaf_offset" expression="0">0.0199999996</parameter>
+	<parameter name="animation_leaf_scale" expression="0">1.5</parameter>
+</material>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>01d544645a625273512ee52b91d9661d2a325736</guid>
+	<type>script</type>
+	<hash>bdfe15ed</hash>
+	<runtimes>
+		<runtime id="01d544645a625273512ee52b91d9661d2a325736" name="vfx_turbulence_flow_dust.cpp" link="0"/>
+	</runtimes>
+</asset>

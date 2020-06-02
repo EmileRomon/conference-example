@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="1512764199" name="rowan_12">
+		<mesh_name>guid://f6986ffed7d37d3efdaf0545e34f4a0e63ed928e</mesh_name>
+		<surface name="rowan_leaves_12_lod2_rowan_leaves_autm_mat" material="d08965ea13c92ed6883d879a82703570ceadfc25"/>
+		<surface name="rowan_leaves_12_lod1_rowan_leaves_autm_mat" material="d08965ea13c92ed6883d879a82703570ceadfc25"/>
+		<surface name="rowan_leaves_12_lod0_rowan_leaves_autm_mat" material="d08965ea13c92ed6883d879a82703570ceadfc25"/>
+		<surface name="rowan_tree_12_lod0_rowan_trunk_mat" material="1033d1fea76f864acdfb21043b9fc244206affdf"/>
+		<surface name="rowan_tree_12_lod1_rowan_trunk_mat" material="1033d1fea76f864acdfb21043b9fc244206affdf"/>
+		<surface name="rowan_tree_12_lod2_rowan_trunk_mat" material="1033d1fea76f864acdfb21043b9fc244206affdf"/>
+		<surface name="rowan_leaves_12_shadow_rowan_leaves_autm_mat" material="d08965ea13c92ed6883d879a82703570ceadfc25"/>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

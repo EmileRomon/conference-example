@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_smoke_explosion_splinters_big" guid="1933c4238332df6022031c2a678554b87375faf3" parent="3585f103935ddf4edf0d21e599ba956e457b5246" base_material="particles_base">
+	<blend src="one" dest="one_minus_src_alpha"/>
+	<parameter name="diffuse_color" expression="0">0.810000002 0.899231017 1 0.744328976</parameter>
+	<parameter name="diffuse_scale" expression="0">1.10249996</parameter>
+</material>

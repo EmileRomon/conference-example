@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_fire_gun" guid="60d5660d516cabf26e8e2051b1d5de48d7424613" parent="cb3efb53459273a5337bfc1eaff041a5fd342807" base_material="particles_base">
+	<blend src="one" dest="one"/>
+	<state name="animation">1</state>
+	<state name="ambient">0</state>
+	<state name="light_world">0</state>
+	<texture name="diffuse">guid://fcdb62d280c70f03fa0bd3fbb553c4ee9bba98f7</texture>
+	<texture name="attenuation">guid://fd7d5240bb7f39761224b490327bd975c45289ce</texture>
+	<parameter name="animation_transform" expression="0">1 16 1 0.5</parameter>
+	<parameter name="environment_scale" expression="0">4</parameter>
+	<parameter name="emission_scale" expression="0">4</parameter>
+</material>

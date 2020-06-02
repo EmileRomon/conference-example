@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="filbert_trunk" guid="ff976a5e925e66b76db2b593cec77a317b11914f" base_material="mesh_base">
+	<options two_sided="0"/>
+	<state name="vegetation">1</state>
+	<state name="animation">1</state>
+	<state name="vegetation_velocity">0</state>
+	<texture name="albedo">guid://99d8359d0624f92a85a0dd1d83373b02f948336f</texture>
+	<texture name="normal">guid://ca737e917242d6528d8620b89eb5132ba576c126</texture>
+	<parameter name="roughness" expression="0">0.899999976</parameter>
+	<parameter name="animation_stem_offset" expression="0">0.0199999996</parameter>
+	<parameter name="animation_stem_radius" expression="0">0.0199999996</parameter>
+	<parameter name="animation_stem_scale" expression="0">2</parameter>
+</material>

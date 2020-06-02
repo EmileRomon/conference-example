@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>a37bb850177f384f69ebd9c00a9cafc4e9c2a2e2</guid>
+	<type>node</type>
+	<hash>3afaa2e2</hash>
+	<runtimes>
+		<runtime id="a37bb850177f384f69ebd9c00a9cafc4e9c2a2e2" name="vfx_smokes.node" link="0"/>
+	</runtimes>
+</asset>

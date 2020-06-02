@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>6e6d15e442bb124164a17a1bab28fa52620ca7a9</guid>
+	<type>texture</type>
+	<hash>a88e1cbe</hash>
+	<runtimes>
+		<runtime id="6e6d15e442bb124164a17a1bab28fa52620ca7a9" name="library_fire_glow_attenuation_d.tga" link="0"/>
+		<runtime id="4c0292bc9744d3ca27464bc6e1a5da987185b06a" name="library_fire_glow_attenuation_d.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="image_format">Auto (DXT1 or DXT5)</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">diffuse (rgba)</parameter>
+	</parameters>
+</asset>

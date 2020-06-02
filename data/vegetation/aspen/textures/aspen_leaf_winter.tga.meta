@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>6717e2a219e6b60ad53c50518fe33d5775405856</guid>
+	<type>texture</type>
+	<hash>ac087147</hash>
+	<runtimes>
+		<runtime id="6717e2a219e6b60ad53c50518fe33d5775405856" name="aspen_leaf_winter.tga" link="0"/>
+		<runtime id="5c6ffa8acd3ade6059b863c3564f3303c54dc726" name="aspen_leaf_winter.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">Point</parameter>
+		<parameter type="string" name="image_format">RGBA8</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="int" name="width">0</parameter>
+		<parameter type="int" name="height">0</parameter>
+	</parameters>
+</asset>

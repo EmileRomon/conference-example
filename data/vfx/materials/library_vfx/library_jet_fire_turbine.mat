@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="library_jet_fire_turbine" guid="86a3922d23b29f5ef8420c87700a0646beba3445" parent="cb3efb53459273a5337bfc1eaff041a5fd342807" base_material="particles_base">
+	<blend src="one" dest="one"/>
+	<state name="animation">1</state>
+	<state name="ambient">0</state>
+	<state name="light_world">0</state>
+	<texture name="diffuse">guid://8ce5d995e7460ad827979ac5530d47ddc197e6e6</texture>
+	<texture name="attenuation">guid://fd7d5240bb7f39761224b490327bd975c45289ce</texture>
+	<parameter name="animation_transform" expression="0">1 16 1 0.300000012</parameter>
+	<parameter name="diffuse_color" expression="0">0.200000003 0.239216 1 0.537254989</parameter>
+	<parameter name="emission_scale" expression="0">2.27200007</parameter>
+</material>

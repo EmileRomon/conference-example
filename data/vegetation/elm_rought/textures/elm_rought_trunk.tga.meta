@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>0b564b94b94348a630c23b16bdf13637f6972d69</guid>
+	<type>texture</type>
+	<hash>e3604f1d</hash>
+	<runtimes>
+		<runtime id="0b564b94b94348a630c23b16bdf13637f6972d69" name="elm_rought_trunk.tga" link="0"/>
+		<runtime id="ef38106d7422a265a892c7ee02b43a22906f9d16" name="elm_rought_trunk.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">RGB8</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="int" name="width">0</parameter>
+		<parameter type="int" name="height">0</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="buckbrush_leaves" guid="9224dde8866154ab84888299f89472f738bb6acb" base_material="mesh_base">
+	<options transparent="1" two_sided="1"/>
+	<state name="translucent_map">1</state>
+	<state name="vegetation">1</state>
+	<state name="jitter_transparency">1</state>
+	<state name="normals_rotated_to_camera">1</state>
+	<state name="backside_normal">1</state>
+	<state name="animation">1</state>
+	<state name="leafs">3</state>
+	<state name="vegetation_velocity">0</state>
+	<texture name="albedo">guid://dd91a40046a083a0bac8cbeb38375a7112819ccf</texture>
+	<texture name="normal">guid://02c4727de33414e4c88e8702080c70003737592a</texture>
+	<texture name="translucent">guid://e5d46f8a67b0de987377f8b3da806a9a79bc31ae</texture>
+	<parameter name="roughness" expression="0">0.5</parameter>
+	<parameter name="translucent" expression="0">1</parameter>
+	<parameter name="transparent" expression="0">1.5</parameter>
+	<parameter name="transparent_pow" expression="0">2</parameter>
+	<parameter name="animation_stem_offset" expression="0">0.0500000007</parameter>
+	<parameter name="animation_stem_radius" expression="0">0.0500000007</parameter>
+	<parameter name="animation_branch_offset" expression="0">0.0500000007</parameter>
+	<parameter name="animation_branch_scale" expression="0">2</parameter>
+	<parameter name="animation_leaf_noise" expression="0">10</parameter>
+	<parameter name="animation_leaf_offset" expression="0">0.100000001</parameter>
+	<parameter name="animation_leaf_scale" expression="0">0.800000012</parameter>
+</material>

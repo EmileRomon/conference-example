@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>72fefa1de11c94a87722172c0d08f31f14de164d</guid>
+	<type>material</type>
+	<hash>7a2174fe</hash>
+	<runtimes>
+		<runtime id="72fefa1de11c94a87722172c0d08f31f14de164d" name="birch_trunk" link="0"/>
+	</runtimes>
+</asset>

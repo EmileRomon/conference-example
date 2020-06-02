@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="NodeDummy" id="1169540594" name="water_explosion">
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectParticles" id="193145862" name="water_explosion_splash1">
+			<warming>0</warming>
+			<variation_x>1</variation_x>
+			<variation_y>1</variation_y>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>21</number_per_spawn>
+			<spawn_rate>0</spawn_rate>
+			<physical_mass>7</physical_mass>
+			<linear_damping>2</linear_damping>
+			<angular_damping>1</angular_damping>
+			<growth_damping>1</growth_damping>
+			<emitter_type>1</emitter_type>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sequence>3</emitter_sequence>
+			<emitter_sync>0</emitter_sync>
+			<emitter_size>2.5 0 0</emitter_size>
+			<emitter_direction>0 0 5</emitter_direction>
+			<period_mean>100000000</period_mean>
+			<period_spread>0</period_spread>
+			<duration_mean>0.200000003</duration_mean>
+			<duration_spread>0</duration_spread>
+			<life_mean>0.800000012</life_mean>
+			<life_spread>0.400000006</life_spread>
+			<velocity_mean>6</velocity_mean>
+			<velocity_spread>5</velocity_spread>
+			<rotation_mean>0</rotation_mean>
+			<rotation_spread>100</rotation_spread>
+			<radius_mean>0.600000024</radius_mean>
+			<radius_spread>0.300000012</radius_spread>
+			<growth_mean>0.5</growth_mean>
+			<growth_spread>0.300000012</growth_spread>
+			<gravity>0 0 -12</gravity>
+			<surface name="particles" viewport_mask="0x3" max_visible_distance="300" max_fade_distance="100" material="8b58e4e028a1daef2de3c672d6578d7fcf604d9e"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 1.1920901e-007 4.7683702e-007 0 1.0</transform>
+		</node>
+		<node type="ObjectParticles" id="1754359946" name="water_explosion_splash2">
+			<warming>0</warming>
+			<variation_x>1</variation_x>
+			<variation_y>1</variation_y>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>13</number_per_spawn>
+			<spawn_rate>0</spawn_rate>
+			<physical_mass>4</physical_mass>
+			<linear_damping>2</linear_damping>
+			<angular_damping>1</angular_damping>
+			<growth_damping>1</growth_damping>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sequence>4</emitter_sequence>
+			<emitter_sync>0</emitter_sync>
+			<emitter_size>1 0 0</emitter_size>
+			<emitter_direction>0 0 15</emitter_direction>
+			<period_mean>100000000</period_mean>
+			<period_spread>0</period_spread>
+			<duration_mean>0.150000006</duration_mean>
+			<duration_spread>0</duration_spread>
+			<velocity_mean>12</velocity_mean>
+			<velocity_spread>7</velocity_spread>
+			<rotation_mean>0</rotation_mean>
+			<rotation_spread>100</rotation_spread>
+			<radius_mean>0.600000024</radius_mean>
+			<radius_spread>0.300000012</radius_spread>
+			<growth_mean>0.5</growth_mean>
+			<growth_spread>0.300000012</growth_spread>
+			<gravity>0 0 -12</gravity>
+			<surface name="particles" viewport_mask="0x3" max_visible_distance="170" max_fade_distance="100" material="b6819007c1c49c6aa771ea001856ccaf66ccdbcb"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 1.1920901e-007 4.7683702e-007 0 1.0</transform>
+		</node>
+		<node type="ObjectParticles" id="885537738" name="water_explosion_splash3">
+			<warming>0</warming>
+			<variation_x>1</variation_x>
+			<variation_y>1</variation_y>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>21</number_per_spawn>
+			<spawn_rate>0</spawn_rate>
+			<physical_mass>3</physical_mass>
+			<linear_damping>2</linear_damping>
+			<angular_damping>1</angular_damping>
+			<growth_damping>1</growth_damping>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sequence>5</emitter_sequence>
+			<emitter_sync>0</emitter_sync>
+			<emitter_direction>0 0 8</emitter_direction>
+			<period_mean>100000000</period_mean>
+			<period_spread>0</period_spread>
+			<duration_mean>0.100000001</duration_mean>
+			<duration_spread>0</duration_spread>
+			<life_mean>1.5</life_mean>
+			<life_spread>1</life_spread>
+			<velocity_mean>18</velocity_mean>
+			<velocity_spread>13</velocity_spread>
+			<rotation_mean>0</rotation_mean>
+			<rotation_spread>100</rotation_spread>
+			<radius_mean>0.699999988</radius_mean>
+			<radius_spread>0.300000012</radius_spread>
+			<growth_mean>0.300000012</growth_mean>
+			<growth_spread>0.200000003</growth_spread>
+			<gravity>0 0 -12</gravity>
+			<surface name="particles" max_visible_distance="70" max_fade_distance="100" material="792cb0144aecd97b9e5bc233c298cbd724e4348e"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 1.1920901e-007 4.7683702e-007 0 1.0</transform>
+		</node>
+		<node type="ObjectParticles" id="1272954007" name="water_explosion_splash4_v">
+			<warming>0</warming>
+			<variation_x>1</variation_x>
+			<variation_y>1</variation_y>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>27</number_per_spawn>
+			<spawn_rate>0</spawn_rate>
+			<physical_mass>2</physical_mass>
+			<linear_damping>2</linear_damping>
+			<angular_damping>1</angular_damping>
+			<growth_damping>1</growth_damping>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sequence>6</emitter_sequence>
+			<emitter_sync>0</emitter_sync>
+			<emitter_direction>0 0 20</emitter_direction>
+			<period_mean>100000000</period_mean>
+			<period_spread>0</period_spread>
+			<duration_mean>0.100000001</duration_mean>
+			<duration_spread>0</duration_spread>
+			<life_mean>1.5</life_mean>
+			<life_spread>1</life_spread>
+			<velocity_mean>18</velocity_mean>
+			<velocity_spread>16</velocity_spread>
+			<rotation_mean>0</rotation_mean>
+			<rotation_spread>50</rotation_spread>
+			<radius_mean>1.5</radius_mean>
+			<radius_spread>1</radius_spread>
+			<growth_mean>1</growth_mean>
+			<growth_spread>0.5</growth_spread>
+			<gravity>0 0 -11</gravity>
+			<surface name="particles" max_visible_distance="500" max_fade_distance="100" material="476d8f6865c37a4ecc153b5d6be9a533b0d0ebb6"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 1.1920901e-007 4.7683702e-007 0 1.0</transform>
+		</node>
+		<node type="ObjectParticles" id="975971000" name="water_explosion_splash4_h">
+			<warming>0</warming>
+			<variation_x>1</variation_x>
+			<variation_y>1</variation_y>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>14</number_per_spawn>
+			<spawn_rate>0</spawn_rate>
+			<physical_mass>2</physical_mass>
+			<linear_damping>2</linear_damping>
+			<angular_damping>1</angular_damping>
+			<growth_damping>1</growth_damping>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sequence>7</emitter_sequence>
+			<emitter_sync>0</emitter_sync>
+			<emitter_direction>0 0 0.300000012</emitter_direction>
+			<emitter_spread>1 1 0</emitter_spread>
+			<period_mean>100000000</period_mean>
+			<period_spread>0</period_spread>
+			<duration_mean>0.0500000007</duration_mean>
+			<duration_spread>0</duration_spread>
+			<life_mean>0.699999988</life_mean>
+			<life_spread>0.5</life_spread>
+			<velocity_mean>8</velocity_mean>
+			<velocity_spread>5</velocity_spread>
+			<rotation_mean>0</rotation_mean>
+			<rotation_spread>50</rotation_spread>
+			<radius_mean>1.5</radius_mean>
+			<radius_spread>1</radius_spread>
+			<growth_mean>1</growth_mean>
+			<growth_spread>0.5</growth_spread>
+			<gravity>0 0 -10</gravity>
+			<surface name="particles" max_visible_distance="200" max_fade_distance="150" material="476d8f6865c37a4ecc153b5d6be9a533b0d0ebb6"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 2.3841901e-007 4.7683702e-007 0 1.0</transform>
+		</node>
+		<node type="ObjectParticles" id="595371440" name="water_explosion_ripples1">
+			<particles_type>1</particles_type>
+			<warming>0</warming>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>2</number_per_spawn>
+			<spawn_rate>0</spawn_rate>
+			<angular_damping>1</angular_damping>
+			<growth_damping>2</growth_damping>
+			<emitter_type>3</emitter_type>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sequence>1</emitter_sequence>
+			<emitter_sync>0</emitter_sync>
+			<emitter_size>1 1 0</emitter_size>
+			<emitter_spread>1 1 0</emitter_spread>
+			<period_mean>100000000</period_mean>
+			<period_spread>0</period_spread>
+			<duration_mean>0.0500000007</duration_mean>
+			<duration_spread>0</duration_spread>
+			<life_mean>0.699999988</life_mean>
+			<life_spread>0.100000001</life_spread>
+			<velocity_mean>0.699999988</velocity_mean>
+			<velocity_spread>0</velocity_spread>
+			<rotation_mean>0</rotation_mean>
+			<rotation_spread>50</rotation_spread>
+			<radius_mean>1.20000005</radius_mean>
+			<radius_spread>0</radius_spread>
+			<growth_mean>10</growth_mean>
+			<growth_spread>4</growth_spread>
+			<surface name="particles" max_visible_distance="400" max_fade_distance="100" material="187fcae6010ffab42fe753140d87c491b66f8dcd"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 1.1920901e-007 0 0.20000002 1.0</transform>
+		</node>
+		<node type="ObjectParticles" id="254390321" name="water_explosion_ripples2">
+			<particles_type>1</particles_type>
+			<warming>0</warming>
+			<clear_on_enable>1</clear_on_enable>
+			<number_per_spawn>2</number_per_spawn>
+			<spawn_rate>0</spawn_rate>
+			<linear_damping>2</linear_damping>
+			<emitter_enabled>1</emitter_enabled>
+			<emitter_sequence>2</emitter_sequence>
+			<emitter_sync>0</emitter_sync>
+			<emitter_spread>1 1 0</emitter_spread>
+			<delay_mean>0.200000003</delay_mean>
+			<delay_spread>0</delay_spread>
+			<period_mean>100000000</period_mean>
+			<period_spread>0</period_spread>
+			<duration_mean>1.10000002</duration_mean>
+			<duration_spread>0</duration_spread>
+			<life_mean>1.70000005</life_mean>
+			<life_spread>0.5</life_spread>
+			<velocity_mean>2</velocity_mean>
+			<velocity_spread>1</velocity_spread>
+			<rotation_mean>0</rotation_mean>
+			<rotation_spread>50</rotation_spread>
+			<radius_mean>2</radius_mean>
+			<radius_spread>0.5</radius_spread>
+			<growth_mean>1.5</growth_mean>
+			<growth_spread>0.5</growth_spread>
+			<surface name="particles" max_visible_distance="350" max_fade_distance="100" material="187fcae6010ffab42fe753140d87c491b66f8dcd"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 1.1920901e-007 0 0.20000002 1.0</transform>
+		</node>
+	</node>
+</nodes>

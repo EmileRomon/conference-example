@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>8e0e3c61f72bf480b1b946b9c3e76cf5edd0af42</guid>
+	<type>material</type>
+	<hash>4b412228</hash>
+	<runtimes>
+		<runtime id="8e0e3c61f72bf480b1b946b9c3e76cf5edd0af42" name="leaves_shadow_mat" link="0"/>
+	</runtimes>
+</asset>

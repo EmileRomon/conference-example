@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>7b3c1fcb80199c17c6217ea0750a14c8b170bc76</guid>
+	<type>texture</type>
+	<hash>cf8fdb4</hash>
+	<runtimes>
+		<runtime id="7b3c1fcb80199c17c6217ea0750a14c8b170bc76" name="fire_lower_d.png" link="0"/>
+		<runtime id="a7ec4509e7b359138306feca6838f526e4a7eaf5" name="fire_lower_d.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="image_format">Auto (DXT1 or DXT5)</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">diffuse (rgba)</parameter>
+	</parameters>
+</asset>

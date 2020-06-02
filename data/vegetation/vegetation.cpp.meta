@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>15c14f97bfdfd4597c73aee690880205a21ed3e5</guid>
+	<type>script</type>
+	<hash>e443c82d</hash>
+	<runtimes>
+		<runtime id="15c14f97bfdfd4597c73aee690880205a21ed3e5" name="vegetation.cpp" link="0"/>
+	</runtimes>
+</asset>
