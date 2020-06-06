@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_detail_gravel_0_2_mat" guid="d67f829eb061896578fe2b80e62c28df82bce0b2" parent="f9073c07a066c9ba09314dd1f25a2cfcdd8ba42b" base_material="landscape_terrain_detail_base">
+	<state name="additional_mask">1</state>
+	<texture name="additional_mask">guid://d0a1386392c142662ca9f68d4d11a68871f69847</texture>
+	<parameter name="size" expression="0">7.5</parameter>
+	<parameter name="albedo" expression="0">0.478431404 0.478431404 0.478431404 1</parameter>
+	<parameter name="height_scale" expression="0">0.300000012</parameter>
+	<parameter name="additional_mask_size" expression="0">70</parameter>
+</material>

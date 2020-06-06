@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>10cb61a8a913d8e7e96c011a3ae55db1c3b23b5c</guid>
+	<type>texture</type>
+	<hash>bd4bba24</hash>
+	<runtimes>
+		<runtime id="10cb61a8a913d8e7e96c011a3ae55db1c3b23b5c" name="additional_mask_blur_small.tif" link="0"/>
+		<runtime id="fc1e9f0bc56e68ee80171b75a0f8f650a907556f" name="additional_mask_blur_small.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">RGBA16</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

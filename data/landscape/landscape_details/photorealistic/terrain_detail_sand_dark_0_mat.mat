@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_detail_sand_dark_0_mat" guid="d11e8d5ed57d9525add944404be8ea9fce453772" parent="4bd47c22df00cd19e8a253a4e5048ab338685076" base_material="landscape_terrain_detail_base">
+	<parameter name="size" expression="0">50</parameter>
+	<parameter name="albedo" expression="0">0.670588255 0.600000024 0.549019635 1</parameter>
+	<parameter name="height_scale" expression="0">0.5</parameter>
+</material>

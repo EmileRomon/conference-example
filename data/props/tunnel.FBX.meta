@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>56c2c409771769ad75e97fc9d9fc2afd844542aa</guid>
+	<type>fbx</type>
+	<hash>c17e4463</hash>
+	<runtimes>
+		<runtime id="56c2c409771769ad75e97fc9d9fc2afd844542aa" name="tunnel.FBX" link="0"/>
+		<runtime id="4080529feee2f57de6bd3681fcd82a85e88f2d5b" name="tunnel.node" link="1" type="3">
+			<parameters>
+				<parameter type="string" name="id">1501453e</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="ab2042efd480f4400720c1dfaf2f237d09c855fc" name="tunnel.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">f80b05</parameter>
+			</parameters>
+		</runtime>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="merge_static_meshes">1</parameter>
+		<parameter type="bool" name="merge_surfaces_by_materials">0</parameter>
+		<parameter type="bool" name="use_instances">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="bool" name="import_meshes">1</parameter>
+		<parameter type="bool" name="import_materials">1</parameter>
+		<parameter type="bool" name="merge_similar_materials">0</parameter>
+		<parameter type="bool" name="import_materials_mode">0</parameter>
+		<parameter type="bool" name="import_textures">1</parameter>
+		<parameter type="bool" name="import_animations">1</parameter>
+		<parameter type="bool" name="import_bones_without_skin">0</parameter>
+		<parameter type="bool" name="import_joints">0</parameter>
+		<parameter type="bool" name="import_lights">1</parameter>
+		<parameter type="bool" name="import_cameras">1</parameter>
+		<parameter type="bool" name="import_tangent_space">0</parameter>
+		<parameter type="bool" name="import_morph_targets">0</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="float" name="fps">30</parameter>
+		<parameter type="int" name="workflow">0</parameter>
+		<parameter type="int" name="up_axis">0</parameter>
+		<parameter type="int" name="front_axis">4</parameter>
+		<parameter type="bool" name="need_split">0</parameter>
+		<parameter type="bool" name="need_repivot">0</parameter>
+		<parameter type="bool" name="need_triagulate">1</parameter>
+		<parameter type="bool" name="skip_empty_nodes">0</parameter>
+		<parameter type="float" name="bound_size">10000</parameter>
+		<parameter type="float" name="linear_deflection">0.200000003</parameter>
+		<parameter type="float" name="angular_deflection">0.699999988</parameter>
+		<parameter type="bool" name="combine_by_lods">0</parameter>
+		<parameter type="int" name="index_max_count_lods">1</parameter>
+		<parameter type="string" name="lods">_lod_0,-1e+9,_lod_1,3,_lod_2,9</parameter>
+		<parameter type="string" name="material_guids">01 - default,8124d44d5929a3392e97d59821ce4aa8e6fa9d8b</parameter>
+		<parameter type="bool" name="joints_reorientation">0</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_detail_sand_light_1_mat" guid="7c61fa3b06df2a5ea3d38e25ba6ce940e0264b9f" parent="a9a67b9a412c9631fa5319dc9570eb8bd1974b6e" base_material="landscape_terrain_detail_base">
+	<state name="triplanar">1</state>
+	<state name="additional_mask">1</state>
+	<texture name="additional_mask">guid://31bd24ddb94ee09801c4eb17be590d8ab4d39f61</texture>
+	<parameter name="size" expression="0">20</parameter>
+	<parameter name="height_scale" expression="0">0.5</parameter>
+	<parameter name="additional_mask_size" expression="0">125</parameter>
+</material>

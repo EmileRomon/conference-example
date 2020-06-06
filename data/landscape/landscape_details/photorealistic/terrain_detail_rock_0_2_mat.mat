@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_detail_rock_0_2_mat" guid="ba5b1a4990a95f1459debf633dab1d666acc158d" parent="217e473f3562ab92040fd5c9a10be494799086e3" base_material="landscape_terrain_detail_base">
+	<parameter name="size" expression="0">20</parameter>
+	<parameter name="additional_mask_size" expression="0">70</parameter>
+</material>

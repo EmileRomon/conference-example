@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_detail_rock_0_base_mat" guid="217e473f3562ab92040fd5c9a10be494799086e3" base_material="landscape_terrain_detail_base">
+	<state name="triplanar">1</state>
+	<state name="additional_mask">1</state>
+	<state name="additional_mask_blend_mode">1</state>
+	<texture name="height">guid://36b9e4435f5d3cc629b7ed6dd3046fe8a5e71227</texture>
+	<texture name="additional_mask">guid://31bd24ddb94ee09801c4eb17be590d8ab4d39f61</texture>
+	<parameter name="size" expression="0">40</parameter>
+	<parameter name="blend_triplanar" expression="0">0.75</parameter>
+	<parameter name="albedo" expression="0">0.301960796 0.301960796 0.301960796 1</parameter>
+	<parameter name="height_scale" expression="0">4</parameter>
+</material>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>864126d2c5f27663a63b266e10521af84da55cb9</guid>
+	<type>material</type>
+	<hash>33d79da6</hash>
+	<runtimes>
+		<runtime id="864126d2c5f27663a63b266e10521af84da55cb9" name="decal_terrain_hole_base_1" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

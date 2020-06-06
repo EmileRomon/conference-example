@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_detail_gravel_0_base_mat" guid="f9073c07a066c9ba09314dd1f25a2cfcdd8ba42b" base_material="landscape_terrain_detail_base">
+	<texture name="albedo">guid://268e191a433095b19fd4135cbde6970b816600ee</texture>
+	<texture name="height">guid://7a875703e14490861b95ae2d48d3b9a86c9050e7</texture>
+	<parameter name="contrast" expression="0">0.0500000007</parameter>
+	<parameter name="albedo" expression="0">0.509803951 0.509803951 0.509803951 1</parameter>
+	<parameter name="height_scale" expression="0">0.600000024</parameter>
+</material>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>148e7d135560786d0fa78a1fed8a6ef316d8ec6d</guid>
+	<type>material</type>
+	<hash>4158f335</hash>
+	<runtimes>
+		<runtime id="148e7d135560786d0fa78a1fed8a6ef316d8ec6d" name="cave_main" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

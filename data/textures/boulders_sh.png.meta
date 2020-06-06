@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>b7427c4e1eebdc7a5f40a0ad33f83b3b78e18cdd</guid>
+	<type>texture</type>
+	<hash>04236167</hash>
+	<runtimes>
+		<runtime id="b7427c4e1eebdc7a5f40a0ad33f83b3b78e18cdd" name="boulders_sh.png" link="0"/>
+		<runtime id="e8e9a77b32208200a1f51cf305752b698a5f606f" name="boulders_sh.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">shading (rgb)</parameter>
+	</parameters>
+</asset>

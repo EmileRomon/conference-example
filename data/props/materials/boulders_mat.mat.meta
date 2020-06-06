@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>c8dda325ad4dfa408b5a289f33b95d72d8361e29</guid>
+	<type>material</type>
+	<hash>c45e6292</hash>
+	<runtimes>
+		<runtime id="c8dda325ad4dfa408b5a289f33b95d72d8361e29" name="boulders_mat" link="0"/>
+	</runtimes>
+</asset>

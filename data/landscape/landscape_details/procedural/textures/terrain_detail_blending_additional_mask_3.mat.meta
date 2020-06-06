@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>3479ac73388d8736b3c4551de725d3d8bbdac557</guid>
+	<type>material</type>
+	<hash>8c6e0467</hash>
+	<runtimes>
+		<runtime id="3479ac73388d8736b3c4551de725d3d8bbdac557" name="terrain_detail_blending_additional_mask_3" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

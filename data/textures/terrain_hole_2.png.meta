@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>da4cf966c98ead807d10bfc969e465f97d94809a</guid>
+	<type>texture</type>
+	<hash>ea707637</hash>
+	<runtimes>
+		<runtime id="da4cf966c98ead807d10bfc969e465f97d94809a" name="terrain_hole_2.png" link="0"/>
+		<runtime id="e5cfaf373ed886136a66a0aad9421db7fae8c2ec" name="terrain_hole_2.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">R8</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">Original</parameter>
+		<parameter type="string" name="height">Original</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+	</parameters>
+</asset>

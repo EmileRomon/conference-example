@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_detail_snow_0_base_mat" guid="855e952a42c54281b78bb9ec62a76c5b88feb5fe" base_material="landscape_terrain_detail_base">
+	<texture name="height">guid://fc1e9f0bc56e68ee80171b75a0f8f650a907556f</texture>
+	<parameter name="size" expression="0">10</parameter>
+	<parameter name="height_scale" expression="0">0.54144001</parameter>
+</material>

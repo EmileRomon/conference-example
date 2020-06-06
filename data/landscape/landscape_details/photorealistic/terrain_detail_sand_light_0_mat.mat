@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_detail_sand_light_0_mat" guid="933da9d4ddef0b23d66d762646c7174d6e58d048" parent="a9a67b9a412c9631fa5319dc9570eb8bd1974b6e" base_material="landscape_terrain_detail_base">
+	<state name="triplanar">1</state>
+	<parameter name="size" expression="0">30</parameter>
+	<parameter name="height_scale" expression="0">0.5</parameter>
+</material>

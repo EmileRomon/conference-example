@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>47cbc214050fc66326f2786694adb48da0f64c88</guid>
+	<type>material</type>
+	<hash>b3b12694</hash>
+	<runtimes>
+		<runtime id="47cbc214050fc66326f2786694adb48da0f64c88" name="terrain_1_detail_grit" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

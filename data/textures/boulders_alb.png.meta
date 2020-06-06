@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>b89096405efffb043efd2596e444f5ce9850cfd8</guid>
+	<type>texture</type>
+	<hash>285a51c3</hash>
+	<runtimes>
+		<runtime id="b89096405efffb043efd2596e444f5ce9850cfd8" name="boulders_alb.png" link="0"/>
+		<runtime id="51df3e0243073ec78e37e7f2d15ab95be82e9647" name="boulders_alb.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1/DXT5</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">albedo (rgba)</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>7d6dbfd05b887a40429d0fd4f361ddc3f1c9c3ef</guid>
+	<type>texture</type>
+	<hash>ce55a70e</hash>
+	<runtimes>
+		<runtime id="7d6dbfd05b887a40429d0fd4f361ddc3f1c9c3ef" name="dirt_h.png" link="0"/>
+		<runtime id="599cf86f8ef27bf996daf68aea4be49b2aae2b60" name="dirt_h.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">0</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">parallax</parameter>
+	</parameters>
+</asset>

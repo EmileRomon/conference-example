@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_1_detail_boulders1" guid="db83f7ce29fc9cd5558cc83039083dcf73b190e2" base_material="landscape_terrain_detail_base">
+	<texture name="albedo">guid://5e66484ed80db3552de1ecb0b266184f5904a962</texture>
+	<texture name="height">guid://ffff3e32020f07e91a1a3034b40c1e03234cab86</texture>
+	<parameter name="size" expression="0">16</parameter>
+	<parameter name="contrast" expression="0">0.200000003</parameter>
+	<parameter name="height_scale" expression="0">0.5</parameter>
+</material>

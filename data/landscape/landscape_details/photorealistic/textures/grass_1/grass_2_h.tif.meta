@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>4788a97aded02a91a61fe2bc84c05eebe4f8674e</guid>
+	<type>texture</type>
+	<hash>4a39a5fa</hash>
+	<runtimes>
+		<runtime id="4788a97aded02a91a61fe2bc84c05eebe4f8674e" name="grass_2_h.tif" link="0"/>
+		<runtime id="ecd346554f7c63b091a8234f12c13862ae47dc59" name="grass_2_h.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">0</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">parallax</parameter>
+	</parameters>
+</asset>

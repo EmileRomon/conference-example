@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>affb1dbe21972a05465713a06b4cb27facd99dd2</guid>
+	<type>texture</type>
+	<hash>277672c8</hash>
+	<runtimes>
+		<runtime id="affb1dbe21972a05465713a06b4cb27facd99dd2" name="terrain_rock2_d_h.png" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">0</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="string" name="preset_name">parallax</parameter>
+	</parameters>
+</asset>

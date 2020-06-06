@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>a75f8d30983a3ecf4ea19de20a9e03d91c2e9b64</guid>
+	<type>material</type>
+	<hash>0097909a</hash>
+	<runtimes>
+		<runtime id="a75f8d30983a3ecf4ea19de20a9e03d91c2e9b64" name="terrain_detail_sand_dark_2_mat" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

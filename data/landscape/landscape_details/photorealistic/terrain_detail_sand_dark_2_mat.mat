@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_detail_sand_dark_2_mat" guid="a75f8d30983a3ecf4ea19de20a9e03d91c2e9b64" parent="4bd47c22df00cd19e8a253a4e5048ab338685076" base_material="landscape_terrain_detail_base">
+	<state name="additional_mask">1</state>
+	<texture name="additional_mask">guid://d0a1386392c142662ca9f68d4d11a68871f69847</texture>
+	<parameter name="size" expression="0">20</parameter>
+	<parameter name="albedo" expression="0">0.509803951 0.458823562 0.415686309 1</parameter>
+	<parameter name="height_scale" expression="0">0.5</parameter>
+	<parameter name="additional_mask_size" expression="0">70</parameter>
+</material>

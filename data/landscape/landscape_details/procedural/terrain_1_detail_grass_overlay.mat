@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_1_detail_grass_overlay" guid="ecf106f8fbab1df71f2ee2eaa913b54160000dac" parent="807027874e0fbf3a2616c551831e3e7c0bf987ab" base_material="landscape_terrain_detail_base">
+	<texture name="albedo">guid://54c9b10530b1eea0e82bd17ff18830d2884f1a09</texture>
+	<texture name="height">guid://14118898949773175d39f58a0aaf6761c300d94c</texture>
+	<parameter name="size" expression="0">256</parameter>
+	<parameter name="contrast" expression="0">0.00908999983</parameter>
+	<parameter name="albedo_opacity" expression="0">0.764989972</parameter>
+	<parameter name="albedo" expression="0">0.411764741 0.454901993 0.392156899 1</parameter>
+	<parameter name="height_opacity" expression="0">0</parameter>
+	<parameter name="height_scale" expression="0">3</parameter>
+</material>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_border_area" guid="d1908d093ed8b2d43b648023cf026726c75d544d" base_material="landscape_terrain_detail_base">
+	<state name="triplanar">1</state>
+	<parameter name="albedo" expression="0">0.309803933 0.325490206 0.278431386 1</parameter>
+	<parameter name="height_opacity" expression="0">0</parameter>
+	<parameter name="height_scale" expression="0">0</parameter>
+</material>

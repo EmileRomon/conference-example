@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>e62f449574b5ccf09cc1fb8f0d7ab3a25a0e9e99</guid>
+	<type>material</type>
+	<hash>6b2f6133</hash>
+	<runtimes>
+		<runtime id="e62f449574b5ccf09cc1fb8f0d7ab3a25a0e9e99" name="terrain_detail_grass_0_1_mat" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

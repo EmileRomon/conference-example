@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>80bbf1b1428fbf5c93f6530b011a8ceea22cef75</guid>
+	<type>material</type>
+	<hash>bca4693b</hash>
+	<runtimes>
+		<runtime id="80bbf1b1428fbf5c93f6530b011a8ceea22cef75" name="terrain_1_detail_pebbles" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

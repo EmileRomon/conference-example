@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_detail_ground_base_mat" guid="74ddec9bb31cb93eddc10f85ef68bb20656f33ff" base_material="landscape_terrain_detail_base">
+	<state name="triplanar">1</state>
+	<texture name="albedo">guid://268e191a433095b19fd4135cbde6970b816600ee</texture>
+	<texture name="height">guid://7a875703e14490861b95ae2d48d3b9a86c9050e7</texture>
+	<parameter name="size" expression="0">10</parameter>
+	<parameter name="contrast" expression="0">0.00999999978</parameter>
+	<parameter name="albedo" expression="0">0.419607878 0.376470625 0.34117648 1</parameter>
+	<parameter name="height_scale" expression="0">0.300000012</parameter>
+</material>

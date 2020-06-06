@@ -102,7 +102,7 @@
 		<environment_preset_2_reflection_intensity>1</environment_preset_2_reflection_intensity>
 		<environment_preset_2_sky_intensity>1</environment_preset_2_sky_intensity>
 		<bake_lighting_bounces>4</bake_lighting_bounces>
-		<bake_lighting_per_frame>10</bake_lighting_per_frame>
+		<bake_lighting_per_frame>31</bake_lighting_per_frame>
 		<bake_lighting_voxel_size_multiplier>1</bake_lighting_voxel_size_multiplier>
 		<gl_async_buffer_synchronization>1</gl_async_buffer_synchronization>
 		<gl_terrain_use_async>1</gl_terrain_use_async>
@@ -535,7 +535,7 @@
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
 			</node>
 		</node>
-		<node type="NodeDummy" id="1368583642" name="lighting">
+		<node type="NodeDummy" id="1368583642" immovable="1" name="lighting">
 			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
 			<node type="LightWorld" id="824505625" immovable="1" name="sun">
 				<scattering>1</scattering>
@@ -604,7 +604,7 @@
 					<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
 					<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
 				</lens_flare_billboards>
-				<transform>-0.45315373 0.82825947 -0.32960302 0.0 -0.21130946 -0.45901257 -0.86293459 0.0 -0.86602533 -0.32139364 0.38302213 0.0 0 0 0 1.0</transform>
+				<transform>0.35011902 -0.93668419 -0.0057198056 0.0 0.9290154 0.3480202 -0.12571131 0.0 0.11974344 0.03870048 0.99205101 0.0 0 0 0 1.0</transform>
 			</node>
 		</node>
 		<node type="NodeReference" id="1777446179" name="first_person_controller">
@@ -612,11 +612,11 @@
 			<properties>
 				<property/>
 			</properties>
-			<transform>0.97995478 -0.19921701 0 0.0 0.19921701 0.97995478 0 0.0 0 0 0.99999863 0.0 793.83728 1832.2039 17.100813 1.0</transform>
+			<transform>0.97995478 -0.19921701 0 0.0 0.19921701 0.97995478 0 0.0 0 0 0.99999845 0.0 405.14661 2329.6072 38.465759 1.0</transform>
 		</node>
 		<node type="ObjectWaterGlobal" id="699885058" immovable="1" name="WaterGlobal">
-			<water_time>7407.74414</water_time>
-			<octaves_pans>0.77673471 0 -0.77673471 0 0.330230623 0</octaves_pans>
+			<water_time>3592.5459</water_time>
+			<octaves_pans>0.275221735 0 -0.275221735 0 0.825743675 0</octaves_pans>
 			<surface name="water_surface" physics_friction="1" physics_restitution="1" material="e01e383625a3521d3d46acd862fbca575855e3ca"/>
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0 0 5 1.0</transform>
 		</node>
@@ -727,7 +727,7 @@
 			</detail_mask_19>
 			<surface name="terrain_surface" physics_intersection="1" collision="1" physics_friction="1" physics_restitution="1" material="07f6d5f2212230c2cd00aff443f627146b6ed516"/>
 			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-			<node type="LandscapeLayerMap" id="1658916242" name="LandscapeLayerMap">
+			<node type="LandscapeLayerMap" id="1658916242" immovable="1" name="LandscapeLayerMap">
 				<order>0</order>
 				<size>1365 1365</size>
 				<height_scale>0.300000012</height_scale>
@@ -751,6 +751,223 @@
 			<size>1314.16797 1103.26514 91.8903656</size>
 			<texture>guid://c4c03d89d517a954054e04a30b2921a67a23cccd</texture>
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 688.79785 2131.8591 -14.298744 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="807163157" immovable="1" name="cave">
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 273.84708 2482.7544 70.119614 1.0</transform>
+			<node type="ObjectMeshStatic" id="520342382" immovable="1" name="tunnel">
+				<mesh_name>guid://ab2042efd480f4400720c1dfaf2f237d09c855fc</mesh_name>
+				<surface name="main_01 - default" collision="1" physics_friction="1" physics_restitution="1" material="148e7d135560786d0fa78a1fed8a6ef316d8ec6d"/>
+				<surface name="enters_01 - default" collision="1" physics_friction="1" physics_restitution="1" material="148e7d135560786d0fa78a1fed8a6ef316d8ec6d"/>
+				<transform>0.27746859 -0.11406664 0 0.0 0.11406665 0.27746862 0 0.0 0 0 0.30000001 0.0 -5.1843872 20.821533 -25.016617 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="651212632" name="caveEntrance1">
+				<mesh_name>guid://7c1fc0b20234a869c67656b4ee911283f5f81606</mesh_name>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<transform>-0.19299571 -0.35036057 0 0.0 0.35036078 -0.19299583 0 0.0 0 0 0.40000001 0.0 122.37811 1297.8391 -662.5 1.0</transform>
+			</node>
+			<node material="61cc26233d156a3189c2f172521da85c32cd3918" type="DecalProj" id="892113082" name="DecalEntrance1">
+				<radius>20</radius>
+				<fov>60</fov>
+				<aspect>1</aspect>
+				<znear>0.00100000005</znear>
+				<transform>-0.66620648 -0.7446422 -0.040947493 0.0 0.086825013 -0.022912078 -0.99595964 0.0 0.74069518 -0.66706991 0.079917729 0.0 95.445496 -109.08472 -20.458683 1.0</transform>
+			</node>
+			<node material="61cc26233d156a3189c2f172521da85c32cd3918" type="DecalProj" id="1261039814" name="DecalEntrance2">
+				<radius>15</radius>
+				<fov>46</fov>
+				<aspect>1</aspect>
+				<znear>0.00100000005</znear>
+				<transform>0.78877473 -0.6090827 0.08277496 0.0 0.086824849 -0.022911752 -0.99595904 0.0 0.60851794 0.7927742 0.034811337 0.0 -80.605453 108.36743 16.82972 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1186746103" name="caveEntrance2">
+				<mesh_name>guid://7c1fc0b20234a869c67656b4ee911283f5f81606</mesh_name>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<transform>0.39945155 -0.020934371 0 0.0 0.020934395 0.39945203 0 0.0 0 0 0.39999962 0.0 -1360 -477 -625 1.0</transform>
+			</node>
+			<node type="LightVoxelProbe" id="1783683073" name="LightVoxelProbe">
+				<box_size>75 276 52</box_size>
+				<attenuation_distance>100 100 100</attenuation_distance>
+				<voxel_size>5</voxel_size>
+				<use_sun_color>0</use_sun_color>
+				<additive_blending>0</additive_blending>
+				<ambient_color>1 1 1 1</ambient_color>
+				<ambient_intensity>1</ambient_intensity>
+				<ambient_bias>1</ambient_bias>
+				<ambient_cubic_filtering>1</ambient_cubic_filtering>
+				<reflection_enabled>1</reflection_enabled>
+				<reflection_color>1 1 1 1</reflection_color>
+				<reflection_intensity>1</reflection_intensity>
+				<reflection_visibility_roughness_min>0.800000012</reflection_visibility_roughness_min>
+				<reflection_visibility_roughness_max>0.800000012</reflection_visibility_roughness_max>
+				<reflection_bias>2</reflection_bias>
+				<reflection_cubic_filtering>0</reflection_cubic_filtering>
+				<bake_viewport_mask>-1</bake_viewport_mask>
+				<bake_sampling_resolution>-1</bake_sampling_resolution>
+				<bake_sampling_mip_ofsset>6</bake_sampling_mip_ofsset>
+				<bake_num_rays>1024</bake_num_rays>
+				<bake_znear>0.00100000005</bake_znear>
+				<bake_zfar>1000</bake_zfar>
+				<bake_fix_light_bleeding_bounce>1</bake_fix_light_bleeding_bounce>
+				<bake_fix_light_bleeding_intensity>1</bake_fix_light_bleeding_intensity>
+				<bake_fix_light_bleeding_radius>0</bake_fix_light_bleeding_radius>
+				<bake_internal_volume>0</bake_internal_volume>
+				<bake_full_resolution_bounces>0</bake_full_resolution_bounces>
+				<bake_caustic>0</bake_caustic>
+				<bake_visibility_emission>1</bake_visibility_emission>
+				<bake_visibility_sky>1</bake_visibility_sky>
+				<bake_visibility_light_world>1</bake_visibility_light_world>
+				<bake_visibility_light_omni>1</bake_visibility_light_omni>
+				<bake_visibility_light_proj>1</bake_visibility_light_proj>
+				<bake_visibility_voxel_probe>1</bake_visibility_voxel_probe>
+				<bake_visibility_environment_probe>1</bake_visibility_environment_probe>
+				<texture>guid://75165d2430320633386c95f602b894dd74b39098</texture>
+				<shadow_bias>1</shadow_bias>
+				<fade_distance>4</fade_distance>
+				<mode>1</mode>
+				<shadow_filter_mode>-1</shadow_filter_mode>
+				<shadow_filter>1</shadow_filter>
+				<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+				<shadow_penumbra>0</shadow_penumbra>
+				<shadow_screen_space>0</shadow_screen_space>
+				<shadow_screen_space_num_rays>8</shadow_screen_space_num_rays>
+				<shadow_screen_space_num_steps>8</shadow_screen_space_num_steps>
+				<shadow_screen_space_noise_ray>1</shadow_screen_space_noise_ray>
+				<shadow_screen_space_noise_step>0.5</shadow_screen_space_noise_step>
+				<shadow_screen_space_step_size>0.5</shadow_screen_space_step_size>
+				<shadow_screen_space_threshold>1</shadow_screen_space_threshold>
+				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
+				<transform>0.64278752 0.76604438 0 0.0 -0.76604444 0.64278758 0 0.0 0 0 0.99999976 0.0 0.71905518 -2.8000488 -0.45872498 1.0</transform>
+			</node>
 		</node>
 	</editor>
 </world>

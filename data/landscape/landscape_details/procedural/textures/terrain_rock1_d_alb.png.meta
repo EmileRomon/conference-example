@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>2b6dfa39b2485e44544ed4d3b5d6d416c6fe7c7d</guid>
+	<type>texture</type>
+	<hash>015d6e44</hash>
+	<runtimes>
+		<runtime id="2b6dfa39b2485e44544ed4d3b5d6d416c6fe7c7d" name="terrain_rock1_d_alb.png" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1/DXT5</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="string" name="preset_name">albedo (rgba)</parameter>
+	</parameters>
+</asset>

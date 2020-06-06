@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>413e9dbae69f11d1110520fc5d72082b36ad7f8e</guid>
+	<type>texture</type>
+	<hash>2f74f505</hash>
+	<runtimes>
+		<runtime id="413e9dbae69f11d1110520fc5d72082b36ad7f8e" name="terrain_boulders2_d_h.png" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">0</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="string" name="preset_name">parallax</parameter>
+	</parameters>
+</asset>

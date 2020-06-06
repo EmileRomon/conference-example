@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_detail_snow_0_0_mat" guid="ff62e7d840ecc9578a2cd6ca180457a1be4a8c8c" parent="855e952a42c54281b78bb9ec62a76c5b88feb5fe" base_material="landscape_terrain_detail_base">
+	<state name="additional_mask_blend_mode">1</state>
+	<texture name="height">guid://66fc4443a4fc1cc6e0094d6de1664fe8401f7227</texture>
+	<texture name="additional_mask">guid://d0a1386392c142662ca9f68d4d11a68871f69847</texture>
+	<parameter name="size" expression="0">30</parameter>
+	<parameter name="roughness" expression="0">0.699999988</parameter>
+	<parameter name="height_scale" expression="0">0.262430012</parameter>
+	<parameter name="additional_mask_size" expression="0">100</parameter>
+</material>

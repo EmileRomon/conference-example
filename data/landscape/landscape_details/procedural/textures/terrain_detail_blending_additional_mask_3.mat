@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_detail_blending_additional_mask_3" guid="3479ac73388d8736b3c4551de725d3d8bbdac557" parent="ffd35cba7f46c4d11ddb37fc907b332ba846ae8e" base_material="landscape_terrain_detail_base">
+	<state name="additional_mask">1</state>
+	<texture name="additional_mask">guid://31bd24ddb94ee09801c4eb17be590d8ab4d39f61</texture>
+	<parameter name="size" expression="0">7.5</parameter>
+	<parameter name="additional_mask_size" expression="0">75</parameter>
+</material>

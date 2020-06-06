@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="NodeDummy" id="1168259808" name="crystals">
+		<transform>1 2.6226834e-07 0 0.0 -2.6226834e-07 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="683616795" name="Cylinder002">
+			<mesh_name>guid://0a3e85c7887919d2261358fa86abe4f10281bf42</mesh_name>
+			<surface name="surface_0" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

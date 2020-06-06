@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>ecf106f8fbab1df71f2ee2eaa913b54160000dac</guid>
+	<type>material</type>
+	<hash>c9797638</hash>
+	<runtimes>
+		<runtime id="ecf106f8fbab1df71f2ee2eaa913b54160000dac" name="terrain_1_detail_grass_overlay" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

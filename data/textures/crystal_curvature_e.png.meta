@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>cc260bdd2762bd4cda8f6b21229222902f234a3b</guid>
+	<type>texture</type>
+	<hash>b6035f73</hash>
+	<runtimes>
+		<runtime id="cc260bdd2762bd4cda8f6b21229222902f234a3b" name="crystal_curvature_e.png" link="0"/>
+		<runtime id="7f004832dd697e52886bb6682410b750b75f0f6f" name="crystal_curvature_e.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">emission</parameter>
+	</parameters>
+</asset>

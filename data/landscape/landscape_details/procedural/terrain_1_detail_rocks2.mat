@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_1_detail_rocks2" guid="7910f3a4ee62aab352eff07687f32d5d75f04f18" base_material="landscape_terrain_detail_base">
+	<state name="triplanar">1</state>
+	<texture name="albedo">guid://2b6dfa39b2485e44544ed4d3b5d6d416c6fe7c7d</texture>
+	<texture name="roughness">guid://5219d6ddb5dbd1520e843a369ad2b64326bb24e2</texture>
+	<texture name="height">guid://ff60440d34b496088429c1c78232147acd0c9991</texture>
+	<parameter name="size" expression="0">40</parameter>
+	<parameter name="contrast" expression="0">0.0500000007</parameter>
+</material>

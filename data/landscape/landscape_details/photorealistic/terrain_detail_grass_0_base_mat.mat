@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_detail_grass_0_base_mat" guid="03733b6d209b65e8c2959027c945cf5a856256f1" base_material="landscape_terrain_detail_base">
+	<texture name="albedo">guid://3fed3aadbbc0dc281cda1167497fdf9ac10eaa31</texture>
+	<texture name="roughness">guid://798dd93a23da17513ab5687cb362a9ab39beb30e</texture>
+	<texture name="height">guid://ecd346554f7c63b091a8234f12c13862ae47dc59</texture>
+	<parameter name="size" expression="0">7</parameter>
+	<parameter name="contrast" expression="0">0.0299999993</parameter>
+	<parameter name="blend_triplanar" expression="0">0.349999994</parameter>
+	<parameter name="roughness" expression="0">2</parameter>
+	<parameter name="height_scale" expression="0">0.100000001</parameter>
+</material>

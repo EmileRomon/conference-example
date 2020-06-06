@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_1_detail_pebbles" guid="80bbf1b1428fbf5c93f6530b011a8ceea22cef75" base_material="landscape_terrain_detail_base">
+	<texture name="albedo">guid://f653c1ff0fe26752571ade8918d7d6546cfe4da3</texture>
+	<texture name="height">guid://ccc4f6b33435cc764a27595d681e8b1846bf9397</texture>
+	<parameter name="size" expression="0">4</parameter>
+	<parameter name="contrast" expression="0">0.00190000003</parameter>
+	<parameter name="albedo" expression="0">0.909803987 0.886274576 0.854902029 1</parameter>
+	<parameter name="height_scale" expression="0">0.5</parameter>
+</material>

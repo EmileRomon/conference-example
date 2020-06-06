@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>0776b2065418920b71dbd84855e4b9a93f230f2a</guid>
+	<type>material</type>
+	<hash>017581f1</hash>
+	<runtimes>
+		<runtime id="0776b2065418920b71dbd84855e4b9a93f230f2a" name="cave_enters" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

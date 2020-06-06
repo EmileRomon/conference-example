@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_1_detail_rocks1" guid="7b5de84f9a7a39626212e9598a0f42e4dc2030f3" parent="7910f3a4ee62aab352eff07687f32d5d75f04f18" base_material="landscape_terrain_detail_base">
+	<texture name="albedo">guid://2b6dfa39b2485e44544ed4d3b5d6d416c6fe7c7d</texture>
+	<texture name="height">guid://9f73bfa62ae1d2cdf9e955c845fdfe87d8edaa3a</texture>
+	<parameter name="size" expression="0">64</parameter>
+	<parameter name="contrast" expression="0">0.0752200037</parameter>
+	<parameter name="height_scale" expression="0">2</parameter>
+</material>

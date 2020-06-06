@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>733788f3968cb9b61658e59d36c42a584fdc29d7</guid>
+	<type>mesh</type>
+	<hash>cc49cc4b</hash>
+	<runtimes>
+		<runtime id="733788f3968cb9b61658e59d36c42a584fdc29d7" name="river_mesh.mesh" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="bool" name="need_create_uv">0</parameter>
+		<parameter type="int" name="uv_resolution">512</parameter>
+		<parameter type="int" name="uv_padding">0</parameter>
+		<parameter type="int" name="uv_channel">1</parameter>
+		<parameter type="bool" name="uv_high_quality">0</parameter>
+	</parameters>
+</asset>

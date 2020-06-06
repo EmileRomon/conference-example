@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>7910f3a4ee62aab352eff07687f32d5d75f04f18</guid>
+	<type>material</type>
+	<hash>5ca95423</hash>
+	<runtimes>
+		<runtime id="7910f3a4ee62aab352eff07687f32d5d75f04f18" name="terrain_1_detail_rocks2" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_1_detail_snow" guid="be94507dde3dd7b83a7e37b7efe9b1aae1b0b501" base_material="landscape_terrain_detail_base">
+	<texture name="albedo">guid://defc2bb54d544990ee160fafa5e4794288cb67b9</texture>
+	<texture name="height">guid://a54cee498d692314bbb3b363e2b38166e811298d</texture>
+	<parameter name="size" expression="0">32</parameter>
+	<parameter name="contrast" expression="0">0.629960001</parameter>
+	<parameter name="roughness" expression="0">0.600000024</parameter>
+	<parameter name="height_scale" expression="0">0.149780005</parameter>
+</material>

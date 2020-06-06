@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>0ec2647af77c5da527ba5680a442b047adc537bc</guid>
+	<type>fbx</type>
+	<hash>fd77ed4e</hash>
+	<runtimes>
+		<runtime id="0ec2647af77c5da527ba5680a442b047adc537bc" name="boulder_0.fbx" link="0"/>
+		<runtime id="26b7c9590e8fff8361cb8748273247d274005553" name="boulder_0.node" link="1" type="3">
+			<parameters>
+				<parameter type="string" name="id">73c31a89</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="a0794c0548dd436a2b24b938f992565199586afb" name="boulder_0.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">fbcfe8d2</parameter>
+			</parameters>
+		</runtime>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="merge_static_meshes">0</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="bool" name="import_meshes">1</parameter>
+		<parameter type="bool" name="import_materials">1</parameter>
+		<parameter type="bool" name="import_materials_mode">0</parameter>
+		<parameter type="bool" name="import_textures">1</parameter>
+		<parameter type="bool" name="import_animations">1</parameter>
+		<parameter type="bool" name="import_joints">0</parameter>
+		<parameter type="bool" name="import_lights">1</parameter>
+		<parameter type="bool" name="import_cameras">1</parameter>
+		<parameter type="bool" name="import_tangent_space">0</parameter>
+		<parameter type="bool" name="import_morph_targets">0</parameter>
+		<parameter type="float" name="scale">100</parameter>
+		<parameter type="float" name="fps">30</parameter>
+		<parameter type="int" name="workflow">0</parameter>
+		<parameter type="bool" name="combine_by_lods">1</parameter>
+		<parameter type="int" name="index_max_count_lods">1</parameter>
+		<parameter type="string" name="lods">_lod_0,-1e+9,_lod_1,3,_lod_2,9</parameter>
+		<parameter type="string" name="material_guids">boulders_mat,c8dda325ad4dfa408b5a289f33b95d72d8361e29</parameter>
+		<parameter type="bool" name="joints_reorientation">0</parameter>
+		<parameter type="int" name="front_axis">4</parameter>
+	</parameters>
+</asset>

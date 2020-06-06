@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>d1908d093ed8b2d43b648023cf026726c75d544d</guid>
+	<type>material</type>
+	<hash>be2243ec</hash>
+	<runtimes>
+		<runtime id="d1908d093ed8b2d43b648023cf026726c75d544d" name="terrain_border_area" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

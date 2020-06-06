@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>855e952a42c54281b78bb9ec62a76c5b88feb5fe</guid>
+	<type>material</type>
+	<hash>5bf9c9f</hash>
+	<runtimes>
+		<runtime id="855e952a42c54281b78bb9ec62a76c5b88feb5fe" name="terrain_detail_snow_0_base_mat" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

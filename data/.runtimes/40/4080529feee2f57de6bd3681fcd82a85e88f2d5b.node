@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshStatic" id="360577629" name="tunnel">
+		<mesh_name>guid://ab2042efd480f4400720c1dfaf2f237d09c855fc</mesh_name>
+		<surface name="main_01 - default" material="8124d44d5929a3392e97d59821ce4aa8e6fa9d8b"/>
+		<surface name="enters_01 - default" material="8124d44d5929a3392e97d59821ce4aa8e6fa9d8b"/>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

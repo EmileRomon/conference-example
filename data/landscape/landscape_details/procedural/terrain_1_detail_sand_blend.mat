@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_1_detail_sand_blend" guid="807027874e0fbf3a2616c551831e3e7c0bf987ab" base_material="landscape_terrain_detail_base">
+	<texture name="albedo">guid://f36fa2e6fc77dd0d66dd5b088bb9c2c75de8217a</texture>
+	<texture name="height">guid://f3337be532c67c0001eb3f5f40e805327c2b22e9</texture>
+	<parameter name="size" expression="0">32</parameter>
+	<parameter name="contrast" expression="0">0.0299999993</parameter>
+	<parameter name="albedo_opacity" expression="0">0.587530017</parameter>
+	<parameter name="albedo" expression="0">0.380392194 0.380392194 0.376470625 1</parameter>
+	<parameter name="height_opacity" expression="0">0.200000003</parameter>
+</material>

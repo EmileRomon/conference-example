@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>807027874e0fbf3a2616c551831e3e7c0bf987ab</guid>
+	<type>material</type>
+	<hash>95d28a9</hash>
+	<runtimes>
+		<runtime id="807027874e0fbf3a2616c551831e3e7c0bf987ab" name="terrain_1_detail_sand_blend" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

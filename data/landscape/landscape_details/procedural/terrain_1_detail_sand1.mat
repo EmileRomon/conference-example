@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_1_detail_sand1" guid="1bf1e6488680550780830eba6b1eced125cfb9fc" base_material="landscape_terrain_detail_base">
+	<texture name="albedo">guid://e2656ed8f8d7a457d75bf5cad0c2eaa1698a038c</texture>
+	<texture name="height">guid://aeb7cadc2613e88bcfac246eed6ea0f5171bbdd0</texture>
+	<parameter name="size" expression="0">4</parameter>
+	<parameter name="height_scale" expression="0">0</parameter>
+</material>

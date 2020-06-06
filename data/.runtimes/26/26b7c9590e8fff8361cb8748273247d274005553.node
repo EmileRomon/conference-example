@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="NodeDummy" id="1800070620" name="boulder_0">
+		<transform>1 8.7422777e-08 -3.8213714e-15 0.0 -8.7422777e-08 1 -8.7422777e-08 0.0 -3.8213714e-15 8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="2032678630" name="boulder_0">
+			<mesh_name>guid://a0794c0548dd436a2b24b938f992565199586afb</mesh_name>
+			<surface name="boulders_mat_lod_0" max_visible_distance="3" material="c8dda325ad4dfa408b5a289f33b95d72d8361e29"/>
+			<surface name="boulders_mat_lod_1" min_visible_distance="3" max_visible_distance="9" material="c8dda325ad4dfa408b5a289f33b95d72d8361e29"/>
+			<surface name="boulders_mat_lod_2" min_visible_distance="9" max_visible_distance="-1e+09" material="c8dda325ad4dfa408b5a289f33b95d72d8361e29"/>
+			<transform>1 3.3407489e-22 0 0.0 3.3407482e-22 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>
