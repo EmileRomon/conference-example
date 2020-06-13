@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <brush_material version="2.11.0.0" name="circle_soft" guid="3fdbebde234261a502d2a6c09851eb1f924d3df2" parent="4e346f63fa250d66029d458dd2e6a98867f9bf47" base_material="brush">
-	<parameter name="size" expression="0">21</parameter>
+	<parameter name="size" expression="0">16</parameter>
 	<parameter name="spacing" expression="0">1</parameter>
 	<parameter name="angle" expression="0">156.520798</parameter>
+	<parameter name="color_intensity" expression="0">0.456519991</parameter>
+	<parameter name="opacity" expression="0">0.177770004</parameter>
 	<state_override name="masks_overide">1</state_override>
-	<state_override name="data_mask">1</state_override>
+	<state_override name="data_mask">0</state_override>
 	<state_override name="color_srgb">1</state_override>
-	<state_override name="data_mask_opacity">0</state_override>
+	<state_override name="data_mask_opacity">4</state_override>
 	<state_override name="height_blend_mode">1</state_override>
 	<texture_override name="opacity_src"/>
 	<texture_override name="terrain_opacity_mask_2"/>
+	<texture_override name="terrain_mask_4"/>
 	<texture_override name="terrain_mask_0"/>
 	<texture_override name="color_src"/>
-	<texture_override name="terrain_mask_4"/>
 	<texture_override name="terrain_albedo"/>
 	<texture_override name="terrain_opacity_mask_0"/>
 	<texture_override name="terrain_mask_2"/>
-	<texture_override name="terrain_mask_3"/>
 	<texture_override name="terrain_opacity_height"/>
+	<texture_override name="terrain_mask_3"/>
 	<texture_override name="opacity">core/textures/brushes/circle_soft.dds</texture_override>
 	<texture_override name="opacity_height_copy"/>
 	<texture_override name="height_copy"/>
@@ -28,10 +30,10 @@
 	<texture_override name="terrain_preview"/>
 	<texture_override name="terrain_opacity_mask_3"/>
 	<parameter_float_override name="contrast">0 0 0 0</parameter_float_override>
-	<parameter_float_override name="opacity">1 1 1 1</parameter_float_override>
-	<parameter_float_override name="color_intensity">1 1 1 1</parameter_float_override>
+	<parameter_float_override name="opacity">0.177770004 0.177770004 0.177770004 0.177770004</parameter_float_override>
+	<parameter_float_override name="color_intensity">0.456519991 0.456519991 0.456519991 0.456519991</parameter_float_override>
 	<parameter_float_override name="color">1 1 1 1</parameter_float_override>
-	<parameter_float_override name="size">21 21 21 21</parameter_float_override>
+	<parameter_float_override name="size">16 16 16 16</parameter_float_override>
 	<parameter_float_override name="angle">156.520798 156.520798 156.520798 156.520798</parameter_float_override>
 	<parameter_float_override name="radius">10 10 10 10</parameter_float_override>
 	<parameter_float_override name="use_opacity">1 1 1 1</parameter_float_override>
@@ -39,7 +41,7 @@
 	<parameter_float_override name="spacing">1 1 1 1</parameter_float_override>
 	<parameter_float_override name="direction">0 0 0 0</parameter_float_override>
 	<parameter_float_override name="intensity">0.1087 0.1087 0.1087 0.1087</parameter_float_override>
-	<parameter_int_override name="data_mask">1 1 1 1</parameter_int_override>
-	<parameter_int_override name="current_mask">0 0 0 0</parameter_int_override>
-	<parameter_int_override name="data_mask_opacity">1 1 1 1</parameter_int_override>
+	<parameter_int_override name="data_mask">0 0 0 0</parameter_int_override>
+	<parameter_int_override name="current_mask">4 4 4 4</parameter_int_override>
+	<parameter_int_override name="data_mask_opacity">0 0 0 0</parameter_int_override>
 </brush_material>

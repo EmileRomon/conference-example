@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>02c849ef6666ee82bd62dbf9b96a55045218dc93</guid>
+	<type>material</type>
+	<hash>818ec703</hash>
+	<runtimes>
+		<runtime id="02c849ef6666ee82bd62dbf9b96a55045218dc93" name="terrain_0_detail_shrub" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

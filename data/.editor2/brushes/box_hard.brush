@@ -9,14 +9,14 @@
 	<state_override name="height_blend_mode">1</state_override>
 	<texture_override name="opacity_src"/>
 	<texture_override name="terrain_opacity_mask_2"/>
+	<texture_override name="terrain_mask_4"/>
 	<texture_override name="terrain_mask_0"/>
 	<texture_override name="color_src"/>
-	<texture_override name="terrain_mask_4"/>
 	<texture_override name="terrain_albedo"/>
 	<texture_override name="terrain_opacity_mask_0"/>
 	<texture_override name="terrain_mask_2"/>
-	<texture_override name="terrain_mask_3"/>
 	<texture_override name="terrain_opacity_height"/>
+	<texture_override name="terrain_mask_3"/>
 	<texture_override name="opacity">core/textures/brushes/box_hard.dds</texture_override>
 	<texture_override name="opacity_height_copy"/>
 	<texture_override name="height_copy"/>

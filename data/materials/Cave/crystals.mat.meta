@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>70a82dc89b41755bf65d6b3f75a467c10e1aea0e</guid>
+	<type>material</type>
+	<hash>9b16089e</hash>
+	<runtimes>
+		<runtime id="70a82dc89b41755bf65d6b3f75a467c10e1aea0e" name="crystals" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

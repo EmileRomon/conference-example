@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="cave_main" guid="148e7d135560786d0fa78a1fed8a6ef316d8ec6d" base_material="mesh_base">
+	<options two_sided="0"/>
+	<state name="detail">1</state>
+	<state name="parallax">1</state>
+	<state name="detail_mask">1</state>
+	<state name="detail_mask_mapping">2</state>
+	<texture name="albedo">guid://c4b40003f1df258617cd3f2d646c16a89d5b09e7</texture>
+	<texture name="normal">guid://de8af4308aa7841549e52b2323d326454463b2aa</texture>
+	<texture name="detail_albedo">guid://04c7b087da27120e7e0dc40ea737e0303e1387d8</texture>
+	<texture name="detail_normal">guid://fc2ff705c557668e9556b9c3f53ad857476d529f</texture>
+	<texture name="detail_mask">guid://599cf86f8ef27bf996daf68aea4be49b2aae2b60</texture>
+	<texture name="parallax">guid://affb1dbe21972a05465713a06b4cb27facd99dd2</texture>
+	<parameter name="specular" expression="0">0</parameter>
+	<parameter name="normal_scale" expression="0">0.5</parameter>
+	<parameter name="uv_transform" expression="0">10 10 0 0</parameter>
+	<parameter name="detail_albedo_color" expression="0">0.905882418 1 0.992156923 1</parameter>
+	<parameter name="detail_specular" expression="0">0</parameter>
+	<parameter name="detail_uv_transform" expression="0">10 10 0 0</parameter>
+	<parameter name="detail_normal_visible" expression="0">1</parameter>
+	<parameter name="detail_mask_uv_transform" expression="0">10 10 0 0</parameter>
+	<parameter name="parallax_scale" expression="0">0.0199999996</parameter>
+</material>

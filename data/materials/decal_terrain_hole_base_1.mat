@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<material version="2.11.0.0" name="decal_terrain_hole_base_1" guid="864126d2c5f27663a63b266e10521af84da55cb9" base_material="decal_terrain_hole_base">
-	<texture name="mask">guid://e5cfaf373ed886136a66a0aad9421db7fae8c2ec</texture>
-</material>

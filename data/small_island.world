@@ -223,7 +223,7 @@
 		<render_landscape_terrain_geometry_fade_lods>0.25</render_landscape_terrain_geometry_fade_lods>
 		<render_landscape_terrain_geometry_holes>1</render_landscape_terrain_geometry_holes>
 		<render_landscape_terrain_geometry_polygon_size>0.0149999997</render_landscape_terrain_geometry_polygon_size>
-		<render_landscape_terrain_geometry_progression>0.800000012</render_landscape_terrain_geometry_progression>
+		<render_landscape_terrain_geometry_progression>1</render_landscape_terrain_geometry_progression>
 		<render_landscape_terrain_geometry_subpixel_reduction>10</render_landscape_terrain_geometry_subpixel_reduction>
 		<render_landscape_terrain_texel_size>0.00400000019</render_landscape_terrain_texel_size>
 		<render_landscape_terrain_visible_distance>30000</render_landscape_terrain_visible_distance>
@@ -292,7 +292,7 @@
 		<render_shadows_filter_noise>0</render_shadows_filter_noise>
 		<render_shadows_penumbra_mode>0</render_shadows_penumbra_mode>
 		<render_shadows_penumbra_noise>1</render_shadows_penumbra_noise>
-		<render_shadows_screen_space>0</render_shadows_screen_space>
+		<render_shadows_screen_space>1</render_shadows_screen_space>
 		<render_shadows_translucent_depth>0.25</render_shadows_translucent_depth>
 		<render_shadows_world_lerp_cascades>1</render_shadows_world_lerp_cascades>
 		<render_sharpen>1</render_sharpen>
@@ -612,12 +612,12 @@
 			<properties>
 				<property/>
 			</properties>
-			<transform>0.97995478 -0.19921701 0 0.0 0.19921701 0.97995478 0 0.0 0 0 0.99999845 0.0 405.14661 2329.6072 38.465759 1.0</transform>
+			<transform>0.97995478 -0.19921701 0 0.0 0.19921701 0.97995478 0 0.0 0 0 0.99999839 0.0 809.21185 1817.152 38.465759 1.0</transform>
 		</node>
 		<node type="ObjectWaterGlobal" id="699885058" immovable="1" name="WaterGlobal">
-			<water_time>3592.5459</water_time>
-			<octaves_pans>0.275221735 0 -0.275221735 0 0.825743675 0</octaves_pans>
-			<surface name="water_surface" physics_friction="1" physics_restitution="1" material="e01e383625a3521d3d46acd862fbca575855e3ca"/>
+			<water_time>7847.39648</water_time>
+			<octaves_pans>0.273981601 0 -0.273981601 0 0.114950463 0.880665183</octaves_pans>
+			<surface name="water_surface" collision="1" physics_friction="1" physics_restitution="1" material="a055d27c2120e9e988edfb05d57b3e8f596fd99e"/>
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0 0 5 1.0</transform>
 		</node>
 		<node type="ObjectLandscapeTerrain" id="1421339700" immovable="1" name="LandscapeTerrain">
@@ -626,34 +626,188 @@
 			<intersection_precision_end>1</intersection_precision_end>
 			<bicubic_collision>0</bicubic_collision>
 			<detail_mask_0>
-				<name>Mask 0</name>
-				<enabled>1</enabled>
+				<name>sand</name>
+				<enabled>0</enabled>
 				<render_order>0</render_order>
+				<detail material="1bf1e6488680550780830eba6b1eced125cfb9fc">
+					<name>sand1</name>
+					<enabled>1</enabled>
+					<mask_by_albedo>1 1 1 0</mask_by_albedo>
+					<min_visible_height>-1e+09</min_visible_height>
+					<max_visible_height>1e+09</max_visible_height>
+					<min_fade_height>0</min_fade_height>
+					<max_fade_height>0</max_fade_height>
+					<mask_threshold>0</mask_threshold>
+					<mask_contrast>0.279529989</mask_contrast>
+				</detail>
+				<detail material="80bbf1b1428fbf5c93f6530b011a8ceea22cef75">
+					<name>pebbles</name>
+					<enabled>1</enabled>
+					<mask_by_albedo>1 1 1 0</mask_by_albedo>
+					<min_visible_height>-1e+09</min_visible_height>
+					<max_visible_height>1e+09</max_visible_height>
+					<min_fade_height>0</min_fade_height>
+					<max_fade_height>0</max_fade_height>
+					<mask_threshold>0.291339993</mask_threshold>
+					<mask_contrast>0.807089984</mask_contrast>
+				</detail>
+				<detail material="47cbc214050fc66326f2786694adb48da0f64c88">
+					<name>grit</name>
+					<enabled>1</enabled>
+					<mask_by_albedo>1 1 1 0</mask_by_albedo>
+					<min_visible_height>-1e+09</min_visible_height>
+					<max_visible_height>1e+09</max_visible_height>
+					<min_fade_height>0</min_fade_height>
+					<max_fade_height>0</max_fade_height>
+					<mask_threshold>0.866140008</mask_threshold>
+					<mask_contrast>0.920469999</mask_contrast>
+				</detail>
+				<detail material="807027874e0fbf3a2616c551831e3e7c0bf987ab">
+					<name>sand_blend</name>
+					<enabled>1</enabled>
+					<mask_by_albedo>1 1 1 0</mask_by_albedo>
+					<min_visible_height>-1e+09</min_visible_height>
+					<max_visible_height>1e+09</max_visible_height>
+					<min_fade_height>0</min_fade_height>
+					<max_fade_height>0</max_fade_height>
+					<mask_threshold>0.125980005</mask_threshold>
+					<mask_contrast>0.196850002</mask_contrast>
+				</detail>
 			</detail_mask_0>
 			<detail_mask_1>
-				<name>Mask 1</name>
-				<enabled>1</enabled>
+				<name>grass</name>
+				<enabled>0</enabled>
 				<render_order>1</render_order>
+				<detail material="c32b8bf129f0149c0912274bc455d42e1fd30db5">
+					<name>grass1</name>
+					<enabled>1</enabled>
+					<mask_by_albedo>1 1 1 0</mask_by_albedo>
+					<min_visible_height>-1e+09</min_visible_height>
+					<max_visible_height>1e+09</max_visible_height>
+					<min_fade_height>0</min_fade_height>
+					<max_fade_height>0</max_fade_height>
+					<mask_threshold>0.0275599994</mask_threshold>
+					<mask_contrast>0.589760005</mask_contrast>
+				</detail>
+				<detail material="2effba0faf04602241476119792fd7a482cc3eb3">
+					<name>grass2</name>
+					<enabled>1</enabled>
+					<mask_by_albedo>1 1 1 0</mask_by_albedo>
+					<min_visible_height>-1e+09</min_visible_height>
+					<max_visible_height>1e+09</max_visible_height>
+					<min_fade_height>0</min_fade_height>
+					<max_fade_height>0</max_fade_height>
+					<mask_threshold>0.444880009</mask_threshold>
+					<mask_contrast>1.32834995</mask_contrast>
+				</detail>
+				<detail material="273d89d53546d1309610b2cff8bd81e20ee097d9">
+					<name>grass3</name>
+					<enabled>1</enabled>
+					<mask_by_albedo>1 1 1 0</mask_by_albedo>
+					<min_visible_height>-1e+09</min_visible_height>
+					<max_visible_height>1e+09</max_visible_height>
+					<min_fade_height>0</min_fade_height>
+					<max_fade_height>0</max_fade_height>
+					<mask_threshold>0.0354299992</mask_threshold>
+					<mask_contrast>0.0496000014</mask_contrast>
+				</detail>
+				<detail material="ecf106f8fbab1df71f2ee2eaa913b54160000dac">
+					<name>grass_overlay</name>
+					<enabled>1</enabled>
+					<mask_by_albedo>1 1 1 0</mask_by_albedo>
+					<min_visible_height>-1e+09</min_visible_height>
+					<max_visible_height>1e+09</max_visible_height>
+					<min_fade_height>0</min_fade_height>
+					<max_fade_height>0</max_fade_height>
+					<mask_threshold>0</mask_threshold>
+					<mask_contrast>0.0110200001</mask_contrast>
+				</detail>
 			</detail_mask_1>
 			<detail_mask_2>
-				<name>Mask 2</name>
-				<enabled>1</enabled>
+				<name>boulders</name>
+				<enabled>0</enabled>
 				<render_order>2</render_order>
+				<detail material="db83f7ce29fc9cd5558cc83039083dcf73b190e2">
+					<name>Boulders1</name>
+					<enabled>1</enabled>
+					<mask_by_albedo>1 1 1 0</mask_by_albedo>
+					<min_visible_height>-1e+09</min_visible_height>
+					<max_visible_height>1e+09</max_visible_height>
+					<min_fade_height>0</min_fade_height>
+					<max_fade_height>0</max_fade_height>
+					<mask_threshold>0</mask_threshold>
+					<mask_contrast>4</mask_contrast>
+				</detail>
+				<detail material="337f657684da1e5ddab08c185d8fa097e575450a">
+					<name>Boulders2</name>
+					<enabled>1</enabled>
+					<mask_by_albedo>1 1 1 0</mask_by_albedo>
+					<min_visible_height>-1e+09</min_visible_height>
+					<max_visible_height>1e+09</max_visible_height>
+					<min_fade_height>0</min_fade_height>
+					<max_fade_height>0</max_fade_height>
+					<mask_threshold>0</mask_threshold>
+					<mask_contrast>1</mask_contrast>
+				</detail>
 			</detail_mask_2>
 			<detail_mask_3>
-				<name>Mask 3</name>
-				<enabled>1</enabled>
+				<name>shrub</name>
+				<enabled>0</enabled>
 				<render_order>3</render_order>
+				<detail material="02c849ef6666ee82bd62dbf9b96a55045218dc93">
+					<name>shrub</name>
+					<enabled>1</enabled>
+					<mask_by_albedo>1 1 1 0</mask_by_albedo>
+					<min_visible_height>-1e+09</min_visible_height>
+					<max_visible_height>1e+09</max_visible_height>
+					<min_fade_height>0</min_fade_height>
+					<max_fade_height>0</max_fade_height>
+					<mask_threshold>0</mask_threshold>
+					<mask_contrast>0</mask_contrast>
+				</detail>
 			</detail_mask_3>
 			<detail_mask_4>
-				<name>Mask 4</name>
-				<enabled>1</enabled>
+				<name>rocks</name>
+				<enabled>0</enabled>
 				<render_order>4</render_order>
+				<detail material="7910f3a4ee62aab352eff07687f32d5d75f04f18">
+					<name>rocks2</name>
+					<enabled>1</enabled>
+					<mask_by_albedo>1 1 1 0</mask_by_albedo>
+					<min_visible_height>-1e+09</min_visible_height>
+					<max_visible_height>1e+09</max_visible_height>
+					<min_fade_height>0</min_fade_height>
+					<max_fade_height>0</max_fade_height>
+					<mask_threshold>0.0854300037</mask_threshold>
+					<mask_contrast>0.462309986</mask_contrast>
+				</detail>
+				<detail material="7b5de84f9a7a39626212e9598a0f42e4dc2030f3">
+					<name>rocks1</name>
+					<enabled>1</enabled>
+					<mask_by_albedo>1 1 1 0</mask_by_albedo>
+					<min_visible_height>-1e+09</min_visible_height>
+					<max_visible_height>1e+09</max_visible_height>
+					<min_fade_height>0</min_fade_height>
+					<max_fade_height>0</max_fade_height>
+					<mask_threshold>0.0653299987</mask_threshold>
+					<mask_contrast>0.185929999</mask_contrast>
+				</detail>
 			</detail_mask_4>
 			<detail_mask_5>
-				<name>Mask 5</name>
-				<enabled>1</enabled>
+				<name>snow</name>
+				<enabled>0</enabled>
 				<render_order>5</render_order>
+				<detail material="be94507dde3dd7b83a7e37b7efe9b1aae1b0b501">
+					<name>snow</name>
+					<enabled>1</enabled>
+					<mask_by_albedo>1 1 1 0</mask_by_albedo>
+					<min_visible_height>1e+09</min_visible_height>
+					<max_visible_height>1e+09</max_visible_height>
+					<min_fade_height>0</min_fade_height>
+					<max_fade_height>0</max_fade_height>
+					<mask_threshold>0.113640003</mask_threshold>
+					<mask_contrast>0.204549998</mask_contrast>
+				</detail>
 			</detail_mask_5>
 			<detail_mask_6>
 				<name>Mask 6</name>
@@ -739,7 +893,7 @@
 			</node>
 		</node>
 		<node id="1857255315" type="ObjectWaterMesh" immovable="1" name="RiverMesh">
-			<mesh_name>guid://733788f3968cb9b61658e59d36c42a584fdc29d7</mesh_name>
+			<mesh_name>guid://d9725efb1f98c81e41db10e583a70d00c0189c5f</mesh_name>
 			<wave_0>1 1 6.28318977 0</wave_0>
 			<wave_1>0 1 6.28318977 0</wave_1>
 			<wave_2>0 1 6.28318977 0</wave_2>
@@ -747,7 +901,7 @@
 			<surface name="surface" physics_friction="1" physics_restitution="1" material="73c651fd13f94b722fadf2ed4a08890f8ccf134e"/>
 			<transform>0.99999988 0 0 0.0 0 1.2100115 0 0.0 0 0 1.3840715 0.0 621.54779 2219.2166 20.278889 1.0</transform>
 		</node>
-		<node type="FieldShoreline" id="1937496834" immovable="1" name="FieldShoreline">
+		<node type="FieldShoreline" id="1937496834" enabled="0" immovable="1" name="FieldShoreline">
 			<size>1314.16797 1103.26514 91.8903656</size>
 			<texture>guid://c4c03d89d517a954054e04a30b2921a67a23cccd</texture>
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 688.79785 2131.8591 -14.298744 1.0</transform>
@@ -762,72 +916,72 @@
 			</node>
 			<node type="ObjectMeshStatic" id="651212632" name="caveEntrance1">
 				<mesh_name>guid://7c1fc0b20234a869c67656b4ee911283f5f81606</mesh_name>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
 				<transform>-0.19299571 -0.35036057 0 0.0 0.35036078 -0.19299583 0 0.0 0 0 0.40000001 0.0 122.37811 1297.8391 -662.5 1.0</transform>
 			</node>
 			<node material="61cc26233d156a3189c2f172521da85c32cd3918" type="DecalProj" id="892113082" name="DecalEntrance1">
@@ -846,72 +1000,72 @@
 			</node>
 			<node type="ObjectMeshStatic" id="1186746103" name="caveEntrance2">
 				<mesh_name>guid://7c1fc0b20234a869c67656b4ee911283f5f81606</mesh_name>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_0" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_1" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
-				<surface name="boulders_mat_lod_2" collision="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_0" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_1" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
+				<surface name="boulders_mat_lod_2" collision="1" physics_friction="1" physics_restitution="1" material="102538f0679a3899b1d7e8b178647873862bb08c"/>
 				<transform>0.39945155 -0.020934371 0 0.0 0.020934395 0.39945203 0 0.0 0 0 0.39999962 0.0 -1360 -477 -625 1.0</transform>
 			</node>
 			<node type="LightVoxelProbe" id="1783683073" name="LightVoxelProbe">

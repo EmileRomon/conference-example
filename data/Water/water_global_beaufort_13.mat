@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="water_global_beaufort_13" guid="a055d27c2120e9e988edfb05d57b3e8f596fd99e" parent="59de0aeb6089af15d769ce4068447bcd13fea0b9" base_material="water_global_base">
+	<state name="field_shoreline">1</state>
+	<state name="planar_reflection">1</state>
+	<parameter name="max_tessellation_factor" expression="0">32</parameter>
+	<parameter name="tessellation_distance" expression="0">1</parameter>
+	<parameter name="refraction_scale" expression="0">3</parameter>
+</material>

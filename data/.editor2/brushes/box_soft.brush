@@ -9,14 +9,14 @@
 	<state_override name="height_blend_mode">1</state_override>
 	<texture_override name="opacity_src"/>
 	<texture_override name="terrain_opacity_mask_2"/>
+	<texture_override name="terrain_mask_4"/>
 	<texture_override name="terrain_mask_0"/>
 	<texture_override name="color_src"/>
-	<texture_override name="terrain_mask_4"/>
 	<texture_override name="terrain_albedo"/>
 	<texture_override name="terrain_opacity_mask_0"/>
 	<texture_override name="terrain_mask_2"/>
-	<texture_override name="terrain_mask_3"/>
 	<texture_override name="terrain_opacity_height"/>
+	<texture_override name="terrain_mask_3"/>
 	<texture_override name="opacity">core/textures/brushes/box_soft.dds</texture_override>
 	<texture_override name="opacity_height_copy"/>
 	<texture_override name="height_copy"/>
@@ -39,6 +39,6 @@
 	<parameter_float_override name="direction">0 0 0 0</parameter_float_override>
 	<parameter_float_override name="intensity">1 1 1 1</parameter_float_override>
 	<parameter_int_override name="data_mask">0 0 0 0</parameter_int_override>
-	<parameter_int_override name="current_mask">2 2 2 2</parameter_int_override>
+	<parameter_int_override name="current_mask">0 0 0 0</parameter_int_override>
 	<parameter_int_override name="data_mask_opacity">0 0 0 0</parameter_int_override>
 </brush_material>

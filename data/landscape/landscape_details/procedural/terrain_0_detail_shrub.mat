@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="terrain_0_detail_shrub" guid="02c849ef6666ee82bd62dbf9b96a55045218dc93" base_material="landscape_terrain_detail_base">
+	<texture name="albedo">guid://f0ad941b14e53abe5e08a3055f5038a091b1937f</texture>
+	<texture name="height">guid://8fd9238f8797bba2e6b80699eb593f24e9a38033</texture>
+	<parameter name="size" expression="0">64</parameter>
+	<parameter name="contrast" expression="0">0.0155800004</parameter>
+</material>

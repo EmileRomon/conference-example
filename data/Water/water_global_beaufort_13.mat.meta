@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>a055d27c2120e9e988edfb05d57b3e8f596fd99e</guid>
+	<type>material</type>
+	<hash>045a96a3</hash>
+	<runtimes>
+		<runtime id="a055d27c2120e9e988edfb05d57b3e8f596fd99e" name="water_global_beaufort_13" link="0"/>
+	</runtimes>
+</asset>
