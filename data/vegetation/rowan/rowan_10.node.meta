@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>f7da056416a36f52cd67bdd1959cabf3d80404a9</guid>
-	<type>node</type>
-	<hash>b625eefe</hash>
-	<runtimes>
-		<runtime id="f7da056416a36f52cd67bdd1959cabf3d80404a9" name="rowan_10.node" link="0"/>
-	</runtimes>
-</asset>

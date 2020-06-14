@@ -6,14 +6,14 @@
 	<parameter name="color_intensity" expression="0">0.266660005</parameter>
 	<parameter name="contrast" expression="0">0.173910007</parameter>
 	<state_override name="masks_overide">1</state_override>
-	<state_override name="data_mask">16</state_override>
+	<state_override name="data_mask">0</state_override>
 	<state_override name="color_srgb">1</state_override>
-	<state_override name="data_mask_opacity">1</state_override>
+	<state_override name="data_mask_opacity">0</state_override>
 	<state_override name="height_blend_mode">1</state_override>
 	<texture_override name="opacity_src"/>
 	<texture_override name="terrain_opacity_mask_2"/>
-	<texture_override name="terrain_mask_4"/>
 	<texture_override name="terrain_mask_0"/>
+	<texture_override name="terrain_mask_4"/>
 	<texture_override name="color_src"/>
 	<texture_override name="terrain_albedo"/>
 	<texture_override name="terrain_opacity_mask_0"/>
@@ -41,7 +41,7 @@
 	<parameter_float_override name="spacing">1 1 1 1</parameter_float_override>
 	<parameter_float_override name="direction">0 0 0 0</parameter_float_override>
 	<parameter_float_override name="intensity">0.0652199984 0.0652199984 0.0652199984 0.0652199984</parameter_float_override>
-	<parameter_int_override name="data_mask">16 16 16 16</parameter_int_override>
+	<parameter_int_override name="data_mask">0 0 0 0</parameter_int_override>
 	<parameter_int_override name="current_mask">0 0 0 0</parameter_int_override>
-	<parameter_int_override name="data_mask_opacity">16 16 16 16</parameter_int_override>
+	<parameter_int_override name="data_mask_opacity">0 0 0 0</parameter_int_override>
 </brush_material>

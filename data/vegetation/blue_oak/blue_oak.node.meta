@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>1be364110682ce3c531b546b16e7dece0b1957d5</guid>
-	<type>node</type>
-	<hash>525267da</hash>
-	<runtimes>
-		<runtime id="1be364110682ce3c531b546b16e7dece0b1957d5" name="blue_oak.node" link="0"/>
-	</runtimes>
-</asset>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>46cedd3653647e74dc5548d8fd3c3363496cf6ba</guid>
-	<type>node</type>
-	<hash>857cac7f</hash>
-	<runtimes>
-		<runtime id="46cedd3653647e74dc5548d8fd3c3363496cf6ba" name="sorrel_01_01.node" link="0"/>
-	</runtimes>
-</asset>

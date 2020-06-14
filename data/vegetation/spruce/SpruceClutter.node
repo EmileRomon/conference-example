@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshClutter" id="663059429" immovable="1" clutter_interaction_enabled="1" name="SpruceClutter">
+		<mesh_name>guid://3b7542d12406ef6b05e53615a8196d889e012d20</mesh_name>
+		<collision>1</collision>
+		<intersection>1</intersection>
+		<visible_distance>150</visible_distance>
+		<fade_distance>80</fade_distance>
+		<seed>1196435762</seed>
+		<size_x>600</size_x>
+		<size_y>500</size_y>
+		<step>50</step>
+		<density>0.0250000004</density>
+		<threshold>0.5</threshold>
+		<angle>0</angle>
+		<min_scale_mean>1</min_scale_mean>
+		<min_scale_spread>0</min_scale_spread>
+		<max_scale_mean>1</max_scale_mean>
+		<max_scale_spread>0</max_scale_spread>
+		<offset_mean>0</offset_mean>
+		<offset_spread>0</offset_spread>
+		<rotation_mean>0 0 0</rotation_mean>
+		<rotation_spread>0 0 180</rotation_spread>
+		<terrain_mask>6</terrain_mask>
+		<surface name="spruce_leaves_01_3_lod_1_spruce_leaves_mat" min_visible_distance="15" max_visible_distance="45" min_fade_distance="15" max_fade_distance="15" physics_friction="1" physics_restitution="1" material="a89f90bfe5b47ae17128b4ff3eb39188bb1e409b"/>
+		<surface name="spruce_tree_01_3_lod_2_spruce_trunk_mat" min_visible_distance="45" max_visible_distance="150" min_fade_distance="15" max_fade_distance="50" physics_friction="1" physics_restitution="1" material="9b8dfb23787fa1bd3d0f147885edc2a060f09898"/>
+		<surface name="spruce_leaves_01_3_lod_2_spruce_leaves_mat" min_visible_distance="45" max_visible_distance="150" min_fade_distance="15" max_fade_distance="50" physics_friction="1" physics_restitution="1" material="a89f90bfe5b47ae17128b4ff3eb39188bb1e409b"/>
+		<surface name="spruce_tree_01_3_lod_1_spruce_trunk_mat" min_visible_distance="15" max_visible_distance="45" min_fade_distance="15" max_fade_distance="15" physics_friction="1" physics_restitution="1" material="9b8dfb23787fa1bd3d0f147885edc2a060f09898"/>
+		<surface name="spruce_leaves_01_3_lod_0_spruce_leaves_mat" max_visible_distance="15" max_fade_distance="15" physics_friction="1" physics_restitution="1" material="a89f90bfe5b47ae17128b4ff3eb39188bb1e409b"/>
+		<surface name="spruce_tree_01_3_lod_0_spruce_trunk_mat" max_visible_distance="15" max_fade_distance="15" physics_friction="1" physics_restitution="1" material="9b8dfb23787fa1bd3d0f147885edc2a060f09898"/>
+		<surface name="spruce_leaves_01_3_shadow_spruce_leaves_mat" max_visible_distance="150" max_fade_distance="50" physics_friction="1" physics_restitution="1" material="a89f90bfe5b47ae17128b4ff3eb39188bb1e409b"/>
+		<transform>0.99999988 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -107.98547 -161.74976 0 1.0</transform>
+		<node type="ObjectGrass" id="115479161" immovable="1" name="SpruceClutter_impostor">
+			<thinning>1</thinning>
+			<variation>0</variation>
+			<orientation>0</orientation>
+			<intersection>1</intersection>
+			<num_textures>1</num_textures>
+			<seed>1013904223</seed>
+			<size_x>600</size_x>
+			<size_y>500</size_y>
+			<step>400</step>
+			<subdivision>8</subdivision>
+			<density>0.0250000004</density>
+			<threshold>0.5</threshold>
+			<angle>0</angle>
+			<probability>1 1 1 1</probability>
+			<min_bend_mean>0 0 0 0</min_bend_mean>
+			<min_bend_spread>0 0 0 0</min_bend_spread>
+			<max_bend_mean>0 0 0 0</max_bend_mean>
+			<max_bend_spread>0 0 0 0</max_bend_spread>
+			<min_height_mean>1 1 1 1</min_height_mean>
+			<min_height_spread>0 0 0 0</min_height_spread>
+			<max_height_mean>1 1 1 1</max_height_mean>
+			<max_height_spread>0 0 0 0</max_height_spread>
+			<aspect_mean>1 1 1 1</aspect_mean>
+			<aspect_spread>0 0 0 0</aspect_spread>
+			<offset_mean>0 0 0 0</offset_mean>
+			<offset_spread>0 0 0 0</offset_spread>
+			<rotation_mean>0 0 0 0</rotation_mean>
+			<rotation_spread>180 180 180 180</rotation_spread>
+			<terrain_masks>6 -1 -1 -1</terrain_masks>
+			<surface name="grass" min_visible_distance="150" min_fade_distance="50" physics_friction="1" physics_restitution="1" material="751f434b3628402e4a8a89b5ab030f90a8da1daf"/>
+			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

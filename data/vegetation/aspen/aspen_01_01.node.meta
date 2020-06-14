@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>84cd987fca539b03d903f2390f731a1a61d60f7c</guid>
-	<type>node</type>
-	<hash>7d51dcac</hash>
-	<runtimes>
-		<runtime id="84cd987fca539b03d903f2390f731a1a61d60f7c" name="aspen_01_01.node" link="0"/>
-	</runtimes>
-</asset>

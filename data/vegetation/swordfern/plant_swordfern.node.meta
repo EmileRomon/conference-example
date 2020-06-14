@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>20b02e2f0f34749d1d4078b50f569eba1b39885d</guid>
-	<type>node</type>
-	<hash>3a5f953b</hash>
-	<runtimes>
-		<runtime id="20b02e2f0f34749d1d4078b50f569eba1b39885d" name="plant_swordfern.node" link="0"/>
-	</runtimes>
-</asset>

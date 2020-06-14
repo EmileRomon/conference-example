@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>f4fb6e22cc473b62a874029c5ecbb0852987a71e</guid>
-	<type>material</type>
-	<hash>2e368bbe</hash>
-	<runtimes>
-		<runtime id="f4fb6e22cc473b62a874029c5ecbb0852987a71e" name="oak_leaves_sum_mat" link="0"/>
-	</runtimes>
-</asset>

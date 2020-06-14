@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="ObjectMeshClutter" id="1661842179" immovable="1" clutter_interaction_enabled="1" name="FilbertClutter">
+		<mesh_name>guid://3d942cdf2fc7b258cbbe8b0a2d537d228f723abc</mesh_name>
+		<intersection>1</intersection>
+		<visible_distance>150</visible_distance>
+		<fade_distance>80</fade_distance>
+		<seed>720982836</seed>
+		<size_x>1300</size_x>
+		<size_y>666</size_y>
+		<step>50</step>
+		<density>0.00499999989</density>
+		<threshold>0.5</threshold>
+		<angle>0</angle>
+		<min_scale_mean>1</min_scale_mean>
+		<min_scale_spread>0</min_scale_spread>
+		<max_scale_mean>1</max_scale_mean>
+		<max_scale_spread>0</max_scale_spread>
+		<offset_mean>0</offset_mean>
+		<offset_spread>0</offset_spread>
+		<rotation_mean>0 0 0</rotation_mean>
+		<rotation_spread>0 0 180</rotation_spread>
+		<terrain_mask>1</terrain_mask>
+		<surface name="fine_filbert_green_mat_lod_0" max_visible_distance="15" max_fade_distance="15" physics_friction="1" physics_restitution="1" material="91270ac920e7a4a7ad39a3913f12023f8a7a6ed2"/>
+		<surface name="fine_filbert_green_mat_lod_1" max_visible_distance="45" min_fade_distance="15" max_fade_distance="15" physics_friction="1" physics_restitution="1" material="91270ac920e7a4a7ad39a3913f12023f8a7a6ed2"/>
+		<transform>0.99999988 0 0 0.0 0 1 0 0.0 0 0 1 0.0 33.314392 1961.4314 0 1.0</transform>
+		<node type="ObjectGrass" id="885470088" immovable="1" clutter_interaction_enabled="1" name="FilbertClutter_impostor">
+			<thinning>1</thinning>
+			<variation>0</variation>
+			<orientation>0</orientation>
+			<intersection>1</intersection>
+			<num_textures>1</num_textures>
+			<seed>1372387049</seed>
+			<size_x>1300</size_x>
+			<size_y>666</size_y>
+			<step>400</step>
+			<subdivision>8</subdivision>
+			<density>0.0149999997</density>
+			<threshold>0.5</threshold>
+			<angle>0</angle>
+			<probability>1 1 1 1</probability>
+			<min_bend_mean>0 0 0 0</min_bend_mean>
+			<min_bend_spread>0 0 0 0</min_bend_spread>
+			<max_bend_mean>0 0 0 0</max_bend_mean>
+			<max_bend_spread>0 0 0 0</max_bend_spread>
+			<min_height_mean>1 1 1 1</min_height_mean>
+			<min_height_spread>0 0 0 0</min_height_spread>
+			<max_height_mean>1 1 1 1</max_height_mean>
+			<max_height_spread>0 0 0 0</max_height_spread>
+			<aspect_mean>1 1 1 1</aspect_mean>
+			<aspect_spread>0 0 0 0</aspect_spread>
+			<offset_mean>0 0 0 0</offset_mean>
+			<offset_spread>0 0 0 0</offset_spread>
+			<rotation_mean>0 0 0 0</rotation_mean>
+			<rotation_spread>180 180 180 180</rotation_spread>
+			<terrain_masks>1 -1 -1 -1</terrain_masks>
+			<surface name="grass" min_visible_distance="150" min_fade_distance="50" physics_friction="1" physics_restitution="1" material="ec492e8df0777e886a329047dd6b90fa7f12ec11"/>
+			<transform>0.99999988 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

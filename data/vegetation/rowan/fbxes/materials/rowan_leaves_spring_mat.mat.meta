@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>e0505c68fd20a743438ff9bfdc8cc79508fc991e</guid>
-	<type>material</type>
-	<hash>d96a8367</hash>
-	<runtimes>
-		<runtime id="e0505c68fd20a743438ff9bfdc8cc79508fc991e" name="rowan_leaves_spring_mat" link="0"/>
-	</runtimes>
-</asset>

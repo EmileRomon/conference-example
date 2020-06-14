@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>c4706d5f74e1a1707d62fc995bf64e40af972950</guid>
-	<type>node</type>
-	<hash>d09c6926</hash>
-	<runtimes>
-		<runtime id="c4706d5f74e1a1707d62fc995bf64e40af972950" name="nettle_02_2.node" link="0"/>
-	</runtimes>
-</asset>

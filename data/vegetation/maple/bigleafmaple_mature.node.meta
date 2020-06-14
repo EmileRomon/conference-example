@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>6bdfdd86e19dc3e2ddbf4140b2748e468e9a02df</guid>
-	<type>node</type>
-	<hash>d438163f</hash>
-	<runtimes>
-		<runtime id="6bdfdd86e19dc3e2ddbf4140b2748e468e9a02df" name="bigleafmaple_mature.node" link="0"/>
-	</runtimes>
-</asset>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>ec492e8df0777e886a329047dd6b90fa7f12ec11</guid>
+	<type>material</type>
+	<hash>5e410cc6</hash>
+	<runtimes>
+		<runtime id="ec492e8df0777e886a329047dd6b90fa7f12ec11" name="FilbertClutter_impostor_material" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

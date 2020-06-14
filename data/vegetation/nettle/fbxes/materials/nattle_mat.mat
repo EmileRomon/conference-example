@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<material version="2.11.0.0" name="nattle_mat" guid="9ad867f6f659a033998e937917b8e2321a97f274" base_material="mesh_base">
-	<parameter name="albedo_color" expression="0">0.588235319 0.588235319 0.588235319 1</parameter>
-</material>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>8a4c0be43ee3ed8232b918457dec2f15fecf62ac</guid>
-	<type>node</type>
-	<hash>d2302921</hash>
-	<runtimes>
-		<runtime id="8a4c0be43ee3ed8232b918457dec2f15fecf62ac" name="oak_03_1.node" link="0"/>
-	</runtimes>
-</asset>

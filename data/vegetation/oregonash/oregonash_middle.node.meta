@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>b9322ad78a55c7c4d7aefa70a3cd7cf344ca7ec6</guid>
-	<type>node</type>
-	<hash>87db7042</hash>
-	<runtimes>
-		<runtime id="b9322ad78a55c7c4d7aefa70a3cd7cf344ca7ec6" name="oregonash_middle.node" link="0"/>
-	</runtimes>
-</asset>

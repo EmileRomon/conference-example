@@ -604,7 +604,7 @@
 					<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
 					<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
 				</lens_flare_billboards>
-				<transform>0.35011902 -0.93668419 -0.0057198056 0.0 0.9290154 0.3480202 -0.12571131 0.0 0.11974344 0.03870048 0.99205101 0.0 0 0 0 1.0</transform>
+				<transform>0.86601901 -0.49240035 0.086824216 0.0 -1.4900976e-08 0.17364745 0.98479521 0.0 -0.49999949 -0.85286701 0.15038474 0.0 0 0 0 1.0</transform>
 			</node>
 		</node>
 		<node type="NodeReference" id="1777446179" name="first_person_controller">
@@ -615,19 +615,19 @@
 			<transform>0.97995478 -0.19921701 0 0.0 0.19921701 0.97995478 0 0.0 0 0 0.99999839 0.0 809.21185 1817.152 38.465759 1.0</transform>
 		</node>
 		<node type="ObjectWaterGlobal" id="699885058" immovable="1" name="WaterGlobal">
-			<water_time>7847.39648</water_time>
-			<octaves_pans>0.273981601 0 -0.273981601 0 0.114950463 0.880665183</octaves_pans>
+			<water_time>2550.31226</water_time>
+			<octaves_pans>0.635743916 0 -0.635743916 0 0.560345292 0.965940714</octaves_pans>
 			<surface name="water_surface" collision="1" physics_friction="1" physics_restitution="1" material="a055d27c2120e9e988edfb05d57b3e8f596fd99e"/>
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0 0 5 1.0</transform>
 		</node>
-		<node type="ObjectLandscapeTerrain" id="1421339700" immovable="1" name="LandscapeTerrain">
+		<node type="ObjectLandscapeTerrain" id="1421339700" immovable="1" clutter_interaction_enabled="1" name="LandscapeTerrain">
 			<intersection_settings_bicubic>0</intersection_settings_bicubic>
 			<intersection_precision_begin>0.5</intersection_precision_begin>
 			<intersection_precision_end>1</intersection_precision_end>
 			<bicubic_collision>0</bicubic_collision>
 			<detail_mask_0>
 				<name>sand</name>
-				<enabled>0</enabled>
+				<enabled>1</enabled>
 				<render_order>0</render_order>
 				<detail material="1bf1e6488680550780830eba6b1eced125cfb9fc">
 					<name>sand1</name>
@@ -676,7 +676,7 @@
 			</detail_mask_0>
 			<detail_mask_1>
 				<name>grass</name>
-				<enabled>0</enabled>
+				<enabled>1</enabled>
 				<render_order>1</render_order>
 				<detail material="c32b8bf129f0149c0912274bc455d42e1fd30db5">
 					<name>grass1</name>
@@ -725,7 +725,7 @@
 			</detail_mask_1>
 			<detail_mask_2>
 				<name>boulders</name>
-				<enabled>0</enabled>
+				<enabled>1</enabled>
 				<render_order>2</render_order>
 				<detail material="db83f7ce29fc9cd5558cc83039083dcf73b190e2">
 					<name>Boulders1</name>
@@ -752,7 +752,7 @@
 			</detail_mask_2>
 			<detail_mask_3>
 				<name>shrub</name>
-				<enabled>0</enabled>
+				<enabled>1</enabled>
 				<render_order>3</render_order>
 				<detail material="02c849ef6666ee82bd62dbf9b96a55045218dc93">
 					<name>shrub</name>
@@ -768,7 +768,7 @@
 			</detail_mask_3>
 			<detail_mask_4>
 				<name>rocks</name>
-				<enabled>0</enabled>
+				<enabled>1</enabled>
 				<render_order>4</render_order>
 				<detail material="7910f3a4ee62aab352eff07687f32d5d75f04f18">
 					<name>rocks2</name>
@@ -795,7 +795,7 @@
 			</detail_mask_4>
 			<detail_mask_5>
 				<name>snow</name>
-				<enabled>0</enabled>
+				<enabled>1</enabled>
 				<render_order>5</render_order>
 				<detail material="be94507dde3dd7b83a7e37b7efe9b1aae1b0b501">
 					<name>snow</name>
@@ -810,9 +810,20 @@
 				</detail>
 			</detail_mask_5>
 			<detail_mask_6>
-				<name>Mask 6</name>
+				<name>forest</name>
 				<enabled>1</enabled>
 				<render_order>6</render_order>
+				<detail material="273d89d53546d1309610b2cff8bd81e20ee097d9">
+					<name>forest</name>
+					<enabled>1</enabled>
+					<mask_by_albedo>1 1 1 0</mask_by_albedo>
+					<min_visible_height>-1e+09</min_visible_height>
+					<max_visible_height>1e+09</max_visible_height>
+					<min_fade_height>0</min_fade_height>
+					<max_fade_height>0</max_fade_height>
+					<mask_threshold>0</mask_threshold>
+					<mask_contrast>0</mask_contrast>
+				</detail>
 			</detail_mask_6>
 			<detail_mask_7>
 				<name>Mask 7</name>
@@ -881,7 +892,7 @@
 			</detail_mask_19>
 			<surface name="terrain_surface" physics_intersection="1" collision="1" physics_friction="1" physics_restitution="1" material="07f6d5f2212230c2cd00aff443f627146b6ed516"/>
 			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-			<node type="LandscapeLayerMap" id="1658916242" immovable="1" name="LandscapeLayerMap">
+			<node type="LandscapeLayerMap" id="1658916242" immovable="1" clutter_interaction_enabled="1" name="LandscapeLayerMap">
 				<order>0</order>
 				<size>1365 1365</size>
 				<height_scale>0.300000012</height_scale>
@@ -890,6 +901,14 @@
 				<is_culling>1</is_culling>
 				<file_path>guid://71f2b5b7790817aaeadfe3018958e06c89e960db</file_path>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 1336.2589 0 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1066288147" immovable="1" name="SpruceClutter">
+				<reference>guid://79b8102a5552818116d1ecec2c8a035bd0aa60fe</reference>
+				<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 716.32202 2271.3865 51.903702 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1037263781" immovable="1" name="FilbertClutter">
+				<reference>guid://5de5176c91f22bdb6b976f7eecd9d0c56fea0b60</reference>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
 			</node>
 		</node>
 		<node id="1857255315" type="ObjectWaterMesh" immovable="1" name="RiverMesh">
@@ -901,10 +920,10 @@
 			<surface name="surface" physics_friction="1" physics_restitution="1" material="73c651fd13f94b722fadf2ed4a08890f8ccf134e"/>
 			<transform>0.99999988 0 0 0.0 0 1.2100115 0 0.0 0 0 1.3840715 0.0 621.54779 2219.2166 20.278889 1.0</transform>
 		</node>
-		<node type="FieldShoreline" id="1937496834" enabled="0" immovable="1" name="FieldShoreline">
-			<size>1314.16797 1103.26514 91.8903656</size>
+		<node type="FieldShoreline" id="1937496834" immovable="1" name="FieldShoreline">
+			<size>1421.19226 1134.72705 178.558792</size>
 			<texture>guid://c4c03d89d517a954054e04a30b2921a67a23cccd</texture>
-			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 688.79785 2131.8591 -14.298744 1.0</transform>
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 683.06354 2147.5901 -29.367058 1.0</transform>
 		</node>
 		<node type="NodeDummy" id="807163157" immovable="1" name="cave">
 			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 273.84708 2482.7544 70.119614 1.0</transform>

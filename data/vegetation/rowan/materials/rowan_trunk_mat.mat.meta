@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>1033d1fea76f864acdfb21043b9fc244206affdf</guid>
-	<type>material</type>
-	<hash>17253db7</hash>
-	<runtimes>
-		<runtime id="1033d1fea76f864acdfb21043b9fc244206affdf" name="rowan_trunk_mat" link="0"/>
-	</runtimes>
-</asset>

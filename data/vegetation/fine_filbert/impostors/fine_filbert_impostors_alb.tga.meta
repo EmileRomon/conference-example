@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>07ca8e0b35638bee467be2754a6111506112b46f</guid>
+	<type>texture</type>
+	<hash>402acb9b</hash>
+	<runtimes>
+		<runtime id="07ca8e0b35638bee467be2754a6111506112b46f" name="fine_filbert_impostors_alb.tga" link="0"/>
+		<runtime id="dc6e90bd9e2c9af82ca9a1f7e8b396ea5888d941" name="fine_filbert_impostors_alb.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">point</parameter>
+		<parameter type="string" name="image_format">DXT5</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

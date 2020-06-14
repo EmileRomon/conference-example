@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<material version="2.11.0.0" name="rowan_leaves_sum_mat" guid="aaac7a3cd78852c029b9e5e51dd5aec71d1d1c66" base_material="mesh_base">
-	<parameter name="albedo_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
-</material>

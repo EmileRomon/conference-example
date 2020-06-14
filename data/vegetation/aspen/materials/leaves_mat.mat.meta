@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>3ad9a7d35f3087fb70621c64b30285f3ebd99be7</guid>
-	<type>material</type>
-	<hash>9b3da834</hash>
-	<runtimes>
-		<runtime id="3ad9a7d35f3087fb70621c64b30285f3ebd99be7" name="leaves_mat" link="0"/>
-	</runtimes>
-</asset>

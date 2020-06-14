@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>258ba583fd15be161f33dda909a4ce2211bb3fbe</guid>
-	<type>material</type>
-	<hash>6a33e4ff</hash>
-	<runtimes>
-		<runtime id="258ba583fd15be161f33dda909a4ce2211bb3fbe" name="sorrel_mat" link="0"/>
-	</runtimes>
-</asset>

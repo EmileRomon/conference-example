@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>578520a520b91a77f225165c2065aadcf3ac3460</guid>
-	<type>material</type>
-	<hash>ad1cdd2f</hash>
-	<runtimes>
-		<runtime id="578520a520b91a77f225165c2065aadcf3ac3460" name="pine_leaves_mat" link="0"/>
-	</runtimes>
-</asset>

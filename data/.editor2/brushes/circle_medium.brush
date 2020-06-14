@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <brush_material version="2.11.0.0" name="circle_medium" guid="c2aa123aa9fefc511ad3097c9c09d6ab0b29fc0e" parent="2abb8de0fd5c67bf0d1d521299614a490b19cf14" base_material="brush">
-	<parameter name="size" expression="0">85</parameter>
+	<parameter name="size" expression="0">170</parameter>
 	<parameter name="spacing" expression="0">1</parameter>
 	<state_override name="masks_overide">1</state_override>
-	<state_override name="data_mask">1</state_override>
+	<state_override name="data_mask">8</state_override>
 	<state_override name="color_srgb">1</state_override>
-	<state_override name="data_mask_opacity">1</state_override>
+	<state_override name="data_mask_opacity">8</state_override>
 	<state_override name="height_blend_mode">1</state_override>
 	<texture_override name="opacity_src"/>
 	<texture_override name="terrain_opacity_mask_2"/>
-	<texture_override name="terrain_mask_4"/>
 	<texture_override name="terrain_mask_0"/>
+	<texture_override name="terrain_mask_4"/>
 	<texture_override name="color_src"/>
 	<texture_override name="terrain_albedo"/>
 	<texture_override name="terrain_opacity_mask_0"/>
@@ -30,15 +30,15 @@
 	<parameter_float_override name="opacity">1 1 1 1</parameter_float_override>
 	<parameter_float_override name="color_intensity">1 1 1 1</parameter_float_override>
 	<parameter_float_override name="color">1 1 1 1</parameter_float_override>
-	<parameter_float_override name="size">85 85 85 85</parameter_float_override>
+	<parameter_float_override name="size">170 170 170 170</parameter_float_override>
 	<parameter_float_override name="angle">0 0 0 0</parameter_float_override>
 	<parameter_float_override name="radius">10 10 10 10</parameter_float_override>
-	<parameter_float_override name="use_opacity">1 1 1 1</parameter_float_override>
+	<parameter_float_override name="use_opacity">0 1 0 0</parameter_float_override>
 	<parameter_float_override name="height">1 1 1 1</parameter_float_override>
 	<parameter_float_override name="spacing">1 1 1 1</parameter_float_override>
 	<parameter_float_override name="direction">0 0 0 0</parameter_float_override>
 	<parameter_float_override name="intensity">0.00999999978 0.00999999978 0.00999999978 0.00999999978</parameter_float_override>
-	<parameter_int_override name="data_mask">1 1 1 1</parameter_int_override>
-	<parameter_int_override name="current_mask">1 1 1 1</parameter_int_override>
-	<parameter_int_override name="data_mask_opacity">1 1 1 1</parameter_int_override>
+	<parameter_int_override name="data_mask">8 8 8 8</parameter_int_override>
+	<parameter_int_override name="current_mask">2 2 2 2</parameter_int_override>
+	<parameter_int_override name="data_mask_opacity">8 8 8 8</parameter_int_override>
 </brush_material>

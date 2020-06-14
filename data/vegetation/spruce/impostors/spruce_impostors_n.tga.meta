@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>e983556fc3fb84024aff73791a3b0684b8eae013</guid>
+	<type>texture</type>
+	<hash>e8d5277c</hash>
+	<runtimes>
+		<runtime id="e983556fc3fb84024aff73791a3b0684b8eae013" name="spruce_impostors_n.tga" link="0"/>
+		<runtime id="b48842412a1936acc24b421b8b3b10be79a88105" name="spruce_impostors_n.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">point</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

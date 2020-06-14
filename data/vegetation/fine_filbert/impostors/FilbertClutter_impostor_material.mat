@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="FilbertClutter_impostor_material" guid="ec492e8df0777e886a329047dd6b90fa7f12ec11" base_material="grass_impostor_base">
+	<blend src="none" dest="none"/>
+	<texture name="albedo">guid://dc6e90bd9e2c9af82ca9a1f7e8b396ea5888d941</texture>
+	<texture name="shading">guid://bad15cb932135ec4c050db53a3082896baaac6fd</texture>
+	<texture name="normal">guid://d5c7bd3326f0e0f6285263dddcfd139834ef8217</texture>
+	<texture name="translucent">guid://cc0ed1d7feca454a8889f421f9ee7f0c5c562efb</texture>
+	<parameter name="size" expression="0">1.07568979</parameter>
+	<parameter name="pivot_offset" expression="1">vec3(0.02,0.07,0.49)</parameter>
+</material>

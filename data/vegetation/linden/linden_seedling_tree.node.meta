@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>cb40830e2cfd2344858ba27ead37bab62d31cb5b</guid>
-	<type>node</type>
-	<hash>7962efbf</hash>
-	<runtimes>
-		<runtime id="cb40830e2cfd2344858ba27ead37bab62d31cb5b" name="linden_seedling_tree.node" link="0"/>
-	</runtimes>
-</asset>
