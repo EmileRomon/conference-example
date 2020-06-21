@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>cc44e877c42d2b6a6f6063c109ebea2c9b035f9b</guid>
+	<type>material</type>
+	<hash>5acf5eef</hash>
+	<runtimes>
+		<runtime id="cc44e877c42d2b6a6f6063c109ebea2c9b035f9b" name="clouds_base_0" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

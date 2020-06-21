@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <nodes version="2.11.0.0">
-	<node type="PlayerDummy" id="1898485505" name="first_person_controller">
+	<node type="PlayerDummy" id="1374279092" name="first_person_controller">
 		<znear>0.00999999978</znear>
 		<zfar>20000</zfar>
 		<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
@@ -8,19 +8,20 @@
 		<is_main>1</is_main>
 		<controlled>1</controlled>
 		<properties>
-			<property parent="df4f4519e86e6ba48bf1c2b3aec42876380a055d" guid="680bfd890e7069540b4fc4a3cbbfe1a6124b8ccd">
+			<property parent="df4f4519e86e6ba48bf1c2b3aec42876380a055d" guid="140e7cd737e7f44a59c5d721a16b060caa7309fb">
 				<parameter name="forwardKey">122</parameter>
 				<parameter name="leftKey">113</parameter>
 				<parameter name="useExternalBody">0</parameter>
 				<parameter name="mass">40</parameter>
+				<parameter name="collisionRadius">0.5</parameter>
 				<parameter name="walkSpeed">5</parameter>
 				<parameter name="runSpeed">10</parameter>
 				<parameter name="gravityMultiplier">1</parameter>
-				<parameter name="cameraHeight">2</parameter>
+				<parameter name="cameraHeight">3</parameter>
 				<parameter name="maxStepHeight">0.5</parameter>
 				<parameter name="showAdvancedSettings">1</parameter>
 			</property>
 		</properties>
-		<transform>0.99999851 1.4901161e-08 -3.8742948e-07 0.0 4.2146758e-07 -8.4293447e-08 0.99999708 0.0 1.0430813e-07 -0.99999809 5.9604496e-08 0.0 0 0 0 1.0</transform>
+		<transform>0.99999857 1.4901161e-08 -3.8742937e-07 0.0 4.2146766e-07 -8.429344e-08 0.99999678 0.0 1.0430813e-07 -0.99999815 5.9604478e-08 0.0 0 0 0 1.0</transform>
 	</node>
 </nodes>

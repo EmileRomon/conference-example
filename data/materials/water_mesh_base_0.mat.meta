@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>099e11936bd169d67c22973d1767ef7838d7ec77</guid>
+	<type>material</type>
+	<hash>b85ee562</hash>
+	<runtimes>
+		<runtime id="099e11936bd169d67c22973d1767ef7838d7ec77" name="water_mesh_base_0" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

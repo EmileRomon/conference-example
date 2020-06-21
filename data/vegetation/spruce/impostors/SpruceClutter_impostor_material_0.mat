@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="SpruceClutter_impostor_material_0" guid="e2eb0dc2c1cbf239fdddf6449d778cd39e382c16" base_material="grass_impostor_base">
+	<blend src="none" dest="none"/>
+	<texture name="albedo">guid://5152f9b2cf848d6965c2f7b4469b3f83e16a5f06</texture>
+	<texture name="shading">guid://0a0f12de98655ca5689b65c0669d9e1fb07754f2</texture>
+	<texture name="normal">guid://ffc8192067baf9ff6a703f528c5ed6891a1b6e54</texture>
+	<texture name="translucent">guid://0ddcd11456e7896351995f66ce316f8d4c28cb88</texture>
+	<parameter name="size" expression="0">8.40357113</parameter>
+	<parameter name="pivot_offset" expression="1">vec3(-0.07,-0.12,4.19)</parameter>
+</material>

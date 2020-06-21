@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>e2eb0dc2c1cbf239fdddf6449d778cd39e382c16</guid>
+	<type>material</type>
+	<hash>1522e8ad</hash>
+	<runtimes>
+		<runtime id="e2eb0dc2c1cbf239fdddf6449d778cd39e382c16" name="SpruceClutter_impostor_material_0" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

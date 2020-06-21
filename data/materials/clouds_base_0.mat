@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="clouds_base_0" guid="cc44e877c42d2b6a6f6063c109ebea2c9b035f9b" base_material="clouds_base">
+	<options cast_shadow="1" cast_world_shadow="1"/>
+	<parameter name="layer_max_height" expression="0">1800</parameter>
+	<parameter name="density" expression="0">0.75</parameter>
+	<parameter name="base_size" expression="0">0.748899996</parameter>
+	<parameter name="noise_threshold" expression="0">0.0660799965</parameter>
+	<parameter name="wind_y" expression="0">2.42140007</parameter>
+</material>

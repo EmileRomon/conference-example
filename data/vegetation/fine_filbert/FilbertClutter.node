@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <nodes version="2.11.0.0">
-	<node type="ObjectMeshClutter" id="1661842179" immovable="1" clutter_interaction_enabled="1" name="FilbertClutter">
+	<node type="ObjectMeshClutter" id="1664102820" clutter_interaction_enabled="1" name="FilbertClutter">
 		<mesh_name>guid://3d942cdf2fc7b258cbbe8b0a2d537d228f723abc</mesh_name>
 		<intersection>1</intersection>
 		<visible_distance>150</visible_distance>
@@ -24,7 +24,7 @@
 		<surface name="fine_filbert_green_mat_lod_0" max_visible_distance="15" max_fade_distance="15" physics_friction="1" physics_restitution="1" material="91270ac920e7a4a7ad39a3913f12023f8a7a6ed2"/>
 		<surface name="fine_filbert_green_mat_lod_1" max_visible_distance="45" min_fade_distance="15" max_fade_distance="15" physics_friction="1" physics_restitution="1" material="91270ac920e7a4a7ad39a3913f12023f8a7a6ed2"/>
 		<transform>0.99999988 0 0 0.0 0 1 0 0.0 0 0 1 0.0 33.314392 1961.4314 0 1.0</transform>
-		<node type="ObjectGrass" id="885470088" immovable="1" clutter_interaction_enabled="1" name="FilbertClutter_impostor">
+		<node type="ObjectGrass" id="1387620029" clutter_interaction_enabled="1" name="FilbertClutter_impostor">
 			<thinning>1</thinning>
 			<variation>0</variation>
 			<orientation>0</orientation>

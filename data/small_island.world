@@ -519,25 +519,9 @@
 				<item name="save_camera">1</item>
 			</settings>
 		</data>
-		<node type="NodeDummy" id="995460272" name="static_content">
+		<node type="NodeDummy" id="1368583642" name="lighting">
 			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
-			<node id="784603924" type="ObjectMeshDynamic" enabled="0" name="ground_plane">
-				<fps_visible_camera>-1</fps_visible_camera>
-				<fps_visible_shadow>30</fps_visible_shadow>
-				<fps_invisible>0</fps_invisible>
-				<object_surface name="grid_for_world_creation" begin="0" end="600"/>
-				<vertex type="float" num_vertex="121" offset="0" size="3">-500.000031 199.999939 8.74227499e-06 -500.000031 299.999969 1.31134148e-05 -500.000031 399.999969 1.74845536e-05 -500.000031 499.999969 2.18556925e-05 -500 -100.000069 -4.37114204e-06 -500 -4.37113886e-05 -1.91068559e-12 -500 99.9999466 4.37113658e-06 -499.999969 -500.000031 -2.18556961e-05 -499.999969 -400.000061 -1.74845591e-05 -499.999969 -300.000031 -1.31134193e-05 -499.999969 -200.000031 -8.74227953e-06 -400.000061 199.999954 8.7422759e-06 -400.000061 299.999969 1.31134157e-05 -400.000061 399.999969 1.74845536e-05 -400.000061 499.999969 2.18556943e-05 -400.000031 -100.000061 -4.37114159e-06 -400.000031 -3.49691145e-05 -1.52854866e-12 -400.000031 99.9999542 4.37113704e-06 -400 -500.000031 -2.18556961e-05 -400 -400.000061 -1.74845591e-05 -400 -300.000031 -1.31134184e-05 -400 -200.000015 -8.74227862e-06 -300.000031 199.999954 8.7422759e-06 -300.000031 299.999969 1.31134157e-05 -300.000031 399.999969 1.74845554e-05 -300.000031 499.999969 2.18556943e-05 -300 -100.000046 -4.37114113e-06 -300 -2.62268331e-05 -1.14641142e-12 -300 99.9999695 4.37113749e-06 -299.999969 -500.000031 -2.18556961e-05 -299.999969 -400.000061 -1.74845591e-05 -299.999969 -300.000031 -1.31134184e-05 -299.999969 -200.000015 -8.74227862e-06 -200.000031 499.999969 2.18556943e-05 -200.000015 299.999969 1.31134166e-05 -200.000015 399.999969 1.74845554e-05 -200 99.9999771 4.37113795e-06 -200 199.999969 8.7422768e-06 -199.999985 -1.74845554e-05 -7.64274169e-13 -199.999969 -200 -8.74227771e-06 -199.999969 -100.000038 -4.37114068e-06 -199.999954 -400.000061 -1.74845572e-05 -199.999954 -300.000031 -1.31134175e-05 -199.999939 -500.000031 -2.18556961e-05 -100.000069 500 2.18556943e-05 -100.000061 400 1.74845554e-05 -100.000046 300 1.31134166e-05 -100.000038 199.999969 8.7422768e-06 -100.000031 99.9999847 4.3711384e-06 -100.000023 -8.74228044e-06 -3.8213722e-13 -100.000015 -100.000031 -4.37114022e-06 -100.000008 -200 -8.74227771e-06 -100 -300 -1.31134175e-05 -99.9999847 -400.000031 -1.74845572e-05 -99.9999771 -500 -2.18556961e-05 -4.37113886e-05 500 2.18556943e-05 -3.49691109e-05 400 1.74845554e-05 -2.62268331e-05 300 1.31134166e-05 -1.74845554e-05 199.999985 8.74227771e-06 -8.74227771e-06 99.9999924 4.37113886e-06 0 0 0 8.74228044e-06 -100.000023 -4.37114022e-06 1.74845554e-05 -199.999985 -8.74227771e-06 2.62268331e-05 -300 -1.31134166e-05 3.49691145e-05 -400.000031 -1.74845572e-05 4.37113886e-05 -500 -2.18556943e-05 99.9999466 500 2.18556961e-05 99.9999542 400 1.74845572e-05 99.9999695 300 1.31134175e-05 99.9999771 200 8.74227771e-06 99.9999847 100 4.37113886e-06 99.9999924 8.74227771e-06 3.82137085e-13 100 -100.000015 -4.37113977e-06 100.000008 -199.999969 -8.7422768e-06 100.000015 -300 -1.31134166e-05 100.000031 -400.000031 -1.74845572e-05 100.000038 -500 -2.18556943e-05 199.999939 500.000031 2.18556961e-05 199.999954 300.000031 1.31134175e-05 199.999954 400.000031 1.74845572e-05 199.999969 100.000008 4.37113931e-06 199.999969 200 8.74227771e-06 199.999985 1.74845554e-05 7.64274169e-13 200 -199.999969 -8.7422768e-06 200 -100.000008 -4.37113931e-06 200.000015 -400 -1.74845572e-05 200.000015 -299.999969 -1.31134166e-05 200.000031 -499.999969 -2.18556943e-05 299.999969 200.000015 8.74227862e-06 299.999969 300.000031 1.31134184e-05 299.999969 400.000031 1.74845572e-05 299.999969 500.000031 2.18556961e-05 300 -100 -4.37113886e-06 300 2.62268331e-05 1.14641142e-12 300 100.000015 4.37113977e-06 300.000031 -499.999969 -2.18556943e-05 300.000031 -400 -1.74845554e-05 300.000031 -299.999969 -1.31134157e-05 300.000031 -199.999954 -8.7422759e-06 399.999969 200.000015 8.74227862e-06 399.999969 300.000031 1.31134184e-05 399.999969 400.000031 1.74845572e-05 399.999969 500.000031 2.18556961e-05 400 -99.9999847 -4.3711384e-06 400 3.49691109e-05 1.52854845e-12 400 100.000031 4.37114022e-06 400.000031 -499.999969 -2.18556943e-05 400.000031 -400 -1.74845554e-05 400.000031 -299.999969 -1.31134157e-05 400.000031 -199.999954 -8.7422759e-06 499.999969 200.000031 8.74227953e-06 499.999969 300.000031 1.31134193e-05 499.999969 400.000031 1.74845572e-05 499.999969 500.000031 2.18556961e-05 500 -99.9999771 -4.37113795e-06 500 4.37113886e-05 1.91068559e-12 500 100.000038 4.37114068e-06 500.000031 -499.999969 -2.18556925e-05 500.000031 -400 -1.74845554e-05 500.000031 -299.999969 -1.31134148e-05 500.000031 -199.999939 -8.74227499e-06</vertex>
-				<vertex type="float" num_vertex="121" offset="16" size="4">250.5 100.499992 0 0 250.5 150.5 0 0 250.5 200.5 0 0 250.5 250.5 0 0 250.5 -49.5000114 0 0 250.5 0.5 0 0 250.5 50.4999962 0 0 250.5 -249.5 0 0 250.5 -199.500015 0 0 250.5 -149.5 0 0 250.5 -99.4999924 0 0 200.500015 100.499992 0 0 200.500015 150.5 0 0 200.500015 200.5 0 0 200.500015 250.5 0 0 200.500015 -49.5000114 0 0 200.500015 0.5 0 0 200.500015 50.4999962 0 0 200.500015 -249.5 0 0 200.500015 -199.500015 0 0 200.500015 -149.5 0 0 200.500015 -99.4999924 0 0 150.5 100.499992 0 0 150.5 150.5 0 0 150.5 200.5 0 0 150.5 250.5 0 0 150.5 -49.5000114 0 0 150.5 0.5 0 0 150.5 50.4999962 0 0 150.5 -249.5 0 0 150.5 -199.500015 0 0 150.5 -149.5 0 0 150.5 -99.4999924 0 0 100.499992 250.5 0 0 100.499992 150.5 0 0 100.499992 200.5 0 0 100.499992 50.4999962 0 0 100.499992 100.499992 0 0 100.499992 0.5 0 0 100.499992 -99.4999924 0 0 100.499992 -49.5000114 0 0 100.499992 -199.500015 0 0 100.499992 -149.5 0 0 100.499992 -249.5 0 0 50.5000114 250.5 0 0 50.5000114 200.5 0 0 50.5000114 150.5 0 0 50.5000114 100.499992 0 0 50.5000114 50.4999962 0 0 50.5000114 0.5 0 0 50.5000114 -49.5000114 0 0 50.5000114 -99.4999924 0 0 50.5000114 -149.5 0 0 50.5000114 -199.500015 0 0 50.5000114 -249.5 0 0 0.5 250.5 0 0 0.5 200.5 0 0 0.5 150.5 0 0 0.5 100.499992 0 0 0.5 50.4999962 0 0 0.5 0.5 0 0 0.5 -49.5000114 0 0 0.5 -99.4999924 0 0 0.5 -149.5 0 0 0.5 -199.500015 0 0 0.5 -249.5 0 0 -49.4999962 250.5 0 0 -49.4999962 200.5 0 0 -49.4999962 150.5 0 0 -49.4999962 100.499992 0 0 -49.4999962 50.4999962 0 0 -49.4999962 0.5 0 0 -49.4999962 -49.5000114 0 0 -49.4999962 -99.4999924 0 0 -49.4999962 -149.5 0 0 -49.4999962 -199.500015 0 0 -49.4999962 -249.5 0 0 -99.4999924 250.5 0 0 -99.4999924 150.5 0 0 -99.4999924 200.5 0 0 -99.4999924 50.4999962 0 0 -99.4999924 100.499992 0 0 -99.4999924 0.5 0 0 -99.4999924 -99.4999924 0 0 -99.4999924 -49.5000114 0 0 -99.4999924 -199.500015 0 0 -99.4999924 -149.5 0 0 -99.4999924 -249.5 0 0 -149.5 100.499992 0 0 -149.5 150.5 0 0 -149.5 200.5 0 0 -149.5 250.5 0 0 -149.5 -49.5000114 0 0 -149.5 0.5 0 0 -149.5 50.4999962 0 0 -149.5 -249.5 0 0 -149.5 -199.500015 0 0 -149.5 -149.5 0 0 -149.5 -99.4999924 0 0 -199.5 100.499992 0 0 -199.5 150.5 0 0 -199.5 200.5 0 0 -199.5 250.5 0 0 -199.5 -49.5000114 0 0 -199.5 0.5 0 0 -199.5 50.4999962 0 0 -199.5 -249.5 0 0 -199.5 -199.500015 0 0 -199.5 -149.5 0 0 -199.5 -99.4999924 0 0 -249.5 100.499992 0 0 -249.5 150.5 0 0 -249.5 200.5 0 0 -249.5 250.5 0 0 -249.5 -49.5000114 0 0 -249.5 0.5 0 0 -249.5 50.4999962 0 0 -249.5 -249.5 0 0 -249.5 -199.500015 0 0 -249.5 -149.5 0 0 -249.5 -99.4999924 0 0</vertex>
-				<vertex type="float" num_vertex="121" offset="32" size="4">0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837</vertex>
-				<vertex type="float" num_vertex="121" offset="48" size="4">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</vertex>
-				<indices num_indices="600">8 7 19 19 7 18 9 8 20 20 8 19 19 31 20 31 19 30 19 18 30 30 18 29 10 9 21 21 9 20 21 20 32 32 20 31 96 87 95 97 96 108 108 96 107 96 95 107 107 95 106 120 108 119 108 107 119 119 107 118 107 106 118 118 106 117 77 79 91 91 79 90 79 78 90 91 90 102 102 90 101 90 89 101 90 78 89 78 81 89 102 101 113 113 101 112 101 100 112 101 89 100 1 0 12 12 0 11 6 11 0 2 1 13 13 1 12 13 12 24 24 12 23 12 11 23 23 11 22 11 17 22 11 6 17 3 2 14 14 2 13 13 25 14 25 13 24 25 24 33 33 24 35 24 23 35 33 35 44 44 35 45 35 34 45 35 23 34 23 22 34 45 55 44 55 45 56 46 56 45 45 34 46 5 4 16 16 4 15 4 10 15 5 17 6 17 5 16 17 16 28 28 16 27 16 15 27 27 15 26 15 21 26 15 10 21 30 29 41 41 29 43 31 30 42 42 30 41 41 52 42 52 41 53 43 53 41 53 43 54 51 42 52 51 52 62 62 52 63 52 53 63 75 65 76 75 86 74 86 75 85 75 76 85 85 76 87 83 86 98 98 86 97 83 74 86 86 85 97 97 85 96 85 87 96 89 81 88 89 88 100 100 88 99 112 100 111 100 99 111 111 99 110 105 110 99 110 105 116 104 116 105 116 104 115 104 103 115 104 92 103 115 103 114 103 109 114 92 98 103 103 98 109 92 83 98 114 109 120 109 108 120 98 97 109 109 97 108 63 53 64 53 54 64 62 63 73 73 63 74 64 74 63 74 64 75 64 65 75 64 54 65 72 62 73 72 73 84 84 73 83 73 74 83 56 46 57 46 47 57 56 66 55 66 56 67 57 67 56 67 57 68 57 58 68 57 47 58 48 58 47 67 77 66 77 67 79 68 79 67 22 17 28 34 22 37 22 28 37 37 28 36 28 27 36 34 37 46 46 37 47 36 47 37 47 36 48 38 48 36 36 27 38 26 21 32 27 26 38 38 26 40 26 32 40 40 32 39 32 31 39 48 38 49 38 40 49 49 40 50 40 39 50 50 39 51 39 42 51 39 31 42 82 72 84 80 82 94 94 82 93 82 84 93 93 84 92 83 92 84 81 80 88 88 80 94 94 99 88 99 94 105 93 105 94 105 93 104 93 92 104 58 48 59 49 59 48 68 58 69 58 59 69 69 59 70 59 60 70 59 49 60 50 60 49 79 68 78 68 69 78 78 69 81 69 70 81 60 50 61 50 51 61 70 60 71 60 61 71 71 61 72 61 62 72 61 51 62 81 70 80 70 71 80 80 71 82 71 72 82</indices>
-				<surface name="grid_for_world_creation" collision="1" physics_friction="1" physics_restitution="1" material="ead31ab036c7eb329af97a68a8e83d6db943a873"/>
-				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-			</node>
-		</node>
-		<node type="NodeDummy" id="1368583642" immovable="1" name="lighting">
-			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
-			<node type="LightWorld" id="824505625" immovable="1" name="sun">
+			<node type="LightWorld" id="824505625" name="sun">
 				<scattering>1</scattering>
 				<disable_angle>100</disable_angle>
 				<shadow_height>60</shadow_height>
@@ -607,327 +591,22 @@
 				<transform>0.86601901 -0.49240035 0.086824216 0.0 -1.4900976e-08 0.17364745 0.98479521 0.0 -0.49999949 -0.85286701 0.15038474 0.0 0 0 0 1.0</transform>
 			</node>
 		</node>
-		<node type="NodeReference" id="1777446179" name="first_person_controller">
-			<reference>guid://59e4bb833f8dab069c5b06ad189c382836a5bd67</reference>
-			<properties>
-				<property/>
-			</properties>
-			<transform>0.97995478 -0.19921701 0 0.0 0.19921701 0.97995478 0 0.0 0 0 0.99999839 0.0 809.21185 1817.152 38.465759 1.0</transform>
-		</node>
-		<node type="ObjectWaterGlobal" id="699885058" immovable="1" name="WaterGlobal">
-			<water_time>2550.31226</water_time>
-			<octaves_pans>0.635743916 0 -0.635743916 0 0.560345292 0.965940714</octaves_pans>
-			<surface name="water_surface" collision="1" physics_friction="1" physics_restitution="1" material="a055d27c2120e9e988edfb05d57b3e8f596fd99e"/>
-			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0 0 5 1.0</transform>
-		</node>
-		<node type="ObjectLandscapeTerrain" id="1421339700" immovable="1" clutter_interaction_enabled="1" name="LandscapeTerrain">
-			<intersection_settings_bicubic>0</intersection_settings_bicubic>
-			<intersection_precision_begin>0.5</intersection_precision_begin>
-			<intersection_precision_end>1</intersection_precision_end>
-			<bicubic_collision>0</bicubic_collision>
-			<detail_mask_0>
-				<name>sand</name>
-				<enabled>1</enabled>
-				<render_order>0</render_order>
-				<detail material="1bf1e6488680550780830eba6b1eced125cfb9fc">
-					<name>sand1</name>
-					<enabled>1</enabled>
-					<mask_by_albedo>1 1 1 0</mask_by_albedo>
-					<min_visible_height>-1e+09</min_visible_height>
-					<max_visible_height>1e+09</max_visible_height>
-					<min_fade_height>0</min_fade_height>
-					<max_fade_height>0</max_fade_height>
-					<mask_threshold>0</mask_threshold>
-					<mask_contrast>0.279529989</mask_contrast>
-				</detail>
-				<detail material="80bbf1b1428fbf5c93f6530b011a8ceea22cef75">
-					<name>pebbles</name>
-					<enabled>1</enabled>
-					<mask_by_albedo>1 1 1 0</mask_by_albedo>
-					<min_visible_height>-1e+09</min_visible_height>
-					<max_visible_height>1e+09</max_visible_height>
-					<min_fade_height>0</min_fade_height>
-					<max_fade_height>0</max_fade_height>
-					<mask_threshold>0.291339993</mask_threshold>
-					<mask_contrast>0.807089984</mask_contrast>
-				</detail>
-				<detail material="47cbc214050fc66326f2786694adb48da0f64c88">
-					<name>grit</name>
-					<enabled>1</enabled>
-					<mask_by_albedo>1 1 1 0</mask_by_albedo>
-					<min_visible_height>-1e+09</min_visible_height>
-					<max_visible_height>1e+09</max_visible_height>
-					<min_fade_height>0</min_fade_height>
-					<max_fade_height>0</max_fade_height>
-					<mask_threshold>0.866140008</mask_threshold>
-					<mask_contrast>0.920469999</mask_contrast>
-				</detail>
-				<detail material="807027874e0fbf3a2616c551831e3e7c0bf987ab">
-					<name>sand_blend</name>
-					<enabled>1</enabled>
-					<mask_by_albedo>1 1 1 0</mask_by_albedo>
-					<min_visible_height>-1e+09</min_visible_height>
-					<max_visible_height>1e+09</max_visible_height>
-					<min_fade_height>0</min_fade_height>
-					<max_fade_height>0</max_fade_height>
-					<mask_threshold>0.125980005</mask_threshold>
-					<mask_contrast>0.196850002</mask_contrast>
-				</detail>
-			</detail_mask_0>
-			<detail_mask_1>
-				<name>grass</name>
-				<enabled>1</enabled>
-				<render_order>1</render_order>
-				<detail material="c32b8bf129f0149c0912274bc455d42e1fd30db5">
-					<name>grass1</name>
-					<enabled>1</enabled>
-					<mask_by_albedo>1 1 1 0</mask_by_albedo>
-					<min_visible_height>-1e+09</min_visible_height>
-					<max_visible_height>1e+09</max_visible_height>
-					<min_fade_height>0</min_fade_height>
-					<max_fade_height>0</max_fade_height>
-					<mask_threshold>0.0275599994</mask_threshold>
-					<mask_contrast>0.589760005</mask_contrast>
-				</detail>
-				<detail material="2effba0faf04602241476119792fd7a482cc3eb3">
-					<name>grass2</name>
-					<enabled>1</enabled>
-					<mask_by_albedo>1 1 1 0</mask_by_albedo>
-					<min_visible_height>-1e+09</min_visible_height>
-					<max_visible_height>1e+09</max_visible_height>
-					<min_fade_height>0</min_fade_height>
-					<max_fade_height>0</max_fade_height>
-					<mask_threshold>0.444880009</mask_threshold>
-					<mask_contrast>1.32834995</mask_contrast>
-				</detail>
-				<detail material="273d89d53546d1309610b2cff8bd81e20ee097d9">
-					<name>grass3</name>
-					<enabled>1</enabled>
-					<mask_by_albedo>1 1 1 0</mask_by_albedo>
-					<min_visible_height>-1e+09</min_visible_height>
-					<max_visible_height>1e+09</max_visible_height>
-					<min_fade_height>0</min_fade_height>
-					<max_fade_height>0</max_fade_height>
-					<mask_threshold>0.0354299992</mask_threshold>
-					<mask_contrast>0.0496000014</mask_contrast>
-				</detail>
-				<detail material="ecf106f8fbab1df71f2ee2eaa913b54160000dac">
-					<name>grass_overlay</name>
-					<enabled>1</enabled>
-					<mask_by_albedo>1 1 1 0</mask_by_albedo>
-					<min_visible_height>-1e+09</min_visible_height>
-					<max_visible_height>1e+09</max_visible_height>
-					<min_fade_height>0</min_fade_height>
-					<max_fade_height>0</max_fade_height>
-					<mask_threshold>0</mask_threshold>
-					<mask_contrast>0.0110200001</mask_contrast>
-				</detail>
-			</detail_mask_1>
-			<detail_mask_2>
-				<name>boulders</name>
-				<enabled>1</enabled>
-				<render_order>2</render_order>
-				<detail material="db83f7ce29fc9cd5558cc83039083dcf73b190e2">
-					<name>Boulders1</name>
-					<enabled>1</enabled>
-					<mask_by_albedo>1 1 1 0</mask_by_albedo>
-					<min_visible_height>-1e+09</min_visible_height>
-					<max_visible_height>1e+09</max_visible_height>
-					<min_fade_height>0</min_fade_height>
-					<max_fade_height>0</max_fade_height>
-					<mask_threshold>0</mask_threshold>
-					<mask_contrast>4</mask_contrast>
-				</detail>
-				<detail material="337f657684da1e5ddab08c185d8fa097e575450a">
-					<name>Boulders2</name>
-					<enabled>1</enabled>
-					<mask_by_albedo>1 1 1 0</mask_by_albedo>
-					<min_visible_height>-1e+09</min_visible_height>
-					<max_visible_height>1e+09</max_visible_height>
-					<min_fade_height>0</min_fade_height>
-					<max_fade_height>0</max_fade_height>
-					<mask_threshold>0</mask_threshold>
-					<mask_contrast>1</mask_contrast>
-				</detail>
-			</detail_mask_2>
-			<detail_mask_3>
-				<name>shrub</name>
-				<enabled>1</enabled>
-				<render_order>3</render_order>
-				<detail material="02c849ef6666ee82bd62dbf9b96a55045218dc93">
-					<name>shrub</name>
-					<enabled>1</enabled>
-					<mask_by_albedo>1 1 1 0</mask_by_albedo>
-					<min_visible_height>-1e+09</min_visible_height>
-					<max_visible_height>1e+09</max_visible_height>
-					<min_fade_height>0</min_fade_height>
-					<max_fade_height>0</max_fade_height>
-					<mask_threshold>0</mask_threshold>
-					<mask_contrast>0</mask_contrast>
-				</detail>
-			</detail_mask_3>
-			<detail_mask_4>
-				<name>rocks</name>
-				<enabled>1</enabled>
-				<render_order>4</render_order>
-				<detail material="7910f3a4ee62aab352eff07687f32d5d75f04f18">
-					<name>rocks2</name>
-					<enabled>1</enabled>
-					<mask_by_albedo>1 1 1 0</mask_by_albedo>
-					<min_visible_height>-1e+09</min_visible_height>
-					<max_visible_height>1e+09</max_visible_height>
-					<min_fade_height>0</min_fade_height>
-					<max_fade_height>0</max_fade_height>
-					<mask_threshold>0.0854300037</mask_threshold>
-					<mask_contrast>0.462309986</mask_contrast>
-				</detail>
-				<detail material="7b5de84f9a7a39626212e9598a0f42e4dc2030f3">
-					<name>rocks1</name>
-					<enabled>1</enabled>
-					<mask_by_albedo>1 1 1 0</mask_by_albedo>
-					<min_visible_height>-1e+09</min_visible_height>
-					<max_visible_height>1e+09</max_visible_height>
-					<min_fade_height>0</min_fade_height>
-					<max_fade_height>0</max_fade_height>
-					<mask_threshold>0.0653299987</mask_threshold>
-					<mask_contrast>0.185929999</mask_contrast>
-				</detail>
-			</detail_mask_4>
-			<detail_mask_5>
-				<name>snow</name>
-				<enabled>1</enabled>
-				<render_order>5</render_order>
-				<detail material="be94507dde3dd7b83a7e37b7efe9b1aae1b0b501">
-					<name>snow</name>
-					<enabled>1</enabled>
-					<mask_by_albedo>1 1 1 0</mask_by_albedo>
-					<min_visible_height>1e+09</min_visible_height>
-					<max_visible_height>1e+09</max_visible_height>
-					<min_fade_height>0</min_fade_height>
-					<max_fade_height>0</max_fade_height>
-					<mask_threshold>0.113640003</mask_threshold>
-					<mask_contrast>0.204549998</mask_contrast>
-				</detail>
-			</detail_mask_5>
-			<detail_mask_6>
-				<name>forest</name>
-				<enabled>1</enabled>
-				<render_order>6</render_order>
-				<detail material="273d89d53546d1309610b2cff8bd81e20ee097d9">
-					<name>forest</name>
-					<enabled>1</enabled>
-					<mask_by_albedo>1 1 1 0</mask_by_albedo>
-					<min_visible_height>-1e+09</min_visible_height>
-					<max_visible_height>1e+09</max_visible_height>
-					<min_fade_height>0</min_fade_height>
-					<max_fade_height>0</max_fade_height>
-					<mask_threshold>0</mask_threshold>
-					<mask_contrast>0</mask_contrast>
-				</detail>
-			</detail_mask_6>
-			<detail_mask_7>
-				<name>Mask 7</name>
-				<enabled>1</enabled>
-				<render_order>7</render_order>
-			</detail_mask_7>
-			<detail_mask_8>
-				<name>Mask 8</name>
-				<enabled>1</enabled>
-				<render_order>8</render_order>
-			</detail_mask_8>
-			<detail_mask_9>
-				<name>Mask 9</name>
-				<enabled>1</enabled>
-				<render_order>9</render_order>
-			</detail_mask_9>
-			<detail_mask_10>
-				<name>Mask 10</name>
-				<enabled>1</enabled>
-				<render_order>10</render_order>
-			</detail_mask_10>
-			<detail_mask_11>
-				<name>Mask 11</name>
-				<enabled>1</enabled>
-				<render_order>11</render_order>
-			</detail_mask_11>
-			<detail_mask_12>
-				<name>Mask 12</name>
-				<enabled>1</enabled>
-				<render_order>12</render_order>
-			</detail_mask_12>
-			<detail_mask_13>
-				<name>Mask 13</name>
-				<enabled>1</enabled>
-				<render_order>13</render_order>
-			</detail_mask_13>
-			<detail_mask_14>
-				<name>Mask 14</name>
-				<enabled>1</enabled>
-				<render_order>14</render_order>
-			</detail_mask_14>
-			<detail_mask_15>
-				<name>Mask 15</name>
-				<enabled>1</enabled>
-				<render_order>15</render_order>
-			</detail_mask_15>
-			<detail_mask_16>
-				<name>Mask 16</name>
-				<enabled>1</enabled>
-				<render_order>16</render_order>
-			</detail_mask_16>
-			<detail_mask_17>
-				<name>Mask 17</name>
-				<enabled>1</enabled>
-				<render_order>17</render_order>
-			</detail_mask_17>
-			<detail_mask_18>
-				<name>Mask 18</name>
-				<enabled>1</enabled>
-				<render_order>18</render_order>
-			</detail_mask_18>
-			<detail_mask_19>
-				<name>Mask 19</name>
-				<enabled>1</enabled>
-				<render_order>19</render_order>
-			</detail_mask_19>
-			<surface name="terrain_surface" physics_intersection="1" collision="1" physics_friction="1" physics_restitution="1" material="07f6d5f2212230c2cd00aff443f627146b6ed516"/>
-			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-			<node type="LandscapeLayerMap" id="1658916242" immovable="1" clutter_interaction_enabled="1" name="LandscapeLayerMap">
-				<order>0</order>
-				<size>1365 1365</size>
-				<height_scale>0.300000012</height_scale>
-				<is_collision>1</is_collision>
-				<is_intersection>1</is_intersection>
-				<is_culling>1</is_culling>
-				<file_path>guid://71f2b5b7790817aaeadfe3018958e06c89e960db</file_path>
-				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 1336.2589 0 1.0</transform>
+		<node type="NodeDummy" id="977970627" name="sky">
+			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+			<node type="ObjectCloudLayer" id="201233213" name="ObjectCloudLayer">
+				<coverage_animation_offset>-70.0506592 -29.5621452 0 0</coverage_animation_offset>
+				<noise_animation_offset>-35.0253296 -14.7810726 -17.5126648 0</noise_animation_offset>
+				<surface name="clouds_surface" physics_friction="1" physics_restitution="1" material="cc44e877c42d2b6a6f6063c109ebea2c9b035f9b"/>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
 			</node>
-			<node type="NodeReference" id="1066288147" immovable="1" name="SpruceClutter">
-				<reference>guid://79b8102a5552818116d1ecec2c8a035bd0aa60fe</reference>
-				<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 716.32202 2271.3865 51.903702 1.0</transform>
-			</node>
-			<node type="NodeReference" id="1037263781" immovable="1" name="FilbertClutter">
-				<reference>guid://5de5176c91f22bdb6b976f7eecd9d0c56fea0b60</reference>
+			<node type="ObjectSky" id="1198049561" name="ObjectSky">
+				<surface name="sphere" physics_friction="1" physics_restitution="1" material="1cfc1aa8c2433de7f012221afb7b0ab1133a045c"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
 			</node>
 		</node>
-		<node id="1857255315" type="ObjectWaterMesh" immovable="1" name="RiverMesh">
-			<mesh_name>guid://d9725efb1f98c81e41db10e583a70d00c0189c5f</mesh_name>
-			<wave_0>1 1 6.28318977 0</wave_0>
-			<wave_1>0 1 6.28318977 0</wave_1>
-			<wave_2>0 1 6.28318977 0</wave_2>
-			<wave_3>0 1 6.28318977 0</wave_3>
-			<surface name="surface" physics_friction="1" physics_restitution="1" material="73c651fd13f94b722fadf2ed4a08890f8ccf134e"/>
-			<transform>0.99999988 0 0 0.0 0 1.2100115 0 0.0 0 0 1.3840715 0.0 621.54779 2219.2166 20.278889 1.0</transform>
-		</node>
-		<node type="FieldShoreline" id="1937496834" immovable="1" name="FieldShoreline">
-			<size>1421.19226 1134.72705 178.558792</size>
-			<texture>guid://c4c03d89d517a954054e04a30b2921a67a23cccd</texture>
-			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 683.06354 2147.5901 -29.367058 1.0</transform>
-		</node>
-		<node type="NodeDummy" id="807163157" immovable="1" name="cave">
+		<node type="NodeDummy" id="807163157" name="cave">
 			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 273.84708 2482.7544 70.119614 1.0</transform>
-			<node type="ObjectMeshStatic" id="520342382" immovable="1" name="tunnel">
+			<node type="ObjectMeshStatic" id="520342382" name="tunnel">
 				<mesh_name>guid://ab2042efd480f4400720c1dfaf2f237d09c855fc</mesh_name>
 				<surface name="main_01 - default" collision="1" physics_friction="1" physics_restitution="1" material="148e7d135560786d0fa78a1fed8a6ef316d8ec6d"/>
 				<surface name="enters_01 - default" collision="1" physics_friction="1" physics_restitution="1" material="148e7d135560786d0fa78a1fed8a6ef316d8ec6d"/>
@@ -1141,6 +820,330 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<transform>0.64278752 0.76604438 0 0.0 -0.76604444 0.64278758 0 0.0 0 0 0.99999976 0.0 0.71905518 -2.8000488 -0.45872498 1.0</transform>
 			</node>
+		</node>
+		<node type="NodeDummy" id="616103687" name="landscape">
+			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+			<node type="ObjectLandscapeTerrain" id="1421339700" name="LandscapeTerrain">
+				<intersection_settings_bicubic>0</intersection_settings_bicubic>
+				<intersection_precision_begin>0.5</intersection_precision_begin>
+				<intersection_precision_end>1</intersection_precision_end>
+				<bicubic_collision>0</bicubic_collision>
+				<detail_mask_0>
+					<name>sand</name>
+					<enabled>1</enabled>
+					<render_order>0</render_order>
+					<detail material="1bf1e6488680550780830eba6b1eced125cfb9fc">
+						<name>sand1</name>
+						<enabled>1</enabled>
+						<mask_by_albedo>1 1 1 0</mask_by_albedo>
+						<min_visible_height>-1e+09</min_visible_height>
+						<max_visible_height>1e+09</max_visible_height>
+						<min_fade_height>0</min_fade_height>
+						<max_fade_height>0</max_fade_height>
+						<mask_threshold>0</mask_threshold>
+						<mask_contrast>0.279529989</mask_contrast>
+					</detail>
+					<detail material="80bbf1b1428fbf5c93f6530b011a8ceea22cef75">
+						<name>pebbles</name>
+						<enabled>1</enabled>
+						<mask_by_albedo>1 1 1 0</mask_by_albedo>
+						<min_visible_height>-1e+09</min_visible_height>
+						<max_visible_height>1e+09</max_visible_height>
+						<min_fade_height>0</min_fade_height>
+						<max_fade_height>0</max_fade_height>
+						<mask_threshold>0.291339993</mask_threshold>
+						<mask_contrast>0.807089984</mask_contrast>
+					</detail>
+					<detail material="47cbc214050fc66326f2786694adb48da0f64c88">
+						<name>grit</name>
+						<enabled>1</enabled>
+						<mask_by_albedo>1 1 1 0</mask_by_albedo>
+						<min_visible_height>-1e+09</min_visible_height>
+						<max_visible_height>1e+09</max_visible_height>
+						<min_fade_height>0</min_fade_height>
+						<max_fade_height>0</max_fade_height>
+						<mask_threshold>0.866140008</mask_threshold>
+						<mask_contrast>0.920469999</mask_contrast>
+					</detail>
+					<detail material="807027874e0fbf3a2616c551831e3e7c0bf987ab">
+						<name>sand_blend</name>
+						<enabled>1</enabled>
+						<mask_by_albedo>1 1 1 0</mask_by_albedo>
+						<min_visible_height>-1e+09</min_visible_height>
+						<max_visible_height>1e+09</max_visible_height>
+						<min_fade_height>0</min_fade_height>
+						<max_fade_height>0</max_fade_height>
+						<mask_threshold>0.125980005</mask_threshold>
+						<mask_contrast>0.196850002</mask_contrast>
+					</detail>
+				</detail_mask_0>
+				<detail_mask_1>
+					<name>grass</name>
+					<enabled>1</enabled>
+					<render_order>1</render_order>
+					<detail material="c32b8bf129f0149c0912274bc455d42e1fd30db5">
+						<name>grass1</name>
+						<enabled>1</enabled>
+						<mask_by_albedo>1 1 1 0</mask_by_albedo>
+						<min_visible_height>-1e+09</min_visible_height>
+						<max_visible_height>1e+09</max_visible_height>
+						<min_fade_height>0</min_fade_height>
+						<max_fade_height>0</max_fade_height>
+						<mask_threshold>0.0275599994</mask_threshold>
+						<mask_contrast>0.589760005</mask_contrast>
+					</detail>
+					<detail material="2effba0faf04602241476119792fd7a482cc3eb3">
+						<name>grass2</name>
+						<enabled>1</enabled>
+						<mask_by_albedo>1 1 1 0</mask_by_albedo>
+						<min_visible_height>-1e+09</min_visible_height>
+						<max_visible_height>1e+09</max_visible_height>
+						<min_fade_height>0</min_fade_height>
+						<max_fade_height>0</max_fade_height>
+						<mask_threshold>0.444880009</mask_threshold>
+						<mask_contrast>1.32834995</mask_contrast>
+					</detail>
+					<detail material="273d89d53546d1309610b2cff8bd81e20ee097d9">
+						<name>grass3</name>
+						<enabled>1</enabled>
+						<mask_by_albedo>1 1 1 0</mask_by_albedo>
+						<min_visible_height>-1e+09</min_visible_height>
+						<max_visible_height>1e+09</max_visible_height>
+						<min_fade_height>0</min_fade_height>
+						<max_fade_height>0</max_fade_height>
+						<mask_threshold>0.0354299992</mask_threshold>
+						<mask_contrast>0.0496000014</mask_contrast>
+					</detail>
+					<detail material="ecf106f8fbab1df71f2ee2eaa913b54160000dac">
+						<name>grass_overlay</name>
+						<enabled>1</enabled>
+						<mask_by_albedo>1 1 1 0</mask_by_albedo>
+						<min_visible_height>-1e+09</min_visible_height>
+						<max_visible_height>1e+09</max_visible_height>
+						<min_fade_height>0</min_fade_height>
+						<max_fade_height>0</max_fade_height>
+						<mask_threshold>0</mask_threshold>
+						<mask_contrast>0.0110200001</mask_contrast>
+					</detail>
+				</detail_mask_1>
+				<detail_mask_2>
+					<name>boulders</name>
+					<enabled>1</enabled>
+					<render_order>2</render_order>
+					<detail material="db83f7ce29fc9cd5558cc83039083dcf73b190e2">
+						<name>Boulders1</name>
+						<enabled>1</enabled>
+						<mask_by_albedo>1 1 1 0</mask_by_albedo>
+						<min_visible_height>-1e+09</min_visible_height>
+						<max_visible_height>1e+09</max_visible_height>
+						<min_fade_height>0</min_fade_height>
+						<max_fade_height>0</max_fade_height>
+						<mask_threshold>0</mask_threshold>
+						<mask_contrast>4</mask_contrast>
+					</detail>
+					<detail material="337f657684da1e5ddab08c185d8fa097e575450a">
+						<name>Boulders2</name>
+						<enabled>1</enabled>
+						<mask_by_albedo>1 1 1 0</mask_by_albedo>
+						<min_visible_height>-1e+09</min_visible_height>
+						<max_visible_height>1e+09</max_visible_height>
+						<min_fade_height>0</min_fade_height>
+						<max_fade_height>0</max_fade_height>
+						<mask_threshold>0</mask_threshold>
+						<mask_contrast>1</mask_contrast>
+					</detail>
+				</detail_mask_2>
+				<detail_mask_3>
+					<name>shrub</name>
+					<enabled>1</enabled>
+					<render_order>3</render_order>
+					<detail material="02c849ef6666ee82bd62dbf9b96a55045218dc93">
+						<name>shrub</name>
+						<enabled>1</enabled>
+						<mask_by_albedo>1 1 1 0</mask_by_albedo>
+						<min_visible_height>-1e+09</min_visible_height>
+						<max_visible_height>1e+09</max_visible_height>
+						<min_fade_height>0</min_fade_height>
+						<max_fade_height>0</max_fade_height>
+						<mask_threshold>0</mask_threshold>
+						<mask_contrast>0</mask_contrast>
+					</detail>
+				</detail_mask_3>
+				<detail_mask_4>
+					<name>rocks</name>
+					<enabled>1</enabled>
+					<render_order>4</render_order>
+					<detail material="7910f3a4ee62aab352eff07687f32d5d75f04f18">
+						<name>rocks2</name>
+						<enabled>1</enabled>
+						<mask_by_albedo>1 1 1 0</mask_by_albedo>
+						<min_visible_height>-1e+09</min_visible_height>
+						<max_visible_height>1e+09</max_visible_height>
+						<min_fade_height>0</min_fade_height>
+						<max_fade_height>0</max_fade_height>
+						<mask_threshold>0.0854300037</mask_threshold>
+						<mask_contrast>0.462309986</mask_contrast>
+					</detail>
+					<detail material="7b5de84f9a7a39626212e9598a0f42e4dc2030f3">
+						<name>rocks1</name>
+						<enabled>1</enabled>
+						<mask_by_albedo>1 1 1 0</mask_by_albedo>
+						<min_visible_height>-1e+09</min_visible_height>
+						<max_visible_height>1e+09</max_visible_height>
+						<min_fade_height>0</min_fade_height>
+						<max_fade_height>0</max_fade_height>
+						<mask_threshold>0.0653299987</mask_threshold>
+						<mask_contrast>0.185929999</mask_contrast>
+					</detail>
+				</detail_mask_4>
+				<detail_mask_5>
+					<name>snow</name>
+					<enabled>1</enabled>
+					<render_order>5</render_order>
+					<detail material="be94507dde3dd7b83a7e37b7efe9b1aae1b0b501">
+						<name>snow</name>
+						<enabled>1</enabled>
+						<mask_by_albedo>1 1 1 0</mask_by_albedo>
+						<min_visible_height>1e+09</min_visible_height>
+						<max_visible_height>1e+09</max_visible_height>
+						<min_fade_height>0</min_fade_height>
+						<max_fade_height>0</max_fade_height>
+						<mask_threshold>0.113640003</mask_threshold>
+						<mask_contrast>0.204549998</mask_contrast>
+					</detail>
+				</detail_mask_5>
+				<detail_mask_6>
+					<name>forest</name>
+					<enabled>1</enabled>
+					<render_order>6</render_order>
+					<detail material="273d89d53546d1309610b2cff8bd81e20ee097d9">
+						<name>forest</name>
+						<enabled>1</enabled>
+						<mask_by_albedo>1 1 1 0</mask_by_albedo>
+						<min_visible_height>-1e+09</min_visible_height>
+						<max_visible_height>1e+09</max_visible_height>
+						<min_fade_height>0</min_fade_height>
+						<max_fade_height>0</max_fade_height>
+						<mask_threshold>0</mask_threshold>
+						<mask_contrast>0</mask_contrast>
+					</detail>
+				</detail_mask_6>
+				<detail_mask_7>
+					<name>Mask 7</name>
+					<enabled>1</enabled>
+					<render_order>7</render_order>
+				</detail_mask_7>
+				<detail_mask_8>
+					<name>Mask 8</name>
+					<enabled>1</enabled>
+					<render_order>8</render_order>
+				</detail_mask_8>
+				<detail_mask_9>
+					<name>Mask 9</name>
+					<enabled>1</enabled>
+					<render_order>9</render_order>
+				</detail_mask_9>
+				<detail_mask_10>
+					<name>Mask 10</name>
+					<enabled>1</enabled>
+					<render_order>10</render_order>
+				</detail_mask_10>
+				<detail_mask_11>
+					<name>Mask 11</name>
+					<enabled>1</enabled>
+					<render_order>11</render_order>
+				</detail_mask_11>
+				<detail_mask_12>
+					<name>Mask 12</name>
+					<enabled>1</enabled>
+					<render_order>12</render_order>
+				</detail_mask_12>
+				<detail_mask_13>
+					<name>Mask 13</name>
+					<enabled>1</enabled>
+					<render_order>13</render_order>
+				</detail_mask_13>
+				<detail_mask_14>
+					<name>Mask 14</name>
+					<enabled>1</enabled>
+					<render_order>14</render_order>
+				</detail_mask_14>
+				<detail_mask_15>
+					<name>Mask 15</name>
+					<enabled>1</enabled>
+					<render_order>15</render_order>
+				</detail_mask_15>
+				<detail_mask_16>
+					<name>Mask 16</name>
+					<enabled>1</enabled>
+					<render_order>16</render_order>
+				</detail_mask_16>
+				<detail_mask_17>
+					<name>Mask 17</name>
+					<enabled>1</enabled>
+					<render_order>17</render_order>
+				</detail_mask_17>
+				<detail_mask_18>
+					<name>Mask 18</name>
+					<enabled>1</enabled>
+					<render_order>18</render_order>
+				</detail_mask_18>
+				<detail_mask_19>
+					<name>Mask 19</name>
+					<enabled>1</enabled>
+					<render_order>19</render_order>
+				</detail_mask_19>
+				<surface name="terrain_surface" physics_intersection="1" collision="1" physics_friction="1" physics_restitution="1" material="07f6d5f2212230c2cd00aff443f627146b6ed516"/>
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 0 0 0 1.0</transform>
+				<node type="LandscapeLayerMap" id="1658916242" clutter_interaction_enabled="1" name="LandscapeLayerMap">
+					<order>0</order>
+					<size>1365 1365</size>
+					<height_scale>0.300000012</height_scale>
+					<is_collision>1</is_collision>
+					<is_intersection>1</is_intersection>
+					<is_culling>1</is_culling>
+					<file_path>guid://71f2b5b7790817aaeadfe3018958e06c89e960db</file_path>
+					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 1336.2589 0 1.0</transform>
+				</node>
+				<node type="NodeReference" id="1066288147" query="1" name="SpruceClutter">
+					<reference>guid://79b8102a5552818116d1ecec2c8a035bd0aa60fe</reference>
+					<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 716.32202 2271.3865 0 1.0</transform>
+				</node>
+				<node type="NodeReference" id="1037263781" name="FilbertClutter">
+					<reference>guid://5de5176c91f22bdb6b976f7eecd9d0c56fea0b60</reference>
+					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="NodeDummy" id="919902619" name="water">
+			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+			<node type="ObjectWaterGlobal" id="699885058" name="WaterGlobal">
+				<water_time>6631.61133</water_time>
+				<octaves_pans>-0.078184396 -0.573821902 0.078184396 0.573821902 0.425404906 -0.470333636</octaves_pans>
+				<surface name="water_surface" collision="1" physics_friction="1" physics_restitution="1" material="a055d27c2120e9e988edfb05d57b3e8f596fd99e"/>
+				<transform>5.9604552e-08 -0.99999839 0 0.0 0.99999696 5.9604467e-08 0 0.0 0 0 0.99999744 0.0 0 0 5 1.0</transform>
+			</node>
+			<node type="FieldShoreline" id="1937496834" name="FieldShoreline">
+				<size>1421.19226 1134.72705 178.558792</size>
+				<texture>guid://c4c03d89d517a954054e04a30b2921a67a23cccd</texture>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 683.0636 2147.5903 -29.367062 1.0</transform>
+			</node>
+			<node id="1857255315" type="ObjectWaterMesh" name="RiverMesh">
+				<mesh_name>guid://d9725efb1f98c81e41db10e583a70d00c0189c5f</mesh_name>
+				<wave_0>1 1 6.28318977 0</wave_0>
+				<wave_1>0 1 6.28318977 0</wave_1>
+				<wave_2>0 1 6.28318977 0</wave_2>
+				<wave_3>0 1 6.28318977 0</wave_3>
+				<surface name="surface" physics_friction="1" physics_restitution="1" material="099e11936bd169d67c22973d1767ef7838d7ec77"/>
+				<transform>0.99999994 0 0 0.0 0 1.2100117 0 0.0 0 0 1.3840716 0.0 621.54785 2219.2168 20.278891 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeReference" id="1777446179" name="first_person_controller">
+			<reference>guid://59e4bb833f8dab069c5b06ad189c382836a5bd67</reference>
+			<properties>
+				<property/>
+			</properties>
+			<transform>0.46947131 0.88294685 0 0.0 -0.88294691 0.46947137 0 0.0 0 0 0.99999756 0.0 841.40247 1824.7661 23 1.0</transform>
 		</node>
 	</editor>
 </world>

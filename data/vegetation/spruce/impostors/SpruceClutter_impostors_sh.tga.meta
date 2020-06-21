@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>f55f07a44e51aeb3d1ab2476a22cd15dc635a318</guid>
+	<type>texture</type>
+	<hash>a10522e2</hash>
+	<runtimes>
+		<runtime id="f55f07a44e51aeb3d1ab2476a22cd15dc635a318" name="SpruceClutter_impostors_sh.tga" link="0"/>
+		<runtime id="0a0f12de98655ca5689b65c0669d9e1fb07754f2" name="SpruceClutter_impostors_sh.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">point</parameter>
+		<parameter type="string" name="image_format">DXT5</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>
